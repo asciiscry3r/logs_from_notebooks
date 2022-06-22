@@ -1,0 +1,1277 @@
+[    0.000000] Linux version 5.16.14-arch1-1 (linux@archlinux) (gcc (GCC) 11.2.0, GNU ld (GNU Binutils) 2.38) #1 SMP PREEMPT Fri, 11 Mar 2022 17:40:36 +0000
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=c6472997-a124-44bc-9543-06140f06a685 rw cryptdevice=UUID=a403e9ac-3c4b-46c3-a027-9a0e3fa46176:luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176 root=/dev/mapper/luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176 resume=/dev/mapper/luks-db9b571a-4b0a-465f-9c25-0bc60e4d3253 loglevel=3 audit=0 lsm=landlock,lockdown,yama,apparmor,bpf l1tf=full,force mds=full,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=1 mem_encrypt=on vsyscall=nonei amd_iommu=force_isolation amdgpu.vm_update_mode=0 amdgpu.gpu_recovery=1 amdgpu.fw_load_type=2 amdgpu.virtual_display=NULL amdgpu.audio=0 amdgpu.lbpw=1 amdgpu.tmz=1 amdgpu.freesync_video=1 fsck.mode=force fsck.repair=yes efi=disable_early_pci_dma
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+[    0.000000] signal: max sigframe size: 1776
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000bffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000009afffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009b00000-0x0000000009dfffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000009e00000-0x0000000009efffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0ffff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x0000000009f10000-0x00000000bab68fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bab69000-0x00000000bbd68fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bbd69000-0x00000000c9f7efff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000c9f7f000-0x00000000caf7efff] type 20
+[    0.000000] BIOS-e820: [mem 0x00000000caf7f000-0x00000000ccf7efff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ccf7f000-0x00000000cdf7efff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000ceffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fde00000-0x00000000fdefffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed80fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000fff2ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000040f33ffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000040f340000-0x000000042fffffff] reserved
+[    0.000000] SMT: Force disabled
+[    0.000000] Malformed early option 'vsyscall'
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] efi: EFI v2.70 by INSYDE Corp.
+[    0.000000] efi: ACPI=0xcdffe000 ACPI 2.0=0xcdffe014 TPMFinalLog=0xcdf2c000 SMBIOS=0xcb70c000 SMBIOS 3.0=0xcb70a000 ESRT=0xcb70d418 
+[    0.000000] SMBIOS 3.2.0 present.
+[    0.000000] DMI: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2370.573 MHz processor
+[    0.000544] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000546] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000551] last_pfn = 0x40f340 max_arch_pfn = 0x400000000
+[    0.000730] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.000953] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+[    0.010373] esrt: Reserving ESRT space from 0x00000000cb70d418 to 0x00000000cb70d450.
+[    0.010382] Kernel/User page tables isolation: force enabled on command line.
+[    0.010384] Using GB pages for direct mapping
+[    0.010705] Secure boot disabled
+[    0.010706] RAMDISK: [mem 0x36d71000-0x376affff]
+[    0.010710] ACPI: Early table checksum verification disabled
+[    0.010713] ACPI: RSDP 0x00000000CDFFE014 000024 (v02 XMCC  )
+[    0.010717] ACPI: XSDT 0x00000000CDFCE188 000134 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010721] ACPI: FACP 0x00000000CDFEC000 00010C (v05 XMCC   XMCC1951 00000002      01000013)
+[    0.010725] ACPI: DSDT 0x00000000CDFDF000 006545 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010728] ACPI: FACS 0x00000000CDF29000 000040
+[    0.010730] ACPI: UEFI 0x00000000CDF7E000 000236 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010732] ACPI: SSDT 0x00000000CDFF5000 007216 (v02 AMD    AmdTable 00000002 MSFT 04000000)
+[    0.010734] ACPI: IVRS 0x00000000CDFF4000 0001A4 (v02 AMD    AmdTable 00000001 AMD  00000000)
+[    0.010736] ACPI: SSDT 0x00000000CDFF3000 000228 (v01 AMD    STD3     00000001 INTL 20130117)
+[    0.010739] ACPI: SSDT 0x00000000CDFF2000 000D61 (v01 XMCC   XMCC1806 00003000 INTL 20130117)
+[    0.010741] ACPI: SSDT 0x00000000CDFF1000 00046D (v01 Insyde TPMACPI  00001000 INTL 20130117)
+[    0.010743] ACPI: TPM2 0x00000000CDFF0000 000034 (v04 XMCC   XMCC1951 00000002      01000013)
+[    0.010745] ACPI: MSDM 0x00000000CDFEF000 000055 (v03 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010747] ACPI: ASF! 0x00000000CDFEE000 0000A5 (v32 XMCC   XMCC1951 00000002      01000013)
+[    0.010749] ACPI: BOOT 0x00000000CDFED000 000028 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010751] ACPI: HPET 0x00000000CDFEB000 000038 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010753] ACPI: APIC 0x00000000CDFEA000 000138 (v03 XMCC   XMCC1951 00000002      01000013)
+[    0.010756] ACPI: MCFG 0x00000000CDFE9000 00003C (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010758] ACPI: SLIC 0x00000000CDFE8000 000176 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010760] ACPI: SSDT 0x00000000CDFDE000 000080 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010762] ACPI: VFCT 0x00000000CDFD0000 00D484 (v01 XMCC   XMCC1951 00000001 AMD  31504F47)
+[    0.010764] ACPI: SSDT 0x00000000CDFCF000 0000F8 (v01 XMCC   PcdTabl  00001000 INTL 20130117)
+[    0.010766] ACPI: SSDT 0x00000000CDFCC000 001500 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010768] ACPI: CRAT 0x00000000CDFFD000 000BA8 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010770] ACPI: CDIT 0x00000000CDFCB000 000029 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010772] ACPI: SSDT 0x00000000CDFCA000 00028D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010774] ACPI: SSDT 0x00000000CDFC9000 000C78 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010776] ACPI: SSDT 0x00000000CDFC7000 0010A5 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010779] ACPI: SSDT 0x00000000CDFC3000 0030C8 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010781] ACPI: FPDT 0x00000000CDFC2000 000044 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010783] ACPI: WSMT 0x00000000CDFC0000 000028 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010785] ACPI: SSDT 0x00000000CDFE7000 00020A (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010787] ACPI: SSDT 0x00000000CDFE6000 0005A1 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010789] ACPI: SSDT 0x00000000CDFBF000 000343 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010791] ACPI: SSDT 0x00000000CDFBE000 00007D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010793] ACPI: SSDT 0x00000000CDFBD000 000822 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010795] ACPI: SSDT 0x00000000CDFBC000 000517 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010797] ACPI: BGRT 0x00000000CDFC1000 000038 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010799] ACPI: Reserving FACP table memory at [mem 0xcdfec000-0xcdfec10b]
+[    0.010800] ACPI: Reserving DSDT table memory at [mem 0xcdfdf000-0xcdfe5544]
+[    0.010801] ACPI: Reserving FACS table memory at [mem 0xcdf29000-0xcdf2903f]
+[    0.010802] ACPI: Reserving UEFI table memory at [mem 0xcdf7e000-0xcdf7e235]
+[    0.010802] ACPI: Reserving SSDT table memory at [mem 0xcdff5000-0xcdffc215]
+[    0.010803] ACPI: Reserving IVRS table memory at [mem 0xcdff4000-0xcdff41a3]
+[    0.010804] ACPI: Reserving SSDT table memory at [mem 0xcdff3000-0xcdff3227]
+[    0.010804] ACPI: Reserving SSDT table memory at [mem 0xcdff2000-0xcdff2d60]
+[    0.010805] ACPI: Reserving SSDT table memory at [mem 0xcdff1000-0xcdff146c]
+[    0.010806] ACPI: Reserving TPM2 table memory at [mem 0xcdff0000-0xcdff0033]
+[    0.010806] ACPI: Reserving MSDM table memory at [mem 0xcdfef000-0xcdfef054]
+[    0.010807] ACPI: Reserving ASF! table memory at [mem 0xcdfee000-0xcdfee0a4]
+[    0.010807] ACPI: Reserving BOOT table memory at [mem 0xcdfed000-0xcdfed027]
+[    0.010808] ACPI: Reserving HPET table memory at [mem 0xcdfeb000-0xcdfeb037]
+[    0.010809] ACPI: Reserving APIC table memory at [mem 0xcdfea000-0xcdfea137]
+[    0.010809] ACPI: Reserving MCFG table memory at [mem 0xcdfe9000-0xcdfe903b]
+[    0.010810] ACPI: Reserving SLIC table memory at [mem 0xcdfe8000-0xcdfe8175]
+[    0.010811] ACPI: Reserving SSDT table memory at [mem 0xcdfde000-0xcdfde07f]
+[    0.010811] ACPI: Reserving VFCT table memory at [mem 0xcdfd0000-0xcdfdd483]
+[    0.010812] ACPI: Reserving SSDT table memory at [mem 0xcdfcf000-0xcdfcf0f7]
+[    0.010813] ACPI: Reserving SSDT table memory at [mem 0xcdfcc000-0xcdfcd4ff]
+[    0.010813] ACPI: Reserving CRAT table memory at [mem 0xcdffd000-0xcdffdba7]
+[    0.010814] ACPI: Reserving CDIT table memory at [mem 0xcdfcb000-0xcdfcb028]
+[    0.010815] ACPI: Reserving SSDT table memory at [mem 0xcdfca000-0xcdfca28c]
+[    0.010816] ACPI: Reserving SSDT table memory at [mem 0xcdfc9000-0xcdfc9c77]
+[    0.010816] ACPI: Reserving SSDT table memory at [mem 0xcdfc7000-0xcdfc80a4]
+[    0.010817] ACPI: Reserving SSDT table memory at [mem 0xcdfc3000-0xcdfc60c7]
+[    0.010818] ACPI: Reserving FPDT table memory at [mem 0xcdfc2000-0xcdfc2043]
+[    0.010818] ACPI: Reserving WSMT table memory at [mem 0xcdfc0000-0xcdfc0027]
+[    0.010819] ACPI: Reserving SSDT table memory at [mem 0xcdfe7000-0xcdfe7209]
+[    0.010820] ACPI: Reserving SSDT table memory at [mem 0xcdfe6000-0xcdfe65a0]
+[    0.010821] ACPI: Reserving SSDT table memory at [mem 0xcdfbf000-0xcdfbf342]
+[    0.010821] ACPI: Reserving SSDT table memory at [mem 0xcdfbe000-0xcdfbe07c]
+[    0.010822] ACPI: Reserving SSDT table memory at [mem 0xcdfbd000-0xcdfbd821]
+[    0.010823] ACPI: Reserving SSDT table memory at [mem 0xcdfbc000-0xcdfbc516]
+[    0.010823] ACPI: Reserving BGRT table memory at [mem 0xcdfc1000-0xcdfc1037]
+[    0.010875] No NUMA configuration found
+[    0.010876] Faking a node at [mem 0x0000000000000000-0x000000040f33ffff]
+[    0.010879] NODE_DATA(0) allocated [mem 0x40f33c000-0x40f33ffff]
+[    0.010909] Zone ranges:
+[    0.010910]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.010911]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.010912]   Normal   [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.010913]   Device   empty
+[    0.010914] Movable zone start for each node
+[    0.010915] Early memory node ranges
+[    0.010915]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.010916]   node   0: [mem 0x0000000000100000-0x0000000009afffff]
+[    0.010917]   node   0: [mem 0x0000000009e00000-0x0000000009efffff]
+[    0.010917]   node   0: [mem 0x0000000009f10000-0x00000000bab68fff]
+[    0.010918]   node   0: [mem 0x00000000bbd69000-0x00000000c9f7efff]
+[    0.010919]   node   0: [mem 0x00000000cdfff000-0x00000000cdffffff]
+[    0.010920]   node   0: [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.010921] Initmem setup node 0 [mem 0x0000000000001000-0x000000040f33ffff]
+[    0.010925] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.010941] On node 0, zone DMA: 97 pages in unavailable ranges
+[    0.011090] On node 0, zone DMA32: 768 pages in unavailable ranges
+[    0.016323] On node 0, zone DMA32: 16 pages in unavailable ranges
+[    0.016800] On node 0, zone DMA32: 4608 pages in unavailable ranges
+[    0.016950] On node 0, zone DMA32: 16512 pages in unavailable ranges
+[    0.040601] On node 0, zone Normal: 8192 pages in unavailable ranges
+[    0.040635] On node 0, zone Normal: 3264 pages in unavailable ranges
+[    0.040785] ACPI: PM-Timer IO Port: 0x408
+[    0.040792] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.040793] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.040794] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[    0.040794] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[    0.040795] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[    0.040796] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[    0.040796] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[    0.040797] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[    0.040797] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[    0.040798] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[    0.040798] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[    0.040799] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[    0.040799] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[    0.040800] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[    0.040801] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[    0.040801] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[    0.040815] IOAPIC[0]: apic_id 33, version 33, address 0xfec00000, GSI 0-23
+[    0.040820] IOAPIC[1]: apic_id 34, version 33, address 0xfec01000, GSI 24-55
+[    0.040821] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.040823] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.040826] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.040827] ACPI: HPET id: 0x10228210 base: 0xfed00000
+[    0.040835] e820: update [mem 0xb3636000-0xb363bfff] usable ==> reserved
+[    0.040844] smpboot: Allowing 16 CPUs, 10 hotplug CPUs
+[    0.040868] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.040870] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000bffff]
+[    0.040871] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+[    0.040872] PM: hibernation: Registered nosave memory: [mem 0x09b00000-0x09dfffff]
+[    0.040874] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0ffff]
+[    0.040875] PM: hibernation: Registered nosave memory: [mem 0xb3636000-0xb363bfff]
+[    0.040877] PM: hibernation: Registered nosave memory: [mem 0xbab69000-0xbbd68fff]
+[    0.040878] PM: hibernation: Registered nosave memory: [mem 0xc9f7f000-0xcaf7efff]
+[    0.040879] PM: hibernation: Registered nosave memory: [mem 0xcaf7f000-0xccf7efff]
+[    0.040879] PM: hibernation: Registered nosave memory: [mem 0xccf7f000-0xcdf7efff]
+[    0.040880] PM: hibernation: Registered nosave memory: [mem 0xcdf7f000-0xcdffefff]
+[    0.040881] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xceffffff]
+[    0.040882] PM: hibernation: Registered nosave memory: [mem 0xcf000000-0xf7ffffff]
+[    0.040882] PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+[    0.040883] PM: hibernation: Registered nosave memory: [mem 0xfc000000-0xfddfffff]
+[    0.040883] PM: hibernation: Registered nosave memory: [mem 0xfde00000-0xfdefffff]
+[    0.040884] PM: hibernation: Registered nosave memory: [mem 0xfdf00000-0xfebfffff]
+[    0.040884] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[    0.040885] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfec0ffff]
+[    0.040885] PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+[    0.040886] PM: hibernation: Registered nosave memory: [mem 0xfec11000-0xfec1ffff]
+[    0.040886] PM: hibernation: Registered nosave memory: [mem 0xfec20000-0xfec20fff]
+[    0.040887] PM: hibernation: Registered nosave memory: [mem 0xfec21000-0xfed7ffff]
+[    0.040887] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed80fff]
+[    0.040888] PM: hibernation: Registered nosave memory: [mem 0xfed81000-0xfedfffff]
+[    0.040888] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.040889] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[    0.040889] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xfff2ffff]
+[    0.040890] PM: hibernation: Registered nosave memory: [mem 0xfff30000-0xffffffff]
+[    0.040891] [mem 0xcf000000-0xf7ffffff] available for PCI devices
+[    0.040892] Booting paravirtualized kernel on bare hardware
+[    0.040895] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370452778343963 ns
+[    0.044594] setup_percpu: NR_CPUS:320 nr_cpumask_bits:320 nr_cpu_ids:16 nr_node_ids:1
+[    0.045228] percpu: Embedded 61 pages/cpu s212992 r8192 d28672 u262144
+[    0.045237] pcpu-alloc: s212992 r8192 d28672 u262144 alloc=1*2097152
+[    0.045239] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+[    0.045264] Fallback order for Node 0: 0 
+[    0.045267] Built 1 zonelists, mobility grouping on.  Total pages: 3966649
+[    0.045268] Policy zone: Normal
+[    0.045269] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-linux root=UUID=c6472997-a124-44bc-9543-06140f06a685 rw cryptdevice=UUID=a403e9ac-3c4b-46c3-a027-9a0e3fa46176:luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176 root=/dev/mapper/luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176 resume=/dev/mapper/luks-db9b571a-4b0a-465f-9c25-0bc60e4d3253 loglevel=3 audit=0 lsm=landlock,lockdown,yama,apparmor,bpf l1tf=full,force mds=full,nosmt mitigations=auto,nosmt nosmt=force pcie_aspm=force init_on_alloc=1 init_on_free=1 randomize_kstack_offset=on slab_nomerge pti=on slub_debug=ZF slub_debug=P page_poison=1 mem_encrypt=on vsyscall=nonei amd_iommu=force_isolation amdgpu.vm_update_mode=0 amdgpu.gpu_recovery=1 amdgpu.fw_load_type=2 amdgpu.virtual_display=NULL amdgpu.audio=0 amdgpu.lbpw=1 amdgpu.tmz=1 amdgpu.freesync_video=1 fsck.mode=force fsck.repair=yes efi=disable_early_pci_dma
+[    0.045325] audit: disabled (until reboot)
+[    0.045365] PCIe ASPM is forcibly enabled
+[    0.045426] mem auto-init: SLAB_POISON will take precedence over init_on_alloc/init_on_free
+[    0.045540] Unknown kernel command line parameters "BOOT_IMAGE=/boot/vmlinuz-linux cryptdevice=UUID=a403e9ac-3c4b-46c3-a027-9a0e3fa46176:luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176 pti=on mem_encrypt=on", will be passed to user space.
+[    0.047374] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.048290] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.048345] mem auto-init: CONFIG_PAGE_POISONING is on, will take precedence over init_on_alloc and init_on_free
+[    0.048585] mem auto-init: stack:byref_all(zero), heap alloc:off, heap free:off
+[    1.746721] Memory: 15559288K/16119096K available (14344K kernel code, 2080K rwdata, 10936K rodata, 1780K init, 3864K bss, 559548K reserved, 0K cma-reserved)
+[    1.746737] **********************************************************
+[    1.746738] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    1.746738] **                                                      **
+[    1.746739] ** This system shows unhashed kernel memory addresses   **
+[    1.746739] ** via the console, logs, and other interfaces. This    **
+[    1.746740] ** might reduce the security of your system.            **
+[    1.746740] **                                                      **
+[    1.746740] ** If you see this message and you are not debugging    **
+[    1.746741] ** the kernel, report this immediately to your system   **
+[    1.746741] ** administrator!                                       **
+[    1.746741] **                                                      **
+[    1.746742] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    1.746742] **********************************************************
+[    1.746745] random: get_random_u64 called from __kmem_cache_create+0x2a/0x550 with crng_init=0
+[    1.746899] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+[    1.746914] Kernel/User page tables isolation: enabled
+[    1.746935] ftrace: allocating 45027 entries in 176 pages
+[    1.757934] ftrace: allocated 176 pages with 3 groups
+[    1.758035] Dynamic Preempt: full
+[    1.758079] rcu: Preemptible hierarchical RCU implementation.
+[    1.758080] rcu: 	RCU dyntick-idle grace-period acceleration is enabled.
+[    1.758080] rcu: 	RCU restricting CPUs from NR_CPUS=320 to nr_cpu_ids=16.
+[    1.758081] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    1.758082] 	Trampoline variant of Tasks RCU enabled.
+[    1.758082] 	Rude variant of Tasks RCU enabled.
+[    1.758082] 	Tracing variant of Tasks RCU enabled.
+[    1.758083] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    1.758084] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+[    1.761321] NR_IRQS: 20736, nr_irqs: 1096, preallocated irqs: 16
+[    1.761571] kfence: initialized - using 2097152 bytes for 255 objects at 0xffff9b72bdc00000-0xffff9b72bde00000
+[    1.761740] Console: colour dummy device 80x25
+[    1.761751] printk: console [tty0] enabled
+[    1.761771] ACPI: Core revision 20210930
+[    1.761988] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+[    1.762007] APIC: Switch to symmetric I/O mode setup
+[    1.762816] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+[    1.762818] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+[    1.762819] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+[    1.762819] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+[    1.763119] Switched APIC routing to physical flat.
+[    1.763873] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    1.778681] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x222ba0ca13e, max_idle_ns: 440795218518 ns
+[    1.778691] Calibrating delay loop (skipped), value calculated using timer frequency.. 4743.69 BogoMIPS (lpj=7901910)
+[    1.778694] pid_max: default: 32768 minimum: 301
+[    1.802064] LSM: Security Framework initializing
+[    1.802081] landlock: Up and running.
+[    1.802082] Yama: becoming mindful.
+[    1.802113] AppArmor: AppArmor initialized
+[    1.802115] LSM support for eBPF active
+[    1.802154] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    1.802183] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    1.802430] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    1.802466] LVT offset 1 assigned for vector 0xf9
+[    1.802526] LVT offset 2 assigned for vector 0xf4
+[    1.802543] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+[    1.802543] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+[    1.802548] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    1.802551] Spectre V2 : Mitigation: Retpolines
+[    1.802551] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    1.802552] Spectre V2 : Enabling Restricted Speculation for firmware calls
+[    1.802554] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    1.802557] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl
+[    1.804548] Freeing SMP alternatives memory: 36K
+[    1.914622] smpboot: CPU0: AMD Ryzen 5 4500U with Radeon Graphics (family: 0x17, model: 0x60, stepping: 0x1)
+[    1.914789] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+[    1.914794] ... version:                0
+[    1.914795] ... bit width:              48
+[    1.914795] ... generic registers:      6
+[    1.914796] ... value mask:             0000ffffffffffff
+[    1.914797] ... max period:             00007fffffffffff
+[    1.914797] ... fixed-purpose events:   0
+[    1.914798] ... event mask:             000000000000003f
+[    1.914862] rcu: Hierarchical SRCU implementation.
+[    1.915352] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    1.915352] smp: Bringing up secondary CPUs ...
+[    1.915352] x86: Booting SMP configuration:
+[    1.915352] .... node  #0, CPUs:        #1  #2  #3
+[    1.917781] TSC synchronization [CPU#0 -> CPU#3]:
+[    1.917783] Measured 3492 cycles TSC warp between CPUs, turning off TSC clock.
+[    1.917785] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+[    1.918813]   #4  #5
+[    1.919084] smp: Brought up 1 node, 6 CPUs
+[    1.919084] smpboot: Max logical packages: 3
+[    1.919084] smpboot: Total of 6 processors activated (28458.16 BogoMIPS)
+[    1.922731] devtmpfs: initialized
+[    1.922731] x86/mm: Memory block size: 128MB
+[    1.923214] ACPI: PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0ffff] (65536 bytes)
+[    1.923214] ACPI: PM: Registering ACPI NVS region [mem 0xccf7f000-0xcdf7efff] (16777216 bytes)
+[    1.923214] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    1.923214] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[    1.923214] pinctrl core: initialized pinctrl subsystem
+[    1.925354] PM: RTC time: 23:02:53, date: 2022-03-14
+[    1.926011] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    1.926381] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    1.926590] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    1.926749] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    1.926900] thermal_sys: Registered thermal governor 'fair_share'
+[    1.926900] thermal_sys: Registered thermal governor 'bang_bang'
+[    1.926901] thermal_sys: Registered thermal governor 'step_wise'
+[    1.926901] thermal_sys: Registered thermal governor 'user_space'
+[    1.926902] thermal_sys: Registered thermal governor 'power_allocator'
+[    1.926920] cpuidle: using governor ladder
+[    1.926923] cpuidle: using governor menu
+[    1.926953] Simple Boot Flag at 0x44 set to 0x1
+[    1.926953] HugeTLB: can free 4094 vmemmap pages for hugepages-1048576kB
+[    1.926953] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    1.926953] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+[    1.926953] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+[    1.926953] PCI: Using configuration type 1 for base access
+[    1.929215] kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+[    1.929310] HugeTLB: can free 6 vmemmap pages for hugepages-2048kB
+[    1.929310] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    1.929310] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    1.929310] ACPI: Added _OSI(Module Device)
+[    1.929310] ACPI: Added _OSI(Processor Device)
+[    1.929310] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    1.929310] ACPI: Added _OSI(Processor Aggregator Device)
+[    1.929310] ACPI: Added _OSI(Linux-Dell-Video)
+[    1.929310] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    1.929310] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    1.947424] ACPI: 18 ACPI AML tables successfully acquired and loaded
+[    1.949061] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    1.952210] ACPI: EC: EC started
+[    1.952211] ACPI: EC: interrupt blocked
+[    1.954291] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    1.954294] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+[    1.954295] ACPI: Interpreter enabled
+[    1.954309] ACPI: PM: (supports S0 S4 S5)
+[    1.954310] ACPI: Using IOAPIC for interrupt routing
+[    1.954527] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    1.957698] ACPI: PM: Power Resource [P0U0]
+[    1.957832] ACPI: PM: Power Resource [P3U0]
+[    1.958586] ACPI: PM: Power Resource [P0U1]
+[    1.958719] ACPI: PM: Power Resource [P3U1]
+[    1.959371] ACPI: PM: Power Resource [P0S0]
+[    1.959412] ACPI: PM: Power Resource [P3S0]
+[    1.959569] ACPI: PM: Power Resource [P0S1]
+[    1.959606] ACPI: PM: Power Resource [P3S1]
+[    1.965708] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    1.965713] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    1.965835] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR DPC]
+[    1.966057] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+[    1.966068] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+[    1.966417] PCI host bridge to bus 0000:00
+[    1.966419] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    1.966421] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    1.966422] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    1.966423] pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000cffff window]
+[    1.966424] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000effff window]
+[    1.966425] pci_bus 0000:00: root bus resource [mem 0xd0000000-0xf7ffffff window]
+[    1.966426] pci_bus 0000:00: root bus resource [mem 0xfc000000-0xfed3ffff window]
+[    1.966427] pci_bus 0000:00: root bus resource [mem 0x450200000-0xfcffffffff window]
+[    1.966428] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    1.966440] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+[    1.966501] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+[    1.966572] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+[    1.966623] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+[    1.966680] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+[    1.966727] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+[    1.966747] pci 0000:00:08.1: enabling Extended Tags
+[    1.966776] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+[    1.966877] pci 0000:00:08.2: [1022:1635] type 01 class 0x060400
+[    1.966896] pci 0000:00:08.2: enabling Extended Tags
+[    1.966924] pci 0000:00:08.2: PME# supported from D0 D3hot D3cold
+[    1.967024] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+[    1.967149] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+[    1.967279] pci 0000:00:18.0: [1022:1448] type 00 class 0x060000
+[    1.967311] pci 0000:00:18.1: [1022:1449] type 00 class 0x060000
+[    1.967340] pci 0000:00:18.2: [1022:144a] type 00 class 0x060000
+[    1.967368] pci 0000:00:18.3: [1022:144b] type 00 class 0x060000
+[    1.967396] pci 0000:00:18.4: [1022:144c] type 00 class 0x060000
+[    1.967427] pci 0000:00:18.5: [1022:144d] type 00 class 0x060000
+[    1.967458] pci 0000:00:18.6: [1022:144e] type 00 class 0x060000
+[    1.967485] pci 0000:00:18.7: [1022:144f] type 00 class 0x060000
+[    1.967605] pci 0000:01:00.0: [1002:1636] type 00 class 0x030000
+[    1.967615] pci 0000:01:00.0: reg 0x10: [mem 0xfce0000000-0xfcefffffff 64bit pref]
+[    1.967623] pci 0000:01:00.0: reg 0x18: [mem 0xfcf0000000-0xfcf01fffff 64bit pref]
+[    1.967628] pci 0000:01:00.0: reg 0x20: [io  0x1000-0x10ff]
+[    1.967633] pci 0000:01:00.0: reg 0x24: [mem 0xd0400000-0xd047ffff]
+[    1.967641] pci 0000:01:00.0: enabling Extended Tags
+[    1.967652] pci 0000:01:00.0: BAR 0: assigned to efifb
+[    1.967688] pci 0000:01:00.0: PME# supported from D1 D2 D3hot D3cold
+[    1.967785] pci 0000:01:00.1: [1002:1637] type 00 class 0x040300
+[    1.967792] pci 0000:01:00.1: reg 0x10: [mem 0xd04c8000-0xd04cbfff]
+[    1.967812] pci 0000:01:00.1: enabling Extended Tags
+[    1.967839] pci 0000:01:00.1: PME# supported from D1 D2 D3hot D3cold
+[    1.967907] pci 0000:01:00.2: [1022:15df] type 00 class 0x108000
+[    1.967919] pci 0000:01:00.2: reg 0x18: [mem 0xd0300000-0xd03fffff]
+[    1.967928] pci 0000:01:00.2: reg 0x24: [mem 0xd04cc000-0xd04cdfff]
+[    1.967934] pci 0000:01:00.2: enabling Extended Tags
+[    1.968025] pci 0000:01:00.3: [1022:1639] type 00 class 0x0c0330
+[    1.968035] pci 0000:01:00.3: reg 0x10: [mem 0xd0100000-0xd01fffff 64bit]
+[    1.968057] pci 0000:01:00.3: enabling Extended Tags
+[    1.968086] pci 0000:01:00.3: PME# supported from D0 D3hot D3cold
+[    1.968155] pci 0000:01:00.4: [1022:1639] type 00 class 0x0c0330
+[    1.968165] pci 0000:01:00.4: reg 0x10: [mem 0xd0200000-0xd02fffff 64bit]
+[    1.968187] pci 0000:01:00.4: enabling Extended Tags
+[    1.968216] pci 0000:01:00.4: PME# supported from D0 D3hot D3cold
+[    1.968293] pci 0000:01:00.5: [1022:15e2] type 00 class 0x048000
+[    1.968300] pci 0000:01:00.5: reg 0x10: [mem 0xd0480000-0xd04bffff]
+[    1.968319] pci 0000:01:00.5: enabling Extended Tags
+[    1.968346] pci 0000:01:00.5: PME# supported from D0 D3hot D3cold
+[    1.968414] pci 0000:01:00.6: [1022:15e3] type 00 class 0x040300
+[    1.968421] pci 0000:01:00.6: reg 0x10: [mem 0xd04c0000-0xd04c7fff]
+[    1.968441] pci 0000:01:00.6: enabling Extended Tags
+[    1.968468] pci 0000:01:00.6: PME# supported from D0 D3hot D3cold
+[    1.968557] pci 0000:00:08.1: PCI bridge to [bus 01]
+[    1.968560] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    1.968561] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    1.968564] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    1.968611] pci 0000:02:00.0: [1022:7901] type 00 class 0x010601
+[    1.968638] pci 0000:02:00.0: reg 0x24: [mem 0xd0001000-0xd00017ff]
+[    1.968645] pci 0000:02:00.0: enabling Extended Tags
+[    1.968770] pci 0000:02:00.1: [1022:7901] type 00 class 0x010601
+[    1.968797] pci 0000:02:00.1: reg 0x24: [mem 0xd0000000-0xd00007ff]
+[    1.968805] pci 0000:02:00.1: enabling Extended Tags
+[    1.968908] pci 0000:00:08.2: PCI bridge to [bus 02]
+[    1.968912] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    1.970639] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[    1.970640] ACPI: PCI: Interrupt link LNKA disabled
+[    1.970733] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+[    1.970734] ACPI: PCI: Interrupt link LNKB disabled
+[    1.970807] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[    1.970808] ACPI: PCI: Interrupt link LNKC disabled
+[    1.970899] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[    1.970899] ACPI: PCI: Interrupt link LNKD disabled
+[    1.970984] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    1.970985] ACPI: PCI: Interrupt link LNKE disabled
+[    1.971053] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    1.971054] ACPI: PCI: Interrupt link LNKF disabled
+[    1.971121] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    1.971122] ACPI: PCI: Interrupt link LNKG disabled
+[    1.971189] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    1.971190] ACPI: PCI: Interrupt link LNKH disabled
+[    1.973244] ACPI: EC: interrupt unblocked
+[    1.973246] ACPI: EC: event unblocked
+[    1.973250] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    1.973251] ACPI: EC: GPE=0x3
+[    1.973252] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+[    1.973254] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+[    1.973281] iommu: Default domain type: Translated 
+[    1.973281] iommu: DMA domain TLB invalidation policy: lazy mode 
+[    1.973281] pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+[    1.973281] pci 0000:01:00.0: vgaarb: bridge control possible
+[    1.973281] pci 0000:01:00.0: vgaarb: setting as boot device
+[    1.973281] vgaarb: loaded
+[    1.973281] SCSI subsystem initialized
+[    1.973281] libata version 3.00 loaded.
+[    1.973281] ACPI: bus type USB registered
+[    1.973281] usbcore: registered new interface driver usbfs
+[    1.973281] usbcore: registered new interface driver hub
+[    1.973281] usbcore: registered new device driver usb
+[    1.976480] pps_core: LinuxPPS API ver. 1 registered
+[    1.976482] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.976484] PTP clock support registered
+[    1.976491] EDAC MC: Ver: 3.0.0
+[    1.976537] Registered efivars operations
+[    1.976537] NetLabel: Initializing
+[    1.976537] NetLabel:  domain hash size = 128
+[    1.976537] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    1.976537] NetLabel:  unlabeled traffic allowed by default
+[    1.976537] mctp: management component transport protocol core
+[    1.976537] NET: Registered PF_MCTP protocol family
+[    1.976537] PCI: Using ACPI for IRQ routing
+[    1.979040] PCI: pci_cache_line_size set to 64 bytes
+[    1.979073] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+[    1.979074] e820: reserve RAM buffer [mem 0x09b00000-0x0bffffff]
+[    1.979075] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+[    1.979076] e820: reserve RAM buffer [mem 0xb3636000-0xb3ffffff]
+[    1.979077] e820: reserve RAM buffer [mem 0xbab69000-0xbbffffff]
+[    1.979078] e820: reserve RAM buffer [mem 0xc9f7f000-0xcbffffff]
+[    1.979079] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+[    1.979080] e820: reserve RAM buffer [mem 0x40f340000-0x40fffffff]
+[    1.979084] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    1.979084] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+[    1.981167] clocksource: Switched to clocksource hpet
+[    1.989577] VFS: Disk quotas dquot_6.6.0
+[    1.989595] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    1.989742] AppArmor: AppArmor Filesystem Enabled
+[    1.989793] pnp: PnP ACPI init
+[    1.990064] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+[    1.990068] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    1.990070] system 00:00: [mem 0xfde00000-0xfdefffff] has been reserved
+[    1.990310] system 00:03: [io  0x0400-0x04cf] has been reserved
+[    1.990312] system 00:03: [io  0x04d0-0x04d1] has been reserved
+[    1.990313] system 00:03: [io  0x04d6] has been reserved
+[    1.990314] system 00:03: [io  0x0c00-0x0c01] has been reserved
+[    1.990315] system 00:03: [io  0x0c14] has been reserved
+[    1.990316] system 00:03: [io  0x0c50-0x0c52] has been reserved
+[    1.990317] system 00:03: [io  0x0c6c] has been reserved
+[    1.990318] system 00:03: [io  0x0c6f] has been reserved
+[    1.990319] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+[    1.990389] system 00:04: [mem 0x000e0000-0x000fffff] could not be reserved
+[    1.990391] system 00:04: [mem 0xff000000-0xffffffff] could not be reserved
+[    1.991938] pnp: PnP ACPI: found 5 devices
+[    2.000261] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    2.000410] NET: Registered PF_INET protocol family
+[    2.000964] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    2.002533] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    2.002654] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    2.003020] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    2.003088] TCP: Hash tables configured (established 131072 bind 65536)
+[    2.003241] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    2.003297] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    2.003349] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    2.003433] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    2.003438] NET: Registered PF_XDP protocol family
+[    2.003451] pci 0000:00:08.1: PCI bridge to [bus 01]
+[    2.003455] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    2.003459] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    2.003461] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    2.003464] pci 0000:00:08.2: PCI bridge to [bus 02]
+[    2.003467] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    2.003472] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    2.003473] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    2.003474] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    2.003475] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+[    2.003476] pci_bus 0000:00: resource 8 [mem 0x000d0000-0x000effff window]
+[    2.003477] pci_bus 0000:00: resource 9 [mem 0xd0000000-0xf7ffffff window]
+[    2.003478] pci_bus 0000:00: resource 10 [mem 0xfc000000-0xfed3ffff window]
+[    2.003479] pci_bus 0000:00: resource 11 [mem 0x450200000-0xfcffffffff window]
+[    2.003481] pci_bus 0000:01: resource 0 [io  0x1000-0x1fff]
+[    2.003481] pci_bus 0000:01: resource 1 [mem 0xd0100000-0xd04fffff]
+[    2.003482] pci_bus 0000:01: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    2.003483] pci_bus 0000:02: resource 1 [mem 0xd0000000-0xd00fffff]
+[    2.003629] pci 0000:01:00.1: D0 power state depends on 0000:01:00.0
+[    2.003666] pci 0000:01:00.3: extending delay after power-on from D3hot to 20 msec
+[    2.005284] pci 0000:01:00.4: extending delay after power-on from D3hot to 20 msec
+[    2.016527] pci 0000:01:00.4: quirk_usb_early_handoff+0x0/0x750 took 10976 usecs
+[    2.016541] PCI: CLS 64 bytes, default 64
+[    2.016553] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+[    2.016611] Trying to unpack rootfs image as initramfs...
+[    2.016613] pci 0000:00:00.2: can't derive routing for PCI INT A
+[    2.016614] pci 0000:00:00.2: PCI INT A: not connected
+[    2.016631] pci 0000:00:01.0: Adding to iommu group 0
+[    2.016645] pci 0000:00:02.0: Adding to iommu group 1
+[    2.016660] pci 0000:00:08.0: Adding to iommu group 2
+[    2.016667] pci 0000:00:08.1: Adding to iommu group 2
+[    2.016675] pci 0000:00:08.2: Adding to iommu group 2
+[    2.016687] pci 0000:00:14.0: Adding to iommu group 3
+[    2.016693] pci 0000:00:14.3: Adding to iommu group 3
+[    2.016716] pci 0000:00:18.0: Adding to iommu group 4
+[    2.016725] pci 0000:00:18.1: Adding to iommu group 4
+[    2.016733] pci 0000:00:18.2: Adding to iommu group 4
+[    2.016741] pci 0000:00:18.3: Adding to iommu group 4
+[    2.016748] pci 0000:00:18.4: Adding to iommu group 4
+[    2.016756] pci 0000:00:18.5: Adding to iommu group 4
+[    2.016763] pci 0000:00:18.6: Adding to iommu group 4
+[    2.016770] pci 0000:00:18.7: Adding to iommu group 4
+[    2.016776] pci 0000:01:00.0: Adding to iommu group 2
+[    2.016781] pci 0000:01:00.1: Adding to iommu group 2
+[    2.016787] pci 0000:01:00.2: Adding to iommu group 2
+[    2.016792] pci 0000:01:00.3: Adding to iommu group 2
+[    2.016796] pci 0000:01:00.4: Adding to iommu group 2
+[    2.016802] pci 0000:01:00.5: Adding to iommu group 2
+[    2.016807] pci 0000:01:00.6: Adding to iommu group 2
+[    2.016814] pci 0000:02:00.0: Adding to iommu group 2
+[    2.016820] pci 0000:02:00.1: Adding to iommu group 2
+[    2.018342] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+[    2.018346] AMD-Vi: Extended features (0x206d73ef22254ade): PPR X2APIC NX GT IA GA PC GA_vAPIC
+[    2.018351] AMD-Vi: Interrupt remapping enabled
+[    2.018351] AMD-Vi: Virtual APIC enabled
+[    2.018352] AMD-Vi: X2APIC enabled
+[    2.018605] software IO TLB: tearing down default memory pool
+[    2.026486] LVT offset 0 assigned for vector 0x400
+[    2.026681] perf: AMD IBS detected (0x000003ff)
+[    2.026687] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+[    2.028451] Initialise system trusted keyrings
+[    2.028466] Key type blacklist registered
+[    2.028573] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    2.030072] zbud: loaded
+[    2.032963] Key type asymmetric registered
+[    2.032965] Asymmetric key parser 'x509' registered
+[    2.032991] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[    2.033099] io scheduler mq-deadline registered
+[    2.033101] io scheduler kyber registered
+[    2.033134] io scheduler bfq registered
+[    2.033922] pcieport 0000:00:08.1: PME: Signaling with IRQ 26
+[    2.034138] pcieport 0000:00:08.2: PME: Signaling with IRQ 27
+[    2.034218] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    2.036355] ACPI: AC: AC Adapter [ACAD] (off-line)
+[    2.036393] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[    2.036412] ACPI: button: Power Button [PWRB]
+[    2.036439] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2a/PNP0C09:00/PNP0C0D:00/input/input1
+[    2.036453] ACPI: button: Lid Switch [LID0]
+[    2.036508] Monitor-Mwait will be used to enter C-1 state
+[    2.036522] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+[    2.036528] ACPI: FW issue: working around C-state latencies out of order
+[    2.036606] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+[    2.036611] ACPI: FW issue: working around C-state latencies out of order
+[    2.036698] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+[    2.036702] ACPI: FW issue: working around C-state latencies out of order
+[    2.036840] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+[    2.036845] ACPI: FW issue: working around C-state latencies out of order
+[    2.036980] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+[    2.036984] ACPI: FW issue: working around C-state latencies out of order
+[    2.037131] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+[    2.037136] ACPI: FW issue: working around C-state latencies out of order
+[    2.039213] thermal LNXTHERM:00: registered as thermal_zone0
+[    2.039215] ACPI: thermal: Thermal Zone [TZ0] (54 C)
+[    2.039376] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    2.041652] Non-volatile memory driver v1.3
+[    2.041653] Linux agpgart interface v0.103
+[    2.041694] AMD-Vi: AMD IOMMUv2 loaded and initialized
+[    2.041741] ACPI: bus type drm_connector registered
+[    2.042558] ahci 0000:02:00.0: version 3.0
+[    2.042726] ahci 0000:02:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    2.042729] ahci 0000:02:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+[    2.042933] scsi host0: ahci
+[    2.042991] ata1: SATA max UDMA/133 abar m2048@0xd0001000 port 0xd0001100 irq 29
+[    2.043105] ahci 0000:02:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    2.043107] ahci 0000:02:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part deso sadm sds 
+[    2.043254] scsi host1: ahci
+[    2.043292] ata2: SATA max UDMA/133 abar m2048@0xd0000000 port 0xd0000100 irq 31
+[    2.043354] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.043362] ehci-pci: EHCI PCI platform driver
+[    2.043371] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    2.043373] ohci-pci: OHCI PCI platform driver
+[    2.043377] uhci_hcd: USB Universal Host Controller Interface driver
+[    2.043423] usbcore: registered new interface driver usbserial_generic
+[    2.043426] usbserial: USB Serial support registered for generic
+[    2.043525] rtc_cmos 00:01: RTC can wake from S4
+[    2.043758] rtc_cmos 00:01: registered as rtc0
+[    2.043793] rtc_cmos 00:01: setting system clock to 2022-03-14T23:02:53 UTC (1647298973)
+[    2.043805] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram, hpet irqs
+[    2.043947] ledtrig-cpu: registered to indicate activity on CPUs
+[    2.044160] efifb: probing for efifb
+[    2.044168] efifb: framebuffer at 0xfce0000000, using 8128k, total 8128k
+[    2.044169] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[    2.044170] efifb: scrolling: redraw
+[    2.044170] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    2.044201] fbcon: Deferring console take-over
+[    2.044202] fb0: EFI VGA frame buffer device
+[    2.044223] hid: raw HID events driver (C) Jiri Kosina
+[    2.044316] drop_monitor: Initializing network drop monitor service
+[    2.044362] Initializing XFRM netlink socket
+[    2.044456] NET: Registered PF_INET6 protocol family
+[    2.058524] ACPI: battery: Slot [BATT] (battery present)
+[    2.356174] ata1: SATA link down (SStatus 0 SControl 300)
+[    2.512073] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.514571] ata2.00: ATA-11: SAMSUNG MZNLH512HALU-00000, RVT2200Q, max UDMA/133
+[    2.515144] ata2.00: 1000215216 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    2.516555] ata2.00: Features: Dev-Sleep NCQ-sndrcv
+[    2.519022] ata2.00: configured for UDMA/133
+[    2.519123] ata2.00: failed to enable DEVSLP
+[    2.519126] ata2.00: failed to enable DIPM, Emask 0x40
+[    2.534305] Freeing initrd memory: 9468K
+[    2.541097] Segment Routing with IPv6
+[    2.541100] RPL Segment Routing with IPv6
+[    2.541116] In-situ OAM (IOAM) with IPv6
+[    2.541151] NET: Registered PF_PACKET protocol family
+[    2.542549] microcode: CPU0: patch_level=0x08600106
+[    2.542573] microcode: CPU1: patch_level=0x08600106
+[    2.542591] microcode: CPU2: patch_level=0x08600106
+[    2.542615] microcode: CPU3: patch_level=0x08600106
+[    2.542642] microcode: CPU4: patch_level=0x08600106
+[    2.542663] microcode: CPU5: patch_level=0x08600106
+[    2.542667] microcode: Microcode Update Driver: v2.2.
+[    2.542963] resctrl: L3 allocation detected
+[    2.542967] resctrl: MB allocation detected
+[    2.542968] resctrl: L3 monitoring detected
+[    2.542972] IPI shorthand broadcast: enabled
+[    2.543350] registered taskstats version 1
+[    2.543759] Loading compiled-in X.509 certificates
+[    2.546649] Loaded X.509 cert 'Build time autogenerated kernel key: ea89e51eaaf85b66e4fd8da493b46921a3288b49'
+[    2.547687] zswap: loaded using pool lz4/z3fold
+[    2.548164] Key type ._fscrypt registered
+[    2.548166] Key type .fscrypt registered
+[    2.548167] Key type fscrypt-provisioning registered
+[    2.548257] AppArmor: AppArmor sha1 policy hashing enabled
+[    2.550117] PM:   Magic number: 14:435:49
+[    2.550170] memory memory81: hash matches
+[    2.550314] RAS: Correctable Errors collector initialized.
+[    8.045607] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    8.056585] ata2.00: configured for UDMA/133
+[    8.057189] scsi 1:0:0:0: Direct-Access     ATA      SAMSUNG MZNLH512 200Q PQ: 0 ANSI: 5
+[    8.057579] sd 1:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[    8.057590] sd 1:0:0:0: [sda] Write Protect is off
+[    8.057593] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    8.057609] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    8.086094]  sda: sda1 sda2 sda3
+[    8.109183] sd 1:0:0:0: [sda] Attached SCSI disk
+[    8.109328] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    8.113449] Freeing unused decrypted memory: 2036K
+[    8.113835] Freeing unused kernel image (initmem) memory: 1780K
+[    8.135668] Write protecting the kernel read-only data: 28672k
+[    8.136630] Freeing unused kernel image (text/rodata gap) memory: 2036K
+[    8.137123] Freeing unused kernel image (rodata/data gap) memory: 1352K
+[    8.185813] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    8.185821] rodata_test: all tests were successful
+[    8.185823] x86/mm: Checking user space page tables
+[    8.232256] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    8.232289] Run /init as init process
+[    8.232291]   with arguments:
+[    8.232292]     /init
+[    8.232293]   with environment:
+[    8.232294]     HOME=/
+[    8.232295]     TERM=linux
+[    8.232295]     BOOT_IMAGE=/boot/vmlinuz-linux
+[    8.232296]     cryptdevice=UUID=a403e9ac-3c4b-46c3-a027-9a0e3fa46176:luks-a403e9ac-3c4b-46c3-a027-9a0e3fa46176
+[    8.232298]     pti=on
+[    8.232298]     mem_encrypt=on
+[    8.254538] fbcon: Taking over console
+[    8.254659] Console: switching to colour frame buffer device 240x67
+[    8.421195] xhci_hcd 0000:01:00.3: xHCI Host Controller
+[    8.421206] xhci_hcd 0000:01:00.3: new USB bus registered, assigned bus number 1
+[    8.421339] xhci_hcd 0000:01:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    8.421614] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+[    8.421617] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[    8.421823] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.16
+[    8.421827] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.421828] usb usb1: Product: xHCI Host Controller
+[    8.421830] usb usb1: Manufacturer: Linux 5.16.14-arch1-1 xhci-hcd
+[    8.421831] usb usb1: SerialNumber: 0000:01:00.3
+[    8.423383] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    8.423717] hub 1-0:1.0: USB hub found
+[    8.423730] hub 1-0:1.0: 4 ports detected
+[    8.424300] xhci_hcd 0000:01:00.3: xHCI Host Controller
+[    8.424305] xhci_hcd 0000:01:00.3: new USB bus registered, assigned bus number 2
+[    8.424310] xhci_hcd 0000:01:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    8.424332] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    8.424364] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.16
+[    8.424367] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.424369] usb usb2: Product: xHCI Host Controller
+[    8.424370] usb usb2: Manufacturer: Linux 5.16.14-arch1-1 xhci-hcd
+[    8.424371] usb usb2: SerialNumber: 0000:01:00.3
+[    8.424509] hub 2-0:1.0: USB hub found
+[    8.424625] hub 2-0:1.0: 2 ports detected
+[    8.425061] xhci_hcd 0000:01:00.4: xHCI Host Controller
+[    8.425068] xhci_hcd 0000:01:00.4: new USB bus registered, assigned bus number 3
+[    8.425213] xhci_hcd 0000:01:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    8.425588] ccp 0000:01:00.2: enabling device (0000 -> 0002)
+[    8.425802] ccp 0000:01:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+[    8.425830] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.16
+[    8.425834] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.425835] usb usb3: Product: xHCI Host Controller
+[    8.425837] usb usb3: Manufacturer: Linux 5.16.14-arch1-1 xhci-hcd
+[    8.425838] usb usb3: SerialNumber: 0000:01:00.4
+[    8.425993] hub 3-0:1.0: USB hub found
+[    8.426004] hub 3-0:1.0: 4 ports detected
+[    8.426525] xhci_hcd 0000:01:00.4: xHCI Host Controller
+[    8.426531] xhci_hcd 0000:01:00.4: new USB bus registered, assigned bus number 4
+[    8.426535] xhci_hcd 0000:01:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+[    8.426559] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    8.426590] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.16
+[    8.426592] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.426594] usb usb4: Product: xHCI Host Controller
+[    8.426595] usb usb4: Manufacturer: Linux 5.16.14-arch1-1 xhci-hcd
+[    8.426596] usb usb4: SerialNumber: 0000:01:00.4
+[    8.426807] hub 4-0:1.0: USB hub found
+[    8.426816] hub 4-0:1.0: 2 ports detected
+[    8.429559] cryptd: max_cpu_qlen set to 1000
+[    8.435974] ccp 0000:01:00.2: tee enabled
+[    8.435983] ccp 0000:01:00.2: psp enabled
+[    8.443193] AVX2 version of gcm_enc/dec engaged.
+[    8.443266] AES CTR mode by8 optimization enabled
+[    8.476631] random: fast init done
+[    8.489552] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[    8.610103] device-mapper: uevent: version 1.0.3
+[    8.610272] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+[    8.625319] Key type encrypted registered
+[   14.520299] random: cryptsetup: uninitialized urandom read (2 bytes read)
+[   29.061307] REISERFS (device dm-0): found reiserfs format "3.6" with standard journal
+[   29.061320] REISERFS (device dm-0): using ordered data mode
+[   29.061321] reiserfs: using flush barriers
+[   29.061600] REISERFS (device dm-0): journal params: device dm-0, size 8192, journal first block 18, max trans len 1024, max batch 900, max commit age 30, max trans age 30
+[   29.061902] REISERFS (device dm-0): checking transaction log (dm-0)
+[   29.063861] REISERFS (device dm-0): Using r5 hash to sort names
+[   29.242513] systemd[1]: systemd 250.4-1-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[   29.259373] systemd[1]: Detected architecture x86-64.
+[   29.261455] systemd[1]: Hostname set to <mksredmibook14ii>.
+[   29.404865] systemd[1]: Queued start job for default target Graphical Interface.
+[   29.406838] systemd[1]: Created slice Slice /system/getty.
+[   29.407394] systemd[1]: Created slice Slice /system/modprobe.
+[   29.408009] systemd[1]: Created slice Cryptsetup Units Slice.
+[   29.408435] systemd[1]: Created slice Slice /system/systemd-fsck.
+[   29.408915] systemd[1]: Created slice Slice /system/urxvtd.
+[   29.409300] systemd[1]: Created slice User and Session Slice.
+[   29.409494] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   29.409638] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   29.409947] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   29.410149] systemd[1]: Reached target Login Prompts.
+[   29.410233] systemd[1]: Reached target Local Integrity Protected Volumes.
+[   29.410329] systemd[1]: Reached target Path Units.
+[   29.410411] systemd[1]: Reached target Remote File Systems.
+[   29.410488] systemd[1]: Reached target Slice Units.
+[   29.410578] systemd[1]: Reached target Local Verity Protected Volumes.
+[   29.410739] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   29.411455] systemd[1]: Listening on LVM2 poll daemon socket.
+[   29.412721] systemd[1]: Listening on Process Core Dump Socket.
+[   29.417976] systemd[1]: Journal Audit Socket was skipped because of a failed condition check (ConditionSecurity=audit).
+[   29.418317] systemd[1]: Listening on Journal Socket (/dev/log).
+[   29.418746] systemd[1]: Listening on Journal Socket.
+[   29.419106] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[   29.420013] systemd[1]: Listening on udev Control Socket.
+[   29.420293] systemd[1]: Listening on udev Kernel Socket.
+[   29.421701] systemd[1]: Mounting Huge Pages File System...
+[   29.422938] systemd[1]: Mounting POSIX Message Queue File System...
+[   29.424659] systemd[1]: Mounting Kernel Debug File System...
+[   29.425893] systemd[1]: Mounting Kernel Trace File System...
+[   29.427452] systemd[1]: Starting Load AppArmor profiles...
+[   29.428924] systemd[1]: Starting Create List of Static Device Nodes...
+[   29.430372] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   29.431822] systemd[1]: Starting Load Kernel Module configfs...
+[   29.433431] systemd[1]: Starting Load Kernel Module drm...
+[   29.435098] systemd[1]: Starting Load Kernel Module fuse...
+[   29.435295] systemd[1]: File System Check on Root Device was skipped because of a failed condition check (ConditionPathIsReadWrite=!/).
+[   29.437965] systemd[1]: Starting Journal Service...
+[   29.438477] systemd[1]: Load Kernel Modules was skipped because all trigger condition checks failed.
+[   29.440017] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   29.440281] systemd[1]: Repartition Root Disk was skipped because all trigger condition checks failed.
+[   29.441746] systemd[1]: Starting Apply Kernel Variables...
+[   29.443374] systemd[1]: Starting Coldplug All udev Devices...
+[   29.446296] systemd[1]: Mounted Huge Pages File System.
+[   29.446613] systemd[1]: Mounted POSIX Message Queue File System.
+[   29.447859] systemd[1]: Mounted Kernel Debug File System.
+[   29.448592] fuse: init (API version 7.35)
+[   29.449482] systemd[1]: Mounted Kernel Trace File System.
+[   29.451029] systemd[1]: Finished Create List of Static Device Nodes.
+[   29.456872] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[   29.457215] systemd[1]: Finished Load Kernel Module configfs.
+[   29.458954] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[   29.459484] systemd[1]: Finished Load Kernel Module drm.
+[   29.460001] random: lvm: uninitialized urandom read (4 bytes read)
+[   29.461055] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[   29.461448] systemd[1]: Finished Load Kernel Module fuse.
+[   29.463136] systemd[1]: Finished Remount Root and Kernel File Systems.
+[   29.464649] systemd[1]: Finished Apply Kernel Variables.
+[   29.468072] systemd[1]: Mounting FUSE Control File System...
+[   29.470991] systemd[1]: Mounting Kernel Configuration File System...
+[   29.472226] systemd[1]: First Boot Wizard was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[   29.473176] systemd[1]: Rebuild Hardware Database was skipped because all trigger condition checks failed.
+[   29.474821] systemd[1]: Starting Load/Save Random Seed...
+[   29.477629] systemd[1]: Starting Create System Users...
+[   29.483028] systemd[1]: Mounted FUSE Control File System.
+[   29.484273] systemd[1]: Mounted Kernel Configuration File System.
+[   29.505937] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[   29.518841] systemd[1]: Finished Create System Users.
+[   29.522144] systemd[1]: Starting Create Static Device Nodes in /dev...
+[   29.544385] systemd[1]: Started Journal Service.
+[   29.554346] systemd-journald[318]: Received client request to flush runtime journal.
+[   29.857275] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[   29.857282] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[   29.857378] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[   29.862400] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+[   29.869339] acpi_cpufreq: overriding BIOS provided _PSD data
+[   29.873889] sp5100_tco: SP5100/SB800 TCO WatchDog Timer Driver
+[   29.874042] sp5100-tco sp5100-tco: Using 0xfeb00000 for watchdog MMIO address
+[   29.874273] sp5100-tco sp5100-tco: initialized. heartbeat=60 sec (nowayout=0)
+[   30.076408] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[   30.076962] acpi device:0e: registered as cooling_device6
+[   30.077041] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/LNXVIDEO:00/input/input3
+[   30.126492] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input4
+[   30.126619] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input5
+[   30.126734] hid-generic 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[   30.538818] snd_hda_intel 0000:01:00.1: enabling device (0000 -> 0002)
+[   30.538995] snd_hda_intel 0000:01:00.1: Handle vga_switcheroo audio client
+[   30.539160] snd_hda_intel 0000:01:00.6: enabling device (0000 -> 0002)
+[   30.590359] [drm] amdgpu kernel modesetting enabled.
+[   30.598624] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:01:00.1/sound/card0/input7
+[   30.598711] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:01:00.1/sound/card0/input8
+[   30.603894] snd_rn_pci_acp3x 0000:01:00.5: enabling device (0000 -> 0002)
+[   30.613867] amdgpu: Virtual CRAT table created for CPU
+[   30.613898] amdgpu: Topology: Add CPU node
+[   30.613994] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[   30.613997] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[   30.613998] fb0: switching to amdgpu from EFI VGA
+[   30.614152] Console: switching to colour dummy device 80x25
+[   30.614266] amdgpu 0000:01:00.0: vgaarb: deactivate vga console
+[   30.614359] amdgpu 0000:01:00.0: enabling device (0006 -> 0007)
+[   30.614440] [drm] initializing kernel modesetting (RENOIR 0x1002:0x1636 0x1D72:0x1951 0xC3).
+[   30.614445] amdgpu 0000:01:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[   30.615038] [drm] register mmio base: 0xD0400000
+[   30.615040] [drm] register mmio size: 524288
+[   30.615050] [drm] virtual display string:NULL, 0000:01:00.0:virtual_display:0, num_crtc:0
+[   30.616183] [drm] add ip block number 0 <soc15_common>
+[   30.616185] [drm] add ip block number 1 <gmc_v9_0>
+[   30.616186] [drm] add ip block number 2 <vega10_ih>
+[   30.616188] [drm] add ip block number 3 <psp>
+[   30.616189] [drm] add ip block number 4 <smu>
+[   30.616190] [drm] add ip block number 5 <dm>
+[   30.616191] [drm] add ip block number 6 <gfx_v9_0>
+[   30.616192] [drm] add ip block number 7 <sdma_v4_0>
+[   30.616193] [drm] add ip block number 8 <vcn_v2_0>
+[   30.616194] [drm] add ip block number 9 <jpeg_v2_0>
+[   30.616214] amdgpu 0000:01:00.0: amdgpu: Fetched VBIOS from VFCT
+[   30.616219] amdgpu: ATOM BIOS: 113-RENOIR-026
+[   30.621935] [drm] VCN decode is enabled in VM mode
+[   30.621941] [drm] VCN encode is enabled in VM mode
+[   30.621943] [drm] JPEG decode is enabled in VM mode
+[   30.621948] amdgpu 0000:01:00.0: amdgpu: PCIE atomic ops is not supported
+[   30.622600] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[   30.622616] amdgpu 0000:01:00.0: amdgpu: VRAM: 512M 0x000000F400000000 - 0x000000F41FFFFFFF (512M used)
+[   30.622620] amdgpu 0000:01:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[   30.622622] amdgpu 0000:01:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[   30.622635] [drm] Detected VRAM RAM=512M, BAR=512M
+[   30.622636] [drm] RAM width 128bits DDR4
+[   30.622702] [drm] amdgpu: 512M of VRAM memory ready
+[   30.622703] [drm] amdgpu: 3072M of GTT memory ready.
+[   30.622713] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[   30.622845] [drm] PCIE GART of 1024M enabled.
+[   30.622846] [drm] PTB located at 0x000000F400900000
+[   30.636888] amdgpu 0000:01:00.0: amdgpu: PSP runtime database doesn't exist
+[   30.644700] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC256: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[   30.644716] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   30.644719] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[   30.644721] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[   30.644722] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[   30.644723] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+[   30.646930] [drm] Loading DMUB firmware via PSP: version=0x0101001F
+[   30.690018] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:01:00.6/sound/card1/input9
+[   30.690091] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:01:00.6/sound/card1/input10
+[   30.698889] [drm] Found VCN firmware Version ENC: 1.16 DEC: 5 VEP: 0 Revision: 3
+[   30.698919] amdgpu 0000:01:00.0: amdgpu: Will use PSP to load VCN firmware
+[   30.718827] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[   30.718831] RAPL PMU: hw unit of domain package 2^-16 Joules
+[   30.744244] MCE: In-kernel MCE decoding enabled.
+[   30.981814] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input11
+[   30.982275] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input12
+[   30.982485] hid-multitouch 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[   31.010431] intel_rapl_common: Found RAPL domain package
+[   31.010435] intel_rapl_common: Found RAPL domain core
+[   31.044609] mousedev: PS/2 mouse device common for all mice
+[   31.068718] random: crng init done
+[   31.439018] [drm] reserve 0x400000 from 0xf41f800000 for PSP TMR
+[   31.522149] amdgpu 0000:01:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[   31.530697] amdgpu 0000:01:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[   31.530702] amdgpu 0000:01:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+[   31.531583] amdgpu 0000:01:00.0: amdgpu: SMU is initialized successfully!
+[   31.532541] [drm] Display Core initialized with v3.2.160!
+[   31.533107] [drm] DMUB hardware initialized: version=0x0101001F
+[   31.578972] ucsi_acpi USBC000:00: PPM init failed (-110)
+[   31.646404] [drm] kiq ring mec 2 pipe 1 q 0
+[   31.649654] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[   31.649673] [drm] JPEG decode initialized successfully.
+[   31.652110] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[   31.698518] memmap_init_zone_device initialised 131072 pages in 0ms
+[   31.698534] amdgpu: HMM registered 512MB device memory
+[   31.698587] amdgpu: SRAT table not found
+[   31.698588] amdgpu: Virtual CRAT table created for GPU
+[   31.698857] amdgpu: Topology: Add dGPU node [0x1636:0x1002]
+[   31.698864] kfd kfd: amdgpu: added device 1002:1636
+[   31.698879] amdgpu 0000:01:00.0: amdgpu: SE 1, SH per SE 1, CU per SH 8, active_cu_number 6
+[   31.701478] [drm] fb mappable at 0x410CD2000
+[   31.701481] [drm] vram apper at 0x410000000
+[   31.701483] [drm] size 8294400
+[   31.701484] [drm] fb depth is 24
+[   31.701485] [drm]    pitch is 7680
+[   31.701979] fbcon: amdgpudrmfb (fb0) is primary device
+[   31.753847] Console: switching to colour frame buffer device 240x67
+[   31.775686] amdgpu 0000:01:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+[   31.795590] amdgpu 0000:01:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[   31.795599] amdgpu 0000:01:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[   31.795602] amdgpu 0000:01:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[   31.795605] amdgpu 0000:01:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[   31.795607] amdgpu 0000:01:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[   31.795609] amdgpu 0000:01:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[   31.795611] amdgpu 0000:01:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[   31.795613] amdgpu 0000:01:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[   31.795615] amdgpu 0000:01:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[   31.795618] amdgpu 0000:01:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[   31.795621] amdgpu 0000:01:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[   31.795623] amdgpu 0000:01:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[   31.795626] amdgpu 0000:01:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[   31.795628] amdgpu 0000:01:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[   31.795630] amdgpu 0000:01:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[   31.797877] [drm] Initialized amdgpu 3.44.0 20150101 for 0000:01:00.0 on minor 0
+[   36.522010] Adding 17307924k swap on /dev/mapper/luks-db9b571a-4b0a-465f-9c25-0bc60e4d3253.  Priority:-2 extents:1 across:17307924k SSFS
+[   55.058937] usb 3-1: new high-speed USB device number 2 using xhci_hcd
+[   55.200743] usb 3-1: New USB device found, idVendor=1a40, idProduct=0801, bcdDevice= 1.00
+[   55.200758] usb 3-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[   55.200762] usb 3-1: Product: USB 2.0 Hub
+[   55.245654] hub 3-1:1.0: USB hub found
+[   55.245987] hub 3-1:1.0: 4 ports detected
+[   55.495520] usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+[   55.519263] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[   55.519272] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   55.519275] usb 4-1: Product: USB3.1 Hub
+[   55.519276] usb 4-1: Manufacturer: GenesysLogic
+[   55.550179] hub 4-1:1.0: USB hub found
+[   55.550985] hub 4-1:1.0: 4 ports detected
+[   55.605414] usb 3-1.1: new full-speed USB device number 3 using xhci_hcd
+[   55.760281] usb 3-1.1: not running at top speed; connect to a high speed hub
+[   55.811328] usb 3-1.1: New USB device found, idVendor=25a4, idProduct=9311, bcdDevice= 2.01
+[   55.811340] usb 3-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   55.811343] usb 3-1.1: Product: USB C Video Adaptor      
+[   55.811346] usb 3-1.1: Manufacturer: USB C  
+[   55.811348] usb 3-1.1: SerialNumber: 000000000001
+[   55.905390] usb 3-1.2: new high-speed USB device number 4 using xhci_hcd
+[   56.000585] usb 3-1.2: New USB device found, idVendor=05e3, idProduct=0610, bcdDevice= 6.63
+[   56.000596] usb 3-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   56.000599] usb 3-1.2: Product: USB2.1 Hub
+[   56.000601] usb 3-1.2: Manufacturer: GenesysLogic
+[   56.045580] hub 3-1.2:1.0: USB hub found
+[   56.046103] hub 3-1.2:1.0: 4 ports detected
+[   56.261333] usb 4-1: USB disconnect, device number 2
+[   56.365653] usb 3-1.2.2: new high-speed USB device number 5 using xhci_hcd
+[   57.168715] usb 3-1.2.3: new low-speed USB device number 6 using xhci_hcd
+[   57.296348] usb 3-1.2.3: New USB device found, idVendor=1bcf, idProduct=0005, bcdDevice= 0.90
+[   57.296362] usb 3-1.2.3: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[   57.296366] usb 3-1.2.3: Product: USB Optical Mouse
+[   57.650010] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[   57.922274] ata1: SATA link down (SStatus 0 SControl 300)
+[   58.138862] usb 4-1: new SuperSpeed USB device number 3 using xhci_hcd
+[   58.163487] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[   58.163497] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   58.163501] usb 4-1: Product: USB3.1 Hub
+[   58.163504] usb 4-1: Manufacturer: GenesysLogic
+[   58.190232] hub 4-1:1.0: USB hub found
+[   58.191028] hub 4-1:1.0: 4 ports detected
+[   58.219573] input: USB Optical Mouse as /devices/pci0000:00/0000:00:08.1/0000:01:00.4/usb3/3-1/3-1.2/3-1.2.3/3-1.2.3:1.0/0003:1BCF:0005.0002/input/input14
+[   58.220144] hid-generic 0003:1BCF:0005.0002: input,hidraw1: USB HID v1.10 Mouse [USB Optical Mouse] on usb-0000:01:00.4-1.2.3/input0
+[   58.220176] usbcore: registered new interface driver usbhid
+[   58.220177] usbhid: USB HID core driver
+[   58.475521] usb 4-1.2: new SuperSpeed USB device number 4 using xhci_hcd
+[   58.493609] usb 4-1.2: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+[   58.493613] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[   58.493615] usb 4-1.2: Product: USB 10/100/1000 LAN
+[   58.493616] usb 4-1.2: Manufacturer: Realtek
+[   58.493617] usb 4-1.2: SerialNumber: 000001
+[   58.678501] usbcore: registered new interface driver r8152
+[   58.691201] usbcore: registered new interface driver cdc_ether
+[   58.695086] usbcore: registered new interface driver r8153_ecm
+[   58.797558] usb 4-1.2: reset SuperSpeed USB device number 4 using xhci_hcd
+[   58.862239] r8152 4-1.2:1.0: load rtl8153a-4 v2 02/07/20 successfully
+[   58.889619] r8152 4-1.2:1.0 eth0: v1.12.12
+[   59.478958] r8152 4-1.2:1.0 enp1s0f4u1u2: renamed from eth0
+[   62.014160] IPv6: ADDRCONF(NETDEV_CHANGE): enp1s0f4u1u2: link becomes ready
+[   62.014346] r8152 4-1.2:1.0 enp1s0f4u1u2: carrier on
+[   62.048715] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   62.105398] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   62.178739] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   62.695458] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   63.015420] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ff77:9148 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[   64.028842] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   64.114533] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   64.855638] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[   67.997851] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   69.710513] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[   69.710526] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   71.720942] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[   71.720957] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   75.415899] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   90.048868] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   96.012490] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0x14 
+[   96.668845] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  120.438875] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  126.012158] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  126.535393] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  156.015699] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  156.535513] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  182.409160] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  186.012352] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  186.802070] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  216.012075] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  216.858739] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  246.012057] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  247.015387] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  276.009021] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  276.829059] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  306.012175] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  306.722275] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  310.714784] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  336.012292] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  336.482331] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  366.012130] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  366.589048] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  396.012035] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  396.375655] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  426.012017] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  426.668934] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  456.012096] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  456.828697] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  487.015399] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  487.158831] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  517.015643] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  517.575732] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  547.015664] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  547.308933] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  577.015620] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  577.522306] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  578.585474] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  607.015349] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  607.548748] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  637.015332] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  637.655361] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  667.015626] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  667.922319] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  697.015619] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  697.895614] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  727.015397] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  727.118692] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  757.015536] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  757.895405] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  787.015402] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  787.135691] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  817.012271] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  817.708712] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  847.012019] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  847.522201] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  877.018669] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  877.178867] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  907.015343] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  907.978656] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  937.015685] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  937.788859] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  967.015378] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  967.815593] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  997.011985] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[  997.735314] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1027.018661] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1027.522257] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1057.015602] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1058.028889] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1087.015323] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1088.028657] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1117.008946] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1117.922283] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1137.549178] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ 1147.015565] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1147.115380] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1177.015580] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1177.708713] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1207.015316] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1207.311967] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1237.015492] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1237.922231] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1267.015289] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1267.526023] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1297.015418] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1297.468609] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1327.015572] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1327.522243] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1357.015606] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1357.098893] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1387.011944] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1387.841991] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1417.011936] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1417.155565] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1447.015348] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1447.212002] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1477.015510] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1477.575560] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1507.015257] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1507.441992] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1537.015502] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1538.005574] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1567.012174] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1567.762137] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1578.957367] pavucontrol[18707]: segfault at 558a24c4ea4c ip 00007f30b33420c7 sp 00007ffd19635440 error 4 in libgtkmm-3.0.so.1.1.0[7f30b32cb000+11c000]
+[ 1578.957387] Code: c3 66 90 4c 89 e7 ff 15 57 11 1b 00 4c 89 e0 41 5c c3 90 53 48 89 fb 48 89 f7 ff 15 5b 68 1b 00 48 89 c6 48 8b 03 48 8b 40 e8 <48> 8b 7c 03 08 5b ff 25 15 85 1b 00 90 66 66 2e 0f 1f 84 00 00 00
+[ 1597.011912] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1597.441935] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1627.015463] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1627.025270] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1657.011896] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1657.255241] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1687.011925] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1688.002037] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1717.015550] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1717.548799] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1747.011894] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1747.948846] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1777.015581] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1777.521922] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1807.011892] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1807.951933] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1837.015504] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1837.165429] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1867.015450] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1867.738587] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1897.012217] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1897.978845] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1927.015476] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1927.335512] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1957.015278] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1957.735236] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1987.015216] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 1987.415219] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2017.012078] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2017.282088] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2047.012186] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2048.001873] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2077.015481] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2077.188527] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2108.018658] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2108.748911] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2138.012167] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2138.105319] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2168.015474] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2168.429109] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2198.015362] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2198.375178] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2228.015458] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2228.112124] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2258.015187] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2258.121856] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2288.015215] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2288.485175] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2294.595287] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=608741 PROTO=ICMPv6 TYPE=133 CODE=0 
+[ 2318.011869] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2318.098835] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2348.015173] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2348.882183] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2378.012057] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2378.748503] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2408.015380] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2408.775514] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2438.011830] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2438.831822] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2468.018492] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2468.615651] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2498.011848] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2498.241959] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2510.028008] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2510.028019] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2510.368165] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2510.368175] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2528.018503] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2528.428490] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2536.514204] SGI XFS with ACLs, security attributes, realtime, scrub, repair, quota, no debug enabled
+[ 2536.533363] JFS: nTxBlock = 8192, nTxLock = 65536
+[ 2536.607541] raid6: skip pq benchmark and using algorithm avx2x4
+[ 2536.607544] raid6: using avx2x2 recovery algorithm
+[ 2536.610570] xor: automatically using best checksumming function   avx       
+[ 2536.667346] Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+[ 2558.015184] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2558.988810] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2588.015177] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2588.828767] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2618.015171] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2618.725416] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2648.015142] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2648.935226] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2663.553219] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2663.553230] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2665.720083] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2665.720099] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2678.018482] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2678.185148] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2708.018479] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2708.481822] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2738.011828] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2738.295194] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2768.015156] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 
+[ 2768.348824] ip6tables deny: IN= OUT=enp1s0f4u1u2 SRC=fe80:0000:0000:0000:9e79:70fa:cc77:9148 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=76 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 MARK=0xd4 

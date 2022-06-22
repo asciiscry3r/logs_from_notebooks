@@ -1,0 +1,976 @@
+[    0.273702] ACPI: Power Resource [WRST] (off)
+[    0.274133] ACPI: Power Resource [WRST] (off)
+[    0.274565] ACPI: Power Resource [WRST] (off)
+[    0.275008] ACPI: Power Resource [WRST] (off)
+[    0.275444] ACPI: Power Resource [WRST] (off)
+[    0.275880] ACPI: Power Resource [WRST] (off)
+[    0.276347] ACPI: Power Resource [WRST] (off)
+[    0.276782] ACPI: Power Resource [WRST] (off)
+[    0.277215] ACPI: Power Resource [WRST] (off)
+[    0.277902] ACPI: Power Resource [WRST] (off)
+[    0.294526] ACPI: Power Resource [FN00] (off)
+[    0.294643] ACPI: Power Resource [FN01] (off)
+[    0.294753] ACPI: Power Resource [FN02] (off)
+[    0.294864] ACPI: Power Resource [FN03] (off)
+[    0.294973] ACPI: Power Resource [FN04] (off)
+[    0.296348] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[    0.296354] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+[    0.296403] acpi PNP0A08:00: _OSC failed (AE_ERROR); disabling ASPM
+[    0.297146] PCI host bridge to bus 0000:00
+[    0.297148] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.297149] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.297150] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.297151] pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000c3fff window]
+[    0.297152] pci_bus 0000:00: root bus resource [mem 0x000c4000-0x000c7fff window]
+[    0.297153] pci_bus 0000:00: root bus resource [mem 0x000c8000-0x000cbfff window]
+[    0.297154] pci_bus 0000:00: root bus resource [mem 0x000cc000-0x000cffff window]
+[    0.297155] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff window]
+[    0.297156] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff window]
+[    0.297157] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff window]
+[    0.297158] pci_bus 0000:00: root bus resource [mem 0x000dc000-0x000dffff window]
+[    0.297158] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000e7fff window]
+[    0.297159] pci_bus 0000:00: root bus resource [mem 0x000e8000-0x000ebfff window]
+[    0.297160] pci_bus 0000:00: root bus resource [mem 0x000ec000-0x000effff window]
+[    0.297161] pci_bus 0000:00: root bus resource [mem 0x40000000-0xdfffffff window]
+[    0.297162] pci_bus 0000:00: root bus resource [mem 0xfd000000-0xfe7fffff window]
+[    0.297163] pci_bus 0000:00: root bus resource [bus 00-fe]
+[    0.297177] pci 0000:00:00.0: [8086:1910] type 00 class 0x060000
+[    0.297318] pci 0000:00:01.0: [8086:1901] type 01 class 0x060400
+[    0.297361] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+[    0.297695] pci 0000:00:02.0: [8086:191b] type 00 class 0x030000
+[    0.297703] pci 0000:00:02.0: reg 0x10: [mem 0xdb000000-0xdbffffff 64bit]
+[    0.297709] pci 0000:00:02.0: reg 0x18: [mem 0x70000000-0x7fffffff 64bit pref]
+[    0.297712] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[    0.297729] pci 0000:00:02.0: BAR 2: assigned to efifb
+[    0.297901] pci 0000:00:04.0: [8086:1903] type 00 class 0x118000
+[    0.297909] pci 0000:00:04.0: reg 0x10: [mem 0xddc20000-0xddc27fff 64bit]
+[    0.298187] pci 0000:00:14.0: [8086:a12f] type 00 class 0x0c0330
+[    0.298203] pci 0000:00:14.0: reg 0x10: [mem 0xddc10000-0xddc1ffff 64bit]
+[    0.298269] pci 0000:00:14.0: PME# supported from D3hot D3cold
+[    0.298487] pci 0000:00:14.2: [8086:a131] type 00 class 0x118000
+[    0.298503] pci 0000:00:14.2: reg 0x10: [mem 0xddc38000-0xddc38fff 64bit]
+[    0.298800] pci 0000:00:15.0: [8086:a160] type 00 class 0x118000
+[    0.298995] pci 0000:00:15.0: reg 0x10: [mem 0xddc37000-0xddc37fff 64bit]
+[    0.300036] pci 0000:00:15.1: [8086:a161] type 00 class 0x118000
+[    0.300243] pci 0000:00:15.1: reg 0x10: [mem 0xddc36000-0xddc36fff 64bit]
+[    0.301190] pci 0000:00:16.0: [8086:a13a] type 00 class 0x078000
+[    0.301210] pci 0000:00:16.0: reg 0x10: [mem 0xddc35000-0xddc35fff 64bit]
+[    0.301275] pci 0000:00:16.0: PME# supported from D3hot
+[    0.301492] pci 0000:00:17.0: [8086:2822] type 00 class 0x010400
+[    0.301503] pci 0000:00:17.0: reg 0x10: [mem 0xddc30000-0xddc31fff]
+[    0.301510] pci 0000:00:17.0: reg 0x14: [mem 0xddc34000-0xddc340ff]
+[    0.301516] pci 0000:00:17.0: reg 0x18: [io  0xf090-0xf097]
+[    0.301523] pci 0000:00:17.0: reg 0x1c: [io  0xf080-0xf083]
+[    0.301529] pci 0000:00:17.0: reg 0x20: [io  0xf060-0xf07f]
+[    0.301536] pci 0000:00:17.0: reg 0x24: [mem 0xddc33000-0xddc337ff]
+[    0.301574] pci 0000:00:17.0: PME# supported from D3hot
+[    0.301798] pci 0000:00:1c.0: [8086:a110] type 01 class 0x060400
+[    0.301865] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    0.302192] pci 0000:00:1c.1: [8086:a111] type 01 class 0x060400
+[    0.302260] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    0.302595] pci 0000:00:1d.0: [8086:a118] type 01 class 0x060400
+[    0.302674] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    0.302997] pci 0000:00:1d.4: [8086:a11c] type 01 class 0x060400
+[    0.303060] pci 0000:00:1d.4: PME# supported from D0 D3hot D3cold
+[    0.303372] pci 0000:00:1d.6: [8086:a11e] type 01 class 0x060400
+[    0.303440] pci 0000:00:1d.6: PME# supported from D0 D3hot D3cold
+[    0.303756] pci 0000:00:1f.0: [8086:a150] type 00 class 0x060100
+[    0.304057] pci 0000:00:1f.2: [8086:a121] type 00 class 0x058000
+[    0.304068] pci 0000:00:1f.2: reg 0x10: [mem 0xddc2c000-0xddc2ffff]
+[    0.304303] pci 0000:00:1f.3: [8086:a170] type 00 class 0x040380
+[    0.304322] pci 0000:00:1f.3: reg 0x10: [mem 0xddc28000-0xddc2bfff 64bit]
+[    0.304346] pci 0000:00:1f.3: reg 0x20: [mem 0xddc00000-0xddc0ffff 64bit]
+[    0.304391] pci 0000:00:1f.3: PME# supported from D3hot D3cold
+[    0.304745] pci 0000:00:1f.4: [8086:a123] type 00 class 0x0c0500
+[    0.304802] pci 0000:00:1f.4: reg 0x10: [mem 0xddc32000-0xddc320ff 64bit]
+[    0.304871] pci 0000:00:1f.4: reg 0x20: [io  0xf040-0xf05f]
+[    0.305183] pci 0000:01:00.0: [10de:13b1] type 00 class 0x030200
+[    0.305195] pci 0000:01:00.0: reg 0x10: [mem 0xdc000000-0xdcffffff]
+[    0.305203] pci 0000:01:00.0: reg 0x14: [mem 0xb0000000-0xbfffffff 64bit pref]
+[    0.305212] pci 0000:01:00.0: reg 0x1c: [mem 0xc0000000-0xc1ffffff 64bit pref]
+[    0.305218] pci 0000:01:00.0: reg 0x24: [io  0xe000-0xe07f]
+[    0.305225] pci 0000:01:00.0: reg 0x30: [mem 0xdd000000-0xdd07ffff pref]
+[    0.305243] pci 0000:01:00.0: Enabling HDA controller
+[    0.305300] pci 0000:01:00.0: 64.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x16 link at 0000:00:01.0 (capable of 126.016 Gb/s with 8.0 GT/s PCIe x16 link)
+[    0.305469] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.305471] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[    0.305473] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[    0.305476] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    0.305569] pci 0000:02:00.0: [8086:24f3] type 00 class 0x028000
+[    0.305609] pci 0000:02:00.0: reg 0x10: [mem 0xddb00000-0xddb01fff 64bit]
+[    0.305798] pci 0000:02:00.0: PME# supported from D0 D3hot D3cold
+[    0.306140] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.306144] pci 0000:00:1c.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[    0.306214] pci 0000:03:00.0: [10ec:525a] type 00 class 0xff0000
+[    0.306240] pci 0000:03:00.0: reg 0x14: [mem 0xdd100000-0xdd100fff]
+[    0.306355] pci 0000:03:00.0: supports D1 D2
+[    0.306356] pci 0000:03:00.0: PME# supported from D1 D2 D3hot D3cold
+[    0.306586] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    0.306589] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    0.306591] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[    0.306595] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[    0.306646] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[    0.306695] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[    0.306742] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[    0.306746] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[    0.306750] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[    0.309624] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.309692] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *10 11 12 14 15)
+[    0.309757] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.309822] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.309887] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.309951] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.310016] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.310080] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.312400] ACPI: EC: interrupt unblocked
+[    0.312400] ACPI: EC: event unblocked
+[    0.312409] ACPI: EC: EC_CMD/EC_SC=0x934, EC_DATA=0x930
+[    0.312410] ACPI: EC: GPE=0x14
+[    0.312412] ACPI: \_SB_.PCI0.LPCB.ECDV: Boot DSDT EC initialization complete
+[    0.312413] ACPI: \_SB_.PCI0.LPCB.ECDV: EC: Used to handle transactions and events
+[    0.312502] iommu: Default domain type: Translated 
+[    0.312513] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[    0.312513] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[    0.312513] pci 0000:00:02.0: vgaarb: bridge control possible
+[    0.312513] vgaarb: loaded
+[    0.312714] SCSI subsystem initialized
+[    0.312728] libata version 3.00 loaded.
+[    0.312728] ACPI: bus type USB registered
+[    0.312728] usbcore: registered new interface driver usbfs
+[    0.312728] usbcore: registered new interface driver hub
+[    0.312733] usbcore: registered new device driver usb
+[    0.312733] pps_core: LinuxPPS API ver. 1 registered
+[    0.312733] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.312733] PTP clock support registered
+[    0.312733] EDAC MC: Ver: 3.0.0
+[    0.312890] Registered efivars operations
+[    0.312890] NetLabel: Initializing
+[    0.312890] NetLabel:  domain hash size = 128
+[    0.312890] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.312890] audit: type=1409 audit(1607931079.216:2): netlabel: auid=0 ses=0 subj==unconfined nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[    0.312890] NetLabel:  unlabeled traffic allowed by default
+[    0.312890] audit: type=1406 audit(1607931079.216:3): netlabel: auid=0 ses=0 subj==unconfined unlbl_accept=1 old=0
+[    0.312890] PCI: Using ACPI for IRQ routing
+[    0.337309] PCI: pci_cache_line_size set to 64 bytes
+[    0.337439] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+[    0.337440] e820: reserve RAM buffer [mem 0x0009e000-0x0009ffff]
+[    0.337441] e820: reserve RAM buffer [mem 0x28a4b000-0x2bffffff]
+[    0.337442] e820: reserve RAM buffer [mem 0x34481000-0x37ffffff]
+[    0.337443] e820: reserve RAM buffer [mem 0x36c08000-0x37ffffff]
+[    0.337444] e820: reserve RAM buffer [mem 0x3a500000-0x3bffffff]
+[    0.337445] e820: reserve RAM buffer [mem 0x4be000000-0x4bfffffff]
+[    0.337450] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    0.337450] hpet0: 8 comparators, 64-bit 24.000000 MHz counter
+[    0.339340] clocksource: Switched to clocksource tsc-early
+[    0.350822] VFS: Disk quotas dquot_6.6.0
+[    0.350835] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.350943] AppArmor: AppArmor Filesystem Enabled
+[    0.350946] audit: type=1400 audit(1607931079.253:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[    0.350970] pnp: PnP ACPI init
+[    0.351301] system 00:00: [io  0x0680-0x069f] has been reserved
+[    0.351302] system 00:00: [io  0xffff] has been reserved
+[    0.351304] system 00:00: [io  0xffff] has been reserved
+[    0.351305] system 00:00: [io  0xffff] has been reserved
+[    0.351306] system 00:00: [io  0x1800-0x18fe] has been reserved
+[    0.351307] system 00:00: [io  0x164e-0x164f] has been reserved
+[    0.351312] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.351418] system 00:01: [io  0x0800-0x087f] has been reserved
+[    0.351421] system 00:01: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.351440] pnp 00:02: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    0.351486] system 00:03: [io  0x1854-0x1857] has been reserved
+[    0.351489] system 00:03: Plug and Play ACPI device, IDs INT3f0d PNP0c02 (active)
+[    0.351663] pnp 00:04: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.351678] pnp 00:05: Plug and Play ACPI device, IDs DLL06e5 PNP0f13 (active)
+[    0.352040] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[    0.352041] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[    0.352043] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[    0.352044] system 00:06: [mem 0xe0000000-0xefffffff] has been reserved
+[    0.352045] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[    0.352046] system 00:06: [mem 0xfed90000-0xfed93fff] could not be reserved
+[    0.352047] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[    0.352049] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[    0.352050] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[    0.352051] system 00:06: [mem 0xdffe0000-0xdfffffff] has been reserved
+[    0.352054] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.352101] system 00:07: [mem 0xfd000000-0xfdabffff] has been reserved
+[    0.352102] system 00:07: [mem 0xfdad0000-0xfdadffff] has been reserved
+[    0.352103] system 00:07: [mem 0xfdb00000-0xfdffffff] has been reserved
+[    0.352105] system 00:07: [mem 0xfe000000-0xfe01ffff] could not be reserved
+[    0.352106] system 00:07: [mem 0xfe036000-0xfe03bfff] has been reserved
+[    0.352107] system 00:07: [mem 0xfe03d000-0xfe3fffff] has been reserved
+[    0.352108] system 00:07: [mem 0xfe410000-0xfe7fffff] has been reserved
+[    0.352111] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.352461] system 00:08: [io  0xff00-0xfffe] has been reserved
+[    0.352464] system 00:08: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.353913] system 00:09: [mem 0xfdaf0000-0xfdafffff] has been reserved
+[    0.353914] system 00:09: [mem 0xfdae0000-0xfdaeffff] has been reserved
+[    0.353915] system 00:09: [mem 0xfdac0000-0xfdacffff] has been reserved
+[    0.353918] system 00:09: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.356438] pnp: PnP ACPI: found 10 devices
+[    0.362082] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.362135] NET: Registered protocol family 2
+[    0.362315] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.362396] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.362567] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    0.362642] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.362714] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    0.362791] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.362831] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.362905] NET: Registered protocol family 1
+[    0.362932] NET: Registered protocol family 44
+[    0.362941] pci 0000:00:1d.6: bridge window [io  0x1000-0x0fff] to [bus 06-3e] add_size 1000
+[    0.362946] pci 0000:00:1d.6: BAR 13: assigned [io  0x2000-0x2fff]
+[    0.362948] pci 0000:00:01.0: PCI bridge to [bus 01]
+[    0.362950] pci 0000:00:01.0:   bridge window [io  0xe000-0xefff]
+[    0.362953] pci 0000:00:01.0:   bridge window [mem 0xdc000000-0xdd0fffff]
+[    0.362955] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    0.362958] pci 0000:00:1c.0: PCI bridge to [bus 02]
+[    0.362961] pci 0000:00:1c.0:   bridge window [mem 0xddb00000-0xddbfffff]
+[    0.362966] pci 0000:00:1c.1: PCI bridge to [bus 03]
+[    0.362968] pci 0000:00:1c.1:   bridge window [io  0xd000-0xdfff]
+[    0.362971] pci 0000:00:1c.1:   bridge window [mem 0xdd100000-0xddafffff]
+[    0.362973] pci 0000:00:1c.1:   bridge window [mem 0xc2100000-0xc2afffff 64bit pref]
+[    0.362977] pci 0000:00:1d.0: PCI bridge to [bus 04]
+[    0.362986] pci 0000:00:1d.4: PCI bridge to [bus 05]
+[    0.362993] pci 0000:00:1d.6: PCI bridge to [bus 06-3e]
+[    0.362994] pci 0000:00:1d.6:   bridge window [io  0x2000-0x2fff]
+[    0.362997] pci 0000:00:1d.6:   bridge window [mem 0xc4000000-0xda0fffff]
+[    0.363000] pci 0000:00:1d.6:   bridge window [mem 0x80000000-0xa1ffffff 64bit pref]
+[    0.363004] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.363005] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.363006] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.363007] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000c3fff window]
+[    0.363008] pci_bus 0000:00: resource 8 [mem 0x000c4000-0x000c7fff window]
+[    0.363009] pci_bus 0000:00: resource 9 [mem 0x000c8000-0x000cbfff window]
+[    0.363010] pci_bus 0000:00: resource 10 [mem 0x000cc000-0x000cffff window]
+[    0.363011] pci_bus 0000:00: resource 11 [mem 0x000d0000-0x000d3fff window]
+[    0.363012] pci_bus 0000:00: resource 12 [mem 0x000d4000-0x000d7fff window]
+[    0.363013] pci_bus 0000:00: resource 13 [mem 0x000d8000-0x000dbfff window]
+[    0.363014] pci_bus 0000:00: resource 14 [mem 0x000dc000-0x000dffff window]
+[    0.363015] pci_bus 0000:00: resource 15 [mem 0x000e4000-0x000e7fff window]
+[    0.363016] pci_bus 0000:00: resource 16 [mem 0x000e8000-0x000ebfff window]
+[    0.363017] pci_bus 0000:00: resource 17 [mem 0x000ec000-0x000effff window]
+[    0.363018] pci_bus 0000:00: resource 18 [mem 0x40000000-0xdfffffff window]
+[    0.363019] pci_bus 0000:00: resource 19 [mem 0xfd000000-0xfe7fffff window]
+[    0.363020] pci_bus 0000:01: resource 0 [io  0xe000-0xefff]
+[    0.363021] pci_bus 0000:01: resource 1 [mem 0xdc000000-0xdd0fffff]
+[    0.363022] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xc1ffffff 64bit pref]
+[    0.363023] pci_bus 0000:02: resource 1 [mem 0xddb00000-0xddbfffff]
+[    0.363024] pci_bus 0000:03: resource 0 [io  0xd000-0xdfff]
+[    0.363025] pci_bus 0000:03: resource 1 [mem 0xdd100000-0xddafffff]
+[    0.363026] pci_bus 0000:03: resource 2 [mem 0xc2100000-0xc2afffff 64bit pref]
+[    0.363027] pci_bus 0000:06: resource 0 [io  0x2000-0x2fff]
+[    0.363028] pci_bus 0000:06: resource 1 [mem 0xc4000000-0xda0fffff]
+[    0.363029] pci_bus 0000:06: resource 2 [mem 0x80000000-0xa1ffffff 64bit pref]
+[    0.363209] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+[    0.363545] PCI: CLS 0 bytes, default 64
+[    0.363582] Trying to unpack rootfs image as initramfs...
+[    0.558426] Freeing initrd memory: 17068K
+[    0.558467] DMAR: ACPI device "device:6f" under DMAR at fed91000 as 00:15.0
+[    0.558470] DMAR: ACPI device "device:70" under DMAR at fed91000 as 00:15.1
+[    0.558484] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.558486] software IO TLB: mapped [mem 0x29200000-0x2d200000] (64MB)
+[    0.558687] check: Scanning for low memory corruption every 60 seconds
+[    0.559030] Initialise system trusted keyrings
+[    0.559052] Key type blacklist registered
+[    0.559093] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    0.560190] zbud: loaded
+[    0.569034] Key type asymmetric registered
+[    0.569035] Asymmetric key parser 'x509' registered
+[    0.569041] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 244)
+[    0.569082] io scheduler mq-deadline registered
+[    0.569083] io scheduler kyber registered
+[    0.569104] io scheduler bfq registered
+[    0.570398] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.570483] efifb: probing for efifb
+[    0.570501] efifb: showing boot graphics
+[    0.573914] efifb: framebuffer at 0x70000000, using 32448k, total 32448k
+[    0.573915] efifb: mode is 3840x2160x32, linelength=15360, pages=1
+[    0.573915] efifb: scrolling: redraw
+[    0.573916] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    0.573952] fbcon: Deferring console take-over
+[    0.573953] fb0: EFI VGA frame buffer device
+[    0.573960] intel_idle: MWAIT substates: 0x11142120
+[    0.573960] intel_idle: v0.5.1 model 0x5E
+[    0.574364] intel_idle: Local APIC timer is reliable in all C-states
+[    0.574449] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[    0.579376] ACPI: Lid Switch [LID0]
+[    0.579410] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    0.582656] ACPI: Power Button [PBTN]
+[    0.582692] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[    0.582708] ACPI: Sleep Button [SBTN]
+[    0.582736] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[    0.582869] ACPI: Power Button [PWRF]
+[    0.585300] thermal LNXTHERM:00: registered as thermal_zone0
+[    0.585301] ACPI: Thermal Zone [THM] (25 C)
+[    0.585448] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20200717/psargs-330)
+[    0.585453] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20200717/psparse-529)
+[    0.585597] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20200717/psargs-330)
+[    0.585601] ACPI Error: Aborting method \_TZ.TZ00._TMP due to previous error (AE_NOT_FOUND) (20200717/psparse-529)
+[    0.585660] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20200717/psargs-330)
+[    0.585663] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20200717/psparse-529)
+[    0.585716] ACPI BIOS Error (bug): Could not resolve symbol [\_SB.PCI0.LPCB.HEC.ECAV], AE_NOT_FOUND (20200717/psargs-330)
+[    0.585719] ACPI Error: Aborting method \_TZ.TZ01._TMP due to previous error (AE_NOT_FOUND) (20200717/psparse-529)
+[    0.585982] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.586463] AMD-Vi: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+[    0.586463] AMD-Vi: AMD IOMMUv2 functionality not available on this system
+[    0.587667] ahci 0000:00:17.0: version 3.0
+[    0.587789] ahci 0000:00:17.0: controller can't do SNTF, turning off CAP_SNTF
+[    0.587826] ahci 0000:00:17.0: SSS flag set, parallel bus scan disabled
+[    0.599558] ahci 0000:00:17.0: AHCI 0001.0301 32 slots 2 ports 6 Gbps 0x3 impl RAID mode
+[    0.599561] ahci 0000:00:17.0: flags: 64bit ncq stag pm led clo only pio slum part ems deso sadm sds apst 
+[    0.610132] scsi host0: ahci
+[    0.610492] scsi host1: ahci
+[    0.610530] ata1: SATA max UDMA/133 abar m2048@0xddc33000 port 0xddc33100 irq 128
+[    0.610532] ata2: SATA max UDMA/133 abar m2048@0xddc33000 port 0xddc33180 irq 128
+[    0.610587] usbcore: registered new interface driver usbserial_generic
+[    0.610590] usbserial: USB Serial support registered for generic
+[    0.610608] rtc_cmos 00:02: RTC can wake from S4
+[    0.611124] rtc_cmos 00:02: registered as rtc0
+[    0.611266] rtc_cmos 00:02: setting system clock to 2020-12-14T07:31:19 UTC (1607931079)
+[    0.611276] audit: type=1332 audit(1607931079.500:5): sec=0 nsec=-15254707
+[    0.611283] rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+[    0.611358] intel_pstate: Intel P-state driver initializing
+[    0.611864] intel_pstate: HWP enabled
+[    0.612126] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.612199] ashmem: initialized
+[    0.612259] intel_pmc_core INT33A1:00:  initialized
+[    0.612364] drop_monitor: Initializing network drop monitor service
+[    0.612418] IPv6: Loaded, but administratively disabled, reboot required to enable
+[    0.612419] NET: Registered protocol family 17
+[    0.612991] microcode: sig=0x506e3, pf=0x20, revision=0xe2
+[    0.613224] microcode: Microcode Update Driver: v2.2.
+[    0.613227] IPI shorthand broadcast: enabled
+[    0.613234] sched_clock: Marking stable (612578874, 641756)->(618850703, -5630073)
+[    0.613436] registered taskstats version 1
+[    0.613444] Loading compiled-in X.509 certificates
+[    0.616817] Loaded X.509 cert 'Build time autogenerated kernel key: 00c10b0ba9d05395b3960e2a8b3ae7d67466c42a'
+[    0.618271] zswap: loaded using pool zstd/z3fold
+[    0.618680] Key type ._fscrypt registered
+[    0.618681] Key type .fscrypt registered
+[    0.618682] Key type fscrypt-provisioning registered
+[    0.618739] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.618744] audit: type=1400 audit(1607931079.503:6): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[    0.620243] PM:   Magic number: 0:308:521
+[    0.620293] acpi LNXPOWER:05: hash matches
+[    0.620503] RAS: Correctable Errors collector initialized.
+[    0.926190] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    0.926948] ata1.00: ATA-9: SanDisk SD7SN6S-512G-1006, X3511006, max UDMA/133
+[    0.926952] ata1.00: 1000215216 sectors, multi 1: LBA48 NCQ (depth 32), AA
+[    0.929323] ata1.00: configured for UDMA/133
+[    0.929571] scsi 0:0:0:0: Direct-Access     ATA      SanDisk SD7SN6S- 1006 PQ: 0 ANSI: 5
+[    0.930073] sd 0:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[    0.930077] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    0.930096] sd 0:0:0:0: [sda] Write Protect is off
+[    0.930099] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    0.930127] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.934175]  sda: sda1 sda2 sda3
+[    0.935397] sd 0:0:0:0: [sda] Attached SCSI disk
+[    1.243486] ata2: SATA link down (SStatus 4 SControl 300)
+[    1.247034] Freeing unused decrypted memory: 2040K
+[    1.247794] Freeing unused kernel image (initmem) memory: 1664K
+[    1.247914] Write protecting the kernel read-only data: 22528k
+[    1.248928] Freeing unused kernel image (text/rodata gap) memory: 2044K
+[    1.249226] Freeing unused kernel image (rodata/data gap) memory: 1384K
+[    1.303900] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    1.303901] x86/mm: Checking user space page tables
+[    1.348852] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    1.348856] Run /init as init process
+[    1.348857]   with arguments:
+[    1.348857]     /init
+[    1.348858]   with environment:
+[    1.348858]     HOME=/
+[    1.348858]     TERM=linux
+[    1.348859]     BOOT_IMAGE=/boot/vmlinuz-5.9-x86_64
+[    1.348859]     cryptdevice=UUID=ce83fa74-6f49-4831-802d-90faa26cb2c8:luks-ce83fa74-6f49-4831-802d-90faa26cb2c8
+[    1.450665] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f13:PS2M] at 0x60,0x64 irq 1,12
+[    1.451171] i8042: Warning: Keylock active
+[    1.453521] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    1.453555] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    1.466198] cryptd: max_cpu_qlen set to 1000
+[    1.468283] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[    1.468289] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 1
+[    1.469377] xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000001109810
+[    1.469685] xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+[    1.470187] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.09
+[    1.470189] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.470191] usb usb1: Product: xHCI Host Controller
+[    1.470192] usb usb1: Manufacturer: Linux 5.9.11-3-MANJARO xhci-hcd
+[    1.470193] usb usb1: SerialNumber: 0000:00:14.0
+[    1.470386] hub 1-0:1.0: USB hub found
+[    1.470463] hub 1-0:1.0: 16 ports detected
+[    1.471616] AVX2 version of gcm_enc/dec engaged.
+[    1.471617] AES CTR mode by8 optimization enabled
+[    1.473317] xhci_hcd 0000:00:14.0: xHCI Host Controller
+[    1.473321] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+[    1.473325] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    1.473374] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.09
+[    1.473375] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.473376] usb usb2: Product: xHCI Host Controller
+[    1.473378] usb usb2: Manufacturer: Linux 5.9.11-3-MANJARO xhci-hcd
+[    1.473379] usb usb2: SerialNumber: 0000:00:14.0
+[    1.476102] hub 2-0:1.0: USB hub found
+[    1.476118] hub 2-0:1.0: 10 ports detected
+[    1.476946] usb: port power management may be unreliable
+[    1.485876] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+[    1.517270] device-mapper: uevent: version 1.0.3
+[    1.517341] device-mapper: ioctl: 4.42.0-ioctl (2020-02-27) initialised: dm-devel@redhat.com
+[    1.521837] Key type encrypted registered
+[    1.562710] tsc: Refined TSC clocksource calibration: 2711.999 MHz
+[    1.562715] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x271785701be, max_idle_ns: 440795203568 ns
+[    1.562781] clocksource: Switched to clocksource tsc
+[    1.802681] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[    1.943948] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[    1.943949] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.066011] usb 1-9: new full-speed USB device number 3 using xhci_hcd
+[    2.207687] usb 1-9: New USB device found, idVendor=04f3, idProduct=21d5, bcdDevice=11.12
+[    2.207688] usb 1-9: New USB device strings: Mfr=4, Product=14, SerialNumber=0
+[    2.207691] usb 1-9: Product: Touchscreen
+[    2.207693] usb 1-9: Manufacturer: ELAN
+[    2.211851] hid: raw HID events driver (C) Jiri Kosina
+[    2.218739] usbcore: registered new interface driver usbhid
+[    2.218740] usbhid: USB HID core driver
+[    2.220414] input: ELAN Touchscreen as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input6
+[    2.220453] input: ELAN Touchscreen as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input7
+[    2.220467] input: ELAN Touchscreen as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input8
+[    2.220539] hid-generic 0003:04F3:21D5.0001: input,hiddev0,hidraw0: USB HID v1.10 Device [ELAN Touchscreen] on usb-0000:00:14.0-9/input0
+[    2.223772] input: ELAN Touchscreen as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input10
+[    2.223805] input: ELAN Touchscreen UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input11
+[    2.223818] input: ELAN Touchscreen UNKNOWN as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:04F3:21D5.0001/input/input12
+[    2.223908] hid-multitouch 0003:04F3:21D5.0001: input,hiddev0,hidraw0: USB HID v1.10 Device [ELAN Touchscreen] on usb-0000:00:14.0-9/input0
+[    2.329384] usb 1-12: new high-speed USB device number 4 using xhci_hcd
+[    2.505379] usb 1-12: New USB device found, idVendor=0c45, idProduct=6713, bcdDevice=56.05
+[    2.505380] usb 1-12: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    2.505381] usb 1-12: Product: Integrated_Webcam_HD
+[    2.505382] usb 1-12: Manufacturer: CN045G287248771FB02SA01
+[    5.654520] random: cryptsetup: uninitialized urandom read (2 bytes read)
+[    5.735612] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+[    9.855572] random: cryptsetup: uninitialized urandom read (2 bytes read)
+[    9.887209] PM: Image not found (code -22)
+[    9.916582] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+[    9.993879] random: fast init done
+[   10.229959] systemd[1]: systemd 246.6-1-manjaro running in system mode. (+PAM +AUDIT -SELINUX -IMA -APPARMOR +SMACK -SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +ZSTD +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+[   10.246363] systemd[1]: Detected architecture x86-64.
+[   10.299151] systemd[1]: Set hostname to <d5510>.
+[   10.312835] audit: type=1334 audit(1607931089.194:7): prog-id=1 op=LOAD
+[   10.312838] audit: type=1334 audit(1607931089.198:8): prog-id=1 op=UNLOAD
+[   10.313113] audit: type=1334 audit(1607931089.198:9): prog-id=2 op=LOAD
+[   10.313116] audit: type=1334 audit(1607931089.198:10): prog-id=2 op=UNLOAD
+[   10.585809] systemd[1]: /usr/lib/systemd/system/suricata.service:13: PIDFile= references a path below legacy directory /var/run/, updating /var/run/suricata.pid → /run/suricata.pid; please update the unit file accordingly.
+[   10.592441] systemd[1]: Queued start job for default target Graphical Interface.
+[   10.593548] systemd[1]: Created slice system-getty.slice.
+[   10.593777] systemd[1]: Created slice system-maia\x2dconsole.slice.
+[   10.593974] systemd[1]: Created slice system-modprobe.slice.
+[   10.594204] systemd[1]: Created slice Cryptsetup Units Slice.
+[   10.594399] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[   10.594587] systemd[1]: Created slice User and Session Slice.
+[   10.594654] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   10.594705] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   10.594869] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   10.594920] systemd[1]: Reached target Login Prompts.
+[   10.594946] systemd[1]: Reached target Paths.
+[   10.594962] systemd[1]: Reached target Remote File Systems.
+[   10.594979] systemd[1]: Reached target Slices.
+[   10.595059] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   10.595144] systemd[1]: Listening on LVM2 metadata daemon socket.
+[   10.595215] systemd[1]: Listening on LVM2 poll daemon socket.
+[   10.596726] systemd[1]: Listening on Process Core Dump Socket.
+[   10.596879] systemd[1]: Listening on Journal Audit Socket.
+[   10.596908] audit: type=1335 audit(1607931089.481:11): pid=1 uid=0 auid=4294967295 tty=(none) ses=4294967295 subj==unconfined comm="systemd" exe="/usr/lib/systemd/systemd" nl-mcgrp=1 op=connect res=1
+[   10.596969] systemd[1]: Listening on Journal Socket (/dev/log).
+[   10.597059] systemd[1]: Listening on Journal Socket.
+[   10.597154] systemd[1]: Listening on udev Control Socket.
+[   10.597223] systemd[1]: Listening on udev Kernel Socket.
+[   10.597967] systemd[1]: Mounting Huge Pages File System...
+[   10.598762] systemd[1]: Mounting POSIX Message Queue File System...
+[   10.599600] systemd[1]: Mounting Kernel Debug File System...
+[   10.600533] systemd[1]: Mounting Kernel Trace File System...
+[   10.601538] systemd[1]: Starting Load AppArmor profiles...
+[   10.602309] systemd[1]: Starting Create list of static device nodes for the current kernel...
+[   10.602995] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   10.603721] systemd[1]: Starting Load Kernel Module drm...
+[   10.604539] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[   10.604577] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[   10.605482] audit: type=1334 audit(1607931089.488:12): prog-id=3 op=LOAD
+[   10.605678] audit: type=1334 audit(1607931089.488:13): prog-id=4 op=LOAD
+[   10.606010] systemd[1]: Starting Journal Service...
+[   10.607309] systemd[1]: Starting Load Kernel Modules...
+[   10.608332] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   10.608397] systemd[1]: Condition check resulted in Repartition Root Disk being skipped.
+[   10.609240] systemd[1]: Starting Coldplug All udev Devices...
+[   10.610852] systemd[1]: Mounted Huge Pages File System.
+[   10.610955] systemd[1]: Mounted POSIX Message Queue File System.
+[   10.611045] systemd[1]: Mounted Kernel Debug File System.
+[   10.611127] systemd[1]: Mounted Kernel Trace File System.
+[   10.611492] systemd[1]: Finished Create list of static device nodes for the current kernel.
+[   10.611566] audit: type=1130 audit(1607931089.494:14): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=kmod-static-nodes comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   10.611760] systemd[1]: modprobe@drm.service: Succeeded.
+[   10.612068] systemd[1]: Finished Load Kernel Module drm.
+[   10.612092] audit: type=1130 audit(1607931089.494:15): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   10.612108] audit: type=1131 audit(1607931089.494:16): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=modprobe@drm comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   10.617335] EXT4-fs (dm-0): re-mounted. Opts: (null)
+[   10.618520] systemd[1]: Finished Remount Root and Kernel File Systems.
+[   10.618727] systemd[1]: Condition check resulted in First Boot Wizard being skipped.
+[   10.622143] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[   10.623067] systemd[1]: Starting Load/Save Random Seed...
+[   10.623976] random: lvm: uninitialized urandom read (4 bytes read)
+[   10.624089] systemd[1]: Starting Create System Users...
+[   10.661371] systemd[1]: Finished Create System Users.
+[   10.663343] systemd[1]: Starting Create Static Device Nodes in /dev...
+[   10.686579] systemd[1]: Finished Create Static Device Nodes in /dev.
+[   10.688159] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[   10.703030] systemd[1]: Finished Coldplug All udev Devices.
+[   10.856535] nvidia: loading out-of-tree module taints kernel.
+[   10.856548] nvidia: module license 'NVIDIA' taints kernel.
+[   10.856548] Disabling lock debugging due to kernel taint
+[   10.865057] nvidia: module verification failed: signature and/or required key missing - tainting kernel
+[   10.888143] nvidia-nvlink: Nvlink Core is being initialized, major device number 238
+[   10.902691] nvidia 0000:01:00.0: enabling device (0006 -> 0007)
+[   11.029105] NVRM: loading NVIDIA UNIX x86_64 Kernel Module  455.45.01  Thu Nov  5 23:03:56 UTC 2020
+[   11.033041] systemd[1]: Started Journal Service.
+[   11.059820] Linux agpgart interface v0.103
+[   11.159324] nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  455.45.01  Thu Nov  5 22:55:44 UTC 2020
+[   11.162331] [drm] [nvidia-drm] [GPU ID 0x00000100] Loading driver
+[   11.162332] [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:01:00.0 on minor 0
+[   11.447056] tpm_tis MSFT0101:00: 2.0 TPM (device-id 0xFE, rev-id 2)
+[   11.466394] ACPI: AC Adapter [AC] (on-line)
+[   11.513417] ACPI Warning: \_SB.IETM._ART: Return Package type mismatch at index 0 - found Integer, expected Reference (20200717/nspredef-258)
+[   11.513823] battery: ACPI: Battery Slot [BAT0] (battery present)
+[   11.513895] ACPI: Invalid package element [0]: got number, expecting [R]
+[   11.513896] _ART package 0 is invalid, ignored
+[   11.513916] ACPI Warning: \_SB.IETM._TRT: Return Package has no elements (empty) (20200717/nsprepkg-94)
+[   11.540652] wmi_bus wmi_bus-PNP0C14:02: WQBC data block query control method not found
+[   11.546004] acpi INT33D5:00: intel-hid: created platform device
+[   11.546155] input: Intel HID events as /devices/platform/INT33D5:00/input/input14
+[   11.726980] random: mktemp: uninitialized urandom read (6 bytes read)
+[   11.729727] random: mktemp: uninitialized urandom read (6 bytes read)
+[   11.738247] intel-lpss 0000:00:15.0: enabling device (0000 -> 0002)
+[   11.738580] idma64 idma64.0: Found Intel integrated DMA 64-bit
+[   11.749039] proc_thermal 0000:00:04.0: enabling device (0000 -> 0002)
+[   11.750420] mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+[   11.775726] intel_rapl_common: Found RAPL domain package
+[   11.775728] intel_rapl_common: Found RAPL domain dram
+[   11.775904] random: tlp-readconfs: uninitialized urandom read (4 bytes read)
+[   11.779950] proc_thermal 0000:00:04.0: Creating sysfs group for PROC_THERMAL_PCI
+[   11.799052] intel-lpss 0000:00:15.1: enabling device (0000 -> 0002)
+[   11.799495] idma64 idma64.1: Found Intel integrated DMA 64-bit
+[   11.816276] i801_smbus 0000:00:1f.4: SPD Write Disable is set
+[   11.816313] i801_smbus 0000:00:1f.4: SMBus using PCI interrupt
+[   11.826783] input: PC Speaker as /devices/platform/pcspkr/input/input16
+[   11.836419] i2c_hid i2c-DLL06E5:01: supply vdd not found, using dummy regulator
+[   11.836451] i2c_hid i2c-DLL06E5:01: supply vddl not found, using dummy regulator
+[   11.922765] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 655360 ms ovfl timer
+[   11.922767] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   11.922768] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   11.922768] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   11.922769] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   12.052890] input: DLL06E5:01 06CB:7A13 Mouse as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0002/input/input17
+[   12.053001] input: DLL06E5:01 06CB:7A13 Touchpad as /devices/pci0000:00/0000:00:15.1/i2c_designware.1/i2c-2/i2c-DLL06E5:01/0018:06CB:7A13.0002/input/input18
+[   12.053089] hid-multitouch 0018:06CB:7A13.0002: input,hidraw1: I2C HID v1.00 Mouse [DLL06E5:01 06CB:7A13] on i2c-DLL06E5:01
+[   12.095991] Adding 17828796k swap on /dev/mapper/luks-d70d7b63-2e41-4f61-b63d-0b35740a928b.  Priority:-2 extents:1 across:17828796k SSFS
+[   12.102660] random: crng init done
+[   12.102662] random: 1 urandom warning(s) missed due to ratelimiting
+[   12.256162] i2c i2c-1: 2/2 memory slots populated (from DMI)
+[   12.256579] i2c i2c-1: Successfully instantiated SPD at 0x50
+[   12.303080] dcdbas dcdbas: Dell Systems Management Base Driver (version 5.6.0-3.4)
+[   12.305269] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   12.312996] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   12.364735] snd_hda_intel 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if info 0x040380
+[   12.364767] snd_hda_intel 0000:00:1f.3: enabling device (0000 -> 0002)
+[   12.366779] checking generic (70000000 1fb0000) vs hw (db000000 1000000)
+[   12.366780] checking generic (70000000 1fb0000) vs hw (70000000 10000000)
+[   12.366782] fb0: switching to inteldrmfb from EFI VGA
+[   12.366840] i915 0000:00:02.0: vgaarb: deactivate vga console
+[   12.370371] i915 0000:00:02.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[   12.373394] i915 0000:00:02.0: [drm] Finished loading DMC firmware i915/skl_dmc_ver1_27.bin (v1.27)
+[   12.396007] iTCO_vendor_support: vendor-support=0
+[   12.406120] intel_rapl_common: Found RAPL domain package
+[   12.406122] intel_rapl_common: Found RAPL domain core
+[   12.406123] intel_rapl_common: Found RAPL domain uncore
+[   12.406124] intel_rapl_common: Found RAPL domain dram
+[   12.406277] Intel(R) Wireless WiFi driver for Linux
+[   12.406382] iwlwifi 0000:02:00.0: enabling device (0000 -> 0002)
+[   12.406829] input: Dell WMI hotkeys as /devices/platform/PNP0C14:02/wmi_bus/wmi_bus-PNP0C14:02/PNP0C14:02-9DBB5994-A997-11DA-B012-B622A1EF5492/input/input20
+[   12.431214] iwlwifi 0000:02:00.0: loaded firmware version 36.ad812ee0.0 8000C-36.ucode op_mode iwlmvm
+[   12.440429] iTCO_wdt: Intel TCO WatchDog Timer Driver v1.11
+[   12.440523] iTCO_wdt: Found a Intel PCH TCO device (Version=4, TCOBASE=0x0400)
+[   12.441274] mousedev: PS/2 mouse device common for all mice
+[   12.441505] iTCO_wdt: initialized. heartbeat=30 sec (nowayout=0)
+[   12.447390] ee1004 1-0050: 512 byte EE1004-compliant SPD EEPROM, read-only
+[   12.621451] usb 1-4: USB disconnect, device number 2
+[   12.653866] dell_laptop: Using i8042 filter function for receiving events
+[   12.743451] iwlwifi 0000:02:00.0: Detected Intel(R) Dual Band Wireless AC 8260, REV=0x208
+[   12.818261] iwlwifi 0000:02:00.0: base HW address: 14:ab:c5:44:f0:84
+[   12.891239] ieee80211 phy0: Selected rate control algorithm 'iwl-mvm-rs'
+[   12.891931] thermal thermal_zone11: failed to read out thermal zone (-61)
+[   12.895101] iwlwifi 0000:02:00.0 wlp2s0: renamed from wlan0
+[   13.007559] loop: module loaded
+[   13.037577] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[   13.045972] psmouse serio1: synaptics: Unable to query device: -5
+[   13.159967] Bluetooth: Core ver 2.22
+[   13.160029] NET: Registered protocol family 31
+[   13.160030] Bluetooth: HCI device and connection manager initialized
+[   13.160033] Bluetooth: HCI socket layer initialized
+[   13.160035] Bluetooth: L2CAP socket layer initialized
+[   13.160038] Bluetooth: SCO socket layer initialized
+[   13.173430] usbcore: registered new interface driver btusb
+[   13.500054] [drm] Initialized i915 1.6.0 20200715 for 0000:00:02.0 on minor 1
+[   13.502381] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[   13.503396] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input21
+[   13.503500] ACPI: Video Device [PEGP] (multi-head: no  rom: yes  post: no)
+[   13.503541] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0a/LNXVIDEO:01/input/input22
+[   13.503804] snd_hda_intel 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[   13.527981] fbcon: i915drmfb (fb0) is primary device
+[   13.527983] fbcon: Deferring console take-over
+[   13.527986] i915 0000:00:02.0: [drm] fb0: i915drmfb frame buffer device
+[   13.570717] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input23
+[   13.570800] input: HDA Intel PCH HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input24
+[   13.570875] input: HDA Intel PCH HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input25
+[   13.570969] input: HDA Intel PCH HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input26
+[   13.571054] input: HDA Intel PCH HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1f.3/sound/card0/input27
+[   14.286067] nvidia 0000:01:00.0: Enabling HDA controller
+[   15.939383] nvidia 0000:01:00.0: Enabling HDA controller
+[   17.097876] kauditd_printk_skb: 127 callbacks suppressed
+[   17.097879] audit: type=1130 audit(1607931095.981:144): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=updatedb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   17.098035] audit: type=1131 audit(1607931095.981:145): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=updatedb comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   17.277963] audit: type=1130 audit(1607931096.161:146): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=man-db comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   17.277966] audit: type=1131 audit(1607931096.161:147): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=man-db comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   17.829449] nvidia 0000:01:00.0: Enabling HDA controller
+[   17.881876] ACPI Warning: \_SB.PCI0.PEG0.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20200717/nsarguments-59)
+[   17.901428] audit: type=1131 audit(1607931096.784:148): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   18.103472] audit: type=1131 audit(1607931096.988:149): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=snapd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   18.268124] audit: type=1130 audit(1607931097.151:150): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-wait-online comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   18.456182] audit: type=1130 audit(1607931097.341:151): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=pkgfile-update comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+[   18.552678] input: PS/2 Synaptics TouchPad as /devices/platform/i8042/serio1/input/input15
+[   18.756000] psmouse serio1: Failed to enable mouse on isa0060/serio1
+[   19.549140] audit: type=1103 audit(1607931098.431:152): pid=1931 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:setcred grantors=pam_env,pam_permit acct="lightdm" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   19.569546] audit: type=1130 audit(1607931098.454:153): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=user-runtime-dir@971 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   20.204193] fuse: init (API version 7.31)
+[   23.015195] kauditd_printk_skb: 11 callbacks suppressed
+[   23.015199] audit: type=1131 audit(1607931101.898:165): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   25.893341] audit: type=1100 audit(1607931104.778:166): pid=1995 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:authentication grantors=pam_shells,pam_faillock,pam_permit,pam_faillock,pam_gnome_keyring acct="max" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   25.896400] audit: type=1101 audit(1607931104.781:167): pid=1995 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:accounting grantors=pam_access,pam_permit,pam_time acct="max" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   26.019677] audit: type=1106 audit(1607931104.904:168): pid=1931 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:session_close grantors=pam_unix,pam_systemd acct="lightdm" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   26.019789] audit: type=1104 audit(1607931104.904:169): pid=1931 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:setcred grantors=pam_env,pam_permit acct="lightdm" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   26.025333] audit: type=1103 audit(1607931104.908:170): pid=1995 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:setcred grantors=pam_shells,pam_faillock,pam_permit,pam_faillock,pam_gnome_keyring acct="max" exe="/usr/bin/lightdm" hostname=? addr=? terminal=:0 res=success'
+[   26.025475] audit: type=1006 audit(1607931104.908:171): pid=1995 uid=0 subj==unconfined old-auid=4294967295 auid=1000 tty=(none) old-ses=4294967295 ses=2 res=1
+[   26.057584] audit: type=1130 audit(1607931104.941:172): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=user-runtime-dir@1000 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   26.064880] audit: type=1101 audit(1607931104.948:173): pid=2006 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:accounting grantors=pam_access,pam_permit,pam_time acct="max" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   26.064895] audit: type=1103 audit(1607931104.948:174): pid=2006 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=PAM:setcred grantors=? acct="max" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+[   27.140992] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   27.140993] Bluetooth: BNEP filters: protocol multicast
+[   27.140996] Bluetooth: BNEP socket layer initialized
+[   28.048670] kauditd_printk_skb: 10 callbacks suppressed
+[   28.048671] audit: type=1130 audit(1607931106.931:185): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   36.305472] audit: type=1131 audit(1607931115.188:186): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=user@971 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   36.320974] audit: type=1131 audit(1607931115.204:187): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=user-runtime-dir@971 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   41.583661] audit: type=1111 audit(1607931120.468:188): pid=586 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='op=connection-activate uuid=8fd44cda-0074-4124-946b-d26ceef9c062 name="GhostOpenWrt" pid=2038 uid=1000 result=success exe="/usr/bin/NetworkManager" hostname=? addr=? terminal=? res=success'
+[   41.609209] audit: type=1130 audit(1607931120.491:189): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   52.014637] audit: type=1131 audit(1607931130.898:190): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   57.178145] audit: type=1131 audit(1607931136.061:191): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   57.352746] audit: type=1334 audit(1607931136.238:192): prog-id=12 op=UNLOAD
+[   57.352753] audit: type=1334 audit(1607931136.238:193): prog-id=11 op=UNLOAD
+[   58.091733] audit: type=1131 audit(1607931136.974:194): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   70.106487] wlp2s0: authenticate with 98:da:c4:bf:99:a5
+[   70.114786] wlp2s0: send auth to 98:da:c4:bf:99:a5 (try 1/3)
+[   70.126503] wlp2s0: authenticated
+[   70.129389] wlp2s0: associate with 98:da:c4:bf:99:a5 (try 1/3)
+[   70.133521] wlp2s0: RX AssocResp from 98:da:c4:bf:99:a5 (capab=0x431 status=0 aid=1)
+[   70.139230] wlp2s0: associated
+[   70.227704] audit: type=1130 audit(1607931149.111:195): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[   80.011131] audit: type=1131 audit(1607931158.894:196): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  357.217986] audit: type=1100 audit(1607931436.104:197): pid=3948 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  357.219805] audit: type=1101 audit(1607931436.104:198): pid=3948 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  357.220102] audit: type=1110 audit(1607931436.104:199): pid=3948 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  357.223425] audit: type=1105 audit(1607931436.108:200): pid=3948 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  365.753258] audit: type=1106 audit(1607931444.638:201): pid=3948 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  365.753327] audit: type=1104 audit(1607931444.638:202): pid=3948 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  396.953856] audit: type=1101 audit(1607931475.838:203): pid=4005 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  396.954428] audit: type=1110 audit(1607931475.838:204): pid=4005 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  396.961153] audit: type=1105 audit(1607931475.844:205): pid=4005 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  396.998558] audit: type=1106 audit(1607931475.881:206): pid=4005 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  396.998646] audit: type=1104 audit(1607931475.881:207): pid=4005 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  511.099207] audit: type=1101 audit(1607931589.981:208): pid=4187 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  511.100021] audit: type=1110 audit(1607931589.984:209): pid=4187 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  511.109677] audit: type=1105 audit(1607931589.994:210): pid=4187 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  585.451647] audit: type=1106 audit(1607931664.334:211): pid=4187 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  585.451748] audit: type=1104 audit(1607931664.334:212): pid=4187 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  588.724831] audit: type=1101 audit(1607931667.608:213): pid=4337 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  588.725030] audit: type=1110 audit(1607931667.608:214): pid=4337 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  588.726941] audit: type=1105 audit(1607931667.611:215): pid=4337 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  597.157771] audit: type=1106 audit(1607931676.041:216): pid=4337 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  597.157838] audit: type=1104 audit(1607931676.041:217): pid=4337 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  612.552932] audit: type=1101 audit(1607931691.438:218): pid=4394 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  612.553076] audit: type=1110 audit(1607931691.438:219): pid=4394 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  612.554734] audit: type=1105 audit(1607931691.438:220): pid=4394 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.452704] audit: type=1106 audit(1607931749.338:221): pid=4394 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.452769] audit: type=1104 audit(1607931749.338:222): pid=4394 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.459624] audit: type=1101 audit(1607931749.344:223): pid=4529 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.459832] audit: type=1110 audit(1607931749.344:224): pid=4529 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.461636] audit: type=1105 audit(1607931749.344:225): pid=4529 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.468236] audit: type=1106 audit(1607931749.351:226): pid=4529 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  670.468304] audit: type=1104 audit(1607931749.351:227): pid=4529 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[  904.161926] audit: type=1130 audit(1607931983.044:228): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  904.161930] audit: type=1131 audit(1607931983.044:229): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-tmpfiles-clean comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 1077.896227] audit: type=1100 audit(1607932156.781:230): pid=5788 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1077.898256] audit: type=1101 audit(1607932156.781:231): pid=5788 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1077.898433] audit: type=1110 audit(1607932156.781:232): pid=5788 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1077.900318] audit: type=1105 audit(1607932156.784:233): pid=5788 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1079.269873] audit: type=1106 audit(1607932158.154:234): pid=5788 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1079.269938] audit: type=1104 audit(1607932158.154:235): pid=5788 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1092.094183] audit: type=1101 audit(1607932170.978:236): pid=5828 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1092.095037] audit: type=1110 audit(1607932170.978:237): pid=5828 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1092.102415] audit: type=1105 audit(1607932170.984:238): pid=5828 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.858834] audit: type=1106 audit(1607932175.741:239): pid=5828 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.858892] audit: type=1104 audit(1607932175.741:240): pid=5828 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.866348] audit: type=1101 audit(1607932175.751:241): pid=5861 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.866536] audit: type=1110 audit(1607932175.751:242): pid=5861 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.868375] audit: type=1105 audit(1607932175.751:243): pid=5861 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.875534] audit: type=1106 audit(1607932175.758:244): pid=5861 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 1096.875598] audit: type=1104 audit(1607932175.758:245): pid=5861 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 2471.413483] audit: type=1100 audit(1607933550.298:246): pid=9691 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 2471.414423] audit: type=1101 audit(1607933550.298:247): pid=9691 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 2471.414571] audit: type=1110 audit(1607933550.298:248): pid=9691 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 2471.416255] audit: type=1105 audit(1607933550.301:249): pid=9691 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 2471.446565] audit: type=1106 audit(1607933550.331:250): pid=9691 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 2471.446638] audit: type=1104 audit(1607933550.331:251): pid=9691 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[ 3219.956375] audit: type=1100 audit(1607934298.841:252): pid=15058 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3219.958657] audit: type=1101 audit(1607934298.841:253): pid=15058 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3219.958808] audit: type=1110 audit(1607934298.841:254): pid=15058 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3219.960499] audit: type=1105 audit(1607934298.844:255): pid=15058 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3286.411937] audit: type=1106 audit(1607934365.294:256): pid=15058 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3286.412152] audit: type=1104 audit(1607934365.294:257): pid=15058 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3291.318272] audit: type=1101 audit(1607934370.201:258): pid=15135 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3291.318438] audit: type=1110 audit(1607934370.201:259): pid=15135 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3291.320124] audit: type=1105 audit(1607934370.204:260): pid=15135 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3321.164273] audit: type=1130 audit(1607934400.048:261): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=udisks2 comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 3321.477085] audit: type=1334 audit(1607934400.361:262): prog-id=17 op=LOAD
+[ 3321.477142] audit: type=1334 audit(1607934400.361:263): prog-id=18 op=LOAD
+[ 3321.738306] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+[ 3322.044651] audit: type=1130 audit(1607934400.928:264): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 3352.094664] audit: type=1131 audit(1607934430.978:265): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[ 3352.270877] audit: type=1334 audit(1607934431.154:266): prog-id=18 op=UNLOAD
+[ 3352.270879] audit: type=1334 audit(1607934431.154:267): prog-id=17 op=UNLOAD
+[ 3416.374482] audit: type=1106 audit(1607934495.258:268): pid=15135 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3416.374727] audit: type=1104 audit(1607934495.258:269): pid=15135 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3418.475291] audit: type=1101 audit(1607934497.358:270): pid=15881 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3418.475448] audit: type=1110 audit(1607934497.358:271): pid=15881 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3418.477106] audit: type=1105 audit(1607934497.361:272): pid=15881 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3423.291334] audit: type=1106 audit(1607934502.174:273): pid=15881 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3423.291564] audit: type=1104 audit(1607934502.174:274): pid=15881 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3436.296367] audit: type=1101 audit(1607934515.181:275): pid=15906 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3436.296969] audit: type=1110 audit(1607934515.181:276): pid=15906 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3436.300536] audit: type=1105 audit(1607934515.184:277): pid=15906 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3442.986875] audit: type=1106 audit(1607934521.871:278): pid=15906 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3442.987081] audit: type=1104 audit(1607934521.871:279): pid=15906 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3444.330206] audit: type=1101 audit(1607934523.214:280): pid=15918 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3444.330585] audit: type=1110 audit(1607934523.214:281): pid=15918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3444.332442] audit: type=1105 audit(1607934523.218:282): pid=15918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3475.386400] audit: type=1106 audit(1607934554.271:283): pid=15918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3475.386620] audit: type=1104 audit(1607934554.271:284): pid=15918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3477.291153] audit: type=1101 audit(1607934556.174:285): pid=15955 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3477.291313] audit: type=1110 audit(1607934556.174:286): pid=15955 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3477.292939] audit: type=1105 audit(1607934556.178:287): pid=15955 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3481.578024] audit: type=1106 audit(1607934560.461:288): pid=15955 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3481.578245] audit: type=1104 audit(1607934560.461:289): pid=15955 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3484.567261] audit: type=1101 audit(1607934563.451:290): pid=15965 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3484.567416] audit: type=1110 audit(1607934563.451:291): pid=15965 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3484.569034] audit: type=1105 audit(1607934563.454:292): pid=15965 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3489.380748] audit: type=1106 audit(1607934568.264:293): pid=15965 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3489.380923] audit: type=1104 audit(1607934568.264:294): pid=15965 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3491.248345] audit: type=1101 audit(1607934570.131:295): pid=15971 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3491.248509] audit: type=1110 audit(1607934570.131:296): pid=15971 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3491.250189] audit: type=1105 audit(1607934570.134:297): pid=15971 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3508.376139] audit: type=1106 audit(1607934587.261:298): pid=15971 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3508.376364] audit: type=1104 audit(1607934587.261:299): pid=15971 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3514.519260] audit: type=1101 audit(1607934593.404:300): pid=15995 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3514.519487] audit: type=1110 audit(1607934593.404:301): pid=15995 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3514.521349] audit: type=1105 audit(1607934593.404:302): pid=15995 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3519.180991] audit: type=1106 audit(1607934598.064:303): pid=15995 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3519.181228] audit: type=1104 audit(1607934598.064:304): pid=15995 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3521.495101] audit: type=1101 audit(1607934600.378:305): pid=16004 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3521.495758] audit: type=1110 audit(1607934600.381:306): pid=16004 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3521.500248] audit: type=1105 audit(1607934600.384:307): pid=16004 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3524.709246] audit: type=1106 audit(1607934603.594:308): pid=16004 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 3524.709482] audit: type=1104 audit(1607934603.594:309): pid=16004 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[ 8997.988162] audit: type=1100 audit(1607940076.874:310): pid=21673 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:unix_chkpwd acct="max" exe="/usr/bin/unix_chkpwd" hostname=? addr=? terminal=? res=success'
+[10032.606971] audit: type=1100 audit(1607941111.491:311): pid=22918 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=? acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=failed'
+[10038.627628] audit: type=1100 audit(1607941117.511:312): pid=22918 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10038.627929] audit: type=1101 audit(1607941117.511:313): pid=22918 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10038.628479] audit: type=1110 audit(1607941117.514:314): pid=22918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10038.634854] audit: type=1105 audit(1607941117.521:315): pid=22918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10038.673785] audit: type=1106 audit(1607941117.557:316): pid=22918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10038.673872] audit: type=1104 audit(1607941117.557:317): pid=22918 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[10385.053366] audit: type=1100 audit(1607941463.937:318): pid=23349 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[10385.054558] audit: type=1101 audit(1607941463.941:319): pid=23349 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[10385.054747] audit: type=1110 audit(1607941463.941:320): pid=23349 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[10385.056397] audit: type=1105 audit(1607941463.941:321): pid=23349 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[10389.150024] tun: Universal TUN/TAP device driver, 1.6
+[10389.186820] audit: type=1130 audit(1607941468.071:322): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[10390.712033] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=40.70.161.102 DST=10.211.1.65 LEN=83 TOS=0x00 PREC=0x00 TTL=128 ID=52697 PROTO=TCP SPT=443 DPT=49927 WINDOW=33 RES=0x00 ACK PSH URGP=0 
+[10399.015420] audit: type=1131 audit(1607941477.901:323): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[10402.206540] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=40.70.161.102 DST=10.211.1.65 LEN=83 TOS=0x00 PREC=0x00 TTL=128 ID=34865 PROTO=TCP SPT=443 DPT=49927 WINDOW=33 RES=0x00 ACK PSH FIN URGP=0 
+[10402.826400] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=52.139.172.218 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=38158 PROTO=TCP SPT=443 DPT=42379 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10405.566643] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=8.8.8.8 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50253 PROTO=TCP SPT=443 DPT=58453 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10406.657937] audit: type=1100 audit(1607941485.544:324): pid=23420 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10406.660930] audit: type=1101 audit(1607941485.544:325): pid=23420 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10406.661579] audit: type=1110 audit(1607941485.547:326): pid=23420 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10406.668447] audit: type=1105 audit(1607941485.554:327): pid=23420 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10407.303106] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=108.177.97.188 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=56932 PROTO=TCP SPT=5228 DPT=53796 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10407.843144] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=157.240.209.16 DST=10.211.1.65 LEN=76 TOS=0x00 PREC=0x00 TTL=128 ID=59447 PROTO=TCP SPT=443 DPT=59762 WINDOW=731 RES=0x00 ACK PSH URGP=0 
+[10407.843189] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=157.240.209.16 DST=10.211.1.65 LEN=52 TOS=0x00 PREC=0x00 TTL=128 ID=59448 PROTO=TCP SPT=443 DPT=59762 WINDOW=731 RES=0x00 ACK RST URGP=0 
+[10408.605164] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=34.107.221.82 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=63417 PROTO=TCP SPT=80 DPT=33502 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10408.606216] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=34.107.221.82 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=63422 PROTO=TCP SPT=80 DPT=33504 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10409.430918] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.220.138 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=1304 PROTO=TCP SPT=443 DPT=54160 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10415.816576] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.195 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=28711 PROTO=TCP SPT=443 DPT=38334 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10417.844244] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=157.240.209.16 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=38954 PROTO=TCP SPT=443 DPT=59762 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10447.521882] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=113 TOS=0x00 PREC=0x00 TTL=121 ID=27147 PROTO=TCP SPT=443 DPT=60114 WINDOW=268 RES=0x00 ACK PSH FIN URGP=0 
+[10451.745257] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=93.126.115.182 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=52990 PROTO=TCP SPT=443 DPT=49582 WINDOW=0 RES=0x00 RST URGP=0 
+[10462.260080] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=93.126.115.182 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=23002 PROTO=TCP SPT=443 DPT=49582 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10468.863272] audit: type=1106 audit(1607941547.747:328): pid=23420 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10468.863336] audit: type=1104 audit(1607941547.747:329): pid=23420 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/4 res=success'
+[10487.542306] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=56405 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10487.771300] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=56537 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10488.005424] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=56638 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10488.459225] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=56877 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10489.370776] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=57510 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10491.226863] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=58260 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH URGP=0 
+[10492.541944] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=108 TOS=0x00 PREC=0x00 TTL=121 ID=58893 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH FIN URGP=0 
+[10502.299805] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=63852 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH FIN URGP=0 
+[10521.653294] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=36594 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH URGP=0 
+[10521.881412] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=36694 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH URGP=0 
+[10522.112920] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=36833 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH URGP=0 
+[10522.568916] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=37238 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH URGP=0 
+[10523.520893] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=38083 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH URGP=0 
+[10526.649369] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=108 TOS=0x00 PREC=0x00 TTL=121 ID=40376 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH FIN URGP=0 
+[10527.781761] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.20.5 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=12008 PROTO=TCP SPT=443 DPT=60802 WINDOW=433 RES=0x00 ACK PSH URGP=0 
+[10546.331671] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.186.227.140 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=21210 PROTO=TCP SPT=443 DPT=47488 WINDOW=719 RES=0x00 ACK PSH FIN URGP=0 
+[10580.609963] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.18.67 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=5190 PROTO=TCP SPT=443 DPT=53832 WINDOW=271 RES=0x00 ACK PSH FIN URGP=0 
+[10585.800991] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=172.217.20.5 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=46968 PROTO=TCP SPT=443 DPT=60802 WINDOW=433 RES=0x00 ACK PSH FIN URGP=0 
+[10616.728416] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=41598 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH URGP=0 
+[10616.952483] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=41641 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH URGP=0 
+[10617.177243] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=41722 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH URGP=0 
+[10617.625216] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=125 TOS=0x00 PREC=0x00 TTL=121 ID=41930 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH URGP=0 
+[10623.904985] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=45279 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH FIN URGP=0 
+[10645.472775] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=35.241.23.245 DST=192.168.1.106 LEN=181 TOS=0x00 PREC=0x00 TTL=121 ID=56304 PROTO=TCP SPT=443 DPT=60112 WINDOW=281 RES=0x00 ACK PSH FIN URGP=0 
+[10653.191426] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=34.216.200.139 DST=192.168.1.106 LEN=83 TOS=0x08 PREC=0x20 TTL=215 ID=63721 DF PROTO=TCP SPT=443 DPT=53914 WINDOW=118 RES=0x00 ACK PSH URGP=0 
+[10653.620862] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=34.216.200.139 DST=192.168.1.106 LEN=83 TOS=0x08 PREC=0x20 TTL=215 ID=63722 DF PROTO=TCP SPT=443 DPT=53914 WINDOW=118 RES=0x00 ACK PSH URGP=0 
+[10666.581540] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=34.216.200.139 DST=192.168.1.106 LEN=145 TOS=0x08 PREC=0x20 TTL=215 ID=63728 DF PROTO=TCP SPT=443 DPT=53914 WINDOW=118 RES=0x00 ACK PSH FIN URGP=0 
+[10679.893449] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=34.216.200.139 DST=192.168.1.106 LEN=145 TOS=0x08 PREC=0x20 TTL=215 ID=63729 DF PROTO=TCP SPT=443 DPT=53914 WINDOW=118 RES=0x00 ACK PSH FIN URGP=0 
+[10699.547220] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=172.217.20.1 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=29124 PROTO=TCP SPT=443 DPT=42706 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10707.541303] [UFW BLOCK] IN=wlp2s0 OUT= MAC=14:ab:c5:44:f0:84:98:da:c4:bf:99:a5:08:00 SRC=34.216.200.139 DST=192.168.1.106 LEN=145 TOS=0x08 PREC=0x20 TTL=215 ID=63730 DF PROTO=TCP SPT=443 DPT=53914 WINDOW=118 RES=0x00 ACK PSH FIN URGP=0 
+[10840.541136] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=172.217.16.106 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=42323 PROTO=TCP SPT=443 DPT=35998 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10864.583496] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=34.208.142.164 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=9751 PROTO=TCP SPT=443 DPT=42928 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10898.609409] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=25832 PROTO=TCP SPT=443 DPT=60618 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10898.826135] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=26774 PROTO=TCP SPT=443 DPT=60620 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10899.079172] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=27800 PROTO=TCP SPT=443 DPT=60622 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10899.352594] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=28769 PROTO=TCP SPT=443 DPT=60624 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10899.610457] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=29659 PROTO=TCP SPT=443 DPT=60626 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10902.006548] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.228 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=37851 PROTO=TCP SPT=443 DPT=60630 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10904.347889] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=172.217.18.66 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=44283 PROTO=TCP SPT=443 DPT=36110 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[10908.030356] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=216.58.214.227 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=56284 PROTO=TCP SPT=443 DPT=49930 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11302.755990] audit: type=1100 audit(1607942381.641:330): pid=26213 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11302.757824] audit: type=1101 audit(1607942381.644:331): pid=26213 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11302.757977] audit: type=1110 audit(1607942381.644:332): pid=26213 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11302.759566] audit: type=1105 audit(1607942381.644:333): pid=26213 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11302.839797] audit: type=1106 audit(1607942381.724:334): pid=26213 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11302.839875] audit: type=1104 audit(1607942381.724:335): pid=26213 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11306.738453] audit: type=1101 audit(1607942385.624:336): pid=26226 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11306.738620] audit: type=1110 audit(1607942385.624:337): pid=26226 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11306.739467] audit: type=1101 audit(1607942385.624:338): pid=26225 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11306.739625] audit: type=1110 audit(1607942385.624:339): pid=26225 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11312.691286] kauditd_printk_skb: 4 callbacks suppressed
+[11312.691288] audit: type=1106 audit(1607942391.577:344): pid=26226 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11312.691291] audit: type=1104 audit(1607942391.577:345): pid=26226 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11330.001798] audit: type=1101 audit(1607942408.887:346): pid=26262 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11330.001961] audit: type=1110 audit(1607942408.887:347): pid=26262 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11330.003661] audit: type=1105 audit(1607942408.887:348): pid=26262 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11382.545843] audit: type=1106 audit(1607942461.431:349): pid=26262 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11382.545907] audit: type=1104 audit(1607942461.431:350): pid=26262 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/1 res=success'
+[11385.311203] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.50 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50289 PROTO=TCP SPT=443 DPT=37262 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.311247] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.50 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50290 PROTO=TCP SPT=443 DPT=37674 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.311280] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.51 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50291 PROTO=TCP SPT=443 DPT=49548 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.311309] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.50 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50292 PROTO=TCP SPT=80 DPT=43076 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.311336] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.51 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=50293 PROTO=TCP SPT=80 DPT=49128 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.897590] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=93.126.115.182 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=51521 PROTO=TCP SPT=443 DPT=50054 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.978419] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.51 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=51699 PROTO=TCP SPT=80 DPT=49136 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11385.979758] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.50 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=51700 PROTO=TCP SPT=80 DPT=43084 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11386.370974] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=52.25.31.211 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=52337 PROTO=TCP SPT=443 DPT=44978 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11386.371084] [UFW BLOCK] IN=tun0 OUT= MAC= SRC=149.154.167.51 DST=10.211.1.65 LEN=40 TOS=0x00 PREC=0x00 TTL=128 ID=52338 PROTO=TCP SPT=443 DPT=49556 WINDOW=0 RES=0x00 ACK RST URGP=0 
+[11387.720622] audit: type=1130 audit(1607942466.604:351): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[11387.725819] audit: type=1106 audit(1607942466.611:352): pid=23349 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[11387.725883] audit: type=1104 audit(1607942466.611:353): pid=23349 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[11398.015671] audit: type=1131 audit(1607942476.901:354): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[11487.669057] audit: type=1100 audit(1607942566.554:355): pid=26605 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11487.672067] audit: type=1101 audit(1607942566.557:356): pid=26605 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11487.672624] audit: type=1110 audit(1607942566.557:357): pid=26605 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11487.678960] audit: type=1105 audit(1607942566.564:358): pid=26605 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.695460] audit: type=1106 audit(1607942568.581:359): pid=26605 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.695534] audit: type=1104 audit(1607942568.581:360): pid=26605 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.702667] audit: type=1101 audit(1607942568.587:361): pid=26693 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.702903] audit: type=1110 audit(1607942568.587:362): pid=26693 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.705228] audit: type=1105 audit(1607942568.591:363): pid=26693 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11489.712438] audit: type=1106 audit(1607942568.597:364): pid=26693 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11495.679712] kauditd_printk_skb: 1 callbacks suppressed
+[11495.679714] audit: type=1101 audit(1607942574.564:366): pid=29923 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11495.679887] audit: type=1110 audit(1607942574.564:367): pid=29923 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11495.681758] audit: type=1105 audit(1607942574.567:368): pid=29923 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11495.795550] audit: type=1106 audit(1607942574.681:369): pid=29923 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11495.795642] audit: type=1104 audit(1607942574.681:370): pid=29923 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_env,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/5 res=success'
+[11573.983290] audit: type=1334 audit(1607942652.867:371): prog-id=19 op=LOAD
+[11573.983349] audit: type=1334 audit(1607942652.867:372): prog-id=20 op=LOAD
+[11574.312709] audit: type=1130 audit(1607942653.197:373): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[11604.364057] audit: type=1131 audit(1607942683.247:374): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-hostnamed comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[11604.510977] audit: type=1334 audit(1607942683.394:375): prog-id=20 op=UNLOAD
+[11604.510981] audit: type=1334 audit(1607942683.394:376): prog-id=19 op=UNLOAD
+[15437.122646] audit: type=1130 audit(1607946516.007:377): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[15437.149651] audit: type=1130 audit(1607946516.034:378): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[15437.413847] usb 1-4: new full-speed USB device number 5 using xhci_hcd
+[15437.557984] usb 1-4: New USB device found, idVendor=8087, idProduct=0a2b, bcdDevice= 0.01
+[15437.557986] usb 1-4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[15437.558057] usb 1-4: Device is not authorized for usage
+[15437.559844] usb 1-4: authorized to connect
+[15437.560747] Bluetooth: hci0: Bootloader revision 0.0 build 2 week 52 2014
+[15437.567796] Bluetooth: hci0: Device revision is 5
+[15437.567798] Bluetooth: hci0: Secure boot is enabled
+[15437.567798] Bluetooth: hci0: OTP lock is enabled
+[15437.567799] Bluetooth: hci0: API lock is enabled
+[15437.567799] Bluetooth: hci0: Debug lock is disabled
+[15437.567800] Bluetooth: hci0: Minimum firmware build 1 week 10 2014
+[15437.573912] Bluetooth: hci0: Found device firmware: intel/ibt-11-5.sfi
+[15439.073466] Bluetooth: hci0: Waiting for firmware download to complete
+[15439.073776] Bluetooth: hci0: Firmware loaded in 1478472 usecs
+[15439.073787] Bluetooth: hci0: Waiting for device to boot
+[15439.084756] Bluetooth: hci0: Device booted in 10721 usecs
+[15439.087494] Bluetooth: hci0: Found Intel DDC parameters: intel/ibt-11-5.ddc
+[15439.090776] Bluetooth: hci0: Applying Intel DDC parameters completed
+[15439.091764] Bluetooth: hci0: Reading supported features failed (-16)
+[15439.091765] Bluetooth: hci0: Telemetry exception format not supported
+[15439.092772] Bluetooth: hci0: Firmware revision 0.0 build 10 week 41 2018
+[15439.144678] NET: Registered protocol family 38
+[15439.165640] Bluetooth: RFCOMM TTY layer initialized
+[15439.165645] Bluetooth: RFCOMM socket layer initialized
+[15439.165649] Bluetooth: RFCOMM ver 1.11
+[15443.131014] audit: type=1131 audit(1607946522.017:379): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[15467.148882] audit: type=1131 audit(1607946546.034:380): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[15482.137818] input: JBL Charge 3 (AVRCP) as /devices/virtual/input/input28
+[16227.096786] audit: type=1130 audit(1607947305.981:381): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[16227.125103] audit: type=1130 audit(1607947306.011:382): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[16227.220490] usb 1-4: USB disconnect, device number 5
+[16229.270372] Bluetooth: hci0: command 0x0c03 tx timeout
+[16229.928452] Bluetooth: hci0: HCI reset during shutdown failed
+[16234.971114] audit: type=1131 audit(1607947313.857:383): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-rfkill comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[16259.004693] audit: type=1131 audit(1607947337.891:384): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=blueman-mechanism comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[21670.282670] audit: type=1130 audit(1607952749.167:385): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[21681.015841] audit: type=1131 audit(1607952759.900:386): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=NetworkManager-dispatcher comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[24150.597542] audit: type=1100 audit(1607955229.484:387): pid=44457 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:unix_chkpwd acct="max" exe="/usr/bin/unix_chkpwd" hostname=? addr=? terminal=? res=success'
+[24683.781741] audit: type=1100 audit(1607955762.667:388): pid=44988 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[24683.784662] audit: type=1101 audit(1607955762.670:389): pid=44988 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[24683.785289] audit: type=1110 audit(1607955762.670:390): pid=44988 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[24683.787080] audit: type=1105 audit(1607955762.674:391): pid=44988 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[24683.799010] audit: type=1106 audit(1607955762.684:392): pid=44988 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_close grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[24683.799090] audit: type=1104 audit(1607955762.684:393): pid=44988 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[26069.292206] audit: type=1100 audit(1607957148.177:394): pid=46737 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:authentication grantors=pam_faillock,pam_permit,pam_faillock acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[26069.293234] audit: type=1101 audit(1607957148.180:395): pid=46737 uid=1000 auid=1000 ses=2 subj==unconfined msg='op=PAM:accounting grantors=pam_permit,pam_time acct="max" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[26069.293450] audit: type=1110 audit(1607957148.180:396): pid=46737 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:setcred grantors=pam_faillock,pam_permit,pam_faillock acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'
+[26069.295084] audit: type=1105 audit(1607957148.180:397): pid=46737 uid=0 auid=1000 ses=2 subj==unconfined msg='op=PAM:session_open grantors=pam_limits,pam_unix,pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/3 res=success'

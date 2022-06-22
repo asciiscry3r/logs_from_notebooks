@@ -1,0 +1,1307 @@
+[   63.541385]  do_softirq.part.0+0x7b/0xa0
+[   63.541394]  </IRQ>
+[   63.541395]  <TASK>
+[   63.541397]  __local_bh_enable_ip+0x5a/0x70
+[   63.541402]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.541410]  ? disable_irq_nosync+0x10/0x10
+[   63.541418]  irq_thread_fn+0x20/0x60
+[   63.541423]  irq_thread+0xd6/0x1a0
+[   63.541427]  ? irq_thread_fn+0x60/0x60
+[   63.541432]  ? irq_thread_check_affinity+0xe0/0xe0
+[   63.541436]  kthread+0x15c/0x180
+[   63.541443]  ? set_kthread_struct+0x50/0x50
+[   63.541448]  ret_from_fork+0x22/0x30
+[   63.541458]  </TASK>
+[   63.541460] ---[ end trace debde65fa1d05fec ]---
+[   63.557908] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   63.642845] ------------[ cut here ]------------
+[   63.642852] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.642932] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   63.643017]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   63.643087] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   63.643093] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   63.643096] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.643158] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   63.643162] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   63.643166] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bd628
+[   63.643169] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   63.643171] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   63.643173] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   63.643176] R13: ffff8ba72566c000 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   63.643179] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   63.643182] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   63.643185] CR2: 00007f7764b07000 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   63.643188] Call Trace:
+[   63.643193]  <IRQ>
+[   63.643199]  ? __kmalloc+0x18c/0x360
+[   63.643212]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.643277]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.643339]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.643414]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.643479]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.643553]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.643619]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.643631]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.643639]  __napi_poll+0x2c/0x170
+[   63.643648]  net_rx_action+0x265/0x320
+[   63.643654]  __do_softirq+0xd0/0x2ca
+[   63.643662]  do_softirq.part.0+0x7b/0xa0
+[   63.643671]  </IRQ>
+[   63.643673]  <TASK>
+[   63.643675]  __local_bh_enable_ip+0x5a/0x70
+[   63.643680]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.643688]  ? disable_irq_nosync+0x10/0x10
+[   63.643695]  irq_thread_fn+0x20/0x60
+[   63.643700]  irq_thread+0xd6/0x1a0
+[   63.643705]  ? irq_thread_fn+0x60/0x60
+[   63.643710]  ? irq_thread_check_affinity+0xe0/0xe0
+[   63.643714]  kthread+0x15c/0x180
+[   63.643721]  ? set_kthread_struct+0x50/0x50
+[   63.643726]  ret_from_fork+0x22/0x30
+[   63.643736]  </TASK>
+[   63.643738] ---[ end trace debde65fa1d05fed ]---
+[   63.847668] ------------[ cut here ]------------
+[   63.847675] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.847755] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   63.847866]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   63.847935] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   63.847942] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   63.847945] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.848007] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   63.848010] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   63.848014] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6dcffd028
+[   63.848017] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   63.848019] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   63.848021] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   63.848024] R13: ffff8ba72566f400 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   63.848027] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   63.848030] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   63.848032] CR2: 00007f7764b07000 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   63.848036] Call Trace:
+[   63.848041]  <IRQ>
+[   63.848047]  ? __kmalloc+0x18c/0x360
+[   63.848060]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.848125]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.848187]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.848260]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.848325]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.848400]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.848467]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.848479]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.848486]  __napi_poll+0x2c/0x170
+[   63.848496]  net_rx_action+0x265/0x320
+[   63.848502]  __do_softirq+0xd0/0x2ca
+[   63.848509]  do_softirq.part.0+0x7b/0xa0
+[   63.848519]  </IRQ>
+[   63.848520]  <TASK>
+[   63.848522]  __local_bh_enable_ip+0x5a/0x70
+[   63.848527]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.848535]  ? disable_irq_nosync+0x10/0x10
+[   63.848543]  irq_thread_fn+0x20/0x60
+[   63.848548]  irq_thread+0xd6/0x1a0
+[   63.848552]  ? irq_thread_fn+0x60/0x60
+[   63.848557]  ? irq_thread_check_affinity+0xe0/0xe0
+[   63.848561]  kthread+0x15c/0x180
+[   63.848568]  ? set_kthread_struct+0x50/0x50
+[   63.848573]  ret_from_fork+0x22/0x30
+[   63.848583]  </TASK>
+[   63.848584] ---[ end trace debde65fa1d05fee ]---
+[   63.950163] ------------[ cut here ]------------
+[   63.950171] WARNING: CPU: 1 PID: 25 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.950250] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   63.950335]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   63.950404] CPU: 1 PID: 25 Comm: ksoftirqd/1 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   63.950411] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   63.950414] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   63.950476] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   63.950479] RSP: 0018:ffff9bdf802378c8 EFLAGS: 00010246
+[   63.950483] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6dcffd028
+[   63.950486] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   63.950489] RBP: ffff9bdf80237960 R08: 0000000000000000 R09: 0000000000000000
+[   63.950491] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   63.950493] R13: ffff8ba72566d800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   63.950496] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   63.950499] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   63.950502] CR2: 00007f7764b07000 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   63.950505] Call Trace:
+[   63.950510]  <TASK>
+[   63.950516]  ? __kmalloc+0x18c/0x360
+[   63.950530]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.950595]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   63.950657]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.950732]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.950797]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.950871]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   63.950937]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.950950]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   63.950957]  __napi_poll+0x2c/0x170
+[   63.950967]  net_rx_action+0x265/0x320
+[   63.950973]  __do_softirq+0xd0/0x2ca
+[   63.950980]  ? smpboot_register_percpu_thread+0x100/0x100
+[   63.950988]  run_ksoftirqd+0x28/0x40
+[   63.950995]  smpboot_thread_fn+0xd8/0x1d0
+[   63.951000]  kthread+0x15c/0x180
+[   63.951007]  ? set_kthread_struct+0x50/0x50
+[   63.951012]  ret_from_fork+0x22/0x30
+[   63.951021]  </TASK>
+[   63.951023] ---[ end trace debde65fa1d05fef ]---
+[   64.257218] ------------[ cut here ]------------
+[   64.257226] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.257306] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.257391]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.257461] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.257468] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.257471] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.257532] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.257536] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.257540] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bce28
+[   64.257543] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.257545] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.257547] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.257549] R13: ffff8ba72566dc00 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.257553] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.257556] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.257559] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.257563] Call Trace:
+[   64.257567]  <IRQ>
+[   64.257573]  ? __kmalloc+0x18c/0x360
+[   64.257587]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.257652]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.257714]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.257787]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.257852]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.257926]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.257992]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.258005]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.258013]  __napi_poll+0x2c/0x170
+[   64.258022]  net_rx_action+0x265/0x320
+[   64.258028]  __do_softirq+0xd0/0x2ca
+[   64.258036]  do_softirq.part.0+0x7b/0xa0
+[   64.258046]  </IRQ>
+[   64.258047]  <TASK>
+[   64.258049]  __local_bh_enable_ip+0x5a/0x70
+[   64.258055]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.258063]  ? disable_irq_nosync+0x10/0x10
+[   64.258070]  irq_thread_fn+0x20/0x60
+[   64.258075]  irq_thread+0xd6/0x1a0
+[   64.258080]  ? irq_thread_fn+0x60/0x60
+[   64.258084]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.258089]  kthread+0x15c/0x180
+[   64.258096]  ? set_kthread_struct+0x50/0x50
+[   64.258101]  ret_from_fork+0x22/0x30
+[   64.258110]  </TASK>
+[   64.258112] ---[ end trace debde65fa1d05ff0 ]---
+[   64.359672] ------------[ cut here ]------------
+[   64.359679] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.359760] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.359845]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.359914] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.359921] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.359924] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.359986] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.359989] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.359993] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6dcffc428
+[   64.359996] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.359999] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.360001] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.360003] R13: ffff8ba6c2780c00 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.360006] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.360009] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.360012] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.360016] Call Trace:
+[   64.360021]  <IRQ>
+[   64.360026]  ? __kmalloc+0x18c/0x360
+[   64.360040]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.360104]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.360166]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.360240]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.360306]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.360380]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.360446]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.360458]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.360465]  __napi_poll+0x2c/0x170
+[   64.360474]  net_rx_action+0x265/0x320
+[   64.360480]  __do_softirq+0xd0/0x2ca
+[   64.360488]  do_softirq.part.0+0x7b/0xa0
+[   64.360497]  </IRQ>
+[   64.360499]  <TASK>
+[   64.360500]  __local_bh_enable_ip+0x5a/0x70
+[   64.360506]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.360513]  ? disable_irq_nosync+0x10/0x10
+[   64.360521]  irq_thread_fn+0x20/0x60
+[   64.360525]  irq_thread+0xd6/0x1a0
+[   64.360530]  ? irq_thread_fn+0x60/0x60
+[   64.360535]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.360539]  kthread+0x15c/0x180
+[   64.360546]  ? set_kthread_struct+0x50/0x50
+[   64.360551]  ret_from_fork+0x22/0x30
+[   64.360561]  </TASK>
+[   64.360563] ---[ end trace debde65fa1d05ff1 ]---
+[   64.564669] ------------[ cut here ]------------
+[   64.564677] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.564756] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.564841]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.564910] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.564917] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.564920] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.564982] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.564985] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.564989] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6c5a13428
+[   64.564992] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.564995] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.564997] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.564999] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.565002] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.565005] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.565008] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.565012] Call Trace:
+[   64.565017]  <IRQ>
+[   64.565023]  ? __kmalloc+0x18c/0x360
+[   64.565036]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.565101]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.565162]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.565236]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.565302]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.565376]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.565442]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.565454]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.565461]  __napi_poll+0x2c/0x170
+[   64.565471]  net_rx_action+0x265/0x320
+[   64.565477]  __do_softirq+0xd0/0x2ca
+[   64.565485]  do_softirq.part.0+0x7b/0xa0
+[   64.565494]  </IRQ>
+[   64.565495]  <TASK>
+[   64.565497]  __local_bh_enable_ip+0x5a/0x70
+[   64.565503]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.565511]  ? disable_irq_nosync+0x10/0x10
+[   64.565518]  irq_thread_fn+0x20/0x60
+[   64.565523]  irq_thread+0xd6/0x1a0
+[   64.565528]  ? irq_thread_fn+0x60/0x60
+[   64.565533]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.565537]  kthread+0x15c/0x180
+[   64.565544]  ? set_kthread_struct+0x50/0x50
+[   64.565550]  ret_from_fork+0x22/0x30
+[   64.565560]  </TASK>
+[   64.565561] ---[ end trace debde65fa1d05ff2 ]---
+[   64.668132] ------------[ cut here ]------------
+[   64.668140] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.668221] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.668306]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.668376] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.668383] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.668386] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.668441] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.668444] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.668448] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d7e24e28
+[   64.668450] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.668452] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.668454] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.668455] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.668458] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.668460] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.668463] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.668465] Call Trace:
+[   64.668470]  <IRQ>
+[   64.668475]  ? __kmalloc+0x18c/0x360
+[   64.668486]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.668539]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.668590]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.668652]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.668706]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.668768]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.668823]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.668832]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.668838]  __napi_poll+0x2c/0x170
+[   64.668846]  net_rx_action+0x265/0x320
+[   64.668851]  __do_softirq+0xd0/0x2ca
+[   64.668858]  do_softirq.part.0+0x7b/0xa0
+[   64.668866]  </IRQ>
+[   64.668867]  <TASK>
+[   64.668868]  __local_bh_enable_ip+0x5a/0x70
+[   64.668873]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.668880]  ? disable_irq_nosync+0x10/0x10
+[   64.668886]  irq_thread_fn+0x20/0x60
+[   64.668890]  irq_thread+0xd6/0x1a0
+[   64.668894]  ? irq_thread_fn+0x60/0x60
+[   64.668897]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.668901]  kthread+0x15c/0x180
+[   64.668907]  ? set_kthread_struct+0x50/0x50
+[   64.668911]  ret_from_fork+0x22/0x30
+[   64.668919]  </TASK>
+[   64.668921] ---[ end trace debde65fa1d05ff3 ]---
+[   64.873597] ------------[ cut here ]------------
+[   64.873605] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.873685] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.873770]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.873840] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.873847] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.873850] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.873911] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.873914] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.873918] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d03e1028
+[   64.873921] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.873924] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.873926] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.873927] R13: ffff8ba6c266a000 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.873931] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.873934] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.873937] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.873941] Call Trace:
+[   64.873946]  <IRQ>
+[   64.873952]  ? __kmalloc+0x18c/0x360
+[   64.873966]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.874031]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.874092]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.874167]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.874232]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.874307]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.874373]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.874385]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.874393]  __napi_poll+0x2c/0x170
+[   64.874402]  net_rx_action+0x265/0x320
+[   64.874408]  __do_softirq+0xd0/0x2ca
+[   64.874416]  do_softirq.part.0+0x7b/0xa0
+[   64.874426]  </IRQ>
+[   64.874427]  <TASK>
+[   64.874429]  __local_bh_enable_ip+0x5a/0x70
+[   64.874435]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.874443]  ? disable_irq_nosync+0x10/0x10
+[   64.874450]  irq_thread_fn+0x20/0x60
+[   64.874455]  irq_thread+0xd6/0x1a0
+[   64.874460]  ? irq_thread_fn+0x60/0x60
+[   64.874464]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.874469]  kthread+0x15c/0x180
+[   64.874476]  ? set_kthread_struct+0x50/0x50
+[   64.874481]  ret_from_fork+0x22/0x30
+[   64.874491]  </TASK>
+[   64.874492] ---[ end trace debde65fa1d05ff4 ]---
+[   64.975051] ------------[ cut here ]------------
+[   64.975056] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.975138] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   64.975226]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   64.975297] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   64.975304] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   64.975307] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   64.975377] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   64.975381] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   64.975385] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bce28
+[   64.975388] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   64.975391] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   64.975393] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   64.975396] R13: ffff8ba6c2780c00 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   64.975399] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   64.975402] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   64.975405] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   64.975410] Call Trace:
+[   64.975414]  <IRQ>
+[   64.975419]  ? __kmalloc+0x18c/0x360
+[   64.975432]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.975507]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   64.975578]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.975661]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.975736]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.975821]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   64.975924]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.975937]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.975945]  __napi_poll+0x2c/0x170
+[   64.975955]  net_rx_action+0x265/0x320
+[   64.975962]  __do_softirq+0xd0/0x2ca
+[   64.975969]  do_softirq.part.0+0x7b/0xa0
+[   64.975978]  </IRQ>
+[   64.975980]  <TASK>
+[   64.975982]  __local_bh_enable_ip+0x5a/0x70
+[   64.975988]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   64.975997]  ? disable_irq_nosync+0x10/0x10
+[   64.976005]  irq_thread_fn+0x20/0x60
+[   64.976010]  irq_thread+0xd6/0x1a0
+[   64.976015]  ? irq_thread_fn+0x60/0x60
+[   64.976021]  ? irq_thread_check_affinity+0xe0/0xe0
+[   64.976026]  kthread+0x15c/0x180
+[   64.976033]  ? set_kthread_struct+0x50/0x50
+[   64.976039]  ret_from_fork+0x22/0x30
+[   64.976049]  </TASK>
+[   64.976051] ---[ end trace debde65fa1d05ff5 ]---
+[   65.076223] ------------[ cut here ]------------
+[   65.076229] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.076316] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.076409]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.076482] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.076489] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.076493] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.076563] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.076566] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   65.076571] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bd628
+[   65.076574] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.076577] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   65.076579] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.076581] R13: ffff8ba6c2668c00 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.076585] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.076588] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.076591] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.076595] Call Trace:
+[   65.076602]  <IRQ>
+[   65.076607]  ? __kmalloc+0x18c/0x360
+[   65.076621]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.076695]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.076766]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.076851]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.076926]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.077011]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.077086]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.077099]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.077108]  __napi_poll+0x2c/0x170
+[   65.077118]  net_rx_action+0x265/0x320
+[   65.077125]  __do_softirq+0xd0/0x2ca
+[   65.077132]  do_softirq.part.0+0x7b/0xa0
+[   65.077141]  </IRQ>
+[   65.077143]  <TASK>
+[   65.077144]  __local_bh_enable_ip+0x5a/0x70
+[   65.077151]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.077159]  ? disable_irq_nosync+0x10/0x10
+[   65.077167]  irq_thread_fn+0x20/0x60
+[   65.077172]  irq_thread+0xd6/0x1a0
+[   65.077178]  ? irq_thread_fn+0x60/0x60
+[   65.077183]  ? irq_thread_check_affinity+0xe0/0xe0
+[   65.077188]  kthread+0x15c/0x180
+[   65.077195]  ? set_kthread_struct+0x50/0x50
+[   65.077201]  ret_from_fork+0x22/0x30
+[   65.077212]  </TASK>
+[   65.077214] ---[ end trace debde65fa1d05ff6 ]---
+[   65.283219] ------------[ cut here ]------------
+[   65.283226] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.283316] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.283410]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.283487] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.283494] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.283498] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.283569] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.283572] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   65.283577] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bca28
+[   65.283579] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.283581] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   65.283583] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.283585] R13: ffff8ba6c2668000 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.283587] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.283590] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.283592] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.283596] Call Trace:
+[   65.283600]  <IRQ>
+[   65.283606]  ? __kmalloc+0x18c/0x360
+[   65.283618]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.283672]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.283723]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.283786]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.283840]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.283901]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.283955]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.283966]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.283973]  __napi_poll+0x2c/0x170
+[   65.283981]  net_rx_action+0x265/0x320
+[   65.283986]  __do_softirq+0xd0/0x2ca
+[   65.283993]  do_softirq.part.0+0x7b/0xa0
+[   65.284001]  </IRQ>
+[   65.284002]  <TASK>
+[   65.284004]  __local_bh_enable_ip+0x5a/0x70
+[   65.284008]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.284015]  ? disable_irq_nosync+0x10/0x10
+[   65.284022]  irq_thread_fn+0x20/0x60
+[   65.284026]  irq_thread+0xd6/0x1a0
+[   65.284030]  ? irq_thread_fn+0x60/0x60
+[   65.284034]  ? irq_thread_check_affinity+0xe0/0xe0
+[   65.284038]  kthread+0x15c/0x180
+[   65.284044]  ? set_kthread_struct+0x50/0x50
+[   65.284048]  ret_from_fork+0x22/0x30
+[   65.284056]  </TASK>
+[   65.284058] ---[ end trace debde65fa1d05ff7 ]---
+[   65.385767] ------------[ cut here ]------------
+[   65.385775] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.385855] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.385987]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.386057] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.386064] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.386067] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.386128] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.386132] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   65.386136] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6dcffc428
+[   65.386139] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.386141] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   65.386143] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.386145] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.386148] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.386151] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.386154] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.386157] Call Trace:
+[   65.386161]  <IRQ>
+[   65.386165]  ? __kmalloc+0x18c/0x360
+[   65.386178]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.386244]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.386305]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.386379]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.386444]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.386518]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.386584]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.386597]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.386604]  __napi_poll+0x2c/0x170
+[   65.386614]  net_rx_action+0x265/0x320
+[   65.386620]  __do_softirq+0xd0/0x2ca
+[   65.386627]  do_softirq.part.0+0x7b/0xa0
+[   65.386636]  </IRQ>
+[   65.386638]  <TASK>
+[   65.386639]  __local_bh_enable_ip+0x5a/0x70
+[   65.386645]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.386653]  ? disable_irq_nosync+0x10/0x10
+[   65.386660]  irq_thread_fn+0x20/0x60
+[   65.386666]  irq_thread+0xd6/0x1a0
+[   65.386671]  ? irq_thread_fn+0x60/0x60
+[   65.386675]  ? irq_thread_check_affinity+0xe0/0xe0
+[   65.386680]  kthread+0x15c/0x180
+[   65.386687]  ? set_kthread_struct+0x50/0x50
+[   65.386692]  ret_from_fork+0x22/0x30
+[   65.386702]  </TASK>
+[   65.386703] ---[ end trace debde65fa1d05ff8 ]---
+[   65.588534] ------------[ cut here ]------------
+[   65.588542] WARNING: CPU: 1 PID: 25 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.588622] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.588707]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.588777] CPU: 1 PID: 25 Comm: ksoftirqd/1 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.588783] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.588786] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.588848] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.588852] RSP: 0018:ffff9bdf802378c8 EFLAGS: 00010246
+[   65.588856] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6c478b828
+[   65.588859] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.588861] RBP: ffff9bdf80237960 R08: 0000000000000000 R09: 0000000000000000
+[   65.588863] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.588866] R13: ffff8ba6c2668400 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.588869] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.588872] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.588875] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.588878] Call Trace:
+[   65.588883]  <TASK>
+[   65.588889]  ? __kmalloc+0x18c/0x360
+[   65.588902]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.588967]  ? queue_work_on+0x41/0x50
+[   65.588974]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.589036]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.589110]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.589175]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.589290]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.589356]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.589368]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.589375]  __napi_poll+0x2c/0x170
+[   65.589384]  net_rx_action+0x265/0x320
+[   65.589390]  __do_softirq+0xd0/0x2ca
+[   65.589398]  ? smpboot_register_percpu_thread+0x100/0x100
+[   65.589404]  run_ksoftirqd+0x28/0x40
+[   65.589412]  smpboot_thread_fn+0xd8/0x1d0
+[   65.589416]  kthread+0x15c/0x180
+[   65.589422]  ? set_kthread_struct+0x50/0x50
+[   65.589428]  ret_from_fork+0x22/0x30
+[   65.589437]  </TASK>
+[   65.589439] ---[ end trace debde65fa1d05ff9 ]---
+[   65.690723] ------------[ cut here ]------------
+[   65.690729] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.690807] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.690891]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.690958] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.690964] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.690967] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.691030] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.691033] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   65.691037] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6c5a13428
+[   65.691040] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.691043] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   65.691045] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.691047] R13: ffff8ba6c266a000 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.691050] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.691053] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.691056] CR2: 00007f7750008008 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.691059] Call Trace:
+[   65.691064]  <IRQ>
+[   65.691068]  ? __kmalloc+0x18c/0x360
+[   65.691080]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.691148]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.691211]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.691286]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.691353]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.691432]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.691499]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.691511]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.691518]  __napi_poll+0x2c/0x170
+[   65.691527]  net_rx_action+0x265/0x320
+[   65.691533]  __do_softirq+0xd0/0x2ca
+[   65.691540]  do_softirq.part.0+0x7b/0xa0
+[   65.691549]  </IRQ>
+[   65.691550]  <TASK>
+[   65.691551]  __local_bh_enable_ip+0x5a/0x70
+[   65.691557]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.691565]  ? disable_irq_nosync+0x10/0x10
+[   65.691571]  irq_thread_fn+0x20/0x60
+[   65.691576]  irq_thread+0xd6/0x1a0
+[   65.691581]  ? irq_thread_fn+0x60/0x60
+[   65.691585]  ? irq_thread_check_affinity+0xe0/0xe0
+[   65.691590]  kthread+0x15c/0x180
+[   65.691596]  ? set_kthread_struct+0x50/0x50
+[   65.691601]  ret_from_fork+0x22/0x30
+[   65.691610]  </TASK>
+[   65.691612] ---[ end trace debde65fa1d05ffa ]---
+[   65.793325] ------------[ cut here ]------------
+[   65.793332] WARNING: CPU: 1 PID: 25 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.793413] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.793498]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.793567] CPU: 1 PID: 25 Comm: ksoftirqd/1 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.793574] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.793578] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.793640] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.793643] RSP: 0018:ffff9bdf802378c8 EFLAGS: 00010246
+[   65.793647] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d1d8f428
+[   65.793650] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.793652] RBP: ffff9bdf80237960 R08: 0000000000000000 R09: 0000000000000000
+[   65.793654] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.793656] R13: ffff8ba6c2782400 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.793659] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.793663] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.793665] CR2: 00007efd8e977030 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.793669] Call Trace:
+[   65.793674]  <TASK>
+[   65.793680]  ? __kmalloc+0x18c/0x360
+[   65.793694]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.793759]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.793820]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.793894]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.793959]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.794033]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.794099]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.794111]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.794119]  __napi_poll+0x2c/0x170
+[   65.794129]  net_rx_action+0x265/0x320
+[   65.794135]  __do_softirq+0xd0/0x2ca
+[   65.794142]  ? smpboot_register_percpu_thread+0x100/0x100
+[   65.794150]  run_ksoftirqd+0x28/0x40
+[   65.794157]  smpboot_thread_fn+0xd8/0x1d0
+[   65.794162]  kthread+0x15c/0x180
+[   65.794168]  ? set_kthread_struct+0x50/0x50
+[   65.794173]  ret_from_fork+0x22/0x30
+[   65.794183]  </TASK>
+[   65.794184] ---[ end trace debde65fa1d05ffb ]---
+[   65.998126] ------------[ cut here ]------------
+[   65.998133] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.998214] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   65.998299]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   65.998368] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   65.998374] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   65.998378] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   65.998439] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   65.998443] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   65.998447] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6c15dc028
+[   65.998450] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   65.998452] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   65.998454] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   65.998456] R13: ffff8ba6c2781c00 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   65.998459] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   65.998462] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   65.998465] CR2: 00007efd8e977030 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   65.998469] Call Trace:
+[   65.998474]  <IRQ>
+[   65.998479]  ? __kmalloc+0x18c/0x360
+[   65.998493]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.998558]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   65.998619]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.998693]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.998759]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.998833]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   65.998899]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.998912]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.998919]  __napi_poll+0x2c/0x170
+[   65.998928]  net_rx_action+0x265/0x320
+[   65.998934]  __do_softirq+0xd0/0x2ca
+[   65.998942]  do_softirq.part.0+0x7b/0xa0
+[   65.998951]  </IRQ>
+[   65.998953]  <TASK>
+[   65.998954]  __local_bh_enable_ip+0x5a/0x70
+[   65.998960]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   65.998968]  ? disable_irq_nosync+0x10/0x10
+[   65.998975]  irq_thread_fn+0x20/0x60
+[   65.998980]  irq_thread+0xd6/0x1a0
+[   65.998985]  ? irq_thread_fn+0x60/0x60
+[   65.998989]  ? irq_thread_check_affinity+0xe0/0xe0
+[   65.998994]  kthread+0x15c/0x180
+[   65.999001]  ? set_kthread_struct+0x50/0x50
+[   65.999006]  ret_from_fork+0x22/0x30
+[   65.999016]  </TASK>
+[   65.999018] ---[ end trace debde65fa1d05ffc ]---
+[   66.100251] ------------[ cut here ]------------
+[   66.100256] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.100332] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.100413]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.100477] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.100482] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.100485] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.100546] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.100550] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.100554] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bca28
+[   66.100556] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.100559] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.100561] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.100563] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.100566] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.100569] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.100571] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.100575] Call Trace:
+[   66.100578]  <IRQ>
+[   66.100581]  ? __kmalloc+0x18c/0x360
+[   66.100592]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.100657]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.100719]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.100791]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.100856]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.100930]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.100995]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.101007]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.101015]  __napi_poll+0x2c/0x170
+[   66.101023]  net_rx_action+0x265/0x320
+[   66.101029]  __do_softirq+0xd0/0x2ca
+[   66.101035]  do_softirq.part.0+0x7b/0xa0
+[   66.101043]  </IRQ>
+[   66.101044]  <TASK>
+[   66.101046]  __local_bh_enable_ip+0x5a/0x70
+[   66.101052]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.101059]  ? disable_irq_nosync+0x10/0x10
+[   66.101066]  irq_thread_fn+0x20/0x60
+[   66.101071]  irq_thread+0xd6/0x1a0
+[   66.101076]  ? irq_thread_fn+0x60/0x60
+[   66.101080]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.101084]  kthread+0x15c/0x180
+[   66.101091]  ? set_kthread_struct+0x50/0x50
+[   66.101096]  ret_from_fork+0x22/0x30
+[   66.101105]  </TASK>
+[   66.101106] ---[ end trace debde65fa1d05ffd ]---
+[   66.305308] ------------[ cut here ]------------
+[   66.305316] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.305396] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.305481]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.305551] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.305558] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.305561] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.305623] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.305627] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.305631] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6dcffc428
+[   66.305633] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.305636] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.305638] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.305640] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.305643] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.305646] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.305648] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.305652] Call Trace:
+[   66.305657]  <IRQ>
+[   66.305662]  ? __kmalloc+0x18c/0x360
+[   66.305676]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.305741]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.305803]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.305916]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.305981]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.306055]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.306121]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.306134]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.306141]  __napi_poll+0x2c/0x170
+[   66.306150]  net_rx_action+0x265/0x320
+[   66.306156]  __do_softirq+0xd0/0x2ca
+[   66.306164]  do_softirq.part.0+0x7b/0xa0
+[   66.306173]  </IRQ>
+[   66.306174]  <TASK>
+[   66.306176]  __local_bh_enable_ip+0x5a/0x70
+[   66.306181]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.306190]  ? disable_irq_nosync+0x10/0x10
+[   66.306197]  irq_thread_fn+0x20/0x60
+[   66.306202]  irq_thread+0xd6/0x1a0
+[   66.306207]  ? irq_thread_fn+0x60/0x60
+[   66.306211]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.306216]  kthread+0x15c/0x180
+[   66.306223]  ? set_kthread_struct+0x50/0x50
+[   66.306228]  ret_from_fork+0x22/0x30
+[   66.306238]  </TASK>
+[   66.306239] ---[ end trace debde65fa1d05ffe ]---
+[   66.407677] ------------[ cut here ]------------
+[   66.407685] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.407765] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.407850]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.407921] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.407927] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.407930] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.407992] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.407995] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.407999] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6c5a13628
+[   66.408002] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.408004] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.408006] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.408008] R13: ffff8ba6c2781400 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.408012] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.408015] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.408017] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.408021] Call Trace:
+[   66.408026]  <IRQ>
+[   66.408032]  ? __kmalloc+0x18c/0x360
+[   66.408046]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.408110]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.408172]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.408246]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.408311]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.408385]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.408451]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.408464]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.408471]  __napi_poll+0x2c/0x170
+[   66.408481]  net_rx_action+0x265/0x320
+[   66.408487]  __do_softirq+0xd0/0x2ca
+[   66.408494]  do_softirq.part.0+0x7b/0xa0
+[   66.408503]  </IRQ>
+[   66.408505]  <TASK>
+[   66.408506]  __local_bh_enable_ip+0x5a/0x70
+[   66.408512]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.408520]  ? disable_irq_nosync+0x10/0x10
+[   66.408527]  irq_thread_fn+0x20/0x60
+[   66.408532]  irq_thread+0xd6/0x1a0
+[   66.408536]  ? irq_thread_fn+0x60/0x60
+[   66.408541]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.408545]  kthread+0x15c/0x180
+[   66.408552]  ? set_kthread_struct+0x50/0x50
+[   66.408558]  ret_from_fork+0x22/0x30
+[   66.408567]  </TASK>
+[   66.408569] ---[ end trace debde65fa1d05fff ]---
+[   66.612501] ------------[ cut here ]------------
+[   66.612508] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.612624] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.612710]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.612780] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.612786] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.612790] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.612851] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.612855] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.612859] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d03e0c28
+[   66.612862] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.612864] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.612866] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.612868] R13: ffff8ba6c2783800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.612871] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.612874] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.612877] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.612880] Call Trace:
+[   66.612886]  <IRQ>
+[   66.612892]  ? __kmalloc+0x18c/0x360
+[   66.612905]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.612970]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.613033]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.613107]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.613173]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.613247]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.613314]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.613326]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.613334]  __napi_poll+0x2c/0x170
+[   66.613344]  net_rx_action+0x265/0x320
+[   66.613350]  __do_softirq+0xd0/0x2ca
+[   66.613358]  do_softirq.part.0+0x7b/0xa0
+[   66.613367]  </IRQ>
+[   66.613368]  <TASK>
+[   66.613370]  __local_bh_enable_ip+0x5a/0x70
+[   66.613376]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.613385]  ? disable_irq_nosync+0x10/0x10
+[   66.613392]  irq_thread_fn+0x20/0x60
+[   66.613397]  irq_thread+0xd6/0x1a0
+[   66.613402]  ? irq_thread_fn+0x60/0x60
+[   66.613406]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.613411]  kthread+0x15c/0x180
+[   66.613418]  ? set_kthread_struct+0x50/0x50
+[   66.613424]  ret_from_fork+0x22/0x30
+[   66.613434]  </TASK>
+[   66.613436] ---[ end trace debde65fa1d06000 ]---
+[   66.714953] ------------[ cut here ]------------
+[   66.714961] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.715039] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.715124]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.715193] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.715200] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.715203] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.715264] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.715268] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.715272] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d7e24e28
+[   66.715274] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.715277] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.715279] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.715281] R13: ffff8ba6c2783800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.715284] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.715287] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.715290] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.715293] Call Trace:
+[   66.715297]  <IRQ>
+[   66.715300]  ? __kmalloc+0x18c/0x360
+[   66.715313]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.715377]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.715439]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.715513]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.715579]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.715654]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.715718]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.715730]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.715737]  __napi_poll+0x2c/0x170
+[   66.715746]  net_rx_action+0x265/0x320
+[   66.715752]  __do_softirq+0xd0/0x2ca
+[   66.715759]  do_softirq.part.0+0x7b/0xa0
+[   66.715767]  </IRQ>
+[   66.715769]  <TASK>
+[   66.715770]  __local_bh_enable_ip+0x5a/0x70
+[   66.715776]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.715783]  ? disable_irq_nosync+0x10/0x10
+[   66.715791]  irq_thread_fn+0x20/0x60
+[   66.715795]  irq_thread+0xd6/0x1a0
+[   66.715800]  ? irq_thread_fn+0x60/0x60
+[   66.715804]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.715809]  kthread+0x15c/0x180
+[   66.715815]  ? set_kthread_struct+0x50/0x50
+[   66.715821]  ret_from_fork+0x22/0x30
+[   66.715829]  </TASK>
+[   66.715831] ---[ end trace debde65fa1d06001 ]---
+[   66.817318] ------------[ cut here ]------------
+[   66.817325] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.817404] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   66.817489]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   66.817559] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   66.817565] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   66.817569] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   66.817630] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   66.817634] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   66.817638] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bd628
+[   66.817640] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   66.817643] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   66.817645] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   66.817647] R13: ffff8ba6c2780800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   66.817650] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   66.817653] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   66.817656] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   66.817659] Call Trace:
+[   66.817664]  <IRQ>
+[   66.817670]  ? __kmalloc+0x18c/0x360
+[   66.817683]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.817748]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   66.817810]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.817884]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.817949]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.818023]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   66.818089]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.818101]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.818109]  __napi_poll+0x2c/0x170
+[   66.818118]  net_rx_action+0x265/0x320
+[   66.818124]  __do_softirq+0xd0/0x2ca
+[   66.818132]  do_softirq.part.0+0x7b/0xa0
+[   66.818141]  </IRQ>
+[   66.818143]  <TASK>
+[   66.818144]  __local_bh_enable_ip+0x5a/0x70
+[   66.818150]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   66.818158]  ? disable_irq_nosync+0x10/0x10
+[   66.818165]  irq_thread_fn+0x20/0x60
+[   66.818170]  irq_thread+0xd6/0x1a0
+[   66.818174]  ? irq_thread_fn+0x60/0x60
+[   66.818179]  ? irq_thread_check_affinity+0xe0/0xe0
+[   66.818183]  kthread+0x15c/0x180
+[   66.818190]  ? set_kthread_struct+0x50/0x50
+[   66.818195]  ret_from_fork+0x22/0x30
+[   66.818206]  </TASK>
+[   66.818207] ---[ end trace debde65fa1d06002 ]---
+[   67.022215] ------------[ cut here ]------------
+[   67.022223] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.022303] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.022388]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.022458] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.022464] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.022467] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.022529] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.022533] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   67.022572] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bce28
+[   67.022575] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   67.022577] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   67.022579] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.022581] R13: ffff8ba6c2783800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   67.022584] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   67.022587] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.022590] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   67.022593] Call Trace:
+[   67.022599]  <IRQ>
+[   67.022605]  ? __kmalloc+0x18c/0x360
+[   67.022617]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.022682]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.022745]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.022819]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.022884]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.022959]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.023025]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.023037]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.023045]  __napi_poll+0x2c/0x170
+[   67.023054]  net_rx_action+0x265/0x320
+[   67.023060]  __do_softirq+0xd0/0x2ca
+[   67.023067]  do_softirq.part.0+0x7b/0xa0
+[   67.023076]  </IRQ>
+[   67.023078]  <TASK>
+[   67.023079]  __local_bh_enable_ip+0x5a/0x70
+[   67.023085]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.023093]  ? disable_irq_nosync+0x10/0x10
+[   67.023100]  irq_thread_fn+0x20/0x60
+[   67.023105]  irq_thread+0xd6/0x1a0
+[   67.023110]  ? irq_thread_fn+0x60/0x60
+[   67.023115]  ? irq_thread_check_affinity+0xe0/0xe0
+[   67.023120]  kthread+0x15c/0x180
+[   67.023127]  ? set_kthread_struct+0x50/0x50
+[   67.023132]  ret_from_fork+0x22/0x30
+[   67.023142]  </TASK>
+[   67.023143] ---[ end trace debde65fa1d06003 ]---
+[   67.124286] ------------[ cut here ]------------
+[   67.124291] WARNING: CPU: 1 PID: 1612 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.124369] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.124453]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.124520] CPU: 1 PID: 1612 Comm: irq/69-rtw88_pc Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.124526] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.124529] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.124593] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.124596] RSP: 0018:ffff9bdf8024c9d8 EFLAGS: 00010246
+[   67.124600] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: ffff8ba6d02bce28
+[   67.124603] RDX: 0000000000000001 RSI: 0000000000000009 RDI: 0000000000000000
+[   67.124606] RBP: ffff9bdf8024ca70 R08: 0000000000000000 R09: 0000000000000000
+[   67.124608] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.124610] R13: ffff8ba6c2783800 R14: ffff8ba6da2f00b8 R15: 0000000000000080
+[   67.124613] FS:  0000000000000000(0000) GS:ffff8ba9bf640000(0000) knlGS:0000000000000000
+[   67.124616] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.124618] CR2: 00007faf1f9ebb50 CR3: 00000002db810000 CR4: 0000000000350ee0
+[   67.124622] Call Trace:
+[   67.124627]  <IRQ>
+[   67.124632]  ? __kmalloc+0x18c/0x360
+[   67.124644]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.124711]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.124774]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.124848]  ieee80211_scan_rx+0xe5/0x160 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.124916]  ieee80211_rx_list+0xa22/0xc10 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.124992]  ieee80211_rx_napi+0x51/0xf0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.125059]  rtw_pci_rx_napi.constprop.0+0x299/0x340 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.125071]  rtw_pci_napi_poll+0x58/0x180 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.125078]  __napi_poll+0x2c/0x170
+[   67.125085]  net_rx_action+0x265/0x320
+[   67.125091]  __do_softirq+0xd0/0x2ca
+[   67.125097]  do_softirq.part.0+0x7b/0xa0
+[   67.125103]  </IRQ>
+[   67.125105]  <TASK>
+[   67.125106]  __local_bh_enable_ip+0x5a/0x70
+[   67.125112]  rtw_pci_interrupt_threadfn+0x18e/0x2c0 [rtw88_pci 00d20a7a34e17c9905daf1a54b07174d251a440f]
+[   67.125120]  ? disable_irq_nosync+0x10/0x10
+[   67.125125]  irq_thread_fn+0x20/0x60
+[   67.125130]  irq_thread+0xd6/0x1a0
+[   67.125135]  ? irq_thread_fn+0x60/0x60
+[   67.125139]  ? irq_thread_check_affinity+0xe0/0xe0
+[   67.125144]  kthread+0x15c/0x180
+[   67.125149]  ? set_kthread_struct+0x50/0x50
+[   67.125155]  ret_from_fork+0x22/0x30
+[   67.125162]  </TASK>
+[   67.125164] ---[ end trace debde65fa1d06004 ]---
+[   67.283888] ------------[ cut here ]------------
+[   67.283896] WARNING: CPU: 0 PID: 84 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.284023] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.284109]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.284177] CPU: 0 PID: 84 Comm: kworker/u32:2 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.284183] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.284187] Workqueue: phy0 ieee80211_iface_work [mac80211]
+[   67.284260] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.284323] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.284326] RSP: 0018:ffff9bdf80483aa8 EFLAGS: 00010246
+[   67.284330] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: 0000000000000000
+[   67.284333] RDX: 0000000000000001 RSI: 0000000000000000 RDI: 0000000000000000
+[   67.284335] RBP: ffff9bdf80483b40 R08: 0000000000000000 R09: 0000000000000000
+[   67.284337] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.284339] R13: ffff8ba6c2782400 R14: ffff8ba6da2f00b8 R15: 0000000000000000
+[   67.284342] FS:  0000000000000000(0000) GS:ffff8ba9bf600000(0000) knlGS:0000000000000000
+[   67.284345] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.284348] CR2: 00007faf10083007 CR3: 00000002db810000 CR4: 0000000000350ef0
+[   67.284351] Call Trace:
+[   67.284354]  <TASK>
+[   67.284359]  ? __kmalloc+0x18c/0x360
+[   67.284372]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.284437]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.284498]  ? ieee80211_rx_mgmt_beacon+0x9ba/0x1330 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284578]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284647]  ieee80211_rx_bss_info+0x5f/0xa0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284718]  ieee80211_sta_rx_queued_mgmt+0x4f7/0x730 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284786]  ? skb_release_data+0x136/0x180
+[   67.284795]  ? kfree+0x38d/0x400
+[   67.284799]  ? ieee80211_iface_work+0xea/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284867]  ? kmem_cache_free+0x3d0/0x430
+[   67.284872]  ieee80211_iface_work+0x31c/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.284938]  process_one_work+0x1e8/0x3c0
+[   67.284944]  worker_thread+0x50/0x3c0
+[   67.284948]  ? rescuer_thread+0x380/0x380
+[   67.284951]  kthread+0x15c/0x180
+[   67.284956]  ? set_kthread_struct+0x50/0x50
+[   67.284961]  ret_from_fork+0x22/0x30
+[   67.284970]  </TASK>
+[   67.284972] ---[ end trace debde65fa1d06005 ]---
+[   67.285003] ------------[ cut here ]------------
+[   67.285004] WARNING: CPU: 0 PID: 84 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.285067] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.285136]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.285184] CPU: 0 PID: 84 Comm: kworker/u32:2 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.285189] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.285191] Workqueue: phy0 ieee80211_iface_work [mac80211]
+[   67.285256] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.285317] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.285320] RSP: 0018:ffff9bdf80483aa8 EFLAGS: 00010246
+[   67.285323] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: 0000000000000000
+[   67.285325] RDX: 0000000000000001 RSI: 0000000000000000 RDI: 0000000000000000
+[   67.285327] RBP: ffff9bdf80483b40 R08: 0000000000000000 R09: 0000000000000000
+[   67.285329] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.285331] R13: ffff8ba6c2780c00 R14: ffff8ba6da2f00b8 R15: 0000000000000000
+[   67.285333] FS:  0000000000000000(0000) GS:ffff8ba9bf600000(0000) knlGS:0000000000000000
+[   67.285336] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.285338] CR2: 00007faf10083007 CR3: 00000002db810000 CR4: 0000000000350ef0
+[   67.285341] Call Trace:
+[   67.285343]  <TASK>
+[   67.285345]  ? __kmalloc+0x18c/0x360
+[   67.285350]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.285414]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.285475]  ? ieee80211_rx_mgmt_beacon+0x9ba/0x1330 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285544]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285613]  ieee80211_rx_bss_info+0x5f/0xa0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285679]  ieee80211_sta_rx_queued_mgmt+0x4f7/0x730 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285745]  ? skb_release_data+0x136/0x180
+[   67.285751]  ? kfree+0x38d/0x400
+[   67.285754]  ? ieee80211_iface_work+0xea/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285821]  ? kmem_cache_free+0x3d0/0x430
+[   67.285825]  ieee80211_iface_work+0x31c/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.285915]  process_one_work+0x1e8/0x3c0
+[   67.285919]  worker_thread+0x50/0x3c0
+[   67.285923]  ? rescuer_thread+0x380/0x380
+[   67.285926]  kthread+0x15c/0x180
+[   67.285930]  ? set_kthread_struct+0x50/0x50
+[   67.285935]  ret_from_fork+0x22/0x30
+[   67.285942]  </TASK>
+[   67.285944] ---[ end trace debde65fa1d06006 ]---
+[   67.285973] ------------[ cut here ]------------
+[   67.285974] WARNING: CPU: 0 PID: 84 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.286037] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.286104]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.286153] CPU: 0 PID: 84 Comm: kworker/u32:2 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.286157] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.286158] Workqueue: phy0 ieee80211_iface_work [mac80211]
+[   67.286224] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.286285] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.286287] RSP: 0018:ffff9bdf80483aa8 EFLAGS: 00010246
+[   67.286290] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: 0000000000000000
+[   67.286292] RDX: 0000000000000001 RSI: 0000000000000000 RDI: 0000000000000000
+[   67.286294] RBP: ffff9bdf80483b40 R08: 0000000000000000 R09: 0000000000000000
+[   67.286296] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.286298] R13: ffff8ba6c0bc8000 R14: ffff8ba6da2f00b8 R15: 0000000000000000
+[   67.286300] FS:  0000000000000000(0000) GS:ffff8ba9bf600000(0000) knlGS:0000000000000000
+[   67.286303] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.286306] CR2: 00007faf10083007 CR3: 00000002db810000 CR4: 0000000000350ef0
+[   67.286308] Call Trace:
+[   67.286310]  <TASK>
+[   67.286311]  ? __kmalloc+0x18c/0x360
+[   67.286316]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.286381]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.286442]  ? ieee80211_rx_mgmt_beacon+0x9ba/0x1330 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286511]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286580]  ieee80211_rx_bss_info+0x5f/0xa0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286647]  ieee80211_sta_rx_queued_mgmt+0x4f7/0x730 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286712]  ? skb_release_data+0x136/0x180
+[   67.286718]  ? kfree+0x38d/0x400
+[   67.286722]  ? ieee80211_iface_work+0xea/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286789]  ? kmem_cache_free+0x3d0/0x430
+[   67.286794]  ieee80211_iface_work+0x31c/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.286860]  process_one_work+0x1e8/0x3c0
+[   67.286864]  worker_thread+0x50/0x3c0
+[   67.286868]  ? rescuer_thread+0x380/0x380
+[   67.286871]  kthread+0x15c/0x180
+[   67.286876]  ? set_kthread_struct+0x50/0x50
+[   67.286881]  ret_from_fork+0x22/0x30
+[   67.286887]  </TASK>
+[   67.286888] ---[ end trace debde65fa1d06007 ]---
+[   67.287067] ------------[ cut here ]------------
+[   67.287068] WARNING: CPU: 0 PID: 84 at net/wireless/scan.c:479 cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.287131] Modules linked in: cmac ccm ip6table_nat ip6table_mangle ip6t_REJECT nf_reject_ipv6 ip6t_ipv6header ip6table_filter ip6t_rpfilter ip6table_raw ip6_tables ipt_rpfilter iptable_raw ts_bm xt_state xt_length btusb xt_LOG btrtl btbcm nf_log_syslog btintel ipt_REJECT bluetooth nf_reject_ipv4 snd_soc_dmic snd_acp3x_pdm_dma ecdh_generic snd_acp3x_rn xt_recent joydev snd_soc_core xt_limit intel_rapl_msr mousedev intel_rapl_common snd_compress xt_tcpudp ac97_bus xt_string edac_mce_amd snd_pcm_dmaengine hid_multitouch crct10dif_pclmul xt_conntrack wmi_bmof crc32_pclmul iptable_filter ghash_clmulni_intel aesni_intel iptable_mangle snd_hda_codec_realtek crypto_simd cryptd iptable_nat rapl rtw88_8822ce snd_hda_codec_generic nf_nat ledtrig_audio snd_hda_codec_hdmi rtw88_8822c nf_conntrack snd_hda_intel nf_defrag_ipv6 snd_intel_dspcfg rtw88_pci nf_defrag_ipv4 snd_intel_sdw_acpi rtw88_core snd_hda_codec libcrc32c snd_hda_core snd_pci_acp6x snd_hwdep amdgpu mac80211 tpm_crb vfat tpm_tis
+[   67.287201]  libarc4 snd_pcm fat ucsi_acpi sp5100_tco snd_pci_acp5x k10temp gpu_sched snd_timer tpm_tis_core typec_ucsi i2c_piix4 cfg80211 snd_rn_pci_acp3x drm_ttm_helper snd snd_pci_acp3x typec ttm soundcore rfkill tpm ccp i2c_hid_acpi roles mac_hid video wmi rng_core i2c_hid acpi_cpufreq pinctrl_amd amd_pmc p_lkrg(OE) vboxnetflt(OE) vboxnetadp(OE) vboxdrv(OE) crypto_user fuse ashmem_linux(OE) bpf_preload ip_tables x_tables ext4 crc32c_generic crc16 mbcache jbd2 serio_raw atkbd libps2 xhci_pci crc32c_intel i8042 xhci_pci_renesas serio
+[   67.287250] CPU: 0 PID: 84 Comm: kworker/u32:2 Tainted: G        W  OE     5.16.5-arch1-1 #1 8c8484ce25741b9578efea33ef167bcb0b2b8bd9
+[   67.287253] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[   67.287255] Workqueue: phy0 ieee80211_iface_work [mac80211]
+[   67.287321] RIP: 0010:cfg80211_bss_update+0x55a/0x660 [cfg80211]
+[   67.287381] Code: 18 48 8b 5c 24 10 8b b3 dc 00 00 00 44 39 de 0f 84 96 fc ff ff 80 3d 19 28 0b 00 00 0f 84 a3 00 00 00 41 89 f3 e9 81 fc ff ff <0f> 0b e9 3a fd ff ff 0f 0b 49 8b 85 90 00 00 00 48 85 c0 0f 85 34
+[   67.287384] RSP: 0018:ffff9bdf80483aa8 EFLAGS: 00010246
+[   67.287387] RAX: ffff8ba6da2f00c0 RBX: ffff8ba6da2f0000 RCX: 0000000000000000
+[   67.287389] RDX: 0000000000000001 RSI: 0000000000000000 RDI: 0000000000000000
+[   67.287391] RBP: ffff9bdf80483b40 R08: 0000000000000000 R09: 0000000000000000
+[   67.287393] R10: ffff8ba6da2f00c0 R11: 0000000000000001 R12: 0000000000000000
+[   67.287395] R13: ffff8ba72566fc00 R14: ffff8ba6da2f00b8 R15: 0000000000000000
+[   67.287398] FS:  0000000000000000(0000) GS:ffff8ba9bf600000(0000) knlGS:0000000000000000
+[   67.287401] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   67.287403] CR2: 00007faf10083007 CR3: 00000002db810000 CR4: 0000000000350ef0
+[   67.287406] Call Trace:
+[   67.287407]  <TASK>
+[   67.287409]  ? __kmalloc+0x18c/0x360
+[   67.287414]  cfg80211_inform_single_bss_frame_data+0x220/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.287479]  cfg80211_inform_bss_frame_data+0x4f/0x440 [cfg80211 4b1bdb9d871cfb54c4b77b15e6f7f9cb6b5b2e7d]
+[   67.287539]  ? ieee80211_bss_info_update+0x1a4/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287607]  ? kfree+0x38d/0x400
+[   67.287612]  ieee80211_bss_info_update+0xcb/0x2c0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287679]  ieee80211_rx_bss_info+0x5f/0xa0 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287747]  ieee80211_sta_rx_queued_mgmt+0x4f7/0x730 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287813]  ? skb_release_data+0x136/0x180
+[   67.287819]  ? kfree+0x38d/0x400
+[   67.287823]  ? ieee80211_iface_work+0xea/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287889]  ? kmem_cache_free+0x3d0/0x430
+[   67.287894]  ieee80211_iface_work+0x31c/0x430 [mac80211 86098a574a37811d666b0015968015037fa4eccd]
+[   67.287960]  process_one_work+0x1e8/0x3c0
+[   67.287965]  worker_thread+0x50/0x3c0
+[   67.287968]  ? rescuer_thread+0x380/0x380
+[   67.287972]  kthread+0x15c/0x180
+[   67.287977]  ? set_kthread_struct+0x50/0x50
+[   67.287982]  ret_from_fork+0x22/0x30
+[   67.287988]  </TASK>
+[   67.287989] ---[ end trace debde65fa1d06008 ]---
+[   74.349420] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[   74.349434] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   74.759968] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[   74.759984] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   80.148742] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 
+[   95.099093] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[   95.099104] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   98.732604] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[   98.732613] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  103.573378] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  103.573390] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  103.668036] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  103.668044] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  104.187133] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  104.187141] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  104.672621] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  104.672629] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  107.590235] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  107.590243] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  108.176752] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  108.176761] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  114.435160] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  185.486193] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  236.549506] ip6tables deny: IN=wlp1s0 OUT= MAC=33:33:00:00:00:01:98:da:c4:bf:99:a5:86:dd SRC=fe80:0000:0000:0000:9ada:c4ff:febf:99a5 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=104 TC=0 HOPLIMIT=255 FLOWLBL=330529 PROTO=ICMPv6 TYPE=134 CODE=0 
+[  272.563115] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  272.563129] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  273.139329] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  273.139344] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  301.680407] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  301.680421] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  302.016552] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  302.016565] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  321.778637] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 
+[  405.703573] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  405.703585] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  406.219320] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  406.219329] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  501.199198] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  501.199210] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  501.826771] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  501.826781] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  503.012715] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  503.012726] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  503.648270] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  503.648281] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  587.576102] ip6tables deny: IN= OUT=wlp1s0 SRC=fe80:0000:0000:0000:4ae9:6850:48ed:95c2 DST=ff02:0000:0000:0000:0000:0000:0000:0002 LEN=48 TC=0 HOPLIMIT=255 FLOWLBL=600126 PROTO=ICMPv6 TYPE=133 CODE=0 

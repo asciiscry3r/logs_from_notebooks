@@ -1,0 +1,1927 @@
+[    0.000000] Linux version 5.14.9-AMD (max@mksredmibook) (gcc (GCC) 11.1.0, GNU ld (GNU Binutils) 2.36.1) #2 SMP PREEMPT Thu Sep 30 22:26:22 EEST 2021
+[    0.000000] Command line: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd root=UUID=60699b1d-4878-4c7a-9ce1-e6cca69ee26a rw rootflags=subvol=@ quiet cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b root=/dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b apparmor=1 security=apparmor resume=UUID=151d3cac-f952-4e01-9ecf-9b1a98b0597a udev.log_priority=3 lsm=landlock,lockdown,yama,apparmor,bpf amdgpu.audio=0 amdgpu.noretry=0 pci=nocrs mem_encrypt=on
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   AMD AuthenticAMD
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+[    0.000000] signal: max sigframe size: 1776
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000bffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000009afffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009b00000-0x0000000009dfffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000009e00000-0x0000000009efffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0ffff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x0000000009f10000-0x00000000bab68fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bab69000-0x00000000bbd68fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bbd69000-0x00000000c9f7efff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000c9f7f000-0x00000000caf7efff] type 20
+[    0.000000] BIOS-e820: [mem 0x00000000caf7f000-0x00000000ccf7efff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ccf7f000-0x00000000cdf7efff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000ceffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fde00000-0x00000000fdefffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed80fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000fff2ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000040f33ffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000040f340000-0x000000042fffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] efi: EFI v2.70 by INSYDE Corp.
+[    0.000000] efi: ACPI=0xcdffe000 ACPI 2.0=0xcdffe014 TPMFinalLog=0xcdf2c000 SMBIOS=0xcb70c000 SMBIOS 3.0=0xcb70a000 ESRT=0xcb70d418 
+[    0.000000] SMBIOS 3.2.0 present.
+[    0.000000] DMI: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2370.569 MHz processor
+[    0.000544] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000547] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000552] last_pfn = 0x40f340 max_arch_pfn = 0x400000000
+[    0.000736] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.000963] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+[    0.010437] esrt: Reserving ESRT space from 0x00000000cb70d418 to 0x00000000cb70d450.
+[    0.010446] Using GB pages for direct mapping
+[    0.011040] Secure boot disabled
+[    0.011041] RAMDISK: [mem 0x35b61000-0x36da7fff]
+[    0.011046] ACPI: Early table checksum verification disabled
+[    0.011049] ACPI: RSDP 0x00000000CDFFE014 000024 (v02 XMCC  )
+[    0.011052] ACPI: XSDT 0x00000000CDFCE188 000134 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011056] ACPI: FACP 0x00000000CDFEC000 00010C (v05 XMCC   XMCC1951 00000002      01000013)
+[    0.011060] ACPI: DSDT 0x00000000CDFDF000 006545 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011062] ACPI: FACS 0x00000000CDF29000 000040
+[    0.011064] ACPI: UEFI 0x00000000CDF7E000 000236 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.011067] ACPI: SSDT 0x00000000CDFF5000 007216 (v02 AMD    AmdTable 00000002 MSFT 04000000)
+[    0.011069] ACPI: IVRS 0x00000000CDFF4000 0001A4 (v02 AMD    AmdTable 00000001 AMD  00000000)
+[    0.011071] ACPI: SSDT 0x00000000CDFF3000 000228 (v01 AMD    STD3     00000001 INTL 20130117)
+[    0.011073] ACPI: SSDT 0x00000000CDFF2000 000D61 (v01 XMCC   XMCC1806 00003000 INTL 20130117)
+[    0.011075] ACPI: SSDT 0x00000000CDFF1000 00046D (v01 Insyde TPMACPI  00001000 INTL 20130117)
+[    0.011078] ACPI: TPM2 0x00000000CDFF0000 000034 (v04 XMCC   XMCC1951 00000002      01000013)
+[    0.011080] ACPI: MSDM 0x00000000CDFEF000 000055 (v03 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.011082] ACPI: ASF! 0x00000000CDFEE000 0000A5 (v32 XMCC   XMCC1951 00000002      01000013)
+[    0.011084] ACPI: BOOT 0x00000000CDFED000 000028 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011086] ACPI: HPET 0x00000000CDFEB000 000038 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011088] ACPI: APIC 0x00000000CDFEA000 000138 (v03 XMCC   XMCC1951 00000002      01000013)
+[    0.011090] ACPI: MCFG 0x00000000CDFE9000 00003C (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011092] ACPI: SLIC 0x00000000CDFE8000 000176 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011095] ACPI: SSDT 0x00000000CDFDE000 000080 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011097] ACPI: VFCT 0x00000000CDFD0000 00D484 (v01 XMCC   XMCC1951 00000001 AMD  31504F47)
+[    0.011099] ACPI: SSDT 0x00000000CDFCF000 0000F8 (v01 XMCC   PcdTabl  00001000 INTL 20130117)
+[    0.011101] ACPI: SSDT 0x00000000CDFCC000 001500 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.011103] ACPI: CRAT 0x00000000CDFFD000 000BA8 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.011105] ACPI: CDIT 0x00000000CDFCB000 000029 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.011107] ACPI: SSDT 0x00000000CDFCA000 00028D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011109] ACPI: SSDT 0x00000000CDFC9000 000C78 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011111] ACPI: SSDT 0x00000000CDFC7000 0010A5 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011114] ACPI: SSDT 0x00000000CDFC3000 0030C8 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011116] ACPI: FPDT 0x00000000CDFC2000 000044 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.011118] ACPI: WSMT 0x00000000CDFC0000 000028 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.011120] ACPI: SSDT 0x00000000CDFE7000 00020A (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011122] ACPI: SSDT 0x00000000CDFE6000 0005A1 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011124] ACPI: SSDT 0x00000000CDFBF000 000343 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011126] ACPI: SSDT 0x00000000CDFBE000 00007D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011128] ACPI: SSDT 0x00000000CDFBD000 000822 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011130] ACPI: SSDT 0x00000000CDFBC000 000517 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.011132] ACPI: BGRT 0x00000000CDFC1000 000038 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.011134] ACPI: Reserving FACP table memory at [mem 0xcdfec000-0xcdfec10b]
+[    0.011135] ACPI: Reserving DSDT table memory at [mem 0xcdfdf000-0xcdfe5544]
+[    0.011136] ACPI: Reserving FACS table memory at [mem 0xcdf29000-0xcdf2903f]
+[    0.011137] ACPI: Reserving UEFI table memory at [mem 0xcdf7e000-0xcdf7e235]
+[    0.011138] ACPI: Reserving SSDT table memory at [mem 0xcdff5000-0xcdffc215]
+[    0.011138] ACPI: Reserving IVRS table memory at [mem 0xcdff4000-0xcdff41a3]
+[    0.011139] ACPI: Reserving SSDT table memory at [mem 0xcdff3000-0xcdff3227]
+[    0.011140] ACPI: Reserving SSDT table memory at [mem 0xcdff2000-0xcdff2d60]
+[    0.011141] ACPI: Reserving SSDT table memory at [mem 0xcdff1000-0xcdff146c]
+[    0.011141] ACPI: Reserving TPM2 table memory at [mem 0xcdff0000-0xcdff0033]
+[    0.011142] ACPI: Reserving MSDM table memory at [mem 0xcdfef000-0xcdfef054]
+[    0.011143] ACPI: Reserving ASF! table memory at [mem 0xcdfee000-0xcdfee0a4]
+[    0.011144] ACPI: Reserving BOOT table memory at [mem 0xcdfed000-0xcdfed027]
+[    0.011144] ACPI: Reserving HPET table memory at [mem 0xcdfeb000-0xcdfeb037]
+[    0.011145] ACPI: Reserving APIC table memory at [mem 0xcdfea000-0xcdfea137]
+[    0.011146] ACPI: Reserving MCFG table memory at [mem 0xcdfe9000-0xcdfe903b]
+[    0.011146] ACPI: Reserving SLIC table memory at [mem 0xcdfe8000-0xcdfe8175]
+[    0.011147] ACPI: Reserving SSDT table memory at [mem 0xcdfde000-0xcdfde07f]
+[    0.011148] ACPI: Reserving VFCT table memory at [mem 0xcdfd0000-0xcdfdd483]
+[    0.011149] ACPI: Reserving SSDT table memory at [mem 0xcdfcf000-0xcdfcf0f7]
+[    0.011149] ACPI: Reserving SSDT table memory at [mem 0xcdfcc000-0xcdfcd4ff]
+[    0.011150] ACPI: Reserving CRAT table memory at [mem 0xcdffd000-0xcdffdba7]
+[    0.011151] ACPI: Reserving CDIT table memory at [mem 0xcdfcb000-0xcdfcb028]
+[    0.011152] ACPI: Reserving SSDT table memory at [mem 0xcdfca000-0xcdfca28c]
+[    0.011152] ACPI: Reserving SSDT table memory at [mem 0xcdfc9000-0xcdfc9c77]
+[    0.011153] ACPI: Reserving SSDT table memory at [mem 0xcdfc7000-0xcdfc80a4]
+[    0.011154] ACPI: Reserving SSDT table memory at [mem 0xcdfc3000-0xcdfc60c7]
+[    0.011155] ACPI: Reserving FPDT table memory at [mem 0xcdfc2000-0xcdfc2043]
+[    0.011155] ACPI: Reserving WSMT table memory at [mem 0xcdfc0000-0xcdfc0027]
+[    0.011156] ACPI: Reserving SSDT table memory at [mem 0xcdfe7000-0xcdfe7209]
+[    0.011157] ACPI: Reserving SSDT table memory at [mem 0xcdfe6000-0xcdfe65a0]
+[    0.011158] ACPI: Reserving SSDT table memory at [mem 0xcdfbf000-0xcdfbf342]
+[    0.011159] ACPI: Reserving SSDT table memory at [mem 0xcdfbe000-0xcdfbe07c]
+[    0.011159] ACPI: Reserving SSDT table memory at [mem 0xcdfbd000-0xcdfbd821]
+[    0.011160] ACPI: Reserving SSDT table memory at [mem 0xcdfbc000-0xcdfbc516]
+[    0.011161] ACPI: Reserving BGRT table memory at [mem 0xcdfc1000-0xcdfc1037]
+[    0.011182] No NUMA configuration found
+[    0.011182] Faking a node at [mem 0x0000000000000000-0x000000040f33ffff]
+[    0.011186] NODE_DATA(0) allocated [mem 0x40f33c000-0x40f33ffff]
+[    0.011209] Zone ranges:
+[    0.011210]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.011211]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.011212]   Normal   [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.011213]   Device   empty
+[    0.011214] Movable zone start for each node
+[    0.011215] Early memory node ranges
+[    0.011215]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.011216]   node   0: [mem 0x0000000000100000-0x0000000009afffff]
+[    0.011217]   node   0: [mem 0x0000000009e00000-0x0000000009efffff]
+[    0.011218]   node   0: [mem 0x0000000009f10000-0x00000000bab68fff]
+[    0.011219]   node   0: [mem 0x00000000bbd69000-0x00000000c9f7efff]
+[    0.011220]   node   0: [mem 0x00000000cdfff000-0x00000000cdffffff]
+[    0.011220]   node   0: [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.011222] Initmem setup node 0 [mem 0x0000000000001000-0x000000040f33ffff]
+[    0.011226] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.011242] On node 0, zone DMA: 97 pages in unavailable ranges
+[    0.011385] On node 0, zone DMA32: 768 pages in unavailable ranges
+[    0.016491] On node 0, zone DMA32: 16 pages in unavailable ranges
+[    0.016962] On node 0, zone DMA32: 4608 pages in unavailable ranges
+[    0.017098] On node 0, zone DMA32: 16512 pages in unavailable ranges
+[    0.040843] On node 0, zone Normal: 8192 pages in unavailable ranges
+[    0.040874] On node 0, zone Normal: 3264 pages in unavailable ranges
+[    0.041026] ACPI: PM-Timer IO Port: 0x408
+[    0.041032] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.041033] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.041034] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[    0.041034] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[    0.041035] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[    0.041036] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[    0.041036] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[    0.041037] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[    0.041038] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[    0.041038] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[    0.041039] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[    0.041039] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[    0.041040] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[    0.041041] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[    0.041041] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[    0.041042] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[    0.041054] IOAPIC[0]: apic_id 33, version 33, address 0xfec00000, GSI 0-23
+[    0.041059] IOAPIC[1]: apic_id 34, version 33, address 0xfec01000, GSI 24-55
+[    0.041061] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.041063] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.041066] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.041067] ACPI: HPET id: 0x10228210 base: 0xfed00000
+[    0.041075] e820: update [mem 0xb3647000-0xb364cfff] usable ==> reserved
+[    0.041084] smpboot: Allowing 16 CPUs, 10 hotplug CPUs
+[    0.041108] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.041110] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000bffff]
+[    0.041111] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+[    0.041113] PM: hibernation: Registered nosave memory: [mem 0x09b00000-0x09dfffff]
+[    0.041114] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0ffff]
+[    0.041116] PM: hibernation: Registered nosave memory: [mem 0xb3647000-0xb364cfff]
+[    0.041117] PM: hibernation: Registered nosave memory: [mem 0xbab69000-0xbbd68fff]
+[    0.041119] PM: hibernation: Registered nosave memory: [mem 0xc9f7f000-0xcaf7efff]
+[    0.041119] PM: hibernation: Registered nosave memory: [mem 0xcaf7f000-0xccf7efff]
+[    0.041120] PM: hibernation: Registered nosave memory: [mem 0xccf7f000-0xcdf7efff]
+[    0.041120] PM: hibernation: Registered nosave memory: [mem 0xcdf7f000-0xcdffefff]
+[    0.041122] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xceffffff]
+[    0.041123] PM: hibernation: Registered nosave memory: [mem 0xcf000000-0xf7ffffff]
+[    0.041123] PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+[    0.041124] PM: hibernation: Registered nosave memory: [mem 0xfc000000-0xfddfffff]
+[    0.041124] PM: hibernation: Registered nosave memory: [mem 0xfde00000-0xfdefffff]
+[    0.041125] PM: hibernation: Registered nosave memory: [mem 0xfdf00000-0xfebfffff]
+[    0.041125] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[    0.041126] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfec0ffff]
+[    0.041126] PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+[    0.041127] PM: hibernation: Registered nosave memory: [mem 0xfec11000-0xfec1ffff]
+[    0.041128] PM: hibernation: Registered nosave memory: [mem 0xfec20000-0xfec20fff]
+[    0.041128] PM: hibernation: Registered nosave memory: [mem 0xfec21000-0xfed7ffff]
+[    0.041129] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed80fff]
+[    0.041129] PM: hibernation: Registered nosave memory: [mem 0xfed81000-0xfedfffff]
+[    0.041130] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.041130] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[    0.041131] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xfff2ffff]
+[    0.041132] PM: hibernation: Registered nosave memory: [mem 0xfff30000-0xffffffff]
+[    0.041133] [mem 0xcf000000-0xf7ffffff] available for PCI devices
+[    0.041134] Booting paravirtualized kernel on bare hardware
+[    0.041137] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370452778343963 ns
+[    0.044132] setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:16 nr_node_ids:1
+[    0.044696] percpu: Embedded 50 pages/cpu s167936 r8192 d28672 u262144
+[    0.044706] pcpu-alloc: s167936 r8192 d28672 u262144 alloc=1*2097152
+[    0.044708] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+[    0.044735] Built 1 zonelists, mobility grouping on.  Total pages: 3966649
+[    0.044737] Policy zone: Normal
+[    0.044738] Kernel command line: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd root=UUID=60699b1d-4878-4c7a-9ce1-e6cca69ee26a rw rootflags=subvol=@ quiet cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b root=/dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b apparmor=1 security=apparmor resume=UUID=151d3cac-f952-4e01-9ecf-9b1a98b0597a udev.log_priority=3 lsm=landlock,lockdown,yama,apparmor,bpf amdgpu.audio=0 amdgpu.noretry=0 pci=nocrs mem_encrypt=on
+[    0.044823] Unknown command line parameters: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b mem_encrypt=on
+[    0.046640] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.047551] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.047595] mem auto-init: stack:byref_all(zero), heap alloc:off, heap free:off
+[    0.081647] Memory: 15563108K/16119096K available (12295K kernel code, 3082K rwdata, 3424K rodata, 1652K init, 3860K bss, 555728K reserved, 0K cma-reserved)
+[    0.081656] random: get_random_u64 called from __kmem_cache_create+0x26/0x540 with crng_init=0
+[    0.081788] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+[    0.081802] ftrace: allocating 36353 entries in 143 pages
+[    0.090824] ftrace: allocated 143 pages with 5 groups
+[    0.090917] rcu: Preemptible hierarchical RCU implementation.
+[    0.090918] rcu: 	RCU restricting CPUs from NR_CPUS=128 to nr_cpu_ids=16.
+[    0.090919] 	Trampoline variant of Tasks RCU enabled.
+[    0.090919] 	Rude variant of Tasks RCU enabled.
+[    0.090920] 	Tracing variant of Tasks RCU enabled.
+[    0.090920] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    0.090921] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+[    0.093417] NR_IRQS: 8448, nr_irqs: 1096, preallocated irqs: 16
+[    0.093745] random: crng done (trusting CPU's manufacturer)
+[    0.093773] Console: colour dummy device 80x25
+[    0.093785] printk: console [tty0] enabled
+[    0.093803] ACPI: Core revision 20210604
+[    0.093984] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+[    0.094001] APIC: Switch to symmetric I/O mode setup
+[    0.094649] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+[    0.094650] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+[    0.094651] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+[    0.094652] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+[    0.094922] Switched APIC routing to physical flat.
+[    0.095646] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.110674] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x222b9d1563c, max_idle_ns: 440795258867 ns
+[    0.110684] Calibrating delay loop (skipped), value calculated using timer frequency.. 4743.68 BogoMIPS (lpj=7901896)
+[    0.110686] pid_max: default: 32768 minimum: 301
+[    0.114038] LSM: Security Framework initializing
+[    0.114041] LSM: security= is ignored because it is superseded by lsm=
+[    0.114049] landlock: Up and running.
+[    0.114050] Yama: becoming mindful.
+[    0.114065] AppArmor: AppArmor initialized
+[    0.114067] LSM support for eBPF active
+[    0.114091] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.114105] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.114276] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    0.114312] LVT offset 1 assigned for vector 0xf9
+[    0.114372] LVT offset 2 assigned for vector 0xf4
+[    0.114389] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+[    0.114390] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+[    0.114394] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.114396] Spectre V2 : Mitigation: Full AMD retpoline
+[    0.114397] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.114397] Spectre V2 : Enabling Restricted Speculation for firmware calls
+[    0.114399] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    0.114400] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[    0.117747] Freeing SMP alternatives memory: 32K
+[    0.227743] smpboot: CPU0: AMD Ryzen 5 4500U with Radeon Graphics (family: 0x17, model: 0x60, stepping: 0x1)
+[    0.227894] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+[    0.227899] ... version:                0
+[    0.227900] ... bit width:              48
+[    0.227900] ... generic registers:      6
+[    0.227901] ... value mask:             0000ffffffffffff
+[    0.227902] ... max period:             00007fffffffffff
+[    0.227902] ... fixed-purpose events:   0
+[    0.227902] ... event mask:             000000000000003f
+[    0.227951] rcu: Hierarchical SRCU implementation.
+[    0.228237] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.228357] smp: Bringing up secondary CPUs ...
+[    0.228432] x86: Booting SMP configuration:
+[    0.228433] .... node  #0, CPUs:        #1  #2  #3  #4  #5
+[    0.239706] smp: Brought up 1 node, 6 CPUs
+[    0.239706] smpboot: Max logical packages: 3
+[    0.239706] smpboot: Total of 6 processors activated (28458.11 BogoMIPS)
+[    0.240998] devtmpfs: initialized
+[    0.240998] x86/mm: Memory block size: 128MB
+[    0.241374] ACPI: PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0ffff] (65536 bytes)
+[    0.241374] ACPI: PM: Registering ACPI NVS region [mem 0xccf7f000-0xcdf7efff] (16777216 bytes)
+[    0.241374] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    0.241374] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[    0.241374] pinctrl core: initialized pinctrl subsystem
+[    0.241374] regulator-dummy: no parameters, enabled
+[    0.241374] PM: RTC time: 07:00:53, date: 2021-10-01
+[    0.241374] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.241374] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.241374] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.241374] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.241374] audit: initializing netlink subsys (disabled)
+[    0.241374] audit: type=2000 audit(1633071652.146:1): state=initialized audit_enabled=0 res=1
+[    0.241374] thermal_sys: Registered thermal governor 'fair_share'
+[    0.241374] thermal_sys: Registered thermal governor 'bang_bang'
+[    0.241374] thermal_sys: Registered thermal governor 'step_wise'
+[    0.241374] thermal_sys: Registered thermal governor 'user_space'
+[    0.241374] cpuidle: using governor ladder
+[    0.241374] cpuidle: using governor menu
+[    0.241374] Simple Boot Flag at 0x44 set to 0x1
+[    0.241374] ACPI: bus type PCI registered
+[    0.241374] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.241374] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+[    0.241374] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+[    0.241374] PCI: Using configuration type 1 for base access
+[    0.241448] Kprobes globally optimized
+[    0.241450] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.241450] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.244056] ACPI: Added _OSI(Module Device)
+[    0.244056] ACPI: Added _OSI(Processor Device)
+[    0.244056] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.244056] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.244056] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.244056] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.244056] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.251959] ACPI: 18 ACPI AML tables successfully acquired and loaded
+[    0.252618] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.253593] ACPI: EC: EC started
+[    0.253593] ACPI: EC: interrupt blocked
+[    0.255649] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.255651] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+[    0.255652] ACPI: Interpreter enabled
+[    0.255661] ACPI: PM: (supports S0 S4 S5)
+[    0.255662] ACPI: Using IOAPIC for interrupt routing
+[    0.255756] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+[    0.256794] ACPI: PM: Power Resource [P0U0]
+[    0.256805] ACPI: PM: Power Resource [P3U0]
+[    0.257042] ACPI: PM: Power Resource [P0U1]
+[    0.257053] ACPI: PM: Power Resource [P3U1]
+[    0.257278] ACPI: PM: Power Resource [P0S0]
+[    0.257290] ACPI: PM: Power Resource [P3S0]
+[    0.257365] ACPI: PM: Power Resource [P0S1]
+[    0.257376] ACPI: PM: Power Resource [P3S1]
+[    0.260489] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.260494] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[    0.260564] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR]
+[    0.260628] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+[    0.260634] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+[    0.260718] acpi PNP0A08:00: host bridge window [io  0x0000-0x0cf7 window] (ignored)
+[    0.260720] acpi PNP0A08:00: host bridge window [io  0x0d00-0xffff window] (ignored)
+[    0.260721] acpi PNP0A08:00: host bridge window [mem 0x000a0000-0x000bffff window] (ignored)
+[    0.260722] acpi PNP0A08:00: host bridge window [mem 0x000c0000-0x000c3fff window] (ignored)
+[    0.260723] acpi PNP0A08:00: host bridge window [mem 0x000c4000-0x000c7fff window] (ignored)
+[    0.260724] acpi PNP0A08:00: host bridge window [mem 0x000c8000-0x000cbfff window] (ignored)
+[    0.260725] acpi PNP0A08:00: host bridge window [mem 0x000cc000-0x000cffff window] (ignored)
+[    0.260725] acpi PNP0A08:00: host bridge window [mem 0x000d0000-0x000d3fff window] (ignored)
+[    0.260726] acpi PNP0A08:00: host bridge window [mem 0x000d4000-0x000d7fff window] (ignored)
+[    0.260727] acpi PNP0A08:00: host bridge window [mem 0x000d8000-0x000dbfff window] (ignored)
+[    0.260728] acpi PNP0A08:00: host bridge window [mem 0x000dc000-0x000dffff window] (ignored)
+[    0.260729] acpi PNP0A08:00: host bridge window [mem 0x000e0000-0x000e3fff window] (ignored)
+[    0.260729] acpi PNP0A08:00: host bridge window [mem 0x000e4000-0x000e7fff window] (ignored)
+[    0.260730] acpi PNP0A08:00: host bridge window [mem 0x000e8000-0x000ebfff window] (ignored)
+[    0.260731] acpi PNP0A08:00: host bridge window [mem 0x000ec000-0x000effff window] (ignored)
+[    0.260732] acpi PNP0A08:00: host bridge window [mem 0xd0000000-0xf7ffffff window] (ignored)
+[    0.260733] acpi PNP0A08:00: host bridge window [mem 0xfc000000-0xfed3ffff window] (ignored)
+[    0.260734] acpi PNP0A08:00: host bridge window [io  0x0cf8-0x0cff] (ignored)
+[    0.260735] acpi PNP0A08:00: host bridge window [mem 0x450200000-0xfcffffffff window] (ignored)
+[    0.260735] PCI: root bus 00: using default resources
+[    0.260805] PCI host bridge to bus 0000:00
+[    0.260806] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.260807] pci_bus 0000:00: root bus resource [mem 0x00000000-0xffffffffffff]
+[    0.260808] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.260818] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+[    0.260884] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+[    0.260952] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+[    0.261008] pci 0000:00:01.2: [1022:1634] type 01 class 0x060400
+[    0.261073] pci 0000:00:01.2: PME# supported from D0 D3hot D3cold
+[    0.261165] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+[    0.261224] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+[    0.261273] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+[    0.261292] pci 0000:00:08.1: enabling Extended Tags
+[    0.261319] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+[    0.261385] pci 0000:00:08.2: [1022:1635] type 01 class 0x060400
+[    0.261405] pci 0000:00:08.2: enabling Extended Tags
+[    0.261431] pci 0000:00:08.2: PME# supported from D0 D3hot D3cold
+[    0.261511] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+[    0.261619] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+[    0.261732] pci 0000:00:18.0: [1022:1448] type 00 class 0x060000
+[    0.261761] pci 0000:00:18.1: [1022:1449] type 00 class 0x060000
+[    0.261791] pci 0000:00:18.2: [1022:144a] type 00 class 0x060000
+[    0.261820] pci 0000:00:18.3: [1022:144b] type 00 class 0x060000
+[    0.261850] pci 0000:00:18.4: [1022:144c] type 00 class 0x060000
+[    0.261880] pci 0000:00:18.5: [1022:144d] type 00 class 0x060000
+[    0.261909] pci 0000:00:18.6: [1022:144e] type 00 class 0x060000
+[    0.261938] pci 0000:00:18.7: [1022:144f] type 00 class 0x060000
+[    0.262035] pci 0000:01:00.0: [10ec:c822] type 00 class 0x028000
+[    0.262054] pci 0000:01:00.0: reg 0x10: [io  0x2000-0x20ff]
+[    0.262078] pci 0000:01:00.0: reg 0x18: [mem 0xd0500000-0xd050ffff 64bit]
+[    0.262194] pci 0000:01:00.0: supports D1 D2
+[    0.262194] pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    0.262344] pci 0000:00:01.2: PCI bridge to [bus 01]
+[    0.262347] pci 0000:00:01.2:   bridge window [io  0x2000-0x2fff]
+[    0.262349] pci 0000:00:01.2:   bridge window [mem 0xd0500000-0xd05fffff]
+[    0.262401] pci 0000:02:00.0: [1002:1636] type 00 class 0x030000
+[    0.262411] pci 0000:02:00.0: reg 0x10: [mem 0xfce0000000-0xfcefffffff 64bit pref]
+[    0.262418] pci 0000:02:00.0: reg 0x18: [mem 0xfcf0000000-0xfcf01fffff 64bit pref]
+[    0.262423] pci 0000:02:00.0: reg 0x20: [io  0x1000-0x10ff]
+[    0.262428] pci 0000:02:00.0: reg 0x24: [mem 0xd0400000-0xd047ffff]
+[    0.262436] pci 0000:02:00.0: enabling Extended Tags
+[    0.262445] pci 0000:02:00.0: BAR 0: assigned to efifb
+[    0.262480] pci 0000:02:00.0: PME# supported from D1 D2 D3hot D3cold
+[    0.262553] pci 0000:02:00.1: [1002:1637] type 00 class 0x040300
+[    0.262559] pci 0000:02:00.1: reg 0x10: [mem 0xd04c8000-0xd04cbfff]
+[    0.262579] pci 0000:02:00.1: enabling Extended Tags
+[    0.262604] pci 0000:02:00.1: PME# supported from D1 D2 D3hot D3cold
+[    0.262652] pci 0000:02:00.2: [1022:15df] type 00 class 0x108000
+[    0.262664] pci 0000:02:00.2: reg 0x18: [mem 0xd0300000-0xd03fffff]
+[    0.262672] pci 0000:02:00.2: reg 0x24: [mem 0xd04cc000-0xd04cdfff]
+[    0.262679] pci 0000:02:00.2: enabling Extended Tags
+[    0.262750] pci 0000:02:00.3: [1022:1639] type 00 class 0x0c0330
+[    0.262760] pci 0000:02:00.3: reg 0x10: [mem 0xd0100000-0xd01fffff 64bit]
+[    0.262783] pci 0000:02:00.3: enabling Extended Tags
+[    0.262809] pci 0000:02:00.3: PME# supported from D0 D3hot D3cold
+[    0.262859] pci 0000:02:00.4: [1022:1639] type 00 class 0x0c0330
+[    0.262868] pci 0000:02:00.4: reg 0x10: [mem 0xd0200000-0xd02fffff 64bit]
+[    0.262891] pci 0000:02:00.4: enabling Extended Tags
+[    0.262917] pci 0000:02:00.4: PME# supported from D0 D3hot D3cold
+[    0.262966] pci 0000:02:00.5: [1022:15e2] type 00 class 0x048000
+[    0.262973] pci 0000:02:00.5: reg 0x10: [mem 0xd0480000-0xd04bffff]
+[    0.262992] pci 0000:02:00.5: enabling Extended Tags
+[    0.263017] pci 0000:02:00.5: PME# supported from D0 D3hot D3cold
+[    0.263070] pci 0000:02:00.6: [1022:15e3] type 00 class 0x040300
+[    0.263076] pci 0000:02:00.6: reg 0x10: [mem 0xd04c0000-0xd04c7fff]
+[    0.263096] pci 0000:02:00.6: enabling Extended Tags
+[    0.263121] pci 0000:02:00.6: PME# supported from D0 D3hot D3cold
+[    0.263188] pci 0000:00:08.1: PCI bridge to [bus 02]
+[    0.263190] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    0.263192] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    0.263194] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.263230] pci 0000:03:00.0: [1022:7901] type 00 class 0x010601
+[    0.263256] pci 0000:03:00.0: reg 0x24: [mem 0xd0001000-0xd00017ff]
+[    0.263263] pci 0000:03:00.0: enabling Extended Tags
+[    0.263353] pci 0000:03:00.1: [1022:7901] type 00 class 0x010601
+[    0.263379] pci 0000:03:00.1: reg 0x24: [mem 0xd0000000-0xd00007ff]
+[    0.263387] pci 0000:03:00.1: enabling Extended Tags
+[    0.263460] pci 0000:00:08.2: PCI bridge to [bus 03]
+[    0.263464] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    0.264592] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[    0.264594] ACPI: PCI: Interrupt link LNKA disabled
+[    0.264632] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+[    0.264633] ACPI: PCI: Interrupt link LNKB disabled
+[    0.264660] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[    0.264661] ACPI: PCI: Interrupt link LNKC disabled
+[    0.264698] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[    0.264698] ACPI: PCI: Interrupt link LNKD disabled
+[    0.264732] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    0.264733] ACPI: PCI: Interrupt link LNKE disabled
+[    0.264759] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    0.264759] ACPI: PCI: Interrupt link LNKF disabled
+[    0.264786] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    0.264786] ACPI: PCI: Interrupt link LNKG disabled
+[    0.264812] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    0.264813] ACPI: PCI: Interrupt link LNKH disabled
+[    0.265757] ACPI: EC: interrupt unblocked
+[    0.265758] ACPI: EC: event unblocked
+[    0.265766] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.265766] ACPI: EC: GPE=0x3
+[    0.265767] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+[    0.265769] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+[    0.265804] iommu: Default domain type: Passthrough 
+[    0.265804] pci 0000:02:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+[    0.265804] pci 0000:02:00.0: vgaarb: bridge control possible
+[    0.265804] pci 0000:02:00.0: vgaarb: setting as boot device
+[    0.265804] vgaarb: loaded
+[    0.275085] pps_core: LinuxPPS API ver. 1 registered
+[    0.275089] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.275094] PTP clock support registered
+[    0.275108] EDAC MC: Ver: 3.0.0
+[    0.275196] Registered efivars operations
+[    0.275196] NetLabel: Initializing
+[    0.275196] NetLabel:  domain hash size = 128
+[    0.275196] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.275196] NetLabel:  unlabeled traffic allowed by default
+[    0.275196] PCI: Using ACPI for IRQ routing
+[    0.277610] PCI: pci_cache_line_size set to 64 bytes
+[    0.277645] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+[    0.277646] e820: reserve RAM buffer [mem 0x09b00000-0x0bffffff]
+[    0.277647] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+[    0.277648] e820: reserve RAM buffer [mem 0xb3647000-0xb3ffffff]
+[    0.277649] e820: reserve RAM buffer [mem 0xbab69000-0xbbffffff]
+[    0.277649] e820: reserve RAM buffer [mem 0xc9f7f000-0xcbffffff]
+[    0.277650] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+[    0.277651] e820: reserve RAM buffer [mem 0x40f340000-0x40fffffff]
+[    0.277654] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    0.277654] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+[    0.279697] clocksource: Switched to clocksource tsc-early
+[    0.282778] VFS: Disk quotas dquot_6.6.0
+[    0.282791] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.282882] AppArmor: AppArmor Filesystem Enabled
+[    0.282924] pnp: PnP ACPI init
+[    0.283071] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+[    0.283075] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    0.283077] system 00:00: [mem 0xfde00000-0xfdefffff] has been reserved
+[    0.283191] system 00:03: [io  0x0400-0x04cf] has been reserved
+[    0.283193] system 00:03: [io  0x04d0-0x04d1] has been reserved
+[    0.283194] system 00:03: [io  0x04d6] has been reserved
+[    0.283195] system 00:03: [io  0x0c00-0x0c01] has been reserved
+[    0.283196] system 00:03: [io  0x0c14] has been reserved
+[    0.283196] system 00:03: [io  0x0c50-0x0c52] has been reserved
+[    0.283197] system 00:03: [io  0x0c6c] has been reserved
+[    0.283198] system 00:03: [io  0x0c6f] has been reserved
+[    0.283199] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+[    0.283231] system 00:04: [mem 0x000e0000-0x000fffff] could not be reserved
+[    0.283233] system 00:04: [mem 0xff000000-0xffffffff] could not be reserved
+[    0.283980] pnp: PnP ACPI: found 5 devices
+[    0.291419] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.291520] NET: Registered PF_INET protocol family
+[    0.291880] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.293913] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.293929] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.294050] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    0.294171] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.294210] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.294246] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.294329] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.294334] NET: Registered PF_XDP protocol family
+[    0.294352] pci 0000:00:01.2: PCI bridge to [bus 01]
+[    0.294356] pci 0000:00:01.2:   bridge window [io  0x2000-0x2fff]
+[    0.294360] pci 0000:00:01.2:   bridge window [mem 0xd0500000-0xd05fffff]
+[    0.294366] pci 0000:00:08.1: PCI bridge to [bus 02]
+[    0.294368] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    0.294370] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    0.294372] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.294375] pci 0000:00:08.2: PCI bridge to [bus 03]
+[    0.294377] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    0.294382] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.294384] pci_bus 0000:00: resource 5 [mem 0x00000000-0xffffffffffff]
+[    0.294385] pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+[    0.294386] pci_bus 0000:01: resource 1 [mem 0xd0500000-0xd05fffff]
+[    0.294387] pci_bus 0000:02: resource 0 [io  0x1000-0x1fff]
+[    0.294388] pci_bus 0000:02: resource 1 [mem 0xd0100000-0xd04fffff]
+[    0.294389] pci_bus 0000:02: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.294390] pci_bus 0000:03: resource 1 [mem 0xd0000000-0xd00fffff]
+[    0.294493] pci 0000:02:00.1: D0 power state depends on 0000:02:00.0
+[    0.294521] pci 0000:02:00.3: extending delay after power-on from D3hot to 20 msec
+[    0.297538] pci 0000:02:00.4: extending delay after power-on from D3hot to 20 msec
+[    0.308690] pci 0000:02:00.4: quirk_usb_early_handoff+0x0/0x740 took 10889 usecs
+[    0.308702] PCI: CLS 64 bytes, default 64
+[    0.308715] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+[    0.308747] pci 0000:00:00.2: can't derive routing for PCI INT A
+[    0.308748] pci 0000:00:00.2: PCI INT A: not connected
+[    0.308750] AMD-Vi: Lazy IO/TLB flushing enabled
+[    0.308759] Trying to unpack rootfs image as initramfs...
+[    0.308762] pci 0000:00:01.0: Adding to iommu group 0
+[    0.308770] pci 0000:00:01.2: Adding to iommu group 1
+[    0.308778] pci 0000:00:02.0: Adding to iommu group 2
+[    0.308789] pci 0000:00:08.0: Adding to iommu group 3
+[    0.308794] pci 0000:00:08.1: Adding to iommu group 3
+[    0.308799] pci 0000:00:08.2: Adding to iommu group 3
+[    0.308809] pci 0000:00:14.0: Adding to iommu group 4
+[    0.308815] pci 0000:00:14.3: Adding to iommu group 4
+[    0.308836] pci 0000:00:18.0: Adding to iommu group 5
+[    0.308842] pci 0000:00:18.1: Adding to iommu group 5
+[    0.308847] pci 0000:00:18.2: Adding to iommu group 5
+[    0.308853] pci 0000:00:18.3: Adding to iommu group 5
+[    0.308860] pci 0000:00:18.4: Adding to iommu group 5
+[    0.308865] pci 0000:00:18.5: Adding to iommu group 5
+[    0.308871] pci 0000:00:18.6: Adding to iommu group 5
+[    0.308876] pci 0000:00:18.7: Adding to iommu group 5
+[    0.308883] pci 0000:01:00.0: Adding to iommu group 6
+[    0.308895] pci 0000:02:00.0: Adding to iommu group 3
+[    0.308898] pci 0000:02:00.1: Adding to iommu group 3
+[    0.308901] pci 0000:02:00.2: Adding to iommu group 3
+[    0.308905] pci 0000:02:00.3: Adding to iommu group 3
+[    0.308908] pci 0000:02:00.4: Adding to iommu group 3
+[    0.308911] pci 0000:02:00.5: Adding to iommu group 3
+[    0.308914] pci 0000:02:00.6: Adding to iommu group 3
+[    0.308917] pci 0000:03:00.0: Adding to iommu group 3
+[    0.308921] pci 0000:03:00.1: Adding to iommu group 3
+[    0.309303] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+[    0.309304] AMD-Vi: Extended features (0x206d73ef22254ade): PPR X2APIC NX GT IA GA PC GA_vAPIC
+[    0.309308] AMD-Vi: Interrupt remapping enabled
+[    0.309309] AMD-Vi: Virtual APIC enabled
+[    0.309309] AMD-Vi: X2APIC enabled
+[    0.309393] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.309394] software IO TLB: mapped [mem 0x00000000c4434000-0x00000000c8434000] (64MB)
+[    0.317023] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[    0.317029] RAPL PMU: hw unit of domain package 2^-16 Joules
+[    0.317039] amd_uncore: 4  amd_df counters detected
+[    0.317046] amd_uncore: 6  amd_l3 counters detected
+[    0.317437] LVT offset 0 assigned for vector 0x400
+[    0.317644] perf: AMD IBS detected (0x000003ff)
+[    0.317662] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+[    0.319315] Initialise system trusted keyrings
+[    0.319329] Key type blacklist registered
+[    0.319390] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    0.320054] zbud: loaded
+[    0.322979] Key type asymmetric registered
+[    0.322983] Asymmetric key parser 'x509' registered
+[    0.323002] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    0.323096] io scheduler mq-deadline registered
+[    0.323100] io scheduler kyber registered
+[    0.323148] io scheduler bfq registered
+[    0.323149] 
+               Start testing find_bit() with random-filled bitmap
+[    0.323161] fbcon: Taking over console
+[    0.325732] find_next_bit:                  636287 ns, 163767 iterations
+[    0.326372] find_next_zero_bit:             638091 ns, 163914 iterations
+[    0.326997] find_last_bit:                  623072 ns, 163766 iterations
+[    0.330287] find_first_bit:                3288205 ns,  16427 iterations
+[    0.330616] find_next_and_bit:              327801 ns,  73908 iterations
+[    0.330618] 
+               Start testing find_bit() with sparse bitmap
+[    0.330639] find_next_bit:                   11612 ns,    654 iterations
+[    0.331884] find_next_zero_bit:            1243720 ns, 327027 iterations
+[    0.331895] find_last_bit:                    9187 ns,    654 iterations
+[    0.333179] find_first_bit:                1282673 ns,    654 iterations
+[    0.333186] find_next_and_bit:                5189 ns,      1 iterations
+[    0.333460] pcieport 0000:00:01.2: PME: Signaling with IRQ 26
+[    0.333567] pcieport 0000:00:08.1: PME: Signaling with IRQ 27
+[    0.333704] pcieport 0000:00:08.2: PME: Signaling with IRQ 28
+[    0.333772] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.333786] efifb: probing for efifb
+[    0.333803] efifb: showing boot graphics
+[    0.334950] efifb: framebuffer at 0xfce0000000, using 8128k, total 8128k
+[    0.334951] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[    0.334952] efifb: scrolling: redraw
+[    0.334952] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    0.335046] Console: switching to colour frame buffer device 240x67
+[    0.337847] fb0: EFI VGA frame buffer device
+[    0.337885] Monitor-Mwait will be used to enter C-1 state
+[    0.337904] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+[    0.337911] ACPI: FW issue: working around C-state latencies out of order
+[    0.338081] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+[    0.338091] ACPI: FW issue: working around C-state latencies out of order
+[    0.338191] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+[    0.338201] ACPI: FW issue: working around C-state latencies out of order
+[    0.338301] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+[    0.338312] ACPI: FW issue: working around C-state latencies out of order
+[    0.338386] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+[    0.338390] ACPI: FW issue: working around C-state latencies out of order
+[    0.338452] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+[    0.338456] ACPI: FW issue: working around C-state latencies out of order
+[    0.338594] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.348502] Freeing initrd memory: 18716K
+[    0.650047] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[    0.650049] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[    0.650074] rtc_cmos 00:01: RTC can wake from S4
+[    0.650291] rtc_cmos 00:01: registered as rtc0
+[    0.650336] rtc_cmos 00:01: setting system clock to 2021-10-01T07:00:53 UTC (1633071653)
+[    0.650350] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram, hpet irqs
+[    0.650520] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.653031] pstore: Registered efi as persistent store backend
+[    0.653062] drop_monitor: Initializing network drop monitor service
+[    0.653166] NET: Registered PF_INET6 protocol family
+[    0.657733] Segment Routing with IPv6
+[    0.657758] NET: Registered PF_PACKET protocol family
+[    0.658418] microcode: CPU0: patch_level=0x08600106
+[    0.658450] microcode: CPU1: patch_level=0x08600106
+[    0.658480] microcode: CPU2: patch_level=0x08600106
+[    0.658504] microcode: CPU3: patch_level=0x08600106
+[    0.658533] microcode: CPU4: patch_level=0x08600106
+[    0.658540] microcode: CPU5: patch_level=0x08600106
+[    0.658544] microcode: Microcode Update Driver: v2.2.
+[    0.658549] IPI shorthand broadcast: enabled
+[    0.658561] sched_clock: Marking stable (657910345, 400015)->(1761423089, -1103112729)
+[    0.658816] registered taskstats version 1
+[    0.659070] Loading compiled-in X.509 certificates
+[    0.661125] Loaded X.509 cert 'Build time autogenerated kernel key: 732def1c099cea02eb5721b922a9ee14530dbcc2'
+[    0.661205] zswap: loaded using pool lz4/zbud
+[    0.661451] Key type ._fscrypt registered
+[    0.661452] Key type .fscrypt registered
+[    0.661453] Key type fscrypt-provisioning registered
+[    0.661550] pstore: Using crash dump compression: zstd
+[    0.661571] Key type big_key registered
+[    0.663583] Key type encrypted registered
+[    0.663595] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.663624] ima: Allocated hash algorithm: sha1
+[    0.692881] ima: No architecture policies found
+[    0.692911] evm: Initialising EVM extended attributes:
+[    0.692912] evm: security.selinux (disabled)
+[    0.692915] evm: security.SMACK64 (disabled)
+[    0.692917] evm: security.SMACK64EXEC (disabled)
+[    0.692918] evm: security.SMACK64TRANSMUTE (disabled)
+[    0.692919] evm: security.SMACK64MMAP (disabled)
+[    0.692921] evm: security.apparmor
+[    0.692922] evm: security.ima (disabled)
+[    0.692923] evm: security.capability
+[    0.692924] evm: HMAC attrs: 0x1
+[    0.693421] PM:   Magic number: 9:799:14
+[    0.693501] memory memory58: hash matches
+[    0.693785] RAS: Correctable Errors collector initialized.
+[    0.695368] Freeing unused decrypted memory: 2036K
+[    0.695611] Freeing unused kernel image (initmem) memory: 1652K
+[    0.714474] Write protecting the kernel read-only data: 18432k
+[    0.715180] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[    0.715433] Freeing unused kernel image (rodata/data gap) memory: 672K
+[    0.715447] Run /init as init process
+[    0.715449]   with arguments:
+[    0.715451]     /init
+[    0.715453]   with environment:
+[    0.715454]     HOME=/
+[    0.715455]     TERM=linux
+[    0.715457]     BOOT_IMAGE=/@/boot/vmlinuz-linux-amd
+[    0.715458]     cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b
+[    0.715460]     mem_encrypt=on
+[    0.770581] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+[    0.770585] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[    0.772188] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.774522] ccp 0000:02:00.2: enabling device (0000 -> 0002)
+[    0.774699] ccp 0000:02:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+[    0.777266] SCSI subsystem initialized
+[    0.777988] cryptd: max_cpu_qlen set to 1000
+[    0.781163] ACPI: bus type USB registered
+[    0.781187] usbcore: registered new interface driver usbfs
+[    0.781193] usbcore: registered new interface driver hub
+[    0.781208] usbcore: registered new device driver usb
+[    0.786903] ccp 0000:02:00.2: tee enabled
+[    0.786908] ccp 0000:02:00.2: psp enabled
+[    0.789246] libata version 3.00 loaded.
+[    0.790870] AVX2 version of gcm_enc/dec engaged.
+[    0.790897] AES CTR mode by8 optimization enabled
+[    0.791721] ahci 0000:03:00.0: version 3.0
+[    0.791938] xhci_hcd 0000:02:00.3: xHCI Host Controller
+[    0.791946] ahci 0000:03:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.791950] ahci 0000:03:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+[    0.791951] xhci_hcd 0000:02:00.3: new USB bus registered, assigned bus number 1
+[    0.792045] xhci_hcd 0000:02:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.792143] scsi host0: ahci
+[    0.792212] ata1: SATA max UDMA/133 abar m2048@0xd0001000 port 0xd0001100 irq 34
+[    0.792321] ahci 0000:03:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.792323] ahci 0000:03:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part deso sadm sds 
+[    0.792358] xhci_hcd 0000:02:00.3: xHCI Host Controller
+[    0.792362] xhci_hcd 0000:02:00.3: new USB bus registered, assigned bus number 2
+[    0.792364] xhci_hcd 0000:02:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.792445] scsi host1: ahci
+[    0.792474] ata2: SATA max UDMA/133 abar m2048@0xd0000000 port 0xd0000100 irq 43
+[    0.792562] hub 1-0:1.0: USB hub found
+[    0.792570] hub 1-0:1.0: 4 ports detected
+[    0.792929] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.793005] hub 2-0:1.0: USB hub found
+[    0.793010] hub 2-0:1.0: 2 ports detected
+[    0.793158] xhci_hcd 0000:02:00.4: xHCI Host Controller
+[    0.793161] xhci_hcd 0000:02:00.4: new USB bus registered, assigned bus number 3
+[    0.793243] xhci_hcd 0000:02:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.793557] xhci_hcd 0000:02:00.4: xHCI Host Controller
+[    0.793559] xhci_hcd 0000:02:00.4: new USB bus registered, assigned bus number 4
+[    0.793561] xhci_hcd 0000:02:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.793667] hub 3-0:1.0: USB hub found
+[    0.793678] hub 3-0:1.0: 4 ports detected
+[    0.793842] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.793940] hub 4-0:1.0: USB hub found
+[    0.793949] hub 4-0:1.0: 2 ports detected
+[    0.796942] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+[    1.041866] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[    1.111485] ata1: SATA link down (SStatus 0 SControl 300)
+[    1.271145] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    1.272757] ata2.00: ATA-11: SAMSUNG MZNLH512HALU-00000, RVT2200Q, max UDMA/133
+[    1.272768] ata2.00: 1000215216 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    1.275713] ata2.00: configured for UDMA/133
+[    1.275917] scsi 1:0:0:0: Direct-Access     ATA      SAMSUNG MZNLH512 200Q PQ: 0 ANSI: 5
+[    1.278653] sd 1:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[    1.278662] sd 1:0:0:0: [sda] Write Protect is off
+[    1.278664] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.278670] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.301705]  sda: sda1 sda2 sda3
+[    1.328627] sd 1:0:0:0: [sda] Attached SCSI disk
+[    1.383854] Key type trusted registered
+[    1.386932] device-mapper: uevent: version 1.0.3
+[    1.387024] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+[    1.444283] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x222b9d1563c, max_idle_ns: 440795258867 ns
+[    1.444322] clocksource: Switched to clocksource tsc
+[    4.981121] raid6: avx2x4   gen() 36790 MB/s
+[    5.037625] raid6: avx2x4   xor() 10012 MB/s
+[    5.094266] raid6: avx2x2   gen() 37809 MB/s
+[    5.150938] raid6: avx2x2   xor() 23551 MB/s
+[    5.207618] raid6: avx2x1   gen() 31550 MB/s
+[    5.264284] raid6: avx2x1   xor() 18694 MB/s
+[    5.320948] raid6: sse2x4   gen() 17749 MB/s
+[    5.377912] raid6: sse2x4   xor()  8740 MB/s
+[    5.434102] raid6: sse2x2   gen() 19560 MB/s
+[    5.490765] raid6: sse2x2   xor() 11914 MB/s
+[    5.547345] raid6: sse2x1   gen() 14879 MB/s
+[    5.604012] raid6: sse2x1   xor()  9475 MB/s
+[    5.604013] raid6: using algorithm avx2x2 gen() 37809 MB/s
+[    5.604014] raid6: .... xor() 23551 MB/s, rmw enabled
+[    5.604015] raid6: using avx2x2 recovery algorithm
+[    5.605276] xor: automatically using best checksumming function   avx       
+[    5.635420] Btrfs loaded, crc32c=crc32c-intel, zoned=yes
+[    5.636139] BTRFS: device fsid 60699b1d-4878-4c7a-9ce1-e6cca69ee26a devid 1 transid 12901 /dev/dm-0 scanned by systemd-udevd (180)
+[    5.646625] PM: Image not found (code -22)
+[    5.656469] BTRFS info (device dm-0): flagging fs with big metadata feature
+[    5.656474] BTRFS info (device dm-0): disk space caching is enabled
+[    5.656475] BTRFS info (device dm-0): has skinny extents
+[    5.670421] BTRFS info (device dm-0): enabling ssd optimizations
+[    5.771024] systemd[1]: systemd 249.4-1-manjaro running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    5.787788] systemd[1]: Detected architecture x86-64.
+[    5.788705] systemd[1]: Hostname set to <mksredmibook>.
+[    5.908160] systemd[1]: Queued start job for default target Graphical Interface.
+[    5.909005] systemd[1]: Created slice Slice /system/getty.
+[    5.909243] systemd[1]: Created slice Slice /system/maia-console.
+[    5.909393] systemd[1]: Created slice Slice /system/modprobe.
+[    5.909531] systemd[1]: Created slice Cryptsetup Units Slice.
+[    5.909668] systemd[1]: Created slice Slice /system/systemd-fsck.
+[    5.909786] systemd[1]: Created slice User and Session Slice.
+[    5.909832] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    5.909859] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    5.909962] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    5.910002] systemd[1]: Reached target Login Prompts.
+[    5.910021] systemd[1]: Reached target Path Units.
+[    5.910033] systemd[1]: Reached target Remote File Systems.
+[    5.910046] systemd[1]: Reached target Slice Units.
+[    5.910063] systemd[1]: Reached target Local Verity Integrity Protected Volumes.
+[    5.910099] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    5.910601] systemd[1]: Listening on LVM2 poll daemon socket.
+[    5.911393] systemd[1]: Listening on Process Core Dump Socket.
+[    5.911500] systemd[1]: Listening on Journal Audit Socket.
+[    5.911560] systemd[1]: Listening on Journal Socket (/dev/log).
+[    5.911616] systemd[1]: Listening on Journal Socket.
+[    5.912055] systemd[1]: Listening on udev Control Socket.
+[    5.912147] systemd[1]: Listening on udev Kernel Socket.
+[    5.912709] systemd[1]: Mounting Huge Pages File System...
+[    5.913096] systemd[1]: Mounting POSIX Message Queue File System...
+[    5.913531] systemd[1]: Mounting Kernel Debug File System...
+[    5.914171] systemd[1]: Mounting Kernel Trace File System...
+[    5.914952] systemd[1]: Starting Create List of Static Device Nodes...
+[    5.915487] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[    5.916066] systemd[1]: Starting Load Kernel Module configfs...
+[    5.916557] systemd[1]: Starting Load Kernel Module drm...
+[    5.917056] systemd[1]: Starting Load Kernel Module fuse...
+[    5.917730] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    5.917769] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[    5.918629] systemd[1]: Starting Load Kernel Modules...
+[    5.919095] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    5.919136] systemd[1]: Condition check resulted in Repartition Root Disk being skipped.
+[    5.919613] systemd[1]: Starting Coldplug All udev Devices...
+[    5.920491] systemd[1]: Mounted Huge Pages File System.
+[    5.920553] systemd[1]: Mounted POSIX Message Queue File System.
+[    5.920601] systemd[1]: Mounted Kernel Debug File System.
+[    5.920648] systemd[1]: Mounted Kernel Trace File System.
+[    5.920837] systemd[1]: Finished Create List of Static Device Nodes.
+[    5.921013] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[    5.921135] systemd[1]: Finished Load Kernel Module configfs.
+[    5.921756] systemd[1]: Mounting Kernel Configuration File System...
+[    5.923899] systemd[1]: Mounted Kernel Configuration File System.
+[    5.927302] fuse: init (API version 7.34)
+[    5.927884] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[    5.928030] systemd[1]: Finished Load Kernel Module fuse.
+[    5.928770] systemd[1]: Mounting FUSE Control File System...
+[    5.930039] systemd[1]: Mounted FUSE Control File System.
+[    5.935724] sd 1:0:0:0: Attached scsi generic sg0 type 0
+[    5.937429] systemd[1]: Finished Load Kernel Modules.
+[    5.938130] systemd[1]: Starting Apply Kernel Variables...
+[    5.940487] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[    5.940630] systemd[1]: Finished Load Kernel Module drm.
+[    5.961462] systemd[1]: Finished Coldplug All udev Devices.
+[    5.979207] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[    6.048480] BTRFS info (device dm-0): use zstd compression, level 3
+[    6.048487] BTRFS info (device dm-0): disk space caching is enabled
+[    6.049229] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    6.049339] systemd[1]: Condition check resulted in First Boot Wizard being skipped.
+[    6.049890] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[    6.050461] systemd[1]: Starting Load/Save Random Seed...
+[    6.050513] systemd[1]: Condition check resulted in Create System Users being skipped.
+[    6.051063] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    6.053658] systemd[1]: Finished Apply Kernel Variables.
+[    6.057842] systemd[1]: Starting CLI Netfilter Manager...
+[    6.060426] systemd[1]: Finished Load/Save Random Seed.
+[    6.060524] systemd[1]: Condition check resulted in First Boot Complete being skipped.
+[    6.063281] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    6.063360] systemd[1]: Reached target Preparation for Local File Systems.
+[    6.063388] systemd[1]: Condition check resulted in Virtual Machine and Container Storage (Compatibility) being skipped.
+[    6.064181] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[    6.065127] systemd[1]: Starting Journal Service...
+[    6.065999] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[    6.090912] systemd[1]: Started Journal Service.
+[    6.091018] audit: type=1130 audit(1633071658.937:2): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    6.093001] audit: type=1130 audit(1633071658.937:3): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    6.114382] audit: type=1325 audit(1633071658.960:4): table=filter:2 family=2 entries=7 op=nft_register_chain pid=361 subj==unconfined comm="iptables-restor"
+[    6.114387] audit: type=1300 audit(1633071658.960:4): arch=c000003e syscall=46 success=yes exit=732 a0=3 a1=7fff2079ef60 a2=0 a3=7fff2079ef4c items=0 ppid=335 pid=361 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables-restor" exe="/usr/bin/xtables-nft-multi" subj==unconfined key=(null)
+[    6.114389] audit: type=1327 audit(1633071658.960:4): proctitle=69707461626C65732D726573746F7265002D6E
+[    6.134712] acpi_cpufreq: overriding BIOS provided _PSD data
+[    6.135617] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    6.135639] ACPI: button: Power Button [PWRB]
+[    6.135696] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2a/PNP0C09:00/PNP0C0D:00/input/input2
+[    6.135709] ACPI: button: Lid Switch [LID0]
+[    6.136126] thermal LNXTHERM:00: registered as thermal_zone0
+[    6.136128] ACPI: thermal: Thermal Zone [TZ0] (40 C)
+[    6.147013] hid: raw HID events driver (C) Jiri Kosina
+[    6.149560] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+[    6.150272] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[    6.150469] acpi device:0e: registered as cooling_device6
+[    6.150499] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/LNXVIDEO:00/input/input3
+[    6.188078] audit: type=1325 audit(1633071658.960:5): table=filter:3 family=2 entries=36 op=nft_register_chain pid=365 subj==unconfined comm="iptables-restor"
+[    6.188084] audit: type=1300 audit(1633071658.960:5): arch=c000003e syscall=46 success=yes exit=4440 a0=3 a1=7ffe026d7370 a2=0 a3=7ffe026d735c items=0 ppid=335 pid=365 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables-restor" exe="/usr/bin/xtables-nft-multi" subj==unconfined key=(null)
+[    6.188087] audit: type=1327 audit(1633071658.960:5): proctitle=69707461626C65732D726573746F7265002D6E
+[    6.189457] ACPI: AC: AC Adapter [ACAD] (off-line)
+[    6.197768] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[    6.197773] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[    6.197833] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[    6.203724] input: PC Speaker as /devices/platform/pcspkr/input/input4
+[    6.204908] audit: type=1325 audit(1633071659.050:6): table=filter:4 family=2 entries=2 op=nft_register_rule pid=408 subj==unconfined comm="iptables-restor"
+[    6.204913] audit: type=1300 audit(1633071659.050:6): arch=c000003e syscall=46 success=yes exit=984 a0=3 a1=7ffdcc7427c0 a2=0 a3=7ffdcc7427ac items=0 ppid=335 pid=408 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables-restor" exe="/usr/bin/xtables-nft-multi" subj==unconfined key=(null)
+[    6.209469] snd_rn_pci_acp3x 0000:02:00.5: enabling device (0000 -> 0002)
+[    6.221771] ACPI: battery: Slot [BATT] (battery present)
+[    6.252760] Adding 16383996k swap on /dev/sda2.  Priority:-2 extents:1 across:16383996k SSFS
+[    6.309234] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    6.309929] snd_hda_intel 0000:02:00.1: enabling device (0000 -> 0002)
+[    6.309998] snd_hda_intel 0000:02:00.1: Handle vga_switcheroo audio client
+[    6.310103] snd_hda_intel 0000:02:00.6: enabling device (0000 -> 0002)
+[    6.328799] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    6.337915] BTRFS info (device dm-0): devid 1 device path /dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b changed to /dev/dm-0 scanned by systemd-udevd (344)
+[    6.338471] BTRFS info (device dm-0): devid 1 device path /dev/dm-0 changed to /dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b scanned by systemd-udevd (344)
+[    6.355517] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:02:00.1/sound/card0/input5
+[    6.355548] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:02:00.1/sound/card0/input6
+[    6.369604] systemd-journald[338]: Received client request to flush runtime journal.
+[    6.400390] kvm: Nested Virtualization enabled
+[    6.400393] SVM: kvm: Nested Paging enabled
+[    6.400399] SVM: Virtual VMLOAD VMSAVE supported
+[    6.400400] SVM: Virtual GIF supported
+[    6.405837] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC256: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[    6.405844] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    6.405846] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    6.405847] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[    6.405848] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[    6.405849] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+[    6.409158] MCE: In-kernel MCE decoding enabled.
+[    6.470257] Bluetooth: Core ver 2.22
+[    6.473026] NET: Registered PF_BLUETOOTH protocol family
+[    6.473030] Bluetooth: HCI device and connection manager initialized
+[    6.473035] Bluetooth: HCI socket layer initialized
+[    6.473037] Bluetooth: L2CAP socket layer initialized
+[    6.476940] Bluetooth: SCO socket layer initialized
+[    6.481262] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:02:00.6/sound/card1/input7
+[    6.481300] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:02:00.6/sound/card1/input8
+[    6.493981] AMD-Vi: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+[    6.573163] usbcore: registered new interface driver btusb
+[    6.583369] Bluetooth: hci0: RTL: examining hci_ver=0a hci_rev=000c lmp_ver=0a lmp_subver=8822
+[    6.585363] Bluetooth: hci0: RTL: rom_version status=0 version=3
+[    6.585369] Bluetooth: hci0: RTL: loading rtl_bt/rtl8822cu_fw.bin
+[    6.586942] Bluetooth: hci0: RTL: loading rtl_bt/rtl8822cu_config.bin
+[    6.586989] Bluetooth: hci0: RTL: cfg_sz 6, total sz 39526
+[    6.587999] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input9
+[    6.588305] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input10
+[    6.589669] hid-generic 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[    6.610894] acp_pdm_mach acp_pdm_mach.0: snd_soc_register_card(acp) failed: -517
+[    6.610957] acp_pdm_mach acp_pdm_mach.0: snd_soc_register_card(acp) failed: -517
+[    6.647464] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input12
+[    6.647530] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input13
+[    6.654042] hid-multitouch 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[    6.722500] mousedev: PS/2 mouse device common for all mice
+[    6.768359] rtw_8822ce 0000:01:00.0: enabling device (0000 -> 0003)
+[    6.772719] rtw_8822ce 0000:01:00.0: Firmware version 9.9.4, H2C version 15
+[    6.773235] rtw_8822ce 0000:01:00.0: Firmware version 9.9.10, H2C version 15
+[    6.801205] rtw_8822ce 0000:01:00.0 wlp1s0: renamed from wlan0
+[    6.922874] [drm] amdgpu kernel modesetting enabled.
+[    6.927357] Bluetooth: hci0: RTL: fw version 0x09a91a4a
+[    6.927754] amdgpu: Virtual CRAT table created for CPU
+[    6.927765] amdgpu: Topology: Add CPU node
+[    6.927843] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[    6.927845] fb0: switching to amdgpudrmfb from EFI VGA
+[    6.927905] Console: switching to colour dummy device 80x25
+[    6.927934] amdgpu 0000:02:00.0: vgaarb: deactivate vga console
+[    6.927985] amdgpu 0000:02:00.0: enabling device (0006 -> 0007)
+[    6.928024] [drm] initializing kernel modesetting (RENOIR 0x1002:0x1636 0x1D72:0x1951 0xC3).
+[    6.928029] amdgpu 0000:02:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[    6.928502] [drm] register mmio base: 0xD0400000
+[    6.928505] [drm] register mmio size: 524288
+[    6.928507] [drm] PCIE atomic ops is not supported
+[    6.929595] [drm] add ip block number 0 <soc15_common>
+[    6.929597] [drm] add ip block number 1 <gmc_v9_0>
+[    6.929598] [drm] add ip block number 2 <vega10_ih>
+[    6.929599] [drm] add ip block number 3 <psp>
+[    6.929600] [drm] add ip block number 4 <smu>
+[    6.929601] [drm] add ip block number 5 <gfx_v9_0>
+[    6.929602] [drm] add ip block number 6 <sdma_v4_0>
+[    6.929603] [drm] add ip block number 7 <dm>
+[    6.929604] [drm] add ip block number 8 <vcn_v2_0>
+[    6.929605] [drm] add ip block number 9 <jpeg_v2_0>
+[    6.929615] amdgpu 0000:02:00.0: amdgpu: Fetched VBIOS from VFCT
+[    6.929617] amdgpu: ATOM BIOS: 113-RENOIR-026
+[    6.930936] [drm] VCN decode is enabled in VM mode
+[    6.930939] [drm] VCN encode is enabled in VM mode
+[    6.930940] [drm] JPEG decode is enabled in VM mode
+[    6.930977] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[    6.930989] amdgpu 0000:02:00.0: amdgpu: VRAM: 512M 0x000000F400000000 - 0x000000F41FFFFFFF (512M used)
+[    6.930992] amdgpu 0000:02:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[    6.930994] amdgpu 0000:02:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[    6.931000] [drm] Detected VRAM RAM=512M, BAR=512M
+[    6.931002] [drm] RAM width 128bits DDR4
+[    6.931047] [drm] amdgpu: 512M of VRAM memory ready
+[    6.931048] [drm] amdgpu: 3072M of GTT memory ready.
+[    6.931054] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[    6.931179] [drm] PCIE GART of 1024M enabled.
+[    6.931180] [drm] PTB located at 0x000000F400900000
+[    6.932385] amdgpu 0000:02:00.0: amdgpu: PSP runtime database doesn't exist
+[    6.954067] [drm] Loading DMUB firmware via PSP: version=0x01010019
+[    6.955625] [drm] Found VCN firmware Version ENC: 1.14 DEC: 5 VEP: 0 Revision: 20
+[    6.955642] amdgpu 0000:02:00.0: amdgpu: Will use PSP to load VCN firmware
+[    7.338190] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    7.338193] Bluetooth: BNEP filters: protocol multicast
+[    7.338197] Bluetooth: BNEP socket layer initialized
+[    7.345376] NET: Registered PF_ALG protocol family
+[    7.618159] [drm] reserve 0x400000 from 0xf41f800000 for PSP TMR
+[    7.661263] loop: module loaded
+[    7.661782] loop0: detected capacity change from 0 to 8
+[    7.666809] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    7.701151] amdgpu 0000:02:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[    7.709692] amdgpu 0000:02:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[    7.709699] amdgpu 0000:02:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+[    7.710306] amdgpu 0000:02:00.0: amdgpu: SMU is initialized successfully!
+[    7.711673] [drm] kiq ring mec 2 pipe 1 q 0
+[    7.712320] [drm] Display Core initialized with v3.2.141!
+[    7.712990] [drm] DMUB hardware initialized: version=0x01010019
+[    7.819634] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[    7.819659] [drm] JPEG decode initialized successfully.
+[    7.821212] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[    7.838701] memmap_init_zone_device initialised 131072 pages in 0ms
+[    7.838714] amdgpu: HMM registered 512MB device memory
+[    7.838763] amdgpu: SRAT table not found
+[    7.838765] amdgpu: Virtual CRAT table created for GPU
+[    7.839324] amdgpu: Topology: Add dGPU node [0x1636:0x1002]
+[    7.839331] kfd kfd: amdgpu: added device 1002:1636
+[    7.839337] amdgpu 0000:02:00.0: amdgpu: SE 1, SH per SE 2, CU per SH 18, active_cu_number 26
+[    7.842331] [drm] fb mappable at 0x410CD1000
+[    7.842337] [drm] vram apper at 0x410000000
+[    7.842339] [drm] size 8294400
+[    7.842341] [drm] fb depth is 24
+[    7.842342] [drm]    pitch is 7680
+[    7.842472] fbcon: amdgpu (fb0) is primary device
+[    7.900661] Console: switching to colour frame buffer device 240x67
+[    7.919583] amdgpu 0000:02:00.0: [drm] fb0: amdgpu frame buffer device
+[    7.934166] amdgpu 0000:02:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[    7.934174] amdgpu 0000:02:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[    7.934177] amdgpu 0000:02:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[    7.934179] amdgpu 0000:02:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[    7.934181] amdgpu 0000:02:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[    7.934183] amdgpu 0000:02:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[    7.934185] amdgpu 0000:02:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[    7.934187] amdgpu 0000:02:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[    7.934189] amdgpu 0000:02:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[    7.934191] amdgpu 0000:02:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[    7.934194] amdgpu 0000:02:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[    7.934196] amdgpu 0000:02:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[    7.934199] amdgpu 0000:02:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[    7.934201] amdgpu 0000:02:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[    7.934203] amdgpu 0000:02:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[    7.935966] [drm] Initialized amdgpu 3.42.0 20150101 for 0000:02:00.0 on minor 0
+[    8.388419] rtw_8822ce 0000:01:00.0: start vif 74:4c:a1:55:0d:6f on port 0
+[    8.389433] rtw_8822ce 0000:01:00.0: stop vif 74:4c:a1:55:0d:6f on port 0
+[    8.618756] rtw_8822ce 0000:01:00.0: start vif 66:d1:f5:c1:d8:3b on port 0
+[   45.186964] show_signal: 52 callbacks suppressed
+[   45.186971] traps: xsuspender[968] trap int3 ip:7fb4e392495b sp:7ffde0e23060 error:0 in libglib-2.0.so.0.7000.0[7fb4e38e5000+8d000]
+[   45.636997] Bluetooth: RFCOMM TTY layer initialized
+[   45.637009] Bluetooth: RFCOMM socket layer initialized
+[   45.637016] Bluetooth: RFCOMM ver 1.11
+[   68.094274] ucsi_acpi USBC000:00: PPM init failed (-110)
+[  170.386976] rtw_8822ce 0000:01:00.0: stop vif 66:d1:f5:c1:d8:3b on port 0
+[  170.619047] rtw_8822ce 0000:01:00.0: start vif 74:4c:a1:55:0d:6f on port 0
+[  174.725982] wlp1s0: authenticate with 84:d8:1b:8a:31:72
+[  175.218928] wlp1s0: send auth to 84:d8:1b:8a:31:72 (try 1/3)
+[  175.222364] wlp1s0: authenticated
+[  175.223994] wlp1s0: associate with 84:d8:1b:8a:31:72 (try 1/3)
+[  175.228802] wlp1s0: RX AssocResp from 84:d8:1b:8a:31:72 (capab=0x11 status=0 aid=1)
+[  175.228843] rtw_8822ce 0000:01:00.0: sta 84:d8:1b:8a:31:72 joined with macid 0
+[  175.229176] wlp1s0: associated
+[  175.307624] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[ 3770.154377] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 3770.154393] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 3770.625039] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 3770.625054] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 4260.352911] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 4260.352923] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 4260.847275] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 4260.847291] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 4699.669452] tun: Universal TUN/TAP device driver, 1.6
+[ 4815.257260] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=212.82.100.137 DST=192.168.1.158 LEN=76 TOS=0x00 PREC=0x00 TTL=47 ID=57432 DF PROTO=TCP SPT=443 DPT=41836 WINDOW=123 RES=0x00 ACK PSH URGP=0 
+[ 4928.829064] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.16.131 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=48 ID=54351 PROTO=TCP SPT=443 DPT=39702 WINDOW=315 RES=0x00 ACK PSH URGP=0 
+[ 4929.443651] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.16.131 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=48 ID=54761 PROTO=TCP SPT=443 DPT=39702 WINDOW=315 RES=0x00 ACK PSH URGP=0 
+[ 4930.057618] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.16.131 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=48 ID=54894 PROTO=TCP SPT=443 DPT=39702 WINDOW=315 RES=0x00 ACK PSH URGP=0 
+[ 4931.078551] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.16.131 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=48 ID=55350 PROTO=TCP SPT=443 DPT=39702 WINDOW=315 RES=0x00 ACK PSH URGP=0 
+[ 4933.539974] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.16.131 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=48 ID=56272 PROTO=TCP SPT=443 DPT=39702 WINDOW=315 RES=0x00 ACK PSH URGP=0 
+[ 4934.461320] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.185.165 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=59131 PROTO=TCP SPT=443 DPT=32952 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 4934.768572] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.185.165 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=59298 PROTO=TCP SPT=443 DPT=32952 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 4935.178288] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.185.165 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=59649 PROTO=TCP SPT=443 DPT=32952 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 4936.014939] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.185.165 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=60044 PROTO=TCP SPT=443 DPT=32952 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 4938.045464] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.185.165 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=60841 PROTO=TCP SPT=443 DPT=32952 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 5293.777811] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.113.188 DST=192.168.1.158 LEN=110 TOS=0x00 PREC=0x00 TTL=55 ID=2160 DF PROTO=TCP SPT=443 DPT=34150 WINDOW=288 RES=0x00 ACK PSH URGP=0 
+[ 5299.087280] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5299.087296] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5299.800761] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5299.800777] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5307.491704] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5307.491720] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5307.771448] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5307.771463] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5308.843692] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5308.843706] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5309.561871] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5309.561887] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5316.924089] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5316.924106] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5317.676187] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5317.676201] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5526.654122] [UFW BLOCK] IN=m.klimenko OUT= MAC= SRC=172.31.16.185 DST=172.31.16.68 LEN=219 TOS=0x00 PREC=0x00 TTL=63 ID=42213 PROTO=UDP SPT=58320 DPT=45769 LEN=199 
+[ 5526.654143] [UFW BLOCK] IN=m.klimenko OUT= MAC= SRC=172.31.16.185 DST=172.31.16.68 LEN=98 TOS=0x00 PREC=0x00 TTL=63 ID=42212 PROTO=UDP SPT=58321 DPT=45769 LEN=78 
+[ 5790.929924] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5790.929938] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5791.283254] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5791.283270] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5802.804543] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5802.804555] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5803.370864] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5803.370875] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5883.972600] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5883.972614] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5884.685550] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5884.685565] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5889.294416] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5889.294431] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5891.140539] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5891.140555] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5900.998606] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5900.998622] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5901.342886] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5901.342901] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6085.276720] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6085.276733] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6085.783307] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6085.783323] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6333.508710] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6333.508725] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6345.240076] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6345.240091] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6345.675477] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6345.675493] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6346.391805] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6346.391818] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6351.666849] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6351.666862] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 6351.951910] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 6351.951924] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7177.045569] rtw_8822ce 0000:01:00.0: timed out to flush queue 1
+[ 7231.843521] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[ 7231.846495] Bridge firewalling registered
+[ 7231.894348] Initializing XFRM netlink socket
+[ 7270.956912] docker0: port 1(veth8283e35) entered blocking state
+[ 7270.956930] docker0: port 1(veth8283e35) entered disabled state
+[ 7270.957102] device veth8283e35 entered promiscuous mode
+[ 7271.260975] eth0: renamed from vetha88f8a5
+[ 7271.287945] IPv6: ADDRCONF(NETDEV_CHANGE): veth8283e35: link becomes ready
+[ 7271.288023] docker0: port 1(veth8283e35) entered blocking state
+[ 7271.288028] docker0: port 1(veth8283e35) entered forwarding state
+[ 7271.288112] IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+[ 7581.773605] rtw_8822ce 0000:01:00.0: timed out to flush queue 2
+[ 7585.580191] rtw_8822ce 0000:01:00.0: timed out to flush queue 2
+[ 7591.020151] rtw_8822ce 0000:01:00.0: timed out to flush queue 2
+[ 7663.382944] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=49336 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7668.027580] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=40013 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7692.013419] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=306 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7698.404898] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=56772 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7722.366933] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=16818 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7728.306020] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=8198 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7752.473484] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=33635 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7758.613833] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=24561 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7782.638613] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=50409 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7788.720106] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=42092 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7812.848816] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=2055 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7819.010905] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=59358 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7820.468647] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=34325 PROTO=TCP SPT=443 DPT=54574 WINDOW=290 RES=0x00 ACK PSH URGP=0 
+[ 7820.877188] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=34515 PROTO=TCP SPT=443 DPT=54574 WINDOW=290 RES=0x00 ACK PSH URGP=0 
+[ 7821.492643] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=34765 PROTO=TCP SPT=443 DPT=54574 WINDOW=290 RES=0x00 ACK PSH URGP=0 
+[ 7822.310813] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=35423 PROTO=TCP SPT=443 DPT=54574 WINDOW=290 RES=0x00 ACK PSH URGP=0 
+[ 7824.234043] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=36505 PROTO=TCP SPT=443 DPT=54574 WINDOW=290 RES=0x00 ACK PSH URGP=0 
+[ 7843.117156] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=137 TOS=0x00 PREC=0x00 TTL=56 ID=18841 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH URGP=0 
+[ 7849.119519] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=171 TOS=0x00 PREC=0x80 TTL=57 ID=11831 PROTO=TCP SPT=443 DPT=54576 WINDOW=339 RES=0x00 ACK PSH URGP=0 
+[ 7863.743946] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.201.211 DST=192.168.1.158 LEN=125 TOS=0x00 PREC=0x80 TTL=57 ID=40009 PROTO=TCP SPT=443 DPT=53162 WINDOW=571 RES=0x00 ACK PSH URGP=0 
+[ 7883.650511] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=172.217.19.106 DST=192.168.1.158 LEN=455 TOS=0x00 PREC=0x00 TTL=56 ID=42124 PROTO=TCP SPT=443 DPT=54580 WINDOW=405 RES=0x00 ACK PSH FIN URGP=0 
+[ 7897.725346] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.201.211 DST=192.168.1.158 LEN=181 TOS=0x00 PREC=0x80 TTL=57 ID=857 PROTO=TCP SPT=443 DPT=53162 WINDOW=571 RES=0x00 ACK PSH FIN URGP=0 
+[ 7928.285882] device wlp1s0 entered promiscuous mode
+[ 7955.114868] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x00 PREC=0x00 TTL=55 ID=40607 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH URGP=0 
+[ 7955.639669] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x00 PREC=0x00 TTL=55 ID=40610 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH FIN URGP=0 
+[ 7956.254441] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x00 PREC=0x00 TTL=55 ID=40611 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH FIN URGP=0 
+[ 7957.277650] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x08 PREC=0x20 TTL=51 ID=40612 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH FIN URGP=0 
+[ 7959.601834] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x08 PREC=0x20 TTL=51 ID=40613 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH FIN URGP=0 
+[ 7964.240719] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=151.101.129.69 DST=192.168.1.158 LEN=110 TOS=0x08 PREC=0x20 TTL=51 ID=40614 DF PROTO=TCP SPT=443 DPT=50796 WINDOW=299 RES=0x00 ACK PSH FIN URGP=0 
+[ 9867.012110] docker0: port 1(veth8283e35) entered disabled state
+[ 9867.012301] vetha88f8a5: renamed from eth0
+[ 9867.076019] docker0: port 1(veth8283e35) entered disabled state
+[ 9867.079614] device veth8283e35 left promiscuous mode
+[ 9867.079635] docker0: port 1(veth8283e35) entered disabled state
+[10121.303690] br-420a79233bed: port 1(veth7cb3d96) entered blocking state
+[10121.303705] br-420a79233bed: port 1(veth7cb3d96) entered disabled state
+[10121.304073] device veth7cb3d96 entered promiscuous mode
+[10121.370077] br-420a79233bed: port 2(vethae14f35) entered blocking state
+[10121.370097] br-420a79233bed: port 2(vethae14f35) entered disabled state
+[10121.370198] device vethae14f35 entered promiscuous mode
+[10121.370397] br-420a79233bed: port 2(vethae14f35) entered blocking state
+[10121.370401] br-420a79233bed: port 2(vethae14f35) entered forwarding state
+[10121.370510] br-420a79233bed: port 2(vethae14f35) entered disabled state
+[10121.835647] eth0: renamed from veth8d1986e
+[10121.872798] eth0: renamed from veth4cb9682
+[10121.911929] IPv6: ADDRCONF(NETDEV_CHANGE): veth7cb3d96: link becomes ready
+[10121.912003] br-420a79233bed: port 1(veth7cb3d96) entered blocking state
+[10121.912008] br-420a79233bed: port 1(veth7cb3d96) entered forwarding state
+[10121.912114] IPv6: ADDRCONF(NETDEV_CHANGE): br-420a79233bed: link becomes ready
+[10121.912472] IPv6: ADDRCONF(NETDEV_CHANGE): vethae14f35: link becomes ready
+[10121.912535] br-420a79233bed: port 2(vethae14f35) entered blocking state
+[10121.912539] br-420a79233bed: port 2(vethae14f35) entered forwarding state
+[10122.161702] br-420a79233bed: port 3(veth4fcdcb3) entered blocking state
+[10122.161725] br-420a79233bed: port 3(veth4fcdcb3) entered disabled state
+[10122.161849] device veth4fcdcb3 entered promiscuous mode
+[10122.162241] br-420a79233bed: port 3(veth4fcdcb3) entered blocking state
+[10122.162244] br-420a79233bed: port 3(veth4fcdcb3) entered forwarding state
+[10122.231325] br-420a79233bed: port 4(veth9ed2e29) entered blocking state
+[10122.231345] br-420a79233bed: port 4(veth9ed2e29) entered disabled state
+[10122.231424] device veth9ed2e29 entered promiscuous mode
+[10122.231599] br-420a79233bed: port 4(veth9ed2e29) entered blocking state
+[10122.231602] br-420a79233bed: port 4(veth9ed2e29) entered forwarding state
+[10122.301638] br-420a79233bed: port 3(veth4fcdcb3) entered disabled state
+[10122.303303] br-420a79233bed: port 4(veth9ed2e29) entered disabled state
+[10122.688916] eth0: renamed from vetha263633
+[10122.719123] IPv6: ADDRCONF(NETDEV_CHANGE): veth4fcdcb3: link becomes ready
+[10122.719186] br-420a79233bed: port 3(veth4fcdcb3) entered blocking state
+[10122.719192] br-420a79233bed: port 3(veth4fcdcb3) entered forwarding state
+[10122.738899] eth0: renamed from veth29d3f9f
+[10122.758644] IPv6: ADDRCONF(NETDEV_CHANGE): veth9ed2e29: link becomes ready
+[10122.758699] br-420a79233bed: port 4(veth9ed2e29) entered blocking state
+[10122.758704] br-420a79233bed: port 4(veth9ed2e29) entered forwarding state
+[10123.056330] br-420a79233bed: port 5(vetha9a321f) entered blocking state
+[10123.056383] br-420a79233bed: port 5(vetha9a321f) entered disabled state
+[10123.056447] device vetha9a321f entered promiscuous mode
+[10123.056569] br-420a79233bed: port 5(vetha9a321f) entered blocking state
+[10123.056571] br-420a79233bed: port 5(vetha9a321f) entered forwarding state
+[10123.314978] br-420a79233bed: port 5(vetha9a321f) entered disabled state
+[10123.425284] eth0: renamed from veth60b10af
+[10123.439517] IPv6: ADDRCONF(NETDEV_CHANGE): vetha9a321f: link becomes ready
+[10123.439561] br-420a79233bed: port 5(vetha9a321f) entered blocking state
+[10123.439570] br-420a79233bed: port 5(vetha9a321f) entered forwarding state
+[10123.629156] br-420a79233bed: port 6(vethda007d7) entered blocking state
+[10123.629170] br-420a79233bed: port 6(vethda007d7) entered disabled state
+[10123.629280] device vethda007d7 entered promiscuous mode
+[10123.629712] br-420a79233bed: port 6(vethda007d7) entered blocking state
+[10123.629717] br-420a79233bed: port 6(vethda007d7) entered forwarding state
+[10123.960627] eth0: renamed from vethc4f369f
+[10123.972950] IPv6: ADDRCONF(NETDEV_CHANGE): vethda007d7: link becomes ready
+[10203.733675] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=24438 DF PROTO=TCP SPT=50630 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10204.750360] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=24439 DF PROTO=TCP SPT=50630 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10206.803920] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=24440 DF PROTO=TCP SPT=50630 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10208.760222] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=40351 DF PROTO=TCP SPT=50632 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10209.763565] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=40352 DF PROTO=TCP SPT=50632 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10211.923634] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=40353 DF PROTO=TCP SPT=50632 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10224.385601] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth4fcdcb3 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=60330 DF PROTO=TCP SPT=50634 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10252.345689] br-420a79233bed: port 6(vethda007d7) entered disabled state
+[10252.346254] vethc4f369f: renamed from eth0
+[10252.407974] br-420a79233bed: port 6(vethda007d7) entered disabled state
+[10252.409498] device vethda007d7 left promiscuous mode
+[10252.409543] br-420a79233bed: port 6(vethda007d7) entered disabled state
+[10252.642234] br-420a79233bed: port 5(vetha9a321f) entered disabled state
+[10252.643504] veth60b10af: renamed from eth0
+[10252.705615] br-420a79233bed: port 3(veth4fcdcb3) entered disabled state
+[10252.706261] vetha263633: renamed from eth0
+[10252.759028] br-420a79233bed: port 5(vetha9a321f) entered disabled state
+[10252.760472] device vetha9a321f left promiscuous mode
+[10252.760486] br-420a79233bed: port 5(vetha9a321f) entered disabled state
+[10252.814295] br-420a79233bed: port 3(veth4fcdcb3) entered disabled state
+[10252.816789] device veth4fcdcb3 left promiscuous mode
+[10252.816807] br-420a79233bed: port 3(veth4fcdcb3) entered disabled state
+[10252.933005] br-420a79233bed: port 4(veth9ed2e29) entered disabled state
+[10252.933129] veth29d3f9f: renamed from eth0
+[10253.025697] br-420a79233bed: port 4(veth9ed2e29) entered disabled state
+[10253.028046] device veth9ed2e29 left promiscuous mode
+[10253.028060] br-420a79233bed: port 4(veth9ed2e29) entered disabled state
+[10254.531109] br-420a79233bed: port 1(veth7cb3d96) entered disabled state
+[10254.531220] veth8d1986e: renamed from eth0
+[10254.607493] br-420a79233bed: port 1(veth7cb3d96) entered disabled state
+[10254.608819] device veth7cb3d96 left promiscuous mode
+[10254.608831] br-420a79233bed: port 1(veth7cb3d96) entered disabled state
+[10254.755639] br-420a79233bed: port 2(vethae14f35) entered disabled state
+[10254.755744] veth4cb9682: renamed from eth0
+[10254.811897] br-420a79233bed: port 2(vethae14f35) entered disabled state
+[10254.813864] device vethae14f35 left promiscuous mode
+[10254.813882] br-420a79233bed: port 2(vethae14f35) entered disabled state
+[10308.495873] br-420a79233bed: port 1(vethff431e8) entered blocking state
+[10308.495886] br-420a79233bed: port 1(vethff431e8) entered disabled state
+[10308.496071] device vethff431e8 entered promiscuous mode
+[10308.559500] br-420a79233bed: port 2(veth80bb446) entered blocking state
+[10308.559506] br-420a79233bed: port 2(veth80bb446) entered disabled state
+[10308.559575] device veth80bb446 entered promiscuous mode
+[10308.559669] br-420a79233bed: port 2(veth80bb446) entered blocking state
+[10308.559671] br-420a79233bed: port 2(veth80bb446) entered forwarding state
+[10308.559820] br-420a79233bed: port 2(veth80bb446) entered disabled state
+[10309.049754] eth0: renamed from vethf2af8b5
+[10309.072609] IPv6: ADDRCONF(NETDEV_CHANGE): veth80bb446: link becomes ready
+[10309.072708] br-420a79233bed: port 2(veth80bb446) entered blocking state
+[10309.072714] br-420a79233bed: port 2(veth80bb446) entered forwarding state
+[10309.107065] eth0: renamed from veth6ee2a58
+[10309.139741] IPv6: ADDRCONF(NETDEV_CHANGE): vethff431e8: link becomes ready
+[10309.139804] br-420a79233bed: port 1(vethff431e8) entered blocking state
+[10309.139809] br-420a79233bed: port 1(vethff431e8) entered forwarding state
+[10309.176555] br-420a79233bed: port 3(vethca09e76) entered blocking state
+[10309.177187] br-420a79233bed: port 3(vethca09e76) entered disabled state
+[10309.177935] device vethca09e76 entered promiscuous mode
+[10309.183434] br-420a79233bed: port 3(vethca09e76) entered blocking state
+[10309.183441] br-420a79233bed: port 3(vethca09e76) entered forwarding state
+[10309.262126] br-420a79233bed: port 4(veth1511c58) entered blocking state
+[10309.262152] br-420a79233bed: port 4(veth1511c58) entered disabled state
+[10309.262314] device veth1511c58 entered promiscuous mode
+[10309.262816] br-420a79233bed: port 4(veth1511c58) entered blocking state
+[10309.262819] br-420a79233bed: port 4(veth1511c58) entered forwarding state
+[10309.495124] br-420a79233bed: port 3(vethca09e76) entered disabled state
+[10309.495437] br-420a79233bed: port 4(veth1511c58) entered disabled state
+[10309.705660] eth0: renamed from veth3cb8563
+[10309.746456] IPv6: ADDRCONF(NETDEV_CHANGE): veth1511c58: link becomes ready
+[10309.746516] br-420a79233bed: port 4(veth1511c58) entered blocking state
+[10309.746520] br-420a79233bed: port 4(veth1511c58) entered forwarding state
+[10309.746751] eth0: renamed from vethd989e55
+[10309.765899] IPv6: ADDRCONF(NETDEV_CHANGE): vethca09e76: link becomes ready
+[10309.765950] br-420a79233bed: port 3(vethca09e76) entered blocking state
+[10309.765954] br-420a79233bed: port 3(vethca09e76) entered forwarding state
+[10309.828566] br-420a79233bed: port 5(vethfa2b1b6) entered blocking state
+[10309.828580] br-420a79233bed: port 5(vethfa2b1b6) entered disabled state
+[10309.828627] device vethfa2b1b6 entered promiscuous mode
+[10309.828757] br-420a79233bed: port 5(vethfa2b1b6) entered blocking state
+[10309.828760] br-420a79233bed: port 5(vethfa2b1b6) entered forwarding state
+[10310.142564] eth0: renamed from vethe3575b8
+[10310.168823] IPv6: ADDRCONF(NETDEV_CHANGE): vethfa2b1b6: link becomes ready
+[10310.250577] br-420a79233bed: port 6(veth32a8fb5) entered blocking state
+[10310.250591] br-420a79233bed: port 6(veth32a8fb5) entered disabled state
+[10310.250653] device veth32a8fb5 entered promiscuous mode
+[10310.250892] br-420a79233bed: port 6(veth32a8fb5) entered blocking state
+[10310.250895] br-420a79233bed: port 6(veth32a8fb5) entered forwarding state
+[10310.508384] br-420a79233bed: port 6(veth32a8fb5) entered disabled state
+[10310.553110] eth0: renamed from veth5604d8c
+[10310.572237] IPv6: ADDRCONF(NETDEV_CHANGE): veth32a8fb5: link becomes ready
+[10310.572305] br-420a79233bed: port 6(veth32a8fb5) entered blocking state
+[10310.572310] br-420a79233bed: port 6(veth32a8fb5) entered forwarding state
+[10339.683830] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[10339.683847] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10353.765232] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[10353.765245] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10426.786881] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethca09e76 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=39376 DF PROTO=TCP SPT=50636 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10655.647890] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[10655.647905] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10656.461370] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[10656.461382] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10661.441281] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth1511c58 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=37432 DF PROTO=TCP SPT=42518 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10822.453004] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[10822.453021] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10823.218581] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[10823.218596] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[10872.303534] br-420a79233bed: port 6(veth32a8fb5) entered disabled state
+[10872.303640] veth5604d8c: renamed from eth0
+[10872.354565] br-420a79233bed: port 6(veth32a8fb5) entered disabled state
+[10872.356729] device veth32a8fb5 left promiscuous mode
+[10872.356968] br-420a79233bed: port 6(veth32a8fb5) entered disabled state
+[10872.542202] br-420a79233bed: port 3(vethca09e76) entered disabled state
+[10872.543816] vethd989e55: renamed from eth0
+[10872.626689] br-420a79233bed: port 5(vethfa2b1b6) entered disabled state
+[10872.626849] vethe3575b8: renamed from eth0
+[10872.671514] br-420a79233bed: port 3(vethca09e76) entered disabled state
+[10872.673577] device vethca09e76 left promiscuous mode
+[10872.673593] br-420a79233bed: port 3(vethca09e76) entered disabled state
+[10872.731322] br-420a79233bed: port 5(vethfa2b1b6) entered disabled state
+[10872.733139] device vethfa2b1b6 left promiscuous mode
+[10872.733158] br-420a79233bed: port 5(vethfa2b1b6) entered disabled state
+[10872.898045] br-420a79233bed: port 4(veth1511c58) entered disabled state
+[10872.898394] veth3cb8563: renamed from eth0
+[10872.995076] br-420a79233bed: port 4(veth1511c58) entered disabled state
+[10872.997396] device veth1511c58 left promiscuous mode
+[10872.997414] br-420a79233bed: port 4(veth1511c58) entered disabled state
+[10874.754014] br-420a79233bed: port 2(veth80bb446) entered disabled state
+[10874.754101] vethf2af8b5: renamed from eth0
+[10874.835119] br-420a79233bed: port 2(veth80bb446) entered disabled state
+[10874.836577] device veth80bb446 left promiscuous mode
+[10874.836594] br-420a79233bed: port 2(veth80bb446) entered disabled state
+[10875.002351] br-420a79233bed: port 1(vethff431e8) entered disabled state
+[10875.004254] veth6ee2a58: renamed from eth0
+[10875.072926] br-420a79233bed: port 1(vethff431e8) entered disabled state
+[10875.074219] device vethff431e8 left promiscuous mode
+[10875.074228] br-420a79233bed: port 1(vethff431e8) entered disabled state
+[10892.632211] br-420a79233bed: port 1(veth2099286) entered blocking state
+[10892.632230] br-420a79233bed: port 1(veth2099286) entered disabled state
+[10892.632316] device veth2099286 entered promiscuous mode
+[10892.697509] br-420a79233bed: port 2(veth5aa7c28) entered blocking state
+[10892.697532] br-420a79233bed: port 2(veth5aa7c28) entered disabled state
+[10892.697726] device veth5aa7c28 entered promiscuous mode
+[10892.698748] br-420a79233bed: port 2(veth5aa7c28) entered blocking state
+[10892.698754] br-420a79233bed: port 2(veth5aa7c28) entered forwarding state
+[10892.699039] br-420a79233bed: port 2(veth5aa7c28) entered disabled state
+[10893.146981] eth0: renamed from vethb2a6c34
+[10893.173017] IPv6: ADDRCONF(NETDEV_CHANGE): veth2099286: link becomes ready
+[10893.173086] br-420a79233bed: port 1(veth2099286) entered blocking state
+[10893.173091] br-420a79233bed: port 1(veth2099286) entered forwarding state
+[10893.222705] eth0: renamed from vethd532447
+[10893.246708] br-420a79233bed: port 3(veth48c6b8f) entered blocking state
+[10893.246765] br-420a79233bed: port 3(veth48c6b8f) entered disabled state
+[10893.246828] device veth48c6b8f entered promiscuous mode
+[10893.255663] br-420a79233bed: port 3(veth48c6b8f) entered blocking state
+[10893.255671] br-420a79233bed: port 3(veth48c6b8f) entered forwarding state
+[10893.255866] br-420a79233bed: port 3(veth48c6b8f) entered disabled state
+[10893.255897] IPv6: ADDRCONF(NETDEV_CHANGE): veth5aa7c28: link becomes ready
+[10893.255937] br-420a79233bed: port 2(veth5aa7c28) entered blocking state
+[10893.255939] br-420a79233bed: port 2(veth5aa7c28) entered forwarding state
+[10893.363895] br-420a79233bed: port 4(vethc17dacb) entered blocking state
+[10893.363916] br-420a79233bed: port 4(vethc17dacb) entered disabled state
+[10893.364007] device vethc17dacb entered promiscuous mode
+[10893.364121] br-420a79233bed: port 4(vethc17dacb) entered blocking state
+[10893.364124] br-420a79233bed: port 4(vethc17dacb) entered forwarding state
+[10893.645056] br-420a79233bed: port 4(vethc17dacb) entered disabled state
+[10893.735650] eth0: renamed from veth7f8b9a7
+[10893.752179] IPv6: ADDRCONF(NETDEV_CHANGE): veth48c6b8f: link becomes ready
+[10893.752243] br-420a79233bed: port 3(veth48c6b8f) entered blocking state
+[10893.752248] br-420a79233bed: port 3(veth48c6b8f) entered forwarding state
+[10893.795554] eth0: renamed from veth1b52791
+[10893.815502] IPv6: ADDRCONF(NETDEV_CHANGE): vethc17dacb: link becomes ready
+[10893.815560] br-420a79233bed: port 4(vethc17dacb) entered blocking state
+[10893.815565] br-420a79233bed: port 4(vethc17dacb) entered forwarding state
+[10893.880438] br-420a79233bed: port 5(vethc929b0a) entered blocking state
+[10893.880464] br-420a79233bed: port 5(vethc929b0a) entered disabled state
+[10893.880750] device vethc929b0a entered promiscuous mode
+[10893.881302] br-420a79233bed: port 5(vethc929b0a) entered blocking state
+[10893.881306] br-420a79233bed: port 5(vethc929b0a) entered forwarding state
+[10894.179133] eth0: renamed from veth4ed553a
+[10894.195449] IPv6: ADDRCONF(NETDEV_CHANGE): vethc929b0a: link becomes ready
+[10894.253866] br-420a79233bed: port 6(veth4f38524) entered blocking state
+[10894.253880] br-420a79233bed: port 6(veth4f38524) entered disabled state
+[10894.253946] device veth4f38524 entered promiscuous mode
+[10894.254064] br-420a79233bed: port 6(veth4f38524) entered blocking state
+[10894.254067] br-420a79233bed: port 6(veth4f38524) entered forwarding state
+[10894.562415] eth0: renamed from vethc485882
+[10894.582207] IPv6: ADDRCONF(NETDEV_CHANGE): veth4f38524: link becomes ready
+[10919.817105] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth48c6b8f MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=16233 DF PROTO=TCP SPT=50638 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10920.817877] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth48c6b8f MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=16234 DF PROTO=TCP SPT=50638 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[10925.387225] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethc17dacb MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44046 DF PROTO=TCP SPT=42520 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11021.127330] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethc17dacb MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=54213 DF PROTO=TCP SPT=42522 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11087.386258] br-420a79233bed: port 6(veth4f38524) entered disabled state
+[11087.387729] vethc485882: renamed from eth0
+[11087.452571] br-420a79233bed: port 6(veth4f38524) entered disabled state
+[11087.455086] device veth4f38524 left promiscuous mode
+[11087.455117] br-420a79233bed: port 6(veth4f38524) entered disabled state
+[11087.650417] br-420a79233bed: port 3(veth48c6b8f) entered disabled state
+[11087.652006] veth7f8b9a7: renamed from eth0
+[11087.714401] br-420a79233bed: port 5(vethc929b0a) entered disabled state
+[11087.714546] veth4ed553a: renamed from eth0
+[11087.761674] br-420a79233bed: port 3(veth48c6b8f) entered disabled state
+[11087.763929] device veth48c6b8f left promiscuous mode
+[11087.763946] br-420a79233bed: port 3(veth48c6b8f) entered disabled state
+[11087.826568] br-420a79233bed: port 5(vethc929b0a) entered disabled state
+[11087.829503] device vethc929b0a left promiscuous mode
+[11087.829523] br-420a79233bed: port 5(vethc929b0a) entered disabled state
+[11087.996039] br-420a79233bed: port 4(vethc17dacb) entered disabled state
+[11087.996188] veth1b52791: renamed from eth0
+[11088.072642] br-420a79233bed: port 4(vethc17dacb) entered disabled state
+[11088.073916] device vethc17dacb left promiscuous mode
+[11088.073926] br-420a79233bed: port 4(vethc17dacb) entered disabled state
+[11089.764658] br-420a79233bed: port 1(veth2099286) entered disabled state
+[11089.764740] vethb2a6c34: renamed from eth0
+[11089.818240] br-420a79233bed: port 1(veth2099286) entered disabled state
+[11089.819660] device veth2099286 left promiscuous mode
+[11089.819671] br-420a79233bed: port 1(veth2099286) entered disabled state
+[11089.857782] br-420a79233bed: port 2(veth5aa7c28) entered disabled state
+[11089.857879] vethd532447: renamed from eth0
+[11089.926090] br-420a79233bed: port 2(veth5aa7c28) entered disabled state
+[11089.927486] device veth5aa7c28 left promiscuous mode
+[11089.927499] br-420a79233bed: port 2(veth5aa7c28) entered disabled state
+[11095.685250] br-420a79233bed: port 1(veth00d3e12) entered blocking state
+[11095.685475] br-420a79233bed: port 1(veth00d3e12) entered disabled state
+[11095.685710] device veth00d3e12 entered promiscuous mode
+[11095.705835] br-420a79233bed: port 2(vethdb0e1b5) entered blocking state
+[11095.706440] br-420a79233bed: port 2(vethdb0e1b5) entered disabled state
+[11095.706552] device vethdb0e1b5 entered promiscuous mode
+[11095.706718] br-420a79233bed: port 2(vethdb0e1b5) entered blocking state
+[11095.706721] br-420a79233bed: port 2(vethdb0e1b5) entered forwarding state
+[11095.706981] br-420a79233bed: port 2(vethdb0e1b5) entered disabled state
+[11096.228657] eth0: renamed from vethb99df2e
+[11096.245546] eth0: renamed from veth2e5e797
+[11096.265071] IPv6: ADDRCONF(NETDEV_CHANGE): vethdb0e1b5: link becomes ready
+[11096.265174] br-420a79233bed: port 2(vethdb0e1b5) entered blocking state
+[11096.265179] br-420a79233bed: port 2(vethdb0e1b5) entered forwarding state
+[11096.265571] IPv6: ADDRCONF(NETDEV_CHANGE): veth00d3e12: link becomes ready
+[11096.265623] br-420a79233bed: port 1(veth00d3e12) entered blocking state
+[11096.265628] br-420a79233bed: port 1(veth00d3e12) entered forwarding state
+[11096.355658] br-420a79233bed: port 3(veth3ad46b0) entered blocking state
+[11096.355705] br-420a79233bed: port 3(veth3ad46b0) entered disabled state
+[11096.355761] device veth3ad46b0 entered promiscuous mode
+[11096.355909] br-420a79233bed: port 3(veth3ad46b0) entered blocking state
+[11096.355911] br-420a79233bed: port 3(veth3ad46b0) entered forwarding state
+[11096.425486] br-420a79233bed: port 4(vethd153c5c) entered blocking state
+[11096.425956] br-420a79233bed: port 4(vethd153c5c) entered disabled state
+[11096.426055] device vethd153c5c entered promiscuous mode
+[11096.426185] br-420a79233bed: port 4(vethd153c5c) entered blocking state
+[11096.426188] br-420a79233bed: port 4(vethd153c5c) entered forwarding state
+[11096.708170] br-420a79233bed: port 3(veth3ad46b0) entered disabled state
+[11096.708351] br-420a79233bed: port 4(vethd153c5c) entered disabled state
+[11096.935926] eth0: renamed from vethc97e967
+[11096.979003] IPv6: ADDRCONF(NETDEV_CHANGE): veth3ad46b0: link becomes ready
+[11096.979089] br-420a79233bed: port 3(veth3ad46b0) entered blocking state
+[11096.979096] br-420a79233bed: port 3(veth3ad46b0) entered forwarding state
+[11097.008959] eth0: renamed from vethb908738
+[11097.025245] IPv6: ADDRCONF(NETDEV_CHANGE): vethd153c5c: link becomes ready
+[11097.025312] br-420a79233bed: port 4(vethd153c5c) entered blocking state
+[11097.025317] br-420a79233bed: port 4(vethd153c5c) entered forwarding state
+[11097.095935] br-420a79233bed: port 5(vethb51ccb8) entered blocking state
+[11097.095955] br-420a79233bed: port 5(vethb51ccb8) entered disabled state
+[11097.096015] device vethb51ccb8 entered promiscuous mode
+[11097.096128] br-420a79233bed: port 5(vethb51ccb8) entered blocking state
+[11097.096130] br-420a79233bed: port 5(vethb51ccb8) entered forwarding state
+[11097.402552] eth0: renamed from veth2d042db
+[11097.432207] IPv6: ADDRCONF(NETDEV_CHANGE): vethb51ccb8: link becomes ready
+[11097.509830] br-420a79233bed: port 6(veth8c3899b) entered blocking state
+[11097.509850] br-420a79233bed: port 6(veth8c3899b) entered disabled state
+[11097.509908] device veth8c3899b entered promiscuous mode
+[11097.510157] br-420a79233bed: port 6(veth8c3899b) entered blocking state
+[11097.510160] br-420a79233bed: port 6(veth8c3899b) entered forwarding state
+[11097.714760] br-420a79233bed: port 6(veth8c3899b) entered disabled state
+[11097.809319] eth0: renamed from vethb114b97
+[11097.828704] IPv6: ADDRCONF(NETDEV_CHANGE): veth8c3899b: link becomes ready
+[11097.828803] br-420a79233bed: port 6(veth8c3899b) entered blocking state
+[11097.828808] br-420a79233bed: port 6(veth8c3899b) entered forwarding state
+[11100.274960] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethd153c5c MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=44495 DF PROTO=TCP SPT=42524 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11105.491490] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth3ad46b0 MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=40757 DF PROTO=TCP SPT=50640 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11276.511921] br-420a79233bed: port 6(veth8c3899b) entered disabled state
+[11276.512449] vethb114b97: renamed from eth0
+[11276.572573] br-420a79233bed: port 6(veth8c3899b) entered disabled state
+[11276.574252] device veth8c3899b left promiscuous mode
+[11276.574265] br-420a79233bed: port 6(veth8c3899b) entered disabled state
+[11276.757865] br-420a79233bed: port 3(veth3ad46b0) entered disabled state
+[11276.759566] vethc97e967: renamed from eth0
+[11276.836437] br-420a79233bed: port 5(vethb51ccb8) entered disabled state
+[11276.836972] veth2d042db: renamed from eth0
+[11276.859908] br-420a79233bed: port 3(veth3ad46b0) entered disabled state
+[11276.862081] device veth3ad46b0 left promiscuous mode
+[11276.862096] br-420a79233bed: port 3(veth3ad46b0) entered disabled state
+[11276.965494] br-420a79233bed: port 5(vethb51ccb8) entered disabled state
+[11276.969815] device vethb51ccb8 left promiscuous mode
+[11276.969832] br-420a79233bed: port 5(vethb51ccb8) entered disabled state
+[11277.150130] br-420a79233bed: port 4(vethd153c5c) entered disabled state
+[11277.150208] vethb908738: renamed from eth0
+[11277.238278] br-420a79233bed: port 4(vethd153c5c) entered disabled state
+[11277.239866] device vethd153c5c left promiscuous mode
+[11277.239876] br-420a79233bed: port 4(vethd153c5c) entered disabled state
+[11278.821834] br-420a79233bed: port 1(veth00d3e12) entered disabled state
+[11278.821939] veth2e5e797: renamed from eth0
+[11278.869493] br-420a79233bed: port 2(vethdb0e1b5) entered disabled state
+[11278.869591] vethb99df2e: renamed from eth0
+[11278.906308] br-420a79233bed: port 1(veth00d3e12) entered disabled state
+[11278.908542] device veth00d3e12 left promiscuous mode
+[11278.908558] br-420a79233bed: port 1(veth00d3e12) entered disabled state
+[11278.980811] br-420a79233bed: port 2(vethdb0e1b5) entered disabled state
+[11278.982343] device vethdb0e1b5 left promiscuous mode
+[11278.982359] br-420a79233bed: port 2(vethdb0e1b5) entered disabled state
+[11282.324834] br-420a79233bed: port 1(veth44adaba) entered blocking state
+[11282.324842] br-420a79233bed: port 1(veth44adaba) entered disabled state
+[11282.324939] device veth44adaba entered promiscuous mode
+[11282.359620] br-420a79233bed: port 2(veth293ff95) entered blocking state
+[11282.359639] br-420a79233bed: port 2(veth293ff95) entered disabled state
+[11282.359832] device veth293ff95 entered promiscuous mode
+[11282.360890] br-420a79233bed: port 2(veth293ff95) entered blocking state
+[11282.360895] br-420a79233bed: port 2(veth293ff95) entered forwarding state
+[11282.361366] br-420a79233bed: port 2(veth293ff95) entered disabled state
+[11282.709519] eth0: renamed from veth2a43e61
+[11282.732535] IPv6: ADDRCONF(NETDEV_CHANGE): veth44adaba: link becomes ready
+[11282.732631] br-420a79233bed: port 1(veth44adaba) entered blocking state
+[11282.732637] br-420a79233bed: port 1(veth44adaba) entered forwarding state
+[11282.772481] eth0: renamed from veth8c34619
+[11282.795472] IPv6: ADDRCONF(NETDEV_CHANGE): veth293ff95: link becomes ready
+[11282.795530] br-420a79233bed: port 2(veth293ff95) entered blocking state
+[11282.795536] br-420a79233bed: port 2(veth293ff95) entered forwarding state
+[11282.805206] br-420a79233bed: port 3(veth257549a) entered blocking state
+[11282.805225] br-420a79233bed: port 3(veth257549a) entered disabled state
+[11282.805561] device veth257549a entered promiscuous mode
+[11282.805950] br-420a79233bed: port 3(veth257549a) entered blocking state
+[11282.805953] br-420a79233bed: port 3(veth257549a) entered forwarding state
+[11282.876576] br-420a79233bed: port 4(vethf606911) entered blocking state
+[11282.876606] br-420a79233bed: port 4(vethf606911) entered disabled state
+[11282.876704] device vethf606911 entered promiscuous mode
+[11282.878122] br-420a79233bed: port 4(vethf606911) entered blocking state
+[11282.878138] br-420a79233bed: port 4(vethf606911) entered forwarding state
+[11283.215586] eth0: renamed from veth6bc1274
+[11283.252208] IPv6: ADDRCONF(NETDEV_CHANGE): veth257549a: link becomes ready
+[11283.252516] br-420a79233bed: port 4(vethf606911) entered disabled state
+[11283.338895] eth0: renamed from vethd3db7c4
+[11283.365816] IPv6: ADDRCONF(NETDEV_CHANGE): vethf606911: link becomes ready
+[11283.365874] br-420a79233bed: port 4(vethf606911) entered blocking state
+[11283.365879] br-420a79233bed: port 4(vethf606911) entered forwarding state
+[11283.426505] br-420a79233bed: port 5(vethf8e74bb) entered blocking state
+[11283.426518] br-420a79233bed: port 5(vethf8e74bb) entered disabled state
+[11283.426565] device vethf8e74bb entered promiscuous mode
+[11283.426756] br-420a79233bed: port 5(vethf8e74bb) entered blocking state
+[11283.426758] br-420a79233bed: port 5(vethf8e74bb) entered forwarding state
+[11283.743767] eth0: renamed from vethea1db56
+[11283.775590] IPv6: ADDRCONF(NETDEV_CHANGE): vethf8e74bb: link becomes ready
+[11283.857937] br-420a79233bed: port 6(veth79e1713) entered blocking state
+[11283.857952] br-420a79233bed: port 6(veth79e1713) entered disabled state
+[11283.858013] device veth79e1713 entered promiscuous mode
+[11283.858181] br-420a79233bed: port 6(veth79e1713) entered blocking state
+[11283.858184] br-420a79233bed: port 6(veth79e1713) entered forwarding state
+[11284.152632] eth0: renamed from veth70182c2
+[11284.178644] IPv6: ADDRCONF(NETDEV_CHANGE): veth79e1713: link becomes ready
+[11299.140414] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=47464 DF PROTO=TCP SPT=42526 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11355.744772] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=veth257549a MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=5990 DF PROTO=TCP SPT=50642 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11361.533858] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=29325 DF PROTO=TCP SPT=42528 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11482.543603] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=63441 DF PROTO=TCP SPT=42530 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11603.531135] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=28068 DF PROTO=TCP SPT=42532 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11724.534004] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=39813 DF PROTO=TCP SPT=42534 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[11845.528586] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethf606911 MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=8985 DF PROTO=TCP SPT=42536 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[14180.396177] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14180.396189] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14182.280478] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14182.280493] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16269.927015] br-420a79233bed: port 6(veth79e1713) entered disabled state
+[16269.927059] veth70182c2: renamed from eth0
+[16269.993268] br-420a79233bed: port 6(veth79e1713) entered disabled state
+[16269.994031] device veth79e1713 left promiscuous mode
+[16269.994037] br-420a79233bed: port 6(veth79e1713) entered disabled state
+[16270.161105] br-420a79233bed: port 3(veth257549a) entered disabled state
+[16270.161172] veth6bc1274: renamed from eth0
+[16270.209233] br-420a79233bed: port 5(vethf8e74bb) entered disabled state
+[16270.209279] vethea1db56: renamed from eth0
+[16270.273192] br-420a79233bed: port 3(veth257549a) entered disabled state
+[16270.274864] device veth257549a left promiscuous mode
+[16270.274874] br-420a79233bed: port 3(veth257549a) entered disabled state
+[16270.343202] br-420a79233bed: port 5(vethf8e74bb) entered disabled state
+[16270.344942] device vethf8e74bb left promiscuous mode
+[16270.344952] br-420a79233bed: port 5(vethf8e74bb) entered disabled state
+[16270.466260] br-420a79233bed: port 4(vethf606911) entered disabled state
+[16270.466902] vethd3db7c4: renamed from eth0
+[16270.516203] br-420a79233bed: port 4(vethf606911) entered disabled state
+[16270.517055] device vethf606911 left promiscuous mode
+[16270.517063] br-420a79233bed: port 4(vethf606911) entered disabled state
+[16272.019896] br-420a79233bed: port 1(veth44adaba) entered disabled state
+[16272.020063] veth2a43e61: renamed from eth0
+[16272.105116] br-420a79233bed: port 1(veth44adaba) entered disabled state
+[16272.106859] device veth44adaba left promiscuous mode
+[16272.106871] br-420a79233bed: port 1(veth44adaba) entered disabled state
+[16272.128658] br-420a79233bed: port 2(veth293ff95) entered disabled state
+[16272.128796] veth8c34619: renamed from eth0
+[16272.252498] br-420a79233bed: port 2(veth293ff95) entered disabled state
+[16272.253869] device veth293ff95 left promiscuous mode
+[16272.253875] br-420a79233bed: port 2(veth293ff95) entered disabled state
+[16277.158003] br-420a79233bed: port 1(veth85b5911) entered blocking state
+[16277.158012] br-420a79233bed: port 1(veth85b5911) entered disabled state
+[16277.158059] device veth85b5911 entered promiscuous mode
+[16277.174204] br-420a79233bed: port 2(vethe8022f6) entered blocking state
+[16277.174248] br-420a79233bed: port 2(vethe8022f6) entered disabled state
+[16277.174281] device vethe8022f6 entered promiscuous mode
+[16277.174495] br-420a79233bed: port 2(vethe8022f6) entered blocking state
+[16277.174498] br-420a79233bed: port 2(vethe8022f6) entered forwarding state
+[16277.174570] br-420a79233bed: port 2(vethe8022f6) entered disabled state
+[16277.562316] eth0: renamed from veth1282d33
+[16277.579071] IPv6: ADDRCONF(NETDEV_CHANGE): veth85b5911: link becomes ready
+[16277.579128] br-420a79233bed: port 1(veth85b5911) entered blocking state
+[16277.579130] br-420a79233bed: port 1(veth85b5911) entered forwarding state
+[16277.624169] eth0: renamed from veth16904a5
+[16277.656335] br-420a79233bed: port 3(vethf8b7ba3) entered blocking state
+[16277.656347] br-420a79233bed: port 3(vethf8b7ba3) entered disabled state
+[16277.656394] device vethf8b7ba3 entered promiscuous mode
+[16277.656465] br-420a79233bed: port 3(vethf8b7ba3) entered blocking state
+[16277.656466] br-420a79233bed: port 3(vethf8b7ba3) entered forwarding state
+[16277.657357] br-420a79233bed: port 3(vethf8b7ba3) entered disabled state
+[16277.657393] IPv6: ADDRCONF(NETDEV_CHANGE): vethe8022f6: link becomes ready
+[16277.657420] br-420a79233bed: port 2(vethe8022f6) entered blocking state
+[16277.657421] br-420a79233bed: port 2(vethe8022f6) entered forwarding state
+[16277.775828] br-420a79233bed: port 4(veth9221fe5) entered blocking state
+[16277.775845] br-420a79233bed: port 4(veth9221fe5) entered disabled state
+[16277.776095] device veth9221fe5 entered promiscuous mode
+[16277.776499] br-420a79233bed: port 4(veth9221fe5) entered blocking state
+[16277.776502] br-420a79233bed: port 4(veth9221fe5) entered forwarding state
+[16278.023813] eth0: renamed from vethed629a0
+[16278.045812] br-420a79233bed: port 4(veth9221fe5) entered disabled state
+[16278.045860] IPv6: ADDRCONF(NETDEV_CHANGE): vethf8b7ba3: link becomes ready
+[16278.045880] br-420a79233bed: port 3(vethf8b7ba3) entered blocking state
+[16278.045881] br-420a79233bed: port 3(vethf8b7ba3) entered forwarding state
+[16278.079010] eth0: renamed from vethe45d67d
+[16278.102208] IPv6: ADDRCONF(NETDEV_CHANGE): veth9221fe5: link becomes ready
+[16278.102238] br-420a79233bed: port 4(veth9221fe5) entered blocking state
+[16278.102240] br-420a79233bed: port 4(veth9221fe5) entered forwarding state
+[16278.103119] br-420a79233bed: port 5(veth1263e97) entered blocking state
+[16278.103130] br-420a79233bed: port 5(veth1263e97) entered disabled state
+[16278.103178] device veth1263e97 entered promiscuous mode
+[16278.103660] br-420a79233bed: port 5(veth1263e97) entered blocking state
+[16278.103664] br-420a79233bed: port 5(veth1263e97) entered forwarding state
+[16278.161768] br-420a79233bed: port 5(veth1263e97) entered disabled state
+[16278.389434] eth0: renamed from veth076edaf
+[16278.422236] IPv6: ADDRCONF(NETDEV_CHANGE): veth1263e97: link becomes ready
+[16278.422318] br-420a79233bed: port 5(veth1263e97) entered blocking state
+[16278.422323] br-420a79233bed: port 5(veth1263e97) entered forwarding state
+[16278.477422] br-420a79233bed: port 6(vethcfc3263) entered blocking state
+[16278.477432] br-420a79233bed: port 6(vethcfc3263) entered disabled state
+[16278.477473] device vethcfc3263 entered promiscuous mode
+[16278.477568] br-420a79233bed: port 6(vethcfc3263) entered blocking state
+[16278.477570] br-420a79233bed: port 6(vethcfc3263) entered forwarding state
+[16278.719427] eth0: renamed from vethb604f10
+[16278.735477] IPv6: ADDRCONF(NETDEV_CHANGE): vethcfc3263: link becomes ready
+[16343.871017] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16343.871022] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16344.258591] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16344.258603] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16347.835272] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16347.835284] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16348.342215] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16348.342226] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16350.693631] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16350.693642] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16352.431149] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16352.431159] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16365.629823] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16365.629834] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16365.903841] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16365.903858] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16378.050944] br-420a79233bed: port 6(vethcfc3263) entered disabled state
+[16378.051523] vethb604f10: renamed from eth0
+[16378.111037] br-420a79233bed: port 6(vethcfc3263) entered disabled state
+[16378.112722] device vethcfc3263 left promiscuous mode
+[16378.112732] br-420a79233bed: port 6(vethcfc3263) entered disabled state
+[16378.247478] br-420a79233bed: port 4(veth9221fe5) entered disabled state
+[16378.247559] vethe45d67d: renamed from eth0
+[16378.307621] veth076edaf: renamed from eth0
+[16378.320143] br-420a79233bed: port 5(veth1263e97) entered disabled state
+[16378.359257] br-420a79233bed: port 4(veth9221fe5) entered disabled state
+[16378.360544] device veth9221fe5 left promiscuous mode
+[16378.360556] br-420a79233bed: port 4(veth9221fe5) entered disabled state
+[16378.424420] br-420a79233bed: port 5(veth1263e97) entered disabled state
+[16378.425359] device veth1263e97 left promiscuous mode
+[16378.425367] br-420a79233bed: port 5(veth1263e97) entered disabled state
+[16378.563811] br-420a79233bed: port 3(vethf8b7ba3) entered disabled state
+[16378.563885] vethed629a0: renamed from eth0
+[16378.636536] br-420a79233bed: port 3(vethf8b7ba3) entered disabled state
+[16378.637875] device vethf8b7ba3 left promiscuous mode
+[16378.637882] br-420a79233bed: port 3(vethf8b7ba3) entered disabled state
+[16379.958395] br-420a79233bed: port 1(veth85b5911) entered disabled state
+[16379.958440] veth1282d33: renamed from eth0
+[16380.024367] br-420a79233bed: port 1(veth85b5911) entered disabled state
+[16380.025187] device veth85b5911 left promiscuous mode
+[16380.025192] br-420a79233bed: port 1(veth85b5911) entered disabled state
+[16380.072458] br-420a79233bed: port 2(vethe8022f6) entered disabled state
+[16380.072501] veth16904a5: renamed from eth0
+[16380.170816] br-420a79233bed: port 2(vethe8022f6) entered disabled state
+[16380.171597] device vethe8022f6 left promiscuous mode
+[16380.171602] br-420a79233bed: port 2(vethe8022f6) entered disabled state
+[16383.606772] br-420a79233bed: port 1(vethb970247) entered blocking state
+[16383.606776] br-420a79233bed: port 1(vethb970247) entered disabled state
+[16383.606817] device vethb970247 entered promiscuous mode
+[16383.606909] br-420a79233bed: port 1(vethb970247) entered blocking state
+[16383.606911] br-420a79233bed: port 1(vethb970247) entered forwarding state
+[16383.607975] br-420a79233bed: port 1(vethb970247) entered disabled state
+[16383.669412] br-420a79233bed: port 2(vethcb206e2) entered blocking state
+[16383.669422] br-420a79233bed: port 2(vethcb206e2) entered disabled state
+[16383.669507] device vethcb206e2 entered promiscuous mode
+[16383.669654] br-420a79233bed: port 2(vethcb206e2) entered blocking state
+[16383.669657] br-420a79233bed: port 2(vethcb206e2) entered forwarding state
+[16383.670100] br-420a79233bed: port 2(vethcb206e2) entered disabled state
+[16384.007256] eth0: renamed from vethfc18704
+[16384.033528] IPv6: ADDRCONF(NETDEV_CHANGE): vethb970247: link becomes ready
+[16384.033570] br-420a79233bed: port 1(vethb970247) entered blocking state
+[16384.033574] br-420a79233bed: port 1(vethb970247) entered forwarding state
+[16384.067025] eth0: renamed from veth6a4ddd1
+[16384.090053] IPv6: ADDRCONF(NETDEV_CHANGE): vethcb206e2: link becomes ready
+[16384.090089] br-420a79233bed: port 2(vethcb206e2) entered blocking state
+[16384.090092] br-420a79233bed: port 2(vethcb206e2) entered forwarding state
+[16384.097297] br-420a79233bed: port 3(vethff0e9af) entered blocking state
+[16384.097385] br-420a79233bed: port 3(vethff0e9af) entered disabled state
+[16384.097424] device vethff0e9af entered promiscuous mode
+[16384.097546] br-420a79233bed: port 3(vethff0e9af) entered blocking state
+[16384.097548] br-420a79233bed: port 3(vethff0e9af) entered forwarding state
+[16384.150462] br-420a79233bed: port 4(vethdd1029e) entered blocking state
+[16384.150475] br-420a79233bed: port 4(vethdd1029e) entered disabled state
+[16384.150525] device vethdd1029e entered promiscuous mode
+[16384.150627] br-420a79233bed: port 4(vethdd1029e) entered blocking state
+[16384.150628] br-420a79233bed: port 4(vethdd1029e) entered forwarding state
+[16384.486982] eth0: renamed from vethc14cecb
+[16384.513734] IPv6: ADDRCONF(NETDEV_CHANGE): vethff0e9af: link becomes ready
+[16384.513890] br-420a79233bed: port 4(vethdd1029e) entered disabled state
+[16384.543588] eth0: renamed from veth758f076
+[16384.567960] IPv6: ADDRCONF(NETDEV_CHANGE): vethdd1029e: link becomes ready
+[16384.568015] br-420a79233bed: port 4(vethdd1029e) entered blocking state
+[16384.568018] br-420a79233bed: port 4(vethdd1029e) entered forwarding state
+[16384.570513] br-420a79233bed: port 5(veth26e5b43) entered blocking state
+[16384.570524] br-420a79233bed: port 5(veth26e5b43) entered disabled state
+[16384.570674] device veth26e5b43 entered promiscuous mode
+[16384.571339] br-420a79233bed: port 5(veth26e5b43) entered blocking state
+[16384.571343] br-420a79233bed: port 5(veth26e5b43) entered forwarding state
+[16384.609876] br-420a79233bed: port 5(veth26e5b43) entered disabled state
+[16384.837315] eth0: renamed from veth1b8730e
+[16384.853462] IPv6: ADDRCONF(NETDEV_CHANGE): veth26e5b43: link becomes ready
+[16384.853495] br-420a79233bed: port 5(veth26e5b43) entered blocking state
+[16384.853497] br-420a79233bed: port 5(veth26e5b43) entered forwarding state
+[16384.897444] br-420a79233bed: port 6(veth56a5d4c) entered blocking state
+[16384.897456] br-420a79233bed: port 6(veth56a5d4c) entered disabled state
+[16384.897507] device veth56a5d4c entered promiscuous mode
+[16384.897624] br-420a79233bed: port 6(veth56a5d4c) entered blocking state
+[16384.897626] br-420a79233bed: port 6(veth56a5d4c) entered forwarding state
+[16385.127009] eth0: renamed from vethaaf21de
+[16385.140962] IPv6: ADDRCONF(NETDEV_CHANGE): veth56a5d4c: link becomes ready
+[16392.898729] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethdd1029e MAC=02:42:03:25:7d:35:02:42:ac:12:00:05:08:00 SRC=172.18.0.5 DST=192.168.1.158 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=32992 DF PROTO=TCP SPT=42538 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[16433.786556] [UFW BLOCK] IN=br-420a79233bed OUT= PHYSIN=vethff0e9af MAC=02:42:03:25:7d:35:02:42:ac:12:00:04:08:00 SRC=172.18.0.4 DST=172.31.16.68 LEN=60 TOS=0x00 PREC=0x00 TTL=64 ID=39168 DF PROTO=TCP SPT=41520 DPT=80 WINDOW=64240 RES=0x00 SYN URGP=0 
+[16483.183884] br-420a79233bed: port 6(veth56a5d4c) entered disabled state
+[16483.184000] vethaaf21de: renamed from eth0
+[16483.236540] br-420a79233bed: port 6(veth56a5d4c) entered disabled state
+[16483.237514] device veth56a5d4c left promiscuous mode
+[16483.237521] br-420a79233bed: port 6(veth56a5d4c) entered disabled state
+[16483.387859] br-420a79233bed: port 4(vethdd1029e) entered disabled state
+[16483.387911] veth758f076: renamed from eth0
+[16483.451937] br-420a79233bed: port 5(veth26e5b43) entered disabled state
+[16483.452065] veth1b8730e: renamed from eth0
+[16483.524659] br-420a79233bed: port 4(vethdd1029e) entered disabled state
+[16483.526213] device vethdd1029e left promiscuous mode
+[16483.526236] br-420a79233bed: port 4(vethdd1029e) entered disabled state
+[16483.580081] br-420a79233bed: port 5(veth26e5b43) entered disabled state
+[16483.581938] device veth26e5b43 left promiscuous mode
+[16483.581952] br-420a79233bed: port 5(veth26e5b43) entered disabled state
+[16483.738003] br-420a79233bed: port 3(vethff0e9af) entered disabled state
+[16483.738054] vethc14cecb: renamed from eth0
+[16483.814281] br-420a79233bed: port 3(vethff0e9af) entered disabled state
+[16483.815112] device vethff0e9af left promiscuous mode
+[16483.815121] br-420a79233bed: port 3(vethff0e9af) entered disabled state
+[16485.444674] br-420a79233bed: port 1(vethb970247) entered disabled state
+[16485.446109] vethfc18704: renamed from eth0
+[16485.499668] br-420a79233bed: port 2(vethcb206e2) entered disabled state
+[16485.499718] veth6a4ddd1: renamed from eth0
+[16485.550286] br-420a79233bed: port 1(vethb970247) entered disabled state
+[16485.551242] device vethb970247 left promiscuous mode
+[16485.551253] br-420a79233bed: port 1(vethb970247) entered disabled state
+[16485.599900] br-420a79233bed: port 2(vethcb206e2) entered disabled state
+[16485.600685] device vethcb206e2 left promiscuous mode
+[16485.600692] br-420a79233bed: port 2(vethcb206e2) entered disabled state
+[16819.553925] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16819.553933] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16820.047247] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16820.047258] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16820.128717] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16820.128729] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16820.429000] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16820.429010] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17302.565017] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17302.565029] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17305.058714] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17305.058731] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17428.570247] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17428.570259] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17431.858113] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17431.858124] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18080.872653] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[18080.872666] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18081.226342] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[18081.226354] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19224.720649] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19224.720660] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19225.067140] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19225.067157] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19618.957758] docker0: port 1(veth46466c2) entered blocking state
+[19618.957764] docker0: port 1(veth46466c2) entered disabled state
+[19618.957818] device veth46466c2 entered promiscuous mode
+[19618.957929] docker0: port 1(veth46466c2) entered blocking state
+[19618.957931] docker0: port 1(veth46466c2) entered forwarding state
+[19618.960213] docker0: port 1(veth46466c2) entered disabled state
+[19619.182771] eth0: renamed from vetha8d6ec9
+[19619.211026] IPv6: ADDRCONF(NETDEV_CHANGE): veth46466c2: link becomes ready
+[19619.211100] docker0: port 1(veth46466c2) entered blocking state
+[19619.211105] docker0: port 1(veth46466c2) entered forwarding state
+[19636.513504] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19636.513515] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19637.982079] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19637.982098] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19638.235050] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19638.235062] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19639.910937] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19639.910950] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19667.793788] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19667.793798] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19668.356533] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19668.356545] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[20069.249661] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[20069.249668] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[20069.653464] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[20069.653481] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22381.769974] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22381.769990] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22381.822604] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22381.822615] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22382.006276] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22382.006288] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22382.316306] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22382.316316] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22677.984442] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22677.984459] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22678.335930] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22678.335939] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22678.730373] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22678.730385] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22693.798383] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22693.798395] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22707.038543] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22707.038553] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22707.853463] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22707.853475] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22709.505284] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22709.505296] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22710.184383] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22710.184393] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22711.030165] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22711.030173] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22723.280332] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22723.280349] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23630.558737] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[23630.558753] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23641.824353] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[23641.824371] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23642.211516] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[23642.211529] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23644.340545] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[23644.340558] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25894.574642] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25894.574650] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25941.425561] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25941.425571] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25942.408045] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25942.408053] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25944.231361] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25944.231369] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25951.407317] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25951.407325] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25955.862459] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25955.862468] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25995.889898] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25995.889909] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26002.991842] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[26002.991850] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.

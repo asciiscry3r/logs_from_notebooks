@@ -1,0 +1,1421 @@
+[    1.880508] pci 0000:01:00.5: reg 0x10: [mem 0xd0480000-0xd04bffff]
+[    1.880528] pci 0000:01:00.5: enabling Extended Tags
+[    1.880555] pci 0000:01:00.5: PME# supported from D0 D3hot D3cold
+[    1.880624] pci 0000:01:00.6: [1022:15e3] type 00 class 0x040300
+[    1.880631] pci 0000:01:00.6: reg 0x10: [mem 0xd04c0000-0xd04c7fff]
+[    1.880650] pci 0000:01:00.6: enabling Extended Tags
+[    1.880677] pci 0000:01:00.6: PME# supported from D0 D3hot D3cold
+[    1.880762] pci 0000:00:08.1: PCI bridge to [bus 01]
+[    1.880765] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    1.880767] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    1.880769] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    1.880820] pci 0000:02:00.0: [1022:7901] type 00 class 0x010601
+[    1.880846] pci 0000:02:00.0: reg 0x24: [mem 0xd0001000-0xd00017ff]
+[    1.880853] pci 0000:02:00.0: enabling Extended Tags
+[    1.880966] pci 0000:02:00.1: [1022:7901] type 00 class 0x010601
+[    1.880992] pci 0000:02:00.1: reg 0x24: [mem 0xd0000000-0xd00007ff]
+[    1.881000] pci 0000:02:00.1: enabling Extended Tags
+[    1.881098] pci 0000:00:08.2: PCI bridge to [bus 02]
+[    1.881102] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    1.882811] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[    1.882812] ACPI: PCI: Interrupt link LNKA disabled
+[    1.882903] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+[    1.882903] ACPI: PCI: Interrupt link LNKB disabled
+[    1.882975] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[    1.882976] ACPI: PCI: Interrupt link LNKC disabled
+[    1.883064] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[    1.883065] ACPI: PCI: Interrupt link LNKD disabled
+[    1.883148] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    1.883148] ACPI: PCI: Interrupt link LNKE disabled
+[    1.883214] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    1.883215] ACPI: PCI: Interrupt link LNKF disabled
+[    1.883281] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    1.883281] ACPI: PCI: Interrupt link LNKG disabled
+[    1.883350] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    1.883351] ACPI: PCI: Interrupt link LNKH disabled
+[    1.885334] ACPI: EC: interrupt unblocked
+[    1.885335] ACPI: EC: event unblocked
+[    1.885340] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    1.885341] ACPI: EC: GPE=0x3
+[    1.885342] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+[    1.885343] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+[    1.885369] iommu: Default domain type: Translated 
+[    1.885369] iommu: DMA domain TLB invalidation policy: lazy mode 
+[    1.885369] pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+[    1.885369] pci 0000:01:00.0: vgaarb: bridge control possible
+[    1.885369] pci 0000:01:00.0: vgaarb: setting as boot device
+[    1.885369] vgaarb: loaded
+[    1.885369] SCSI subsystem initialized
+[    1.885369] libata version 3.00 loaded.
+[    1.885369] ACPI: bus type USB registered
+[    1.885921] usbcore: registered new interface driver usbfs
+[    1.885927] usbcore: registered new interface driver hub
+[    1.885933] usbcore: registered new device driver usb
+[    1.887485] pps_core: LinuxPPS API ver. 1 registered
+[    1.887486] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.887489] PTP clock support registered
+[    1.887497] EDAC MC: Ver: 3.0.0
+[    1.887545] Registered efivars operations
+[    1.887545] NetLabel: Initializing
+[    1.887545] NetLabel:  domain hash size = 128
+[    1.887545] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    1.887545] NetLabel:  unlabeled traffic allowed by default
+[    1.887545] mctp: management component transport protocol core
+[    1.887545] NET: Registered PF_MCTP protocol family
+[    1.887545] PCI: Using ACPI for IRQ routing
+[    1.887545] audit: type=1409 audit(1646931639.213:2): netlabel: auid=0 ses=0 subj==unconfined nlbl_domain=(default) nlbl_protocol=unlbl res=1
+[    1.887545] audit: type=1406 audit(1646931639.213:3): netlabel: auid=0 ses=0 subj==unconfined unlbl_accept=1 old=0
+[    1.891158] PCI: pci_cache_line_size set to 64 bytes
+[    1.891190] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+[    1.891192] e820: reserve RAM buffer [mem 0x09b00000-0x0bffffff]
+[    1.891193] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+[    1.891194] e820: reserve RAM buffer [mem 0xb3621000-0xb3ffffff]
+[    1.891195] e820: reserve RAM buffer [mem 0xbab69000-0xbbffffff]
+[    1.891196] e820: reserve RAM buffer [mem 0xc9f7f000-0xcbffffff]
+[    1.891197] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+[    1.891198] e820: reserve RAM buffer [mem 0x40f340000-0x40fffffff]
+[    1.891202] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    1.891202] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+[    1.892914] clocksource: Switched to clocksource hpet
+[    1.902360] VFS: Disk quotas dquot_6.6.0
+[    1.902379] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    1.902519] AppArmor: AppArmor Filesystem Enabled
+[    1.902569] pnp: PnP ACPI init
+[    1.902794] audit: type=1400 audit(1646931639.219:4): apparmor="STATUS" info="AppArmor Filesystem Enabled" pid=1 comm="swapper/0"
+[    1.902867] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+[    1.902872] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    1.902874] system 00:00: [mem 0xfde00000-0xfdefffff] has been reserved
+[    1.903100] system 00:03: [io  0x0400-0x04cf] has been reserved
+[    1.903102] system 00:03: [io  0x04d0-0x04d1] has been reserved
+[    1.903103] system 00:03: [io  0x04d6] has been reserved
+[    1.903104] system 00:03: [io  0x0c00-0x0c01] has been reserved
+[    1.903105] system 00:03: [io  0x0c14] has been reserved
+[    1.903106] system 00:03: [io  0x0c50-0x0c52] has been reserved
+[    1.903107] system 00:03: [io  0x0c6c] has been reserved
+[    1.903109] system 00:03: [io  0x0c6f] has been reserved
+[    1.903110] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+[    1.903178] system 00:04: [mem 0x000e0000-0x000fffff] could not be reserved
+[    1.903180] system 00:04: [mem 0xff000000-0xffffffff] could not be reserved
+[    1.905147] pnp: PnP ACPI: found 5 devices
+[    1.913807] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    1.913959] NET: Registered PF_INET protocol family
+[    1.914489] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    1.916027] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    1.916145] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    1.916532] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    1.916601] TCP: Hash tables configured (established 131072 bind 65536)
+[    1.916754] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    1.916812] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    1.916863] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    1.916943] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    1.916950] NET: Registered PF_XDP protocol family
+[    1.916963] pci 0000:00:08.1: PCI bridge to [bus 01]
+[    1.916967] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    1.916971] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    1.916973] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    1.916976] pci 0000:00:08.2: PCI bridge to [bus 02]
+[    1.916979] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    1.916984] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    1.916985] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    1.916986] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    1.916987] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+[    1.916988] pci_bus 0000:00: resource 8 [mem 0x000d0000-0x000effff window]
+[    1.916989] pci_bus 0000:00: resource 9 [mem 0xd0000000-0xf7ffffff window]
+[    1.916990] pci_bus 0000:00: resource 10 [mem 0xfc000000-0xfed3ffff window]
+[    1.916991] pci_bus 0000:00: resource 11 [mem 0x450200000-0xfcffffffff window]
+[    1.916992] pci_bus 0000:01: resource 0 [io  0x1000-0x1fff]
+[    1.916993] pci_bus 0000:01: resource 1 [mem 0xd0100000-0xd04fffff]
+[    1.916994] pci_bus 0000:01: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    1.916995] pci_bus 0000:02: resource 1 [mem 0xd0000000-0xd00fffff]
+[    1.917137] pci 0000:01:00.1: D0 power state depends on 0000:01:00.0
+[    1.917146] pci 0000:01:00.3: extending delay after power-on from D3hot to 20 msec
+[    1.918754] pci 0000:01:00.4: extending delay after power-on from D3hot to 20 msec
+[    1.930025] pci 0000:01:00.4: quirk_usb_early_handoff+0x0/0x750 took 11002 usecs
+[    1.930039] PCI: CLS 64 bytes, default 64
+[    1.930051] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+[    1.930109] Trying to unpack rootfs image as initramfs...
+[    1.930110] pci 0000:00:00.2: can't derive routing for PCI INT A
+[    1.930111] pci 0000:00:00.2: PCI INT A: not connected
+[    1.930129] pci 0000:00:01.0: Adding to iommu group 0
+[    1.930142] pci 0000:00:02.0: Adding to iommu group 1
+[    1.930157] pci 0000:00:08.0: Adding to iommu group 2
+[    1.930164] pci 0000:00:08.1: Adding to iommu group 2
+[    1.930171] pci 0000:00:08.2: Adding to iommu group 2
+[    1.930184] pci 0000:00:14.0: Adding to iommu group 3
+[    1.930191] pci 0000:00:14.3: Adding to iommu group 3
+[    1.930215] pci 0000:00:18.0: Adding to iommu group 4
+[    1.930222] pci 0000:00:18.1: Adding to iommu group 4
+[    1.930229] pci 0000:00:18.2: Adding to iommu group 4
+[    1.930237] pci 0000:00:18.3: Adding to iommu group 4
+[    1.930243] pci 0000:00:18.4: Adding to iommu group 4
+[    1.930250] pci 0000:00:18.5: Adding to iommu group 4
+[    1.930256] pci 0000:00:18.6: Adding to iommu group 4
+[    1.930265] pci 0000:00:18.7: Adding to iommu group 4
+[    1.930271] pci 0000:01:00.0: Adding to iommu group 2
+[    1.930275] pci 0000:01:00.1: Adding to iommu group 2
+[    1.930280] pci 0000:01:00.2: Adding to iommu group 2
+[    1.930284] pci 0000:01:00.3: Adding to iommu group 2
+[    1.930289] pci 0000:01:00.4: Adding to iommu group 2
+[    1.930294] pci 0000:01:00.5: Adding to iommu group 2
+[    1.930303] pci 0000:01:00.6: Adding to iommu group 2
+[    1.930310] pci 0000:02:00.0: Adding to iommu group 2
+[    1.930315] pci 0000:02:00.1: Adding to iommu group 2
+[    1.931813] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+[    1.931817] AMD-Vi: Extended features (0x206d73ef22254ade): PPR X2APIC NX GT IA GA PC GA_vAPIC
+[    1.931822] AMD-Vi: Interrupt remapping enabled
+[    1.931822] AMD-Vi: Virtual APIC enabled
+[    1.931823] AMD-Vi: X2APIC enabled
+[    1.932082] software IO TLB: tearing down default memory pool
+[    1.939950] LVT offset 0 assigned for vector 0x400
+[    1.940167] perf: AMD IBS detected (0x000003ff)
+[    1.940174] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+[    1.941963] Initialise system trusted keyrings
+[    1.941978] Key type blacklist registered
+[    1.942068] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    1.943500] zbud: loaded
+[    1.946390] Key type asymmetric registered
+[    1.946392] Asymmetric key parser 'x509' registered
+[    1.946420] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+[    1.946542] io scheduler mq-deadline registered
+[    1.946544] io scheduler kyber registered
+[    1.946572] io scheduler bfq registered
+[    1.947166] pcieport 0000:00:08.1: PME: Signaling with IRQ 26
+[    1.947375] pcieport 0000:00:08.2: PME: Signaling with IRQ 27
+[    1.947456] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    1.948661] ACPI: AC: AC Adapter [ACAD] (off-line)
+[    1.948701] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[    1.948723] ACPI: button: Power Button [PWRB]
+[    1.948750] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2a/PNP0C09:00/PNP0C0D:00/input/input1
+[    1.948763] ACPI: button: Lid Switch [LID0]
+[    1.948812] Monitor-Mwait will be used to enter C-1 state
+[    1.948823] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+[    1.948829] ACPI: FW issue: working around C-state latencies out of order
+[    1.948945] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+[    1.948952] ACPI: FW issue: working around C-state latencies out of order
+[    1.949044] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+[    1.949049] ACPI: FW issue: working around C-state latencies out of order
+[    1.949116] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+[    1.949120] ACPI: FW issue: working around C-state latencies out of order
+[    1.949316] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+[    1.949321] ACPI: FW issue: working around C-state latencies out of order
+[    1.949487] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+[    1.949491] ACPI: FW issue: working around C-state latencies out of order
+[    1.951347] thermal LNXTHERM:00: registered as thermal_zone0
+[    1.951349] ACPI: thermal: Thermal Zone [TZ0] (50 C)
+[    1.951506] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    1.953389] Non-volatile memory driver v1.3
+[    1.953390] Linux agpgart interface v0.103
+[    1.953424] AMD-Vi: AMD IOMMUv2 loaded and initialized
+[    1.953474] ACPI: bus type drm_connector registered
+[    1.954191] ahci 0000:02:00.0: version 3.0
+[    1.954318] ahci 0000:02:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    1.954320] ahci 0000:02:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+[    1.954524] scsi host0: ahci
+[    1.954579] ata1: SATA max UDMA/133 abar m2048@0xd0001000 port 0xd0001100 irq 29
+[    1.954704] ahci 0000:02:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    1.954706] ahci 0000:02:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part deso sadm sds 
+[    1.954844] scsi host1: ahci
+[    1.954881] ata2: SATA max UDMA/133 abar m2048@0xd0000000 port 0xd0000100 irq 31
+[    1.954904] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.954910] ehci-pci: EHCI PCI platform driver
+[    1.954917] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.954919] ohci-pci: OHCI PCI platform driver
+[    1.954924] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.954966] usbcore: registered new interface driver usbserial_generic
+[    1.954969] usbserial: USB Serial support registered for generic
+[    1.955046] rtc_cmos 00:01: RTC can wake from S4
+[    1.955239] rtc_cmos 00:01: registered as rtc0
+[    1.955291] rtc_cmos 00:01: setting system clock to 2022-03-10T17:00:41 UTC (1646931641)
+[    1.955297] audit: type=1332 audit(1646931641.500:5): sec=2 nsec=217308648
+[    1.955304] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram, hpet irqs
+[    1.955417] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.955603] efifb: probing for efifb
+[    1.955611] efifb: framebuffer at 0xfce0000000, using 8128k, total 8128k
+[    1.955612] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[    1.955613] efifb: scrolling: redraw
+[    1.955614] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    1.955646] fbcon: Deferring console take-over
+[    1.955647] fb0: EFI VGA frame buffer device
+[    1.955669] hid: raw HID events driver (C) Jiri Kosina
+[    1.955727] drop_monitor: Initializing network drop monitor service
+[    1.955771] Initializing XFRM netlink socket
+[    1.955867] NET: Registered PF_INET6 protocol family
+[    1.969920] ACPI: battery: Slot [BATT] (battery present)
+[    2.266229] ata1: SATA link down (SStatus 0 SControl 300)
+[    2.314776] Freeing initrd memory: 6128K
+[    2.321682] Segment Routing with IPv6
+[    2.321686] RPL Segment Routing with IPv6
+[    2.321706] In-situ OAM (IOAM) with IPv6
+[    2.321750] NET: Registered PF_PACKET protocol family
+[    2.322997] microcode: CPU0: patch_level=0x08600106
+[    2.323015] microcode: CPU1: patch_level=0x08600106
+[    2.323019] microcode: CPU2: patch_level=0x08600106
+[    2.323042] microcode: CPU3: patch_level=0x08600106
+[    2.323061] microcode: CPU4: patch_level=0x08600106
+[    2.323085] microcode: CPU5: patch_level=0x08600106
+[    2.323091] microcode: Microcode Update Driver: v2.2.
+[    2.323345] resctrl: L3 allocation detected
+[    2.323346] resctrl: MB allocation detected
+[    2.323347] resctrl: L3 monitoring detected
+[    2.323350] IPI shorthand broadcast: enabled
+[    2.323559] registered taskstats version 1
+[    2.323928] Loading compiled-in X.509 certificates
+[    2.326901] Loaded X.509 cert 'Build time autogenerated kernel key: 0b4b67a3ce113e5b7e3876422017bb86e0da879f'
+[    2.327812] zswap: loaded using pool lz4/z3fold
+[    2.328272] Key type ._fscrypt registered
+[    2.328273] Key type .fscrypt registered
+[    2.328273] Key type fscrypt-provisioning registered
+[    2.328334] AppArmor: AppArmor sha1 policy hashing enabled
+[    2.328339] audit: type=1400 audit(1646931641.869:6): apparmor="STATUS" info="AppArmor sha1 policy hashing enabled" pid=1 comm="swapper/0"
+[    2.330629] PM:   Magic number: 14:496:36
+[    2.330683] memory memory72: hash matches
+[    2.330827] RAS: Correctable Errors collector initialized.
+[    2.426173] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    2.428895] ata2.00: ATA-11: SAMSUNG MZNLH512HALU-00000, RVT2200Q, max UDMA/133
+[    2.430084] ata2.00: 1000215216 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    2.432396] ata2.00: Features: Dev-Sleep NCQ-sndrcv
+[    2.436498] ata2.00: configured for UDMA/133
+[    2.436647] ata2.00: failed to enable DEVSLP
+[    2.436654] ata2.00: failed to enable DIPM, Emask 0x40
+[    7.952984] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    7.963930] ata2.00: configured for UDMA/133
+[    7.964657] scsi 1:0:0:0: Direct-Access     ATA      SAMSUNG MZNLH512 200Q PQ: 0 ANSI: 5
+[    7.965681] sd 1:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[    7.965702] sd 1:0:0:0: [sda] Write Protect is off
+[    7.965708] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    7.965773] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    7.993815]  sda: sda1 sda2 sda3 sda4 sda5
+[    8.016656] sd 1:0:0:0: [sda] Attached SCSI disk
+[    8.016806] Unstable clock detected, switching default tracing clock to "global"
+               If you want to keep using the local clock, then add:
+                 "trace_clock=local"
+               on the kernel command line
+[    8.021153] Freeing unused decrypted memory: 2036K
+[    8.021542] Freeing unused kernel image (initmem) memory: 1780K
+[    8.029585] Write protecting the kernel read-only data: 28672k
+[    8.030540] Freeing unused kernel image (text/rodata gap) memory: 2036K
+[    8.031030] Freeing unused kernel image (rodata/data gap) memory: 1352K
+[    8.071566] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    8.071573] rodata_test: all tests were successful
+[    8.071576] x86/mm: Checking user space page tables
+[    8.110089] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+[    8.110122] Run /init as init process
+[    8.110124]   with arguments:
+[    8.110125]     /init
+[    8.110126]   with environment:
+[    8.110127]     HOME=/
+[    8.110128]     TERM=linux
+[    8.110129]     BOOT_IMAGE=/boot/vmlinuz-linux
+[    8.110130]     pti=on
+[    8.110131]     mem_encrypt=on
+[    8.131230] fbcon: Taking over console
+[    8.131343] Console: switching to colour frame buffer device 240x67
+[    8.298084] xhci_hcd 0000:01:00.3: xHCI Host Controller
+[    8.298095] xhci_hcd 0000:01:00.3: new USB bus registered, assigned bus number 1
+[    8.298222] xhci_hcd 0000:01:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    8.298622] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+[    8.298626] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[    8.298725] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.16
+[    8.298728] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.298730] usb usb1: Product: xHCI Host Controller
+[    8.298731] usb usb1: Manufacturer: Linux 5.16.13-arch1-1 xhci-hcd
+[    8.298733] usb usb1: SerialNumber: 0000:01:00.3
+[    8.298925] hub 1-0:1.0: USB hub found
+[    8.298939] hub 1-0:1.0: 4 ports detected
+[    8.299407] xhci_hcd 0000:01:00.3: xHCI Host Controller
+[    8.299412] xhci_hcd 0000:01:00.3: new USB bus registered, assigned bus number 2
+[    8.299416] xhci_hcd 0000:01:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    8.299440] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    8.299477] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.16
+[    8.299479] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.299480] usb usb2: Product: xHCI Host Controller
+[    8.299482] usb usb2: Manufacturer: Linux 5.16.13-arch1-1 xhci-hcd
+[    8.299483] usb usb2: SerialNumber: 0000:01:00.3
+[    8.299624] hub 2-0:1.0: USB hub found
+[    8.299635] hub 2-0:1.0: 2 ports detected
+[    8.300025] xhci_hcd 0000:01:00.4: xHCI Host Controller
+[    8.300030] xhci_hcd 0000:01:00.4: new USB bus registered, assigned bus number 3
+[    8.300166] xhci_hcd 0000:01:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    8.300284] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    8.300642] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.16
+[    8.300645] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.300646] usb usb3: Product: xHCI Host Controller
+[    8.300648] usb usb3: Manufacturer: Linux 5.16.13-arch1-1 xhci-hcd
+[    8.300649] usb usb3: SerialNumber: 0000:01:00.4
+[    8.300811] hub 3-0:1.0: USB hub found
+[    8.300823] hub 3-0:1.0: 4 ports detected
+[    8.301256] xhci_hcd 0000:01:00.4: xHCI Host Controller
+[    8.301262] xhci_hcd 0000:01:00.4: new USB bus registered, assigned bus number 4
+[    8.301266] xhci_hcd 0000:01:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+[    8.301287] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    8.301320] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.16
+[    8.301322] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    8.301323] usb usb4: Product: xHCI Host Controller
+[    8.301324] usb usb4: Manufacturer: Linux 5.16.13-arch1-1 xhci-hcd
+[    8.301326] usb usb4: SerialNumber: 0000:01:00.4
+[    8.301484] hub 4-0:1.0: USB hub found
+[    8.301494] hub 4-0:1.0: 2 ports detected
+[    8.332562] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[    8.346448] random: fast init done
+[    8.452994] PM: Image not found (code -22)
+[    9.809154] REISERFS (device sda2): found reiserfs format "3.6" with standard journal
+[    9.809169] REISERFS (device sda2): using ordered data mode
+[    9.809170] reiserfs: using flush barriers
+[    9.809395] REISERFS (device sda2): journal params: device sda2, size 8192, journal first block 18, max trans len 1024, max batch 900, max commit age 30, max trans age 30
+[    9.809631] REISERFS (device sda2): checking transaction log (sda2)
+[    9.811084] REISERFS (device sda2): Using r5 hash to sort names
+[    9.943279] audit: type=1334 audit(1646931649.486:7): prog-id=1 op=LOAD
+[    9.943284] audit: type=1300 audit(1646931649.486:7): arch=c000003e syscall=321 success=yes exit=4 a0=5 a1=7fffe04e96a0 a2=80 a3=0 items=0 ppid=2 pid=209 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="bpf_preload" exe="/bpf_preload" subj==unconfined key=(null)
+[    9.943286] audit: type=1327 audit(1646931649.486:7): proctitle="bpf_preload"
+[    9.943293] audit: type=1334 audit(1646931649.486:8): prog-id=0 op=UNLOAD
+[    9.953286] audit: type=1334 audit(1646931649.496:9): prog-id=2 op=LOAD
+[    9.953295] audit: type=1300 audit(1646931649.496:9): arch=c000003e syscall=321 success=yes exit=6 a0=5 a1=7fffe04e93b0 a2=80 a3=0 items=0 ppid=2 pid=209 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="bpf_preload" exe="/bpf_preload" subj==unconfined key=(null)
+[    9.953308] audit: type=1327 audit(1646931649.496:9): proctitle="bpf_preload"
+[    9.953337] audit: type=1334 audit(1646931649.496:10): prog-id=0 op=UNLOAD
+[    9.953444] audit: type=1334 audit(1646931649.496:11): prog-id=3 op=LOAD
+[    9.953456] audit: type=1300 audit(1646931649.496:11): arch=c000003e syscall=321 success=yes exit=5 a0=5 a1=7fffe04e9380 a2=80 a3=0 items=0 ppid=2 pid=209 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="bpf_preload" exe="/bpf_preload" subj==unconfined key=(null)
+[    9.971771] systemd[1]: systemd 250.3-4-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    9.986460] systemd[1]: Detected architecture x86-64.
+[    9.987632] systemd[1]: Hostname set to <mksredmibook14ii>.
+[   10.144945] systemd[1]: Queued start job for default target Graphical Interface.
+[   10.146849] systemd[1]: Created slice Slice /system/getty.
+[   10.147412] systemd[1]: Created slice Slice /system/modprobe.
+[   10.147961] systemd[1]: Created slice Slice /system/systemd-fsck.
+[   10.148448] systemd[1]: Created slice Slice /system/urxvtd.
+[   10.148810] systemd[1]: Created slice User and Session Slice.
+[   10.148982] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[   10.149136] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[   10.149449] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[   10.149603] systemd[1]: Reached target Local Encrypted Volumes.
+[   10.149694] systemd[1]: Reached target Local Integrity Protected Volumes.
+[   10.149794] systemd[1]: Reached target Remote File Systems.
+[   10.149869] systemd[1]: Reached target Slice Units.
+[   10.149977] systemd[1]: Reached target Local Verity Protected Volumes.
+[   10.150134] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[   10.150773] systemd[1]: Listening on LVM2 poll daemon socket.
+[   10.151996] systemd[1]: Listening on Process Core Dump Socket.
+[   10.152523] systemd[1]: Listening on Journal Audit Socket.
+[   10.152765] systemd[1]: Listening on Journal Socket (/dev/log).
+[   10.153006] systemd[1]: Listening on Journal Socket.
+[   10.153374] systemd[1]: Listening on Userspace Out-Of-Memory (OOM) Killer Socket.
+[   10.154171] systemd[1]: Listening on udev Control Socket.
+[   10.154367] systemd[1]: Listening on udev Kernel Socket.
+[   10.155683] systemd[1]: Mounting Huge Pages File System...
+[   10.156841] systemd[1]: Mounting POSIX Message Queue File System...
+[   10.158328] systemd[1]: Mounting Kernel Debug File System...
+[   10.159851] systemd[1]: Mounting Kernel Trace File System...
+[   10.161357] systemd[1]: Starting Load AppArmor profiles...
+[   10.162892] systemd[1]: Starting Create List of Static Device Nodes...
+[   10.164318] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[   10.165789] systemd[1]: Starting Load Kernel Module configfs...
+[   10.167310] systemd[1]: Starting Load Kernel Module drm...
+[   10.168932] systemd[1]: Starting Load Kernel Module fuse...
+[   10.169159] systemd[1]: File System Check on Root Device was skipped because of a failed condition check (ConditionPathIsReadWrite=!/).
+[   10.171953] systemd[1]: Starting Journal Service...
+[   10.173636] systemd[1]: Starting Load Kernel Modules...
+[   10.175135] systemd[1]: Starting Remount Root and Kernel File Systems...
+[   10.175338] systemd[1]: Repartition Root Disk was skipped because all trigger condition checks failed.
+[   10.177105] systemd[1]: Starting Coldplug All udev Devices...
+[   10.179404] systemd[1]: Mounted Huge Pages File System.
+[   10.179755] systemd[1]: Mounted POSIX Message Queue File System.
+[   10.179988] systemd[1]: Mounted Kernel Debug File System.
+[   10.180209] systemd[1]: Mounted Kernel Trace File System.
+[   10.180643] systemd[1]: Finished Create List of Static Device Nodes.
+[   10.181294] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[   10.181503] systemd[1]: Finished Load Kernel Module configfs.
+[   10.181981] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[   10.182192] systemd[1]: Finished Load Kernel Module drm.
+[   10.183906] systemd[1]: Mounting Kernel Configuration File System...
+[   10.184983] fuse: init (API version 7.35)
+[   10.186429] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[   10.186670] systemd[1]: Finished Load Kernel Module fuse.
+[   10.187630] systemd[1]: Mounted Kernel Configuration File System.
+[   10.189910] systemd[1]: Mounting FUSE Control File System...
+[   10.192829] random: lvm: uninitialized urandom read (4 bytes read)
+[   10.193299] systemd[1]: Mounted FUSE Control File System.
+[   10.193386] IPMI message handler: version 39.2
+[   10.196665] systemd[1]: Finished Remount Root and Kernel File Systems.
+[   10.198012] systemd[1]: First Boot Wizard was skipped because of a failed condition check (ConditionFirstBoot=yes).
+[   10.198319] ipmi device interface
+[   10.198963] systemd[1]: Rebuild Hardware Database was skipped because all trigger condition checks failed.
+[   10.200597] systemd[1]: Starting Load/Save Random Seed...
+[   10.203056] systemd[1]: Starting Create System Users...
+[   10.204880] vboxdrv: loading out-of-tree module taints kernel.
+[   10.205230] vboxdrv: module verification failed: signature and/or required key missing - tainting kernel
+[   10.209513] vboxdrv: Found 6 processor cores
+[   10.237261] systemd[1]: Finished Create System Users.
+[   10.239740] systemd[1]: Starting Create Static Device Nodes in /dev...
+[   10.240829] vboxdrv: TSC mode is Invariant, tentative frequency 2370629067 Hz
+[   10.240831] vboxdrv: Successfully loaded version 6.1.32 r149290 (interface 0x00320000)
+[   10.244271] VBoxNetAdp: Successfully started.
+[   10.247781] VBoxNetFlt: Successfully started.
+[   10.250466] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[   10.252010] systemd[1]: Finished Load Kernel Modules.
+[   10.254609] systemd[1]: Starting Linux Kernel Runtime Guard...
+[   10.266164] systemd[1]: Starting Apply user script...
+[   10.269871] systemd[1]: Started Journal Service.
+[   10.280553] systemd-journald[235]: Received client request to flush runtime journal.
+[   10.351958] [p_lkrg] Loading LKRG...
+[   10.364715] Freezing user space processes ... (elapsed 0.001 seconds) done.
+[   10.365835] OOM killer disabled.
+[   10.591686] [p_lkrg] [kretprobe] register_kretprobe() for <ovl_create_or_link> failed! [err=-2]
+[   10.591694] [p_lkrg] Can't hook 'ovl_create_or_link' function. This is expected if you are not using OverlayFS.
+[   10.643539] [p_lkrg] [kretprobe] register_kretprobe() for <lookup_fast> failed! [err=-2]
+[   10.643543] [p_lkrg] LKRG won't enforce pCFI validation on 'lookup_fast'
+[   11.034391] [p_lkrg] LKRG initialized successfully!
+[   11.035254] OOM killer enabled.
+[   11.035255] Restarting tasks ... done.
+[   11.056094] [p_lkrg] [kINT] New interval => 15
+[   11.057048] [p_lkrg] New log level => 3 (WARN)
+[   11.073858] [p_lkrg] Module is already unhidden (visible)!
+[   11.074016] [p_lkrg] Changing "pint_validate" logic. From Old[1 | CURRENT] to new[2 | CURRENT] one.
+[   11.075249] [p_lkrg] Disabling SMAP validation feature.
+[   11.076236] [p_lkrg] Changing "smap_enforce" logic. From Old[2 | PANIC] to new[0 | LOG & ACCEPT] one.
+[   11.091966] [p_lkrg] Changing "profile_validate" logic. From Old[9 | Custom] to new[3 | Heavy] one.
+[   11.093021] [p_lkrg] Changing "profile_enforce" logic. From Old[9 | Custom] to new[2 | Strict] one.
+[   11.094214] [p_lkrg] Changing "pint_validate" logic. From Old[1 | CURRENT] to new[2 | CURRENT] one.
+[   11.095396] [p_lkrg] Disabling SMAP validation feature.
+[   11.096431] [p_lkrg] Changing "smap_enforce" logic. From Old[2 | PANIC] to new[0 | LOG & ACCEPT] one.
+[   11.251589] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[   11.251596] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[   11.251700] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[   11.319491] acpi_cpufreq: overriding BIOS provided _PSD data
+[   11.319533] cpufreq: CPU0: Fast frequency switching not enabled
+[   11.319535] cpufreq: Registered transition notifiers:
+[   11.319536] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.327916] cpufreq: CPU1: Fast frequency switching not enabled
+[   11.327923] cpufreq: Registered transition notifiers:
+[   11.327924] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.340525] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+[   11.356245] cpufreq: CPU2: Fast frequency switching not enabled
+[   11.356250] cpufreq: Registered transition notifiers:
+[   11.356251] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.356530] cpufreq: CPU3: Fast frequency switching not enabled
+[   11.356531] cpufreq: Registered transition notifiers:
+[   11.356532] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.356726] cpufreq: CPU4: Fast frequency switching not enabled
+[   11.356727] cpufreq: Registered transition notifiers:
+[   11.356728] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.362732] cpufreq: CPU5: Fast frequency switching not enabled
+[   11.362734] cpufreq: Registered transition notifiers:
+[   11.362735] cpufreq: p_freq_transition_notifier+0x0/0x20 [p_lkrg]
+[   11.446121] sp5100_tco: SP5100/SB800 TCO WatchDog Timer Driver
+[   11.446314] sp5100-tco sp5100-tco: Using 0xfeb00000 for watchdog MMIO address
+[   11.447905] sp5100-tco sp5100-tco: initialized. heartbeat=60 sec (nowayout=0)
+[   11.709002] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[   11.710670] acpi device:0e: registered as cooling_device6
+[   11.710787] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/LNXVIDEO:00/input/input3
+[   11.813726] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input4
+[   11.813857] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input5
+[   11.813921] hid-generic 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[   12.049614] random: crng init done
+[   12.157015] ccp 0000:01:00.2: enabling device (0000 -> 0002)
+[   12.157363] ccp 0000:01:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+[   12.167601] ccp 0000:01:00.2: tee enabled
+[   12.167606] ccp 0000:01:00.2: psp enabled
+[   12.666014] [drm] amdgpu kernel modesetting enabled.
+[   12.683234] amdgpu: Virtual CRAT table created for CPU
+[   12.683276] amdgpu: Topology: Add CPU node
+[   12.683412] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[   12.683417] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[   12.683419] fb0: switching to amdgpu from EFI VGA
+[   12.683633] Console: switching to colour dummy device 80x25
+[   12.683856] amdgpu 0000:01:00.0: vgaarb: deactivate vga console
+[   12.683979] amdgpu 0000:01:00.0: enabling device (0006 -> 0007)
+[   12.684102] [drm] initializing kernel modesetting (RENOIR 0x1002:0x1636 0x1D72:0x1951 0xC3).
+[   12.684107] amdgpu 0000:01:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[   12.685762] [drm] register mmio base: 0xD0400000
+[   12.685767] [drm] register mmio size: 524288
+[   12.685777] [drm] virtual display string:NULL, 0000:01:00.0:virtual_display:0, num_crtc:0
+[   12.687273] [drm] add ip block number 0 <soc15_common>
+[   12.687275] [drm] add ip block number 1 <gmc_v9_0>
+[   12.687277] [drm] add ip block number 2 <vega10_ih>
+[   12.687278] [drm] add ip block number 3 <psp>
+[   12.687280] [drm] add ip block number 4 <smu>
+[   12.687281] [drm] add ip block number 5 <dm>
+[   12.687282] [drm] add ip block number 6 <gfx_v9_0>
+[   12.687284] [drm] add ip block number 7 <sdma_v4_0>
+[   12.687285] [drm] add ip block number 8 <vcn_v2_0>
+[   12.687287] [drm] add ip block number 9 <jpeg_v2_0>
+[   12.687315] amdgpu 0000:01:00.0: amdgpu: Fetched VBIOS from VFCT
+[   12.687321] amdgpu: ATOM BIOS: 113-RENOIR-026
+[   12.695276] [drm] VCN decode is enabled in VM mode
+[   12.695284] [drm] VCN encode is enabled in VM mode
+[   12.695287] [drm] JPEG decode is enabled in VM mode
+[   12.695295] amdgpu 0000:01:00.0: amdgpu: PCIE atomic ops is not supported
+[   12.695398] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[   12.695411] amdgpu 0000:01:00.0: amdgpu: VRAM: 512M 0x000000F400000000 - 0x000000F41FFFFFFF (512M used)
+[   12.695414] amdgpu 0000:01:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[   12.695416] amdgpu 0000:01:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[   12.695426] [drm] Detected VRAM RAM=512M, BAR=512M
+[   12.695428] [drm] RAM width 128bits DDR4
+[   12.695550] [drm] amdgpu: 512M of VRAM memory ready
+[   12.695552] [drm] amdgpu: 3072M of GTT memory ready.
+[   12.695590] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[   12.695770] [drm] PCIE GART of 1024M enabled.
+[   12.695771] [drm] PTB located at 0x000000F400900000
+[   12.711006] amdgpu 0000:01:00.0: amdgpu: PSP runtime database doesn't exist
+[   12.722907] [drm] Loading DMUB firmware via PSP: version=0x0101001C
+[   12.784771] [drm] Found VCN firmware Version ENC: 1.16 DEC: 5 VEP: 0 Revision: 3
+[   12.784810] amdgpu 0000:01:00.0: amdgpu: Will use PSP to load VCN firmware
+[   12.791296] snd_hda_intel 0000:01:00.1: enabling device (0000 -> 0002)
+[   12.791487] snd_hda_intel 0000:01:00.1: Handle vga_switcheroo audio client
+[   12.791722] snd_hda_intel 0000:01:00.6: enabling device (0000 -> 0002)
+[   12.870480] snd_rn_pci_acp3x 0000:01:00.5: enabling device (0000 -> 0002)
+[   12.950685] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:01:00.1/sound/card0/input7
+[   12.950763] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:01:00.1/sound/card0/input8
+[   12.974221] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   12.983015] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   12.983089] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+[   12.983093] cfg80211: failed to load regulatory.db
+[   13.035858] Adding 17309976k swap on /dev/sda3.  Priority:-2 extents:1 across:17309976k SSFS
+[   13.125258] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[   13.125265] RAPL PMU: hw unit of domain package 2^-16 Joules
+[   13.194185] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC256: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[   13.194192] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   13.194194] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[   13.194196] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[   13.194197] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[   13.194198] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+[   13.325438] cryptd: max_cpu_qlen set to 1000
+[   13.326254] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:01:00.6/sound/card1/input9
+[   13.326320] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:01:00.6/sound/card1/input10
+[   13.398601] AVX2 version of gcm_enc/dec engaged.
+[   13.436276] AES CTR mode by8 optimization enabled
+[   13.481589] [drm] reserve 0x400000 from 0xf41f800000 for PSP TMR
+[   13.567483] amdgpu 0000:01:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[   13.576099] amdgpu 0000:01:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[   13.576104] amdgpu 0000:01:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+[   13.576856] amdgpu 0000:01:00.0: amdgpu: SMU is initialized successfully!
+[   13.580092] [drm] Display Core initialized with v3.2.160!
+[   13.580943] [drm] DMUB hardware initialized: version=0x0101001C
+[   13.639295] ucsi_acpi USBC000:00: PPM init failed (-110)
+[   13.716895] [drm] kiq ring mec 2 pipe 1 q 0
+[   13.719892] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[   13.719913] [drm] JPEG decode initialized successfully.
+[   13.722158] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[   13.728279] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input11
+[   13.728561] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input12
+[   13.728990] hid-multitouch 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[   13.859500] memmap_init_zone_device initialised 131072 pages in 4ms
+[   13.859512] amdgpu: HMM registered 512MB device memory
+[   13.859555] amdgpu: SRAT table not found
+[   13.859557] amdgpu: Virtual CRAT table created for GPU
+[   13.860650] amdgpu: Topology: Add dGPU node [0x1636:0x1002]
+[   13.860656] kfd kfd: amdgpu: added device 1002:1636
+[   13.863147] amdgpu 0000:01:00.0: amdgpu: SE 1, SH per SE 1, CU per SH 8, active_cu_number 6
+[   13.866117] [drm] fb mappable at 0x410CD2000
+[   13.866120] [drm] vram apper at 0x410000000
+[   13.866121] [drm] size 8294400
+[   13.866122] [drm] fb depth is 24
+[   13.866123] [drm]    pitch is 7680
+[   13.866260] fbcon: amdgpudrmfb (fb0) is primary device
+[   13.941035] mousedev: PS/2 mouse device common for all mice
+[   13.950866] Console: switching to colour frame buffer device 240x67
+[   13.975572] amdgpu 0000:01:00.0: [drm] fb0: amdgpudrmfb frame buffer device
+[   14.025229] amdgpu 0000:01:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[   14.025238] amdgpu 0000:01:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[   14.025242] amdgpu 0000:01:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[   14.025245] amdgpu 0000:01:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[   14.025247] amdgpu 0000:01:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[   14.025250] amdgpu 0000:01:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[   14.025252] amdgpu 0000:01:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[   14.025255] amdgpu 0000:01:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[   14.025258] amdgpu 0000:01:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[   14.025260] amdgpu 0000:01:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[   14.025264] amdgpu 0000:01:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[   14.025266] amdgpu 0000:01:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[   14.025269] amdgpu 0000:01:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[   14.025272] amdgpu 0000:01:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[   14.025274] amdgpu 0000:01:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[   14.028146] [drm] Initialized amdgpu 3.44.0 20150101 for 0000:01:00.0 on minor 0
+[   14.028623] MCE: In-kernel MCE decoding enabled.
+[   14.579775] intel_rapl_common: Found RAPL domain package
+[   14.579781] intel_rapl_common: Found RAPL domain core
+[   65.629568] usb 3-1: new high-speed USB device number 2 using xhci_hcd
+[   65.772129] usb 3-1: New USB device found, idVendor=1a40, idProduct=0801, bcdDevice= 1.00
+[   65.772142] usb 3-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[   65.772146] usb 3-1: Product: USB 2.0 Hub
+[   65.816447] hub 3-1:1.0: USB hub found
+[   65.816726] hub 3-1:1.0: 4 ports detected
+[   66.076112] usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+[   66.103141] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[   66.103150] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   66.103153] usb 4-1: Product: USB3.1 Hub
+[   66.103155] usb 4-1: Manufacturer: GenesysLogic
+[   66.136848] hub 4-1:1.0: USB hub found
+[   66.137663] hub 4-1:1.0: 4 ports detected
+[   66.189283] usb 3-1.1: new full-speed USB device number 3 using xhci_hcd
+[   66.338874] usb 3-1.1: not running at top speed; connect to a high speed hub
+[   66.393887] usb 3-1.1: New USB device found, idVendor=25a4, idProduct=9311, bcdDevice= 2.01
+[   66.393897] usb 3-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[   66.393901] usb 3-1.1: Product: USB C Video Adaptor      
+[   66.393904] usb 3-1.1: Manufacturer: USB C  
+[   66.393906] usb 3-1.1: SerialNumber: 000000000001
+[   66.489321] usb 3-1.2: new high-speed USB device number 4 using xhci_hcd
+[   66.587855] usb 3-1.2: New USB device found, idVendor=05e3, idProduct=0610, bcdDevice= 6.63
+[   66.587865] usb 3-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   66.587868] usb 3-1.2: Product: USB2.1 Hub
+[   66.587870] usb 3-1.2: Manufacturer: GenesysLogic
+[   66.648226] hub 3-1.2:1.0: USB hub found
+[   66.648710] hub 3-1.2:1.0: 4 ports detected
+[   66.935474] usb 4-1: USB disconnect, device number 2
+[   66.959273] usb 3-1.2.2: new high-speed USB device number 5 using xhci_hcd
+[   67.755947] usb 3-1.2.3: new low-speed USB device number 6 using xhci_hcd
+[   67.889995] usb 3-1.2.3: New USB device found, idVendor=1bcf, idProduct=0005, bcdDevice= 0.90
+[   67.890008] usb 3-1.2.3: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[   67.890012] usb 3-1.2.3: Product: USB Optical Mouse
+[   68.429105] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[   68.626433] usb 4-1: new SuperSpeed USB device number 3 using xhci_hcd
+[   68.650195] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[   68.650205] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[   68.650209] usb 4-1: Product: USB3.1 Hub
+[   68.650211] usb 4-1: Manufacturer: GenesysLogic
+[   68.680954] hub 4-1:1.0: USB hub found
+[   68.681784] hub 4-1:1.0: 4 ports detected
+[   68.702669] ata1: SATA link down (SStatus 0 SControl 300)
+[   68.935456] input: USB Optical Mouse as /devices/pci0000:00/0000:00:08.1/0000:01:00.4/usb3/3-1/3-1.2/3-1.2.3/3-1.2.3:1.0/0003:1BCF:0005.0002/input/input14
+[   68.935727] hid-generic 0003:1BCF:0005.0002: input,hidraw1: USB HID v1.10 Mouse [USB Optical Mouse] on usb-0000:01:00.4-1.2.3/input0
+[   68.935788] usbcore: registered new interface driver usbhid
+[   68.935790] usbhid: USB HID core driver
+[   68.969235] usb 4-1.2: new SuperSpeed USB device number 4 using xhci_hcd
+[   68.984176] usb 4-1.2: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+[   68.984184] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[   68.984187] usb 4-1.2: Product: USB 10/100/1000 LAN
+[   68.984189] usb 4-1.2: Manufacturer: Realtek
+[   68.984191] usb 4-1.2: SerialNumber: 000001
+[   69.138106] usbcore: registered new interface driver r8152
+[   69.175325] usbcore: registered new interface driver cdc_ether
+[   69.196138] usbcore: registered new interface driver r8153_ecm
+[   69.216201] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[   69.216206] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   69.272124] usb 4-1.2: reset SuperSpeed USB device number 4 using xhci_hcd
+[   69.332225] r8152 4-1.2:1.0: load rtl8153a-4 v2 02/07/20 successfully
+[   69.360215] r8152 4-1.2:1.0 eth0: v1.12.12
+[   69.608476] r8152 4-1.2:1.0 enp1s0f4u1u2: renamed from eth0
+[   71.248892] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[   71.248902] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[   72.397160] IPv6: ADDRCONF(NETDEV_CHANGE): enp1s0f4u1u2: link becomes ready
+[   72.397728] r8152 4-1.2:1.0 enp1s0f4u1u2: carrier on
+[ 2603.443496] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2603.443511] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2603.938988] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2603.939002] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2843.437521] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 3568.037481] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 3599.513757] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4140.296725] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4203.884459] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4323.890562] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4375.020717] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4375.021075] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4375.021118] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 4375.022129] NOHZ tick-stop error: Non-RCU local softirq work is pending, handler #08!!!
+[ 9362.474315] device enp1s0f4u1u2 entered promiscuous mode
+[ 9362.475109] r8152 4-1.2:1.0 enp1s0f4u1u2: Promiscuous mode enabled
+[ 9394.381033] device enp1s0f4u1u2 left promiscuous mode
+[12741.450602] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[12741.450609] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12743.242905] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[12743.242916] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12745.392032] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[12745.392043] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12746.356696] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[12746.356709] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12751.629771] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[12751.629779] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12754.747492] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[12754.747502] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12768.337941] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[12768.337952] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12788.448985] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[12788.448993] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12797.854618] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[12797.854629] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[12801.837581] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[12801.837594] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13268.949217] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.949529] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.949827] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.950125] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.950422] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.950715] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.951017] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.951319] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.951692] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13268.952024] nfnetlink_queue: nf_queue: full at 4096 entries, dropping packets(s)
+[13564.860897] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[13564.860907] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13564.966960] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[13564.966967] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13698.303726] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[13698.303741] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13698.668245] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[13698.668260] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13761.639344] systemd-journald[235]: Data hash table of /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal has a fill level at 75.0 (131671 of 175559 items, 75497472 file size, 573 bytes per hash table item), suggesting rotation.
+[13761.639355] systemd-journald[235]: /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal: Journal header limits reached or header out-of-date, rotating.
+[13788.898550] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[13789.175470] ata1: SATA link down (SStatus 0 SControl 300)
+[14296.552462] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14296.552474] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14296.902558] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14296.902568] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14300.056611] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14300.056622] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14300.163380] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14300.163394] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14300.628000] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14300.628011] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14300.974517] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14300.974525] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14422.941777] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14422.941787] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14423.299458] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14423.299468] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14637.860566] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14637.860577] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14638.147944] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14638.147951] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14650.131497] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14650.131507] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14650.471599] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14650.471609] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14669.053211] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14669.053220] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14669.266662] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14669.266671] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15040.523342] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15040.523352] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15040.883860] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15040.883874] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15317.347478] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15317.347486] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15317.555916] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15317.555926] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15610.513323] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15610.513333] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15610.947141] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15610.947150] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15620.126183] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15620.126193] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15620.376214] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15620.376224] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15646.056029] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15646.056038] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15646.458936] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15646.458946] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15655.510747] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15655.510757] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15655.733085] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15655.733095] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15683.911225] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15683.911237] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15684.265494] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15684.265507] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15709.024563] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15709.024574] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15709.310206] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15709.310217] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15717.465888] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15717.465900] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15717.769171] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15717.769177] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15818.341664] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15818.341672] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15819.006655] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15819.006663] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15819.347907] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15819.347916] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15820.019768] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15820.019777] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15929.241213] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15929.241224] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15929.486007] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15929.486021] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16010.238683] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16010.238697] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16010.429250] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16010.429261] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16032.837294] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16032.837308] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16033.195970] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16033.195984] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16074.027931] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16074.027942] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16074.540563] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16074.540573] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16111.714499] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16111.714510] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16112.153854] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16112.153858] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16128.159344] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16128.159352] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16128.243604] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16128.243613] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16128.674110] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16128.674120] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16129.011270] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16129.011285] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16131.404997] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16131.405011] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16131.700129] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16131.700144] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16140.936105] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16140.936114] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16141.719384] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16141.719398] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16143.648328] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16143.648340] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16143.859729] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16143.859740] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16210.371165] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16210.371175] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16211.004527] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16211.004538] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16290.706950] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16290.706964] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16290.809990] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16290.810001] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16290.917128] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16290.917139] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16291.203886] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16291.203897] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16309.928260] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16309.928270] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16310.303352] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16310.303366] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16312.814936] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16312.814950] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16313.425157] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16313.425169] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16839.357599] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16839.357608] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16839.513273] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16839.513285] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18751.920477] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[18751.920488] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18752.255349] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[18752.255360] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18759.947760] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[18759.947770] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18760.497022] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[18760.497029] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18761.325855] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[18761.325866] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[18762.203600] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[18762.203614] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19067.495253] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19067.495263] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19067.877024] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19067.877038] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19100.586075] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19100.586087] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19100.820358] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19100.820369] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19303.032103] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19303.032114] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19303.106283] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19303.106294] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19303.586947] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19303.586955] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19303.855788] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19303.855803] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19307.396386] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19307.396396] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19307.621297] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19307.621311] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19690.264292] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19690.264303] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19690.644287] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19690.644299] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19694.556277] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19694.556288] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19694.839631] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19694.839640] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19708.087403] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19708.087415] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19708.318440] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19708.318450] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21087.276019] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21087.276029] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21087.376879] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21087.376890] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21088.097265] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21088.097276] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21089.507360] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21089.507371] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21092.552840] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21092.552850] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21092.909779] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21092.909794] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21309.011268] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21309.011279] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21309.292584] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21309.292595] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21321.727519] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21321.727529] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21322.340727] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21322.340741] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21328.506307] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21328.506319] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21328.760016] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21328.760024] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21379.909554] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21379.909565] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21380.198838] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21380.198848] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21414.624648] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21414.624653] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21414.875785] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21414.875799] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21447.006571] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21447.006582] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21447.357832] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21447.357846] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21457.139081] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21457.139091] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21457.577012] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21457.577023] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21458.038934] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[21458.038942] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[21458.329321] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[21458.329332] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22701.313878] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22701.313889] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22701.862229] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22701.862241] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22782.921031] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[22782.921042] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[22783.005495] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[22783.005502] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23163.186985] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[23163.186996] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23164.021627] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[23164.021632] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23170.278769] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[23170.278777] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23170.891322] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[23170.891335] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24502.893424] usb 3-1: USB disconnect, device number 2
+[24502.893436] usb 3-1.1: USB disconnect, device number 3
+[24502.893970] usb 3-1.2: USB disconnect, device number 4
+[24502.893974] usb 3-1.2.3: USB disconnect, device number 6
+[24502.935335] usb 4-1: USB disconnect, device number 3
+[24502.935345] usb 4-1.2: USB disconnect, device number 4
+[24524.555555] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[24524.824323] ata1: SATA link down (SStatus 0 SControl 300)
+[24525.247049] usb 3-2: new high-speed USB device number 7 using xhci_hcd
+[24525.397253] usb 3-2: New USB device found, idVendor=2357, idProduct=011e, bcdDevice= 2.00
+[24525.397264] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[24525.397267] usb 3-2: Product: 802.11ac WLAN Adapter 
+[24525.397270] usb 3-2: Manufacturer: Realtek 
+[24525.397272] usb 3-2: SerialNumber: 00e04c000001
+[24525.968103] usbcore: registered new interface driver rtl8821au
+[24526.388420] rtl8821au 3-2:1.0 wlp1s0f4u2: renamed from wlan0
+[24538.472493] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0f4u2: link becomes ready
+[25086.627451] systemd[1]: systemd 250.3-4-arch running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[25086.646978] systemd[1]: Detected architecture x86-64.
+[25161.231854] [p_lkrg] Changing "profile_validate" logic. From Old[9 | Custom] to new[3 | Heavy] one.
+[25161.231942] [p_lkrg] Changing "profile_enforce" logic. From Old[9 | Custom] to new[2 | Strict] one.
+[25161.232397] [p_lkrg] Changing "pint_validate" logic. From Old[1 | CURRENT] to new[2 | CURRENT] one.
+[25161.232680] [p_lkrg] Disabling SMAP validation feature.
+[25161.232727] [p_lkrg] Changing "smap_enforce" logic. From Old[2 | PANIC] to new[0 | LOG & ACCEPT] one.
+[25352.639784] New not syn: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=216.58.209.10 LEN=510 TOS=0x00 PREC=0x00 TTL=64 ID=47342 DF PROTO=TCP SPT=57418 DPT=443 WINDOW=4687 RES=0x00 ACK PSH URGP=0 
+[29651.714023] systemd-journald[235]: Data hash table of /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal has a fill level at 75.0 (131670 of 175559 items, 75497472 file size, 573 bytes per hash table item), suggesting rotation.
+[29651.714038] systemd-journald[235]: /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal: Journal header limits reached or header out-of-date, rotating.
+[29658.736434] SUPR0GipMap: fGetGipCpu=0x1b
+[29658.842356] vboxdrv: 0000000000000000 VMMR0.r0
+[29659.023212] vboxdrv: 0000000000000000 VBoxDDR0.r0
+[29659.060117] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[29727.775493] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[29748.095524] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[29753.183699] kworker/u32:2: page allocation failure: order:3, mode:0x40b20(GFP_ATOMIC|__GFP_COMP|__GFP_ZERO), nodemask=(null),cpuset=/,mems_allowed=0
+[29753.183712] CPU: 4 PID: 135591 Comm: kworker/u32:2 Tainted: G           OE     5.16.13-arch1-1 #1 a46ae2a05a3ad14dd52adf09a5e37e068c77a9aa
+[29753.183714] Hardware name: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[29753.183716] Workqueue: events_unbound p_check_integrity [p_lkrg]
+[29753.183761] Call Trace:
+[29753.183764]  <TASK>
+[29753.183767]  dump_stack_lvl+0x48/0x5e
+[29753.183772]  warn_alloc+0x15f/0x180
+[29753.183776]  __alloc_pages_slowpath.constprop.0+0xc6d/0xcd0
+[29753.183779]  ? init_object+0x6b/0x80
+[29753.183782]  __alloc_pages+0x1fa/0x230
+[29753.183784]  kmalloc_order+0x29/0xa0
+[29753.183786]  kmalloc_order_trace+0x19/0x90
+[29753.183788]  __kmalloc+0x2ae/0x350
+[29753.183790]  p_kmod_hash+0x1b3/0x690 [p_lkrg a0d1eea964aa60c4aef04a6dce6fda410681c6fd]
+[29753.183826]  ? p_lkrg_fast_hash+0x33/0x60 [p_lkrg a0d1eea964aa60c4aef04a6dce6fda410681c6fd]
+[29753.183862]  p_check_integrity+0x185/0x1150 [p_lkrg a0d1eea964aa60c4aef04a6dce6fda410681c6fd]
+[29753.183898]  process_one_work+0x1e8/0x3c0
+[29753.183901]  worker_thread+0x50/0x3b0
+[29753.183902]  ? rescuer_thread+0x3a0/0x3a0
+[29753.183903]  kthread+0x15c/0x180
+[29753.183906]  ? set_kthread_struct+0x40/0x40
+[29753.183907]  ret_from_fork+0x22/0x30
+[29753.183911]  </TASK>
+[29753.183912] Mem-Info:
+[29753.183914] active_anon:208677 inactive_anon:790737 isolated_anon:0
+                active_file:691908 inactive_file:671438 isolated_file:0
+                unevictable:498 dirty:68 writeback:0
+                slab_reclaimable:83898 slab_unreclaimable:73829
+                mapped:882672 shmem:113078 pagetables:17598 bounce:0
+                kernel_misc_reclaimable:0
+                free:73027 free_pcp:3027 free_cma:0
+[29753.183917] Node 0 active_anon:834708kB inactive_anon:3162948kB active_file:2767632kB inactive_file:2685752kB unevictable:1992kB isolated(anon):0kB isolated(file):0kB mapped:3530688kB dirty:272kB writeback:0kB shmem:452312kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 0kB writeback_tmp:0kB kernel_stack:21056kB pagetables:70392kB all_unreclaimable? no
+[29753.183920] Node 0 DMA free:13312kB boost:0kB min:64kB low:80kB high:96kB reserved_highatomic:0KB active_anon:0kB inactive_anon:0kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15360kB mlocked:0kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+[29753.183923] lowmem_reserve[]: 0 3124 15337 15337 15337
+[29753.183925] Node 0 DMA32 free:73528kB boost:0kB min:13752kB low:17188kB high:20624kB reserved_highatomic:0KB active_anon:2396kB inactive_anon:342880kB active_file:133684kB inactive_file:14268kB unevictable:0kB writepending:96kB present:3271104kB managed:3271080kB mlocked:0kB bounce:0kB free_pcp:3116kB local_pcp:992kB free_cma:0kB
+[29753.183928] lowmem_reserve[]: 0 0 12212 12212 12212
+[29753.183930] Node 0 Normal free:205268kB boost:34816kB min:88576kB low:102016kB high:115456kB reserved_highatomic:45056KB active_anon:832312kB inactive_anon:2820068kB active_file:2634184kB inactive_file:2671356kB unevictable:1992kB writepending:176kB present:12832000kB managed:12513652kB mlocked:1992kB bounce:0kB free_pcp:9120kB local_pcp:1676kB free_cma:0kB
+[29753.183933] lowmem_reserve[]: 0 0 0 0 0
+[29753.183935] Node 0 DMA: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 1*1024kB (U) 2*2048kB (UM) 2*4096kB (M) = 13312kB
+[29753.183942] Node 0 DMA32: 12988*4kB (ME) 2629*8kB (ME) 34*16kB (M) 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 73528kB
+[29753.183948] Node 0 Normal: 35806*4kB (UMEH) 5401*8kB (UMEH) 376*16kB (MEH) 63*32kB (H) 38*64kB (H) 24*128kB (H) 11*256kB (H) 3*512kB (H) 1*1024kB (H) 0*2048kB 0*4096kB = 205344kB
+[29753.183957] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+[29753.183959] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+[29753.183959] 1635051 total pagecache pages
+[29753.183960] 158242 pages in swap cache
+[29753.183960] Swap cache stats: add 574393, delete 416152, find 187/407
+[29753.183961] Free swap  = 15021336kB
+[29753.183962] Total swap = 17309976kB
+[29753.183962] 4029774 pages RAM
+[29753.183963] 0 pages HighMem/MovableOnly
+[29753.183963] 79751 pages reserved
+[29753.183964] 0 pages cma reserved
+[29753.183964] 0 pages hwpoisoned
+[29753.183965] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.183975] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496697] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496706] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496718] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496720] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496729] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496730] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496738] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496739] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496747] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496748] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496755] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496756] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496763] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496764] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496771] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496773] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496780] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496781] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496837] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496844] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496851] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496852] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496859] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496861] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496868] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496869] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496876] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496877] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496884] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496885] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496892] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496893] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496900] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496901] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496909] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496910] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496918] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496922] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496928] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496929] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[29753.496935] [p_lkrg] KMOD HASH kzalloc() error! Can't allocate memory for kobj list;[
+[29753.496936] [p_lkrg] Function <p_check_integrity> - p_kmod_hash() failed! Memory problems... :(
+[30884.799836] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[31709.386432] New not syn: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=172.217.16.10 LEN=510 TOS=0x00 PREC=0x00 TTL=64 ID=38976 DF PROTO=TCP SPT=53770 DPT=443 WINDOW=993 RES=0x00 ACK PSH URGP=0 
+[37396.858325] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[37639.151075] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[37639.151080] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[37639.427569] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[37639.427576] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[37734.874038] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[38110.116884] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[38960.787682] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[44799.011941] systemd-journald[235]: Data hash table of /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal has a fill level at 75.0 (131670 of 175559 items, 75497472 file size, 573 bytes per hash table item), suggesting rotation.
+[44799.011952] systemd-journald[235]: /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal: Journal header limits reached or header out-of-date, rotating.
+[46138.496525] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31264 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46198.639573] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31265 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46259.135570] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31266 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46319.155775] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31267 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46380.108816] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31268 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46440.970324] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31269 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46501.950162] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31270 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46562.204962] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31271 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46622.234169] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31272 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46682.370554] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31273 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46742.704535] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31274 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46803.488719] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31275 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46864.073540] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31276 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46924.362722] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31277 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[46985.161391] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31278 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47046.112466] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31279 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47107.069620] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31280 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47167.738988] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31281 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47227.805313] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31282 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47288.532248] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31283 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47348.946920] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31284 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47409.630707] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31285 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47470.413580] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31286 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47531.209532] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31287 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47592.106559] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31288 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47652.358899] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31289 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47712.785497] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31290 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47772.912943] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31291 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47833.142917] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31292 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47893.661540] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31293 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[47954.433483] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31294 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48015.320774] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31295 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48075.619568] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31296 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48135.676534] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31297 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48195.930717] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31298 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48256.128275] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31299 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48316.791086] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31300 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48377.580343] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31301 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48437.686824] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31302 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48498.203091] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31303 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48558.614805] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31304 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48619.064790] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31305 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48679.268537] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31306 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48739.379947] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31307 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48800.166159] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31308 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48861.035358] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31309 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48921.973150] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31310 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[48982.100111] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31311 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49042.523404] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31312 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49102.877296] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31313 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49163.217537] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31314 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49223.400091] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31315 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49283.824196] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31316 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49343.857678] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31317 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49404.309673] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31318 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49464.984783] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31319 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49525.598095] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31320 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49585.634003] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31321 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49646.602364] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31322 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49706.636327] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31323 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49767.312001] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31324 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49827.871637] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31325 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49888.121756] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31326 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[49948.172466] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31327 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50009.096903] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31328 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50069.163099] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31329 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50129.579420] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31330 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50190.033115] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31331 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50250.726626] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31332 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50311.557169] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31333 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50372.541529] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31334 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50433.042822] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31335 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50493.593733] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31336 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50554.009748] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31337 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50614.878884] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31338 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50675.460878] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31339 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50736.405970] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31340 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50796.757916] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31341 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50832.722295] New not syn: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=142.250.186.202 LEN=510 TOS=0x00 PREC=0x00 TTL=64 ID=29252 DF PROTO=TCP SPT=38906 DPT=443 WINDOW=1016 RES=0x00 ACK PSH URGP=0 
+[50856.780480] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31342 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50916.807734] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31343 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[50977.802375] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31344 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51037.927866] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31345 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51098.573187] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31346 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51158.980791] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31347 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51218.982386] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31348 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51267.195692] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[51279.245160] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31349 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51339.469294] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31350 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51399.785709] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31351 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51460.582768] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31352 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51520.704643] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31353 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51581.325956] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31354 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51641.810532] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31355 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51702.041293] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31356 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51762.766363] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31357 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51821.588850] New not syn: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=172.217.16.10 LEN=510 TOS=0x00 PREC=0x00 TTL=64 ID=62024 DF PROTO=TCP SPT=53772 DPT=443 WINDOW=993 RES=0x00 ACK PSH URGP=0 
+[51823.519750] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31358 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51884.369567] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31359 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[51945.008478] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31360 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52005.313146] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31361 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52065.439207] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31362 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52126.001966] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31363 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52186.361026] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31364 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52247.283464] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31365 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52307.489818] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31366 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52367.577585] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31367 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52427.667577] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31368 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52488.449767] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31369 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52548.943724] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31370 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52609.435468] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31371 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52669.827606] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31372 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52730.320984] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31373 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52790.511286] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31374 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52851.236525] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31375 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52911.345484] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31376 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[52971.478167] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31377 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53031.526352] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31378 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53092.412750] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31379 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53153.083401] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31380 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53213.836474] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31381 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53274.091907] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31382 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53334.808062] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31383 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53395.602480] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31384 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53455.724677] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31385 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53516.451553] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31386 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53576.674537] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31387 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53636.762151] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31388 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53697.195562] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31389 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53757.464130] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31390 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53818.235905] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31391 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53879.036409] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31392 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[53939.761036] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31393 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54000.275525] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31394 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54061.061527] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31395 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54121.445164] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31396 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54181.657753] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31397 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54242.425303] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31398 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54302.504503] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31399 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54362.699231] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31400 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54423.314355] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31401 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54484.168789] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31402 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54545.028870] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31403 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54605.165099] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31404 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54666.065531] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31405 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54726.947065] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31406 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54787.341991] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31407 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54847.718544] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31408 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54908.542247] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31409 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[54968.837619] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31410 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55029.799373] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31411 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55090.046793] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31412 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55150.594611] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31413 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55211.137201] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31414 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55271.980762] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31415 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55332.358847] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31416 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55393.242739] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31417 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55453.994979] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31418 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55514.780641] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31419 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55575.119059] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31420 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55635.159583] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31421 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55696.090837] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31422 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55756.852045] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31423 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55817.540695] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31424 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55878.014698] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31425 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55938.032800] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31426 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[55998.063586] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31427 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56058.375571] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31428 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56119.006176] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31429 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56179.946794] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31430 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56240.513181] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31431 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56301.389121] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31432 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56362.192513] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31433 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56422.488267] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31434 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56483.366430] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31435 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56543.473072] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31436 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56604.279471] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31437 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56664.562105] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31438 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56724.887788] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31439 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56785.831676] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31440 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56845.895721] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31441 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56906.005318] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31442 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[56966.372166] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31443 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57026.864358] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31444 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57087.298134] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31445 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57147.662223] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31446 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57207.763471] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31447 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57267.973541] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31448 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57328.848405] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31449 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57389.478479] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31450 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57450.413026] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31451 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57510.542028] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31452 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57570.886314] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31453 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57631.630870] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31454 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57692.024759] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31455 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57752.273426] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31456 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57812.812963] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31457 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57873.694282] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31458 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57933.936719] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31459 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[57994.262073] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31460 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58054.972557] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31461 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58115.534386] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31462 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58175.651752] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31463 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58236.602285] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31464 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58297.563494] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31465 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58358.432931] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31466 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58418.822009] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31467 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58478.951556] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31468 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58539.433827] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31469 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58599.458436] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31470 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58659.784396] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31471 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58720.768977] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31472 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58781.286327] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31473 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58841.599079] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31474 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58902.019351] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31475 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[58962.199620] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31476 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59022.227568] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31477 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59082.598281] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31478 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59143.453580] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31479 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59204.365644] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31480 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59265.233879] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31481 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59326.229387] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31482 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59386.456248] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31483 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59447.074760] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31484 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59507.707663] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31485 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59568.307040] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31486 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59629.086267] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31487 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59689.183263] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31488 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59749.630709] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31489 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59810.071364] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31490 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59870.239129] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31491 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59930.529740] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31492 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[59991.476110] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31493 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60052.351524] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31494 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60113.117286] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31495 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60173.687318] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31496 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60234.175170] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31497 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60294.545102] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31498 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60354.620554] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31499 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60415.527115] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31500 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60476.392595] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31501 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60510.411837] systemd-journald[235]: Data hash table of /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal has a fill level at 75.0 (131672 of 175559 items, 75497472 file size, 573 bytes per hash table item), suggesting rotation.
+[60510.411852] systemd-journald[235]: /run/log/journal/18f45e3d66cb4c70bbcac834b8970bce/system.journal: Journal header limits reached or header out-of-date, rotating.
+[60536.988069] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31502 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60597.464110] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31503 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60658.260762] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31504 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60718.469482] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31505 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60778.917338] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31506 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60839.394048] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31507 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60900.060772] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31508 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[60960.185336] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31509 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61020.294427] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31510 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61080.564394] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31511 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61140.656827] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31512 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61201.243886] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31513 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61262.033310] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31514 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61322.102245] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31515 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61382.741483] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31516 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61443.609316] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31517 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61504.160672] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31518 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61564.870723] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31519 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61625.226996] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31520 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61685.331838] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31521 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61746.108433] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31522 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61806.239971] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31523 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61866.891828] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31524 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61927.714469] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31525 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[61988.382475] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31526 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[62049.316347] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31527 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[62109.893356] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31528 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[62170.577122] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31529 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[62230.793423] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31530 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[62290.991384] iptables deny: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=192.168.2.1 LEN=322 TOS=0x00 PREC=0xC0 TTL=64 ID=31531 DF PROTO=UDP SPT=68 DPT=67 LEN=302 
+[63756.921150] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[63809.760338] New not syn: IN= OUT=wlp1s0f4u2 SRC=192.168.2.235 DST=128.95.160.157 LEN=71 TOS=0x00 PREC=0x00 TTL=64 ID=45436 DF PROTO=TCP SPT=50948 DPT=443 WINDOW=501 RES=0x00 ACK PSH URGP=0 
+[68252.695706] VMMR0InitVM: eflags=246 fKernelFeatures=0x0 (SUPKERNELFEATURES_SMAP=0)
+[68326.463098] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[68326.463102] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[68326.657839] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[68326.657848] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.

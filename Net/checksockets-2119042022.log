@@ -1,0 +1,34 @@
+Netid State      Recv-Q Send-Q            Local Address:Port     Peer Address:PortProcess                                    
+udp   ESTAB      0      0                 192.168.2.235:36187    216.58.209.3:443  users:(("chrome",pid=6043,fd=38))         
+udp   ESTAB      0      0                 192.168.2.235:52855         8.8.8.8:53   users:(("overgrive",pid=3879,fd=18))      
+udp   ESTAB      0      0                 192.168.2.235:37812   216.58.215.99:443  users:(("chrome",pid=6043,fd=62))         
+udp   UNCONN     0      0                   224.0.0.251:5353          0.0.0.0:*    users:(("chrome",pid=5997,fd=378))        
+udp   ESTAB      0      0                 192.168.2.235:46698   172.217.16.10:443  users:(("chrome",pid=6043,fd=47))         
+udp   ESTAB      0      0      192.168.2.235%wlp1s0f4u2:68        192.168.2.1:67   users:(("NetworkManager",pid=3701,fd=22)) 
+udp   ESTAB      0      0                 192.168.2.235:49313  64.233.165.189:443  users:(("chrome",pid=6043,fd=54))         
+udp   ESTAB      0      0                 192.168.2.235:57582   172.217.16.42:443  users:(("chrome",pid=6043,fd=49))         
+udp   ESTAB      0      0                 192.168.2.235:59125  216.58.208.206:443  users:(("chrome",pid=6043,fd=48))         
+tcp   TIME-WAIT  0      0                 192.168.2.235:43882 142.250.186.196:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:38732    13.51.112.32:443  users:(("chrome",pid=6043,fd=37))         
+tcp   ESTAB      0      0                 192.168.2.235:57778  149.154.167.51:443  users:(("telegram-deskto",pid=3869,fd=56))
+tcp   ESTAB      0      0                 192.168.2.235:58978    104.18.13.33:443  users:(("chrome",pid=6043,fd=68))         
+tcp   TIME-WAIT  0      0                 192.168.2.235:55838 142.250.203.206:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:47072   140.82.114.25:443  users:(("chrome",pid=6043,fd=66))         
+tcp   TIME-WAIT  0      0                 192.168.2.235:55846 142.250.203.206:80                                             
+tcp   TIME-WAIT  0      0                 192.168.2.235:43880 142.250.186.196:80                                             
+tcp   TIME-WAIT  0      0                 192.168.2.235:43884 142.250.186.196:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:47070   140.82.114.25:443  users:(("chrome",pid=6043,fd=28))         
+tcp   TIME-WAIT  0      0                 192.168.2.235:43888 142.250.186.196:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:37540     31.13.81.52:443  users:(("chrome",pid=6043,fd=41))         
+tcp   ESTAB      0      0                 192.168.2.235:40436  64.233.165.188:5228 users:(("chrome",pid=6043,fd=36))         
+tcp   TIME-WAIT  0      0                 192.168.2.235:55850 142.250.203.206:80                                             
+tcp   TIME-WAIT  0      0                 192.168.2.235:39260    104.18.12.33:443                                            
+tcp   ESTAB      0      0                 192.168.2.235:57780  149.154.167.51:443  users:(("telegram-deskto",pid=3869,fd=36))
+tcp   ESTAB      0      0                 192.168.2.235:37106  151.101.13.188:443  users:(("chrome",pid=6043,fd=57))         
+tcp   ESTAB      0      0                 192.168.2.235:35178    35.201.97.85:443  users:(("chrome",pid=6043,fd=46))         
+tcp   CLOSE-WAIT 1      0                 192.168.2.235:60594   172.217.16.45:443  users:(("overgrive",pid=3879,fd=12))      
+tcp   TIME-WAIT  0      0                 192.168.2.235:55840 142.250.203.206:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:44502 149.154.167.223:443  users:(("telegram-deskto",pid=3869,fd=39))
+tcp   ESTAB      0      0                 192.168.2.235:43798   216.58.215.74:443  users:(("overgrive",pid=3879,fd=13))      
+tcp   TIME-WAIT  0      0                 192.168.2.235:55844 142.250.203.206:80                                             
+tcp   ESTAB      0      0                 192.168.2.235:53626  185.166.143.24:443  users:(("chrome",pid=6043,fd=24))         

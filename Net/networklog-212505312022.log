@@ -1,0 +1,527 @@
+(etherape:2123): GLib-GIO-DEBUG: 21:25:31.789: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: dccp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.971: sctp protocol not supported
+EtherApe-INFO: 21:25:31.972: sctp protocol not supported
+EtherApe-INFO: 21:25:31.972: dccp protocol not supported
+EtherApe-INFO: 21:25:31.972: sctp protocol not supported
+EtherApe-INFO: 21:25:31.972: dccp protocol not supported
+EtherApe-INFO: 21:25:31.972: dccp protocol not supported
+EtherApe-INFO: 21:25:31.972: sctp protocol not supported
+EtherApe-INFO: 21:25:31.972: sctp protocol not supported
+EtherApe-INFO: 21:25:31.973: sctp protocol not supported
+EtherApe-INFO: 21:25:31.973: sctp protocol not supported
+EtherApe-INFO: 21:25:31.973: sctp protocol not supported
+EtherApe-INFO: 21:25:31.974: sctp protocol not supported
+EtherApe-INFO: 21:25:31.974: sctp protocol not supported
+EtherApe-INFO: 21:25:31.974: sctp protocol not supported
+EtherApe-INFO: 21:25:31.974: sctp protocol not supported
+EtherApe-INFO: 21:25:31.976: sctp protocol not supported
+EtherApe-INFO: 21:25:31.977: sctp protocol not supported
+EtherApe-INFO: 21:25:31.977: sctp protocol not supported
+EtherApe-INFO: 21:25:31.978: sctp protocol not supported
+EtherApe-INFO: 21:25:31.978: sctp protocol not supported
+EtherApe-INFO: 21:25:31.978: sctp protocol not supported
+EtherApe-INFO: 21:25:31.978: dccp protocol not supported
+EtherApe-INFO: 21:25:31.978: sctp protocol not supported
+EtherApe-INFO: 21:25:31.978: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: dccp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: dccp protocol not supported
+EtherApe-INFO: 21:25:31.979: dccp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.979: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: dccp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.980: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.981: sctp protocol not supported
+EtherApe-INFO: 21:25:31.999: get_interface result: ''
+EtherApe-INFO: 21:25:31.999: Available interfaces for capture: dbus-session dbus-system nfqueue nflog bluetooth-monitor wlp3s0 enp0s25 lo any
+EtherApe-INFO: 21:25:32.049: Link type is LINUX_SLL
+EtherApe-INFO: 21:25:32.049: Diagram started
+EtherApe-INFO: 21:25:32.259: New node: IP: 127.0.0.1. Number of nodes 1
+EtherApe-INFO: 21:25:42.969: New node: IP: 0.0.0.0. Number of nodes 2
+EtherApe-INFO: 21:25:42.969: New node: IP: 255.255.255.255. Number of nodes 3
+EtherApe-INFO: 21:25:42.969: New node: IP: 34.117.237.239. Number of nodes 4
+EtherApe-INFO: 21:25:42.969: New node: IP: 192.168.2.227. Number of nodes 5
+EtherApe-INFO: 21:25:42.969: New node: IP: 35.163.208.27. Number of nodes 6
+EtherApe-INFO: 21:25:42.970: New node: IP: 192.168.2.1. Number of nodes 7
+EtherApe-INFO: 21:25:42.971: New node: IP: 149.154.167.92. Number of nodes 8
+EtherApe-INFO: 21:25:42.971: New node: IP: 149.154.167.91. Number of nodes 9
+EtherApe-INFO: 21:25:42.971: New node: IP: 149.154.167.51. Number of nodes 10
+EtherApe-INFO: 21:25:42.971: New node: IP: 149.154.167.50. Number of nodes 11
+EtherApe-INFO: 21:25:43.299: New node: IP: 79.142.192.130. Number of nodes 12
+EtherApe-INFO: 21:25:43.563: New node: IP: 149.154.167.223. Number of nodes 13
+EtherApe-INFO: 21:25:44.601: New node: IP: 104.16.249.249. Number of nodes 14
+EtherApe-INFO: 21:25:45.649: New node: IP: 95.216.195.133. Number of nodes 15
+EtherApe-INFO: 21:26:35.349: New node: IP: 192.168.1.1. Number of nodes 16
+EtherApe-INFO: 21:26:42.449: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 17
+EtherApe-INFO: 21:26:42.449: New node: IPv6: ff02::1. Number of nodes 18
+EtherApe-INFO: 21:27:43.971: delete node: IP: 149.154.167.92. Number of nodes 17
+EtherApe-INFO: 21:27:43.972: delete node: IP: 149.154.167.91. Number of nodes 16
+EtherApe-INFO: 21:27:46.348: delete node: IP: 104.16.249.249. Number of nodes 15
+EtherApe-INFO: 21:27:54.367: delete node: IP: 35.163.208.27. Number of nodes 14
+EtherApe-INFO: 21:27:55.139: New node: IP: 149.154.175.100. Number of nodes 15
+EtherApe-INFO: 21:28:03.319: New node: IP: 149.154.167.91. Number of nodes 16
+EtherApe-INFO: 21:28:05.419: New node: IP: 62.149.2.7. Number of nodes 17
+EtherApe-INFO: 21:28:07.239: New node: IP: 149.154.167.92. Number of nodes 18
+EtherApe-INFO: 21:28:08.098: delete node: IP: 149.154.167.223. Number of nodes 17
+EtherApe-INFO: 21:28:08.280: New node: IP: 192.168.1.2. Number of nodes 18
+EtherApe-INFO: 21:28:10.182: delete node: IP: 34.117.237.239. Number of nodes 17
+EtherApe-INFO: 21:28:11.189: New node: IP: 91.108.56.188. Number of nodes 18
+EtherApe-INFO: 21:28:15.119: New node: IP: 91.108.56.145. Number of nodes 19
+EtherApe-INFO: 21:28:15.649: New node: IP: 91.210.190.13. Number of nodes 20
+EtherApe-INFO: 21:28:19.339: New node: IP: 149.154.175.57. Number of nodes 21
+EtherApe-INFO: 21:28:19.339: New node: IP: 149.154.175.50. Number of nodes 22
+EtherApe-INFO: 21:28:23.319: New node: IP: 149.154.175.54. Number of nodes 23
+EtherApe-INFO: 21:28:25.949: New node: IP: 162.159.200.1. Number of nodes 24
+EtherApe-INFO: 21:28:42.513: delete node: IPv6: ff02::1. Number of nodes 23
+EtherApe-INFO: 21:28:42.513: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 22
+EtherApe-INFO: 21:28:55.099: New node: IP: 192.168.1.255. Number of nodes 23
+EtherApe-INFO: 21:29:19.216: delete node: IP: 255.255.255.255. Number of nodes 22
+EtherApe-INFO: 21:29:19.217: delete node: IP: 0.0.0.0. Number of nodes 21
+EtherApe-INFO: 21:29:24.409: New node: IP: 0.0.0.0. Number of nodes 22
+EtherApe-INFO: 21:29:24.409: New node: IP: 255.255.255.255. Number of nodes 23
+EtherApe-INFO: 21:29:38.005: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 24
+EtherApe-INFO: 21:29:38.006: New node: IPv6: ff02::1. Number of nodes 25
+EtherApe-INFO: 21:29:55.344: delete node: IP: 79.142.192.130. Number of nodes 24
+EtherApe-INFO: 21:30:05.801: delete node: IP: 62.149.2.7. Number of nodes 23
+EtherApe-INFO: 21:30:16.285: delete node: IP: 91.210.190.13. Number of nodes 22
+EtherApe-INFO: 21:30:23.288: delete node: IP: 95.216.195.133. Number of nodes 21
+EtherApe-INFO: 21:30:26.217: delete node: IP: 162.159.200.1. Number of nodes 20
+EtherApe-INFO: 21:30:36.366: delete node: IP: 192.168.1.2. Number of nodes 19
+EtherApe-INFO: 21:30:56.324: delete node: IP: 192.168.1.255. Number of nodes 18
+EtherApe-INFO: 21:31:24.282: delete node: IP: 255.255.255.255. Number of nodes 17
+EtherApe-INFO: 21:31:24.282: delete node: IP: 0.0.0.0. Number of nodes 16
+EtherApe-INFO: 21:32:10.292: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 21:32:10.292: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 21:32:16.489: New node: IP: 0.0.0.0. Number of nodes 15
+EtherApe-INFO: 21:32:16.489: New node: IP: 255.255.255.255. Number of nodes 16
+EtherApe-INFO: 21:33:53.890: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 17
+EtherApe-INFO: 21:33:53.890: New node: IPv6: ff02::1. Number of nodes 18
+EtherApe-INFO: 21:34:16.885: delete node: IP: 255.255.255.255. Number of nodes 17
+EtherApe-INFO: 21:34:16.885: delete node: IP: 0.0.0.0. Number of nodes 16
+EtherApe-INFO: 21:35:48.295: delete node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 21:35:49.069: New node: IP: 192.168.2.1. Number of nodes 16
+EtherApe-INFO: 21:35:54.659: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 21:35:54.659: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 21:36:40.769: New node: IP: 0.0.0.0. Number of nodes 15
+EtherApe-INFO: 21:36:40.769: New node: IP: 255.255.255.255. Number of nodes 16
+EtherApe-INFO: 21:39:23.372: delete node: IP: 255.255.255.255. Number of nodes 15
+EtherApe-INFO: 21:39:23.372: delete node: IP: 0.0.0.0. Number of nodes 14
+EtherApe-INFO: 21:39:50.889: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 15
+EtherApe-INFO: 21:39:50.889: New node: IPv6: ff02::1. Number of nodes 16
+EtherApe-INFO: 21:41:51.309: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 21:41:51.309: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 21:44:53.269: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 15
+EtherApe-INFO: 21:44:53.269: New node: IPv6: ff02::1. Number of nodes 16
+EtherApe-INFO: 21:46:53.465: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 21:46:53.465: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 21:51:02.989: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 15
+EtherApe-INFO: 21:51:02.989: New node: IPv6: ff02::1. Number of nodes 16
+EtherApe-INFO: 21:53:03.175: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 21:53:03.175: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 21:53:04.939: delete node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 21:53:23.389: New node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 21:58:05.264: delete node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 21:58:43.449: New node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 21:59:14.390: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 15
+EtherApe-INFO: 21:59:14.390: New node: IPv6: ff02::1. Number of nodes 16
+EtherApe-INFO: 22:01:14.604: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:01:14.604: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:03:05.273: delete node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:04:03.509: New node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 22:08:05.364: delete node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:08:28.449: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:08:28.449: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:09:23.569: New node: IP: 192.168.2.1. Number of nodes 16
+EtherApe-INFO: 22:10:29.178: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:10:29.178: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:10:57.239: delete node: IP: 192.168.1.1. Number of nodes 13
+EtherApe-INFO: 22:13:08.750: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:14:28.289: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:14:28.289: New node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:14:43.369: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 22:16:28.244: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:16:28.244: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:18:29.346: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:20:03.430: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:20:20.850: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:20:20.850: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:22:21.323: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:22:21.323: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:23:48.868: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:25:23.490: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:29:08.918: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:29:44.009: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:29:44.009: New node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:30:43.550: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 22:31:44.199: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:31:44.199: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:34:29.032: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:35:54.250: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:37:47.350: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:37:47.350: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:39:48.332: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:39:48.332: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:45:08.911: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:45:17.930: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:45:17.930: New node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:45:54.329: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 22:47:18.347: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:47:18.347: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:50:29.431: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 22:50:54.369: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 22:51:07.889: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:51:07.890: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:53:08.294: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:53:08.294: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 22:54:42.650: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 22:54:42.650: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 22:55:48.186: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 22:55:54.409: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 22:56:43.378: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 22:56:43.378: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:02:10.890: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:02:10.890: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:04:11.054: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:04:11.054: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:08:42.709: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:08:42.709: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:10:43.133: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:10:43.133: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:13:05.350: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 23:13:23.509: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:13:51.330: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:13:51.330: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:15:52.332: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:15:52.332: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:18:05.434: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 23:18:43.569: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:19:24.389: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:19:24.389: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:21:24.815: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:21:24.815: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:23:05.491: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 23:24:03.369: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:27:01.990: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:27:01.990: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:28:05.220: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 23:29:02.175: delete node: IPv6: ff02::1. Number of nodes 13
+EtherApe-INFO: 23:29:02.175: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 12
+EtherApe-INFO: 23:29:23.429: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:30:50.269: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:30:50.270: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:32:50.140: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:32:50.140: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:33:08.871: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 23:34:43.489: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:37:33.009: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:37:33.009: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:38:29.218: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 23:39:33.234: delete node: IPv6: ff02::1. Number of nodes 13
+EtherApe-INFO: 23:39:33.234: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 12
+EtherApe-INFO: 23:40:03.549: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:43:48.749: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 23:45:08.015: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:45:08.015: New node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:45:23.610: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 23:47:08.157: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:47:08.158: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:53:45.669: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:53:45.669: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:54:29.439: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 23:55:45.612: delete node: IPv6: ff02::1. Number of nodes 13
+EtherApe-INFO: 23:55:45.612: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 12
+EtherApe-INFO: 23:55:54.369: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 23:57:34.210: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 23:57:34.210: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 23:59:34.338: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 23:59:34.338: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 23:59:48.985: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:00:54.410: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:05:08.244: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:05:54.449: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:07:16.610: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:07:16.610: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:09:17.079: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:09:17.080: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:10:29.350: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:10:54.230: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:11:03.330: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:11:03.330: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:13:04.000: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:13:04.000: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:15:48.867: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:15:54.269: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:20:56.649: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:20:56.649: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:22:56.794: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:22:56.795: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:24:21.010: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:24:21.010: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:26:21.403: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:26:21.403: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:27:47.709: New node: IP: 0.0.0.0. Number of nodes 14
+EtherApe-INFO: 00:27:47.709: New node: IP: 255.255.255.255. Number of nodes 15
+EtherApe-INFO: 00:28:27.229: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 16
+EtherApe-INFO: 00:28:27.229: New node: IPv6: ff02::1. Number of nodes 17
+EtherApe-INFO: 00:29:48.193: delete node: IP: 255.255.255.255. Number of nodes 16
+EtherApe-INFO: 00:29:48.193: delete node: IP: 0.0.0.0. Number of nodes 15
+EtherApe-INFO: 00:30:27.387: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:30:27.387: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:33:05.199: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:33:23.369: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:38:05.057: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:38:26.790: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:38:26.790: New node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:38:43.429: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 00:40:27.260: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:40:27.260: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:43:05.309: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:44:03.491: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:44:06.613: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:44:06.614: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:46:06.801: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:46:06.801: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:48:05.368: delete node: IP: 192.168.2.1. Number of nodes 12
+EtherApe-INFO: 00:49:23.549: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:52:27.372: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:52:27.372: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:53:08.741: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 00:54:28.079: delete node: IPv6: ff02::1. Number of nodes 13
+EtherApe-INFO: 00:54:28.079: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 12
+EtherApe-INFO: 00:54:43.349: New node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 00:55:57.969: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 00:55:57.969: New node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 00:57:58.127: delete node: IPv6: ff02::1. Number of nodes 14
+EtherApe-INFO: 00:57:58.127: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 13
+EtherApe-INFO: 00:58:02.514: New node: IP: 149.154.167.223. Number of nodes 14
+EtherApe-INFO: 00:58:10.310: New node: IP: 192.168.1.1. Number of nodes 15
+EtherApe-INFO: 00:58:29.626: delete node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 00:58:42.809: New node: IP: 192.168.2.1. Number of nodes 15
+EtherApe-INFO: 00:59:30.495: delete node: IP: 149.154.167.91. Number of nodes 14
+EtherApe-INFO: 00:59:38.525: delete node: IP: 91.108.56.188. Number of nodes 13
+EtherApe-INFO: 00:59:42.440: delete node: IP: 91.108.56.145. Number of nodes 12
+EtherApe-INFO: 00:59:46.253: delete node: IP: 149.154.175.50. Number of nodes 11
+EtherApe-INFO: 00:59:50.163: delete node: IP: 149.154.175.57. Number of nodes 10
+EtherApe-INFO: 00:59:50.163: delete node: IP: 149.154.175.54. Number of nodes 9
+EtherApe-INFO: 01:00:03.467: delete node: IP: 149.154.175.100. Number of nodes 8
+EtherApe-INFO: 01:00:14.330: New node: IP: 149.154.175.100. Number of nodes 9
+EtherApe-INFO: 01:00:23.170: New node: IP: 149.154.167.91. Number of nodes 10
+EtherApe-INFO: 01:00:30.189: New node: IP: 91.108.56.145. Number of nodes 11
+EtherApe-INFO: 01:00:31.230: New node: IP: 91.108.56.188. Number of nodes 12
+EtherApe-INFO: 01:00:38.251: New node: IP: 149.154.175.57. Number of nodes 13
+EtherApe-INFO: 01:00:38.251: New node: IP: 149.154.175.54. Number of nodes 14
+EtherApe-INFO: 01:00:39.290: New node: IP: 149.154.175.50. Number of nodes 15
+EtherApe-INFO: 01:01:56.510: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 16
+EtherApe-INFO: 01:01:56.510: New node: IPv6: ff02::1. Number of nodes 17
+EtherApe-INFO: 01:02:13.779: delete node: IP: 192.168.1.1. Number of nodes 16
+EtherApe-INFO: 01:03:57.176: delete node: IPv6: ff02::1. Number of nodes 15
+EtherApe-INFO: 01:03:57.176: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 14
+EtherApe-INFO: 01:04:04.483: delete node: IP: 192.168.2.1. Number of nodes 13
+EtherApe-INFO: 01:05:25.809: New node: IP: 192.168.2.1. Number of nodes 14
+EtherApe-INFO: 01:08:24.120: New node: IP: 89.187.191.12. Number of nodes 15
+EtherApe-INFO: 01:09:02.251: New node: IP: 149.154.165.111. Number of nodes 16
+EtherApe-INFO: 01:09:42.240: delete node: IP: 149.154.175.100. Number of nodes 15
+EtherApe-INFO: 01:09:50.374: delete node: IP: 149.154.167.91. Number of nodes 14
+EtherApe-INFO: 01:09:57.405: delete node: IP: 91.108.56.145. Number of nodes 13
+EtherApe-INFO: 01:09:58.349: delete node: IP: 91.108.56.188. Number of nodes 12
+EtherApe-INFO: 01:10:05.189: delete node: IP: 149.154.175.54. Number of nodes 11
+EtherApe-INFO: 01:10:05.921: delete node: IP: 149.154.175.57. Number of nodes 10
+EtherApe-INFO: 01:10:05.921: delete node: IP: 149.154.175.50. Number of nodes 9
+EtherApe-INFO: 01:10:21.770: delete node: IP: 149.154.167.92. Number of nodes 8
+EtherApe-INFO: 01:10:54.292: New node: IP: 95.216.195.133. Number of nodes 9
+EtherApe-INFO: 01:10:57.671: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 10
+EtherApe-INFO: 01:10:57.671: New node: IPv6: ff02::1. Number of nodes 11
+EtherApe-INFO: 01:11:12.001: New node: IP: 149.154.166.120. Number of nodes 12
+EtherApe-INFO: 01:11:33.299: New node: IP: 8.8.8.8. Number of nodes 13
+EtherApe-INFO: 01:11:40.350: delete node: IP: 149.154.165.111. Number of nodes 12
+EtherApe-INFO: 01:12:21.249: New node: IP: 94.236.26.35. Number of nodes 13
+EtherApe-INFO: 01:12:54.406: delete node: IP: 95.216.195.133. Number of nodes 12
+EtherApe-INFO: 01:12:57.583: delete node: IPv6: ff02::1. Number of nodes 11
+EtherApe-INFO: 01:12:57.583: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 10
+EtherApe-INFO: 01:13:30.734: delete node: IP: 149.154.166.120. Number of nodes 9
+EtherApe-INFO: 01:13:34.674: delete node: IP: 149.154.167.223. Number of nodes 8
+EtherApe-INFO: 01:13:34.674: delete node: IP: 8.8.8.8. Number of nodes 7
+EtherApe-INFO: 01:15:06.734: delete node: IP: 89.187.191.12. Number of nodes 6
+EtherApe-INFO: 01:15:33.316: delete node: IP: 192.168.2.1. Number of nodes 5
+EtherApe-INFO: 01:15:33.316: delete node: IP: 94.236.26.35. Number of nodes 4
+EtherApe-INFO: 01:15:57.159: New node: IP: 192.168.2.1. Number of nodes 5
+EtherApe-INFO: 01:15:59.239: New node: IP: 95.216.195.133. Number of nodes 6
+EtherApe-INFO: 01:16:11.719: New node: IP: 0.0.0.0. Number of nodes 7
+EtherApe-INFO: 01:16:11.719: New node: IP: 255.255.255.255. Number of nodes 8
+EtherApe-INFO: 01:16:30.699: New node: IP: 89.187.191.12. Number of nodes 9
+EtherApe-INFO: 01:16:35.920: New node: IP: 95.216.144.15. Number of nodes 10
+EtherApe-INFO: 01:16:56.199: New node: IP: 34.107.221.82. Number of nodes 11
+EtherApe-INFO: 01:16:56.200: New node: IP: 34.117.237.239. Number of nodes 12
+EtherApe-INFO: 01:16:56.200: New node: IP: 13.224.198.7. Number of nodes 13
+EtherApe-INFO: 01:16:56.201: New node: IP: 54.192.231.59. Number of nodes 14
+EtherApe-INFO: 01:16:56.201: New node: IP: 87.245.216.9. Number of nodes 15
+EtherApe-INFO: 01:16:56.460: New node: IP: 104.16.248.249. Number of nodes 16
+EtherApe-INFO: 01:16:56.460: New node: IP: 104.16.249.249. Number of nodes 17
+EtherApe-INFO: 01:16:56.720: New node: IP: 216.58.209.10. Number of nodes 18
+EtherApe-INFO: 01:16:56.980: New node: IP: 142.250.203.195. Number of nodes 19
+EtherApe-INFO: 01:16:56.980: New node: IP: 34.215.40.77. Number of nodes 20
+EtherApe-INFO: 01:16:56.981: New node: IP: 34.120.208.123. Number of nodes 21
+EtherApe-INFO: 01:16:57.240: New node: IP: 93.184.220.29. Number of nodes 22
+EtherApe-INFO: 01:16:57.241: New node: IP: 35.82.233.147. Number of nodes 23
+EtherApe-INFO: 01:16:57.242: New node: IP: 35.165.227.72. Number of nodes 24
+EtherApe-INFO: 01:16:59.060: New node: IP: 142.250.203.133. Number of nodes 25
+EtherApe-INFO: 01:16:59.061: New node: IP: 54.187.120.38. Number of nodes 26
+EtherApe-INFO: 01:16:59.061: New node: IP: 140.82.121.4. Number of nodes 27
+EtherApe-INFO: 01:16:59.841: New node: IP: 104.18.12.33. Number of nodes 28
+EtherApe-INFO: 01:16:59.841: New node: IP: 104.18.13.33. Number of nodes 29
+EtherApe-INFO: 01:16:59.843: New node: IP: 185.199.110.154. Number of nodes 30
+EtherApe-INFO: 01:17:00.154: New node: IP: 185.199.108.133. Number of nodes 31
+EtherApe-INFO: 01:17:00.154: New node: IP: 185.199.109.133. Number of nodes 32
+EtherApe-INFO: 01:17:00.621: New node: IP: 35.186.227.140. Number of nodes 33
+EtherApe-INFO: 01:17:01.140: New node: IP: 172.217.20.195. Number of nodes 34
+EtherApe-INFO: 01:17:02.188: New node: IP: 52.41.176.227. Number of nodes 35
+EtherApe-INFO: 01:17:02.439: New node: IP: 140.82.113.21. Number of nodes 36
+EtherApe-INFO: 01:17:02.441: New node: IP: 94.130.16.144. Number of nodes 37
+EtherApe-INFO: 01:17:02.701: New node: IP: 140.82.114.25. Number of nodes 38
+EtherApe-INFO: 01:17:02.960: New node: IP: 69.16.175.10. Number of nodes 39
+EtherApe-INFO: 01:17:03.489: New node: IP: 54.192.231.129. Number of nodes 40
+EtherApe-INFO: 01:17:04.261: New node: IP: 216.58.215.67. Number of nodes 41
+EtherApe-INFO: 01:17:05.041: New node: IP: 172.217.20.193. Number of nodes 42
+EtherApe-INFO: 01:17:05.560: New node: IP: 151.101.2.133. Number of nodes 43
+EtherApe-INFO: 01:17:05.561: New node: IP: 172.217.16.1. Number of nodes 44
+EtherApe-INFO: 01:17:05.564: New node: IP: 172.217.16.14. Number of nodes 45
+EtherApe-INFO: 01:17:05.565: New node: IP: 216.58.215.110. Number of nodes 46
+EtherApe-INFO: 01:17:06.621: New node: IP: 140.82.121.6. Number of nodes 47
+EtherApe-INFO: 01:17:06.622: New node: IP: 216.58.215.105. Number of nodes 48
+EtherApe-INFO: 01:17:06.879: New node: IP: 142.250.203.129. Number of nodes 49
+EtherApe-INFO: 01:17:07.383: New node: IP: 216.58.208.206. Number of nodes 50
+EtherApe-INFO: 01:17:07.639: New node: IP: 151.101.129.69. Number of nodes 51
+EtherApe-INFO: 01:17:07.640: New node: IP: 216.58.215.68. Number of nodes 52
+EtherApe-INFO: 01:17:07.640: New node: IP: 216.58.215.65. Number of nodes 53
+EtherApe-INFO: 01:17:07.640: New node: IP: 142.250.203.137. Number of nodes 54
+EtherApe-INFO: 01:17:07.902: New node: IP: 45.60.34.99. Number of nodes 55
+EtherApe-INFO: 01:17:08.680: New node: IP: 142.250.203.202. Number of nodes 56
+EtherApe-INFO: 01:17:08.683: New node: IP: 104.81.120.141. Number of nodes 57
+EtherApe-INFO: 01:17:08.685: New node: IP: 172.104.252.78. Number of nodes 58
+EtherApe-INFO: 01:17:08.686: New node: IP: 172.217.16.34. Number of nodes 59
+EtherApe-INFO: 01:17:09.722: New node: IP: 172.217.16.8. Number of nodes 60
+EtherApe-INFO: 01:17:10.503: New node: IP: 95.100.189.3. Number of nodes 61
+EtherApe-INFO: 01:17:10.767: New node: IP: 104.81.107.51. Number of nodes 62
+EtherApe-INFO: 01:17:11.021: New node: IP: 87.245.212.11. Number of nodes 63
+EtherApe-INFO: 01:17:12.074: New node: IP: 87.245.216.112. Number of nodes 64
+EtherApe-INFO: 01:17:12.321: New node: IP: 15.236.176.210. Number of nodes 65
+EtherApe-INFO: 01:17:12.869: New node: IP: 2.18.110.106. Number of nodes 66
+EtherApe-INFO: 01:17:14.140: New node: IP: 142.250.203.142. Number of nodes 67
+EtherApe-INFO: 01:17:15.179: New node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 68
+EtherApe-INFO: 01:17:15.180: New node: IPv6: ff02::1. Number of nodes 69
+EtherApe-INFO: 01:17:15.180: New node: IP: 216.58.209.1. Number of nodes 70
+EtherApe-INFO: 01:17:15.181: New node: IP: 172.217.16.33. Number of nodes 71
+EtherApe-INFO: 01:17:17.002: New node: IP: 172.217.20.170. Number of nodes 72
+EtherApe-INFO: 01:17:17.008: New node: IP: 142.250.186.202. Number of nodes 73
+EtherApe-INFO: 01:17:19.630: New node: IP: 142.250.203.206. Number of nodes 74
+EtherApe-INFO: 01:17:20.145: New node: IP: 142.251.1.189. Number of nodes 75
+EtherApe-INFO: 01:17:20.381: New node: IP: 172.217.16.5. Number of nodes 76
+EtherApe-INFO: 01:17:22.989: New node: IP: 172.217.20.206. Number of nodes 77
+EtherApe-INFO: 01:17:23.240: New node: IP: 142.250.203.138. Number of nodes 78
+EtherApe-INFO: 01:17:23.763: New node: IP: 104.17.88.51. Number of nodes 79
+EtherApe-INFO: 01:17:27.141: New node: IP: 54.231.192.168. Number of nodes 80
+EtherApe-INFO: 01:17:27.608: New node: IP: 108.156.253.92. Number of nodes 81
+EtherApe-INFO: 01:17:27.608: New node: IP: 87.245.216.8. Number of nodes 82
+EtherApe-INFO: 01:17:27.823: New node: IP: 104.26.6.180. Number of nodes 83
+EtherApe-INFO: 01:17:29.120: New node: IP: 35.186.220.184. Number of nodes 84
+EtherApe-INFO: 01:17:29.122: New node: IP: 104.18.32.68. Number of nodes 85
+EtherApe-INFO: 01:17:29.640: New node: IP: 172.217.20.202. Number of nodes 86
+EtherApe-INFO: 01:17:29.642: New node: IP: 65.9.63.127. Number of nodes 87
+EtherApe-INFO: 01:17:29.642: New node: IP: 142.250.203.136. Number of nodes 88
+EtherApe-INFO: 01:17:30.188: New node: IP: 87.245.212.33. Number of nodes 89
+EtherApe-INFO: 01:17:30.188: New node: IP: 54.192.231.21. Number of nodes 90
+EtherApe-INFO: 01:17:30.431: New node: IP: 104.22.2.64. Number of nodes 91
+EtherApe-INFO: 01:17:30.437: New node: IP: 104.22.3.64. Number of nodes 92
+EtherApe-INFO: 01:17:30.681: New node: IP: 204.79.197.200. Number of nodes 93
+EtherApe-INFO: 01:17:30.681: New node: IP: 13.107.21.200. Number of nodes 94
+EtherApe-INFO: 01:17:30.941: New node: IP: 216.58.215.109. Number of nodes 95
+EtherApe-INFO: 01:17:36.660: New node: IP: 142.250.75.10. Number of nodes 96
+EtherApe-INFO: 01:17:37.700: New node: IP: 172.217.16.10. Number of nodes 97
+EtherApe-INFO: 01:18:09.010: New node: IP: 216.58.209.2. Number of nodes 98
+EtherApe-INFO: 01:18:14.821: delete node: IP: 255.255.255.255. Number of nodes 97
+EtherApe-INFO: 01:18:14.821: delete node: IP: 0.0.0.0. Number of nodes 96
+EtherApe-INFO: 01:18:16.672: delete node: IP: 149.154.167.50. Number of nodes 95
+EtherApe-INFO: 01:18:22.066: delete node: IP: 95.216.195.133. Number of nodes 94
+EtherApe-INFO: 01:18:25.710: New node: IP: 157.245.26.125. Number of nodes 95
+EtherApe-INFO: 01:18:25.971: New node: IP: 104.16.87.20. Number of nodes 96
+EtherApe-INFO: 01:18:26.491: New node: IP: 34.225.36.183. Number of nodes 97
+EtherApe-INFO: 01:18:27.797: New node: IP: 143.204.98.100. Number of nodes 98
+EtherApe-INFO: 01:18:27.803: New node: IP: 165.227.153.193. Number of nodes 99
+EtherApe-INFO: 01:18:28.052: New node: IP: 18.66.139.61. Number of nodes 100
+EtherApe-INFO: 01:18:29.090: New node: IP: 99.83.219.81. Number of nodes 101
+EtherApe-INFO: 01:18:29.870: New node: IP: 76.223.31.112. Number of nodes 102
+EtherApe-INFO: 01:18:37.210: delete node: IP: 95.216.144.15. Number of nodes 101
+EtherApe-INFO: 01:18:49.951: delete node: IP: 89.187.191.12. Number of nodes 100
+EtherApe-INFO: 01:18:52.625: delete node: IP: 127.0.0.1. Number of nodes 99
+EtherApe-INFO: 01:18:59.685: delete node: IP: 34.215.40.77. Number of nodes 98
+EtherApe-INFO: 01:19:00.391: delete node: IP: 104.18.12.33. Number of nodes 97
+EtherApe-INFO: 01:19:01.735: delete node: IP: 185.199.109.133. Number of nodes 96
+EtherApe-INFO: 01:19:03.323: delete node: IP: 52.41.176.227. Number of nodes 95
+EtherApe-INFO: 01:19:04.300: delete node: IP: 54.192.231.129. Number of nodes 94
+EtherApe-INFO: 01:19:09.310: delete node: IP: 216.58.209.10. Number of nodes 93
+EtherApe-INFO: 01:19:11.135: delete node: IP: 172.217.16.34. Number of nodes 92
+EtherApe-INFO: 01:19:11.135: delete node: IP: 172.217.16.8. Number of nodes 91
+EtherApe-INFO: 01:19:11.135: delete node: IP: 35.165.227.72. Number of nodes 90
+EtherApe-INFO: 01:19:11.414: delete node: IP: 216.58.215.110. Number of nodes 89
+EtherApe-INFO: 01:19:12.715: delete node: IP: 172.217.16.1. Number of nodes 88
+EtherApe-INFO: 01:19:12.715: delete node: IP: 172.104.252.78. Number of nodes 87
+EtherApe-INFO: 01:19:12.715: delete node: IP: 142.250.203.137. Number of nodes 86
+EtherApe-INFO: 01:19:16.354: delete node: IPv6: ff02::1. Number of nodes 85
+EtherApe-INFO: 01:19:16.354: delete node: IPv6: fe80::9ada:c4ff:febf:99a5. Number of nodes 84
+EtherApe-INFO: 01:19:16.354: delete node: IP: 216.58.215.105. Number of nodes 83
+EtherApe-INFO: 01:19:20.807: delete node: IP: 142.250.203.206. Number of nodes 82
+EtherApe-INFO: 01:19:22.072: delete node: IP: 172.217.20.193. Number of nodes 81

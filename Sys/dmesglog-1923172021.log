@@ -1,0 +1,1837 @@
+[ 2302.247384] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2302.247858] usb 3-2: Device is not authorized for usage
+[ 2302.250835] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2302.251332] scsi host2: usb-storage 3-2:1.0
+[ 2302.252026] usb 3-2: authorized to connect
+[ 2302.870866] usb 3-2: USB disconnect, device number 98
+[ 2303.312804] usb 3-2: new high-speed USB device number 99 using xhci_hcd
+[ 2303.455642] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2303.455654] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2303.455658] usb 3-2: Product: HUAWEI_MOBILE
+[ 2303.455660] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2303.455912] usb 3-2: Device is not authorized for usage
+[ 2305.879879] usb 3-2: USB disconnect, device number 99
+[ 2306.483085] usb 3-2: new high-speed USB device number 100 using xhci_hcd
+[ 2306.629522] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2306.629534] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2306.629538] usb 3-2: Product: HUAWEI_MOBILE
+[ 2306.629541] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2306.629544] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2306.629801] usb 3-2: Device is not authorized for usage
+[ 2306.632514] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2306.632914] scsi host2: usb-storage 3-2:1.0
+[ 2306.633179] usb 3-2: authorized to connect
+[ 2307.244116] usb 3-2: USB disconnect, device number 100
+[ 2307.822837] usb 3-2: new high-speed USB device number 101 using xhci_hcd
+[ 2307.965896] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2307.965909] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2307.965914] usb 3-2: Product: HUAWEI_MOBILE
+[ 2307.965917] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2307.966244] usb 3-2: Device is not authorized for usage
+[ 2310.249878] usb 3-2: USB disconnect, device number 101
+[ 2310.856140] usb 3-2: new high-speed USB device number 102 using xhci_hcd
+[ 2311.000400] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2311.000413] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2311.000417] usb 3-2: Product: HUAWEI_MOBILE
+[ 2311.000420] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2311.000423] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2311.000745] usb 3-2: Device is not authorized for usage
+[ 2311.003362] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2311.004138] scsi host2: usb-storage 3-2:1.0
+[ 2311.004418] usb 3-2: authorized to connect
+[ 2311.590446] usb 3-2: USB disconnect, device number 102
+[ 2312.206267] usb 3-2: new high-speed USB device number 103 using xhci_hcd
+[ 2312.352408] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2312.352421] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2312.352426] usb 3-2: Product: HUAWEI_MOBILE
+[ 2312.352428] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2312.353138] usb 3-2: Device is not authorized for usage
+[ 2314.599941] usb 3-2: USB disconnect, device number 103
+[ 2314.993014] usb 3-2: new high-speed USB device number 104 using xhci_hcd
+[ 2315.143077] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2315.143088] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2315.143092] usb 3-2: Product: HUAWEI_MOBILE
+[ 2315.143095] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2315.143097] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2315.143435] usb 3-2: Device is not authorized for usage
+[ 2315.145476] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2315.145806] scsi host2: usb-storage 3-2:1.0
+[ 2315.146034] usb 3-2: authorized to connect
+[ 2315.733148] usb 3-2: USB disconnect, device number 104
+[ 2316.259727] usb 3-2: new high-speed USB device number 105 using xhci_hcd
+[ 2316.402606] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2316.402617] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2316.402621] usb 3-2: Product: HUAWEI_MOBILE
+[ 2316.402624] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2316.404437] usb 3-2: Device is not authorized for usage
+[ 2318.740173] usb 3-2: USB disconnect, device number 105
+[ 2319.129445] usb 3-2: new high-speed USB device number 106 using xhci_hcd
+[ 2319.274066] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2319.274080] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2319.274084] usb 3-2: Product: HUAWEI_MOBILE
+[ 2319.274088] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2319.274090] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2319.274521] usb 3-2: Device is not authorized for usage
+[ 2319.276811] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2319.277638] scsi host2: usb-storage 3-2:1.0
+[ 2319.277935] usb 3-2: authorized to connect
+[ 2319.888128] usb 3-2: USB disconnect, device number 106
+[ 2320.276137] usb 3-2: new high-speed USB device number 107 using xhci_hcd
+[ 2320.419150] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2320.419163] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2320.419167] usb 3-2: Product: HUAWEI_MOBILE
+[ 2320.419170] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2320.419490] usb 3-2: Device is not authorized for usage
+[ 2322.889970] usb 3-2: USB disconnect, device number 107
+[ 2323.283038] usb 3-2: new high-speed USB device number 108 using xhci_hcd
+[ 2323.429607] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2323.429619] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2323.429623] usb 3-2: Product: HUAWEI_MOBILE
+[ 2323.429626] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2323.429629] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2323.429880] usb 3-2: Device is not authorized for usage
+[ 2323.431976] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2323.432560] scsi host2: usb-storage 3-2:1.0
+[ 2323.432845] usb 3-2: authorized to connect
+[ 2324.044411] usb 3-2: USB disconnect, device number 108
+[ 2324.432753] usb 3-2: new high-speed USB device number 109 using xhci_hcd
+[ 2324.576044] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2324.576098] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2324.576102] usb 3-2: Product: HUAWEI_MOBILE
+[ 2324.576105] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2324.576427] usb 3-2: Device is not authorized for usage
+[ 2327.050231] usb 3-2: USB disconnect, device number 109
+[ 2327.439521] usb 3-2: new high-speed USB device number 110 using xhci_hcd
+[ 2327.586981] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2327.586995] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2327.586999] usb 3-2: Product: HUAWEI_MOBILE
+[ 2327.587002] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2327.587005] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2327.587321] usb 3-2: Device is not authorized for usage
+[ 2327.589742] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2327.590516] scsi host2: usb-storage 3-2:1.0
+[ 2327.590778] usb 3-2: authorized to connect
+[ 2328.207323] usb 3-2: USB disconnect, device number 110
+[ 2328.599662] usb 3-2: new high-speed USB device number 111 using xhci_hcd
+[ 2328.742400] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2328.742411] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2328.742415] usb 3-2: Product: HUAWEI_MOBILE
+[ 2328.742418] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2328.742661] usb 3-2: Device is not authorized for usage
+[ 2331.230204] usb 3-2: USB disconnect, device number 111
+[ 2331.619486] usb 3-2: new high-speed USB device number 112 using xhci_hcd
+[ 2331.763404] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2331.763418] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2331.763422] usb 3-2: Product: HUAWEI_MOBILE
+[ 2331.763426] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2331.763428] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2331.763748] usb 3-2: Device is not authorized for usage
+[ 2331.765990] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2331.766893] scsi host2: usb-storage 3-2:1.0
+[ 2331.767190] usb 3-2: authorized to connect
+[ 2332.377693] usb 3-2: USB disconnect, device number 112
+[ 2332.769454] usb 3-2: new high-speed USB device number 113 using xhci_hcd
+[ 2332.913275] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2332.913289] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2332.913293] usb 3-2: Product: HUAWEI_MOBILE
+[ 2332.913296] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2332.913646] usb 3-2: Device is not authorized for usage
+[ 2335.380103] usb 3-2: USB disconnect, device number 113
+[ 2335.779420] usb 3-2: new high-speed USB device number 114 using xhci_hcd
+[ 2335.923119] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2335.923132] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2335.923136] usb 3-2: Product: HUAWEI_MOBILE
+[ 2335.923139] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2335.923141] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2335.923542] usb 3-2: Device is not authorized for usage
+[ 2335.926199] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2335.926790] scsi host2: usb-storage 3-2:1.0
+[ 2335.928022] usb 3-2: authorized to connect
+[ 2336.539280] usb 3-2: USB disconnect, device number 114
+[ 2336.939688] usb 3-2: new high-speed USB device number 115 using xhci_hcd
+[ 2337.083368] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2337.083382] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2337.083386] usb 3-2: Product: HUAWEI_MOBILE
+[ 2337.083389] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2337.083865] usb 3-2: Device is not authorized for usage
+[ 2339.540128] usb 3-2: USB disconnect, device number 115
+[ 2339.936121] usb 3-2: new high-speed USB device number 116 using xhci_hcd
+[ 2340.079591] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2340.079603] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2340.079607] usb 3-2: Product: HUAWEI_MOBILE
+[ 2340.079610] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2340.079612] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2340.079884] usb 3-2: Device is not authorized for usage
+[ 2340.083038] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2340.083941] scsi host2: usb-storage 3-2:1.0
+[ 2340.084185] usb 3-2: authorized to connect
+[ 2340.684830] usb 3-2: USB disconnect, device number 116
+[ 2341.083025] usb 3-2: new high-speed USB device number 117 using xhci_hcd
+[ 2341.225776] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2341.225788] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2341.225792] usb 3-2: Product: HUAWEI_MOBILE
+[ 2341.225795] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2341.226117] usb 3-2: Device is not authorized for usage
+[ 2343.690421] usb 3-2: USB disconnect, device number 117
+[ 2344.086111] usb 3-2: new high-speed USB device number 118 using xhci_hcd
+[ 2344.229553] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2344.229565] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2344.229569] usb 3-2: Product: HUAWEI_MOBILE
+[ 2344.229573] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2344.229575] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2344.229870] usb 3-2: Device is not authorized for usage
+[ 2344.232525] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2344.233580] scsi host2: usb-storage 3-2:1.0
+[ 2344.233975] usb 3-2: authorized to connect
+[ 2344.857664] usb 3-2: USB disconnect, device number 118
+[ 2345.252786] usb 3-2: new high-speed USB device number 119 using xhci_hcd
+[ 2345.399155] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2345.399168] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2345.399172] usb 3-2: Product: HUAWEI_MOBILE
+[ 2345.399175] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2345.399472] usb 3-2: Device is not authorized for usage
+[ 2347.860493] usb 3-2: USB disconnect, device number 119
+[ 2348.256326] usb 3-2: new high-speed USB device number 120 using xhci_hcd
+[ 2348.399755] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2348.399769] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2348.399773] usb 3-2: Product: HUAWEI_MOBILE
+[ 2348.399777] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2348.399779] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2348.400117] usb 3-2: Device is not authorized for usage
+[ 2348.402611] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2348.403303] scsi host2: usb-storage 3-2:1.0
+[ 2348.403576] usb 3-2: authorized to connect
+[ 2348.993106] usb 3-2: USB disconnect, device number 120
+[ 2349.389676] usb 3-2: new high-speed USB device number 121 using xhci_hcd
+[ 2349.532622] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2349.532636] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2349.532640] usb 3-2: Product: HUAWEI_MOBILE
+[ 2349.532643] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2349.533279] usb 3-2: Device is not authorized for usage
+[ 2352.000411] usb 3-2: USB disconnect, device number 121
+[ 2352.392799] usb 3-2: new high-speed USB device number 122 using xhci_hcd
+[ 2352.536352] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2352.536365] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2352.536369] usb 3-2: Product: HUAWEI_MOBILE
+[ 2352.536372] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2352.536375] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2352.536797] usb 3-2: Device is not authorized for usage
+[ 2352.539128] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2352.539646] scsi host2: usb-storage 3-2:1.0
+[ 2352.539933] usb 3-2: authorized to connect
+[ 2353.139715] usb 3-2: USB disconnect, device number 122
+[ 2353.536166] usb 3-2: new high-speed USB device number 123 using xhci_hcd
+[ 2353.679041] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2353.679052] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2353.679056] usb 3-2: Product: HUAWEI_MOBILE
+[ 2353.679059] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2353.679845] usb 3-2: Device is not authorized for usage
+[ 2356.140352] usb 3-2: USB disconnect, device number 123
+[ 2356.516187] usb 3-2: new high-speed USB device number 124 using xhci_hcd
+[ 2356.659760] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2356.659773] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2356.659778] usb 3-2: Product: HUAWEI_MOBILE
+[ 2356.659781] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2356.659783] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2356.660344] usb 3-2: Device is not authorized for usage
+[ 2356.662820] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2356.663782] scsi host2: usb-storage 3-2:1.0
+[ 2356.664195] usb 3-2: authorized to connect
+[ 2357.271171] usb 3-2: USB disconnect, device number 124
+[ 2357.663116] usb 3-2: new high-speed USB device number 125 using xhci_hcd
+[ 2357.807141] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2357.807154] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2357.807158] usb 3-2: Product: HUAWEI_MOBILE
+[ 2357.807161] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2357.807456] usb 3-2: Device is not authorized for usage
+[ 2360.280372] usb 3-2: USB disconnect, device number 125
+[ 2360.673025] usb 3-2: new high-speed USB device number 126 using xhci_hcd
+[ 2360.816194] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2360.816206] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2360.816210] usb 3-2: Product: HUAWEI_MOBILE
+[ 2360.816213] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2360.816216] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2360.816510] usb 3-2: Device is not authorized for usage
+[ 2360.818876] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2360.820611] scsi host2: usb-storage 3-2:1.0
+[ 2360.820915] usb 3-2: authorized to connect
+[ 2361.430643] usb 3-2: USB disconnect, device number 126
+[ 2361.826110] usb 3-2: new high-speed USB device number 127 using xhci_hcd
+[ 2361.969042] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2361.969055] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2361.969059] usb 3-2: Product: HUAWEI_MOBILE
+[ 2361.969062] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2361.969319] usb 3-2: Device is not authorized for usage
+[ 2364.440442] usb 3-2: USB disconnect, device number 127
+[ 2364.832767] usb 3-2: new high-speed USB device number 2 using xhci_hcd
+[ 2364.976364] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2364.976375] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2364.976379] usb 3-2: Product: HUAWEI_MOBILE
+[ 2364.976383] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2364.976385] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2364.976866] usb 3-2: Device is not authorized for usage
+[ 2364.979245] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2364.979889] scsi host2: usb-storage 3-2:1.0
+[ 2364.980157] usb 3-2: authorized to connect
+[ 2365.581565] usb 3-2: USB disconnect, device number 2
+[ 2365.976117] usb 3-2: new high-speed USB device number 3 using xhci_hcd
+[ 2366.119850] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2366.119864] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2366.119868] usb 3-2: Product: HUAWEI_MOBILE
+[ 2366.119871] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2366.120168] usb 3-2: Device is not authorized for usage
+[ 2368.590738] usb 3-2: USB disconnect, device number 3
+[ 2368.979798] usb 3-2: new high-speed USB device number 4 using xhci_hcd
+[ 2369.124539] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2369.124553] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2369.124557] usb 3-2: Product: HUAWEI_MOBILE
+[ 2369.124561] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2369.124563] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2369.124869] usb 3-2: Device is not authorized for usage
+[ 2369.127423] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2369.127995] scsi host2: usb-storage 3-2:1.0
+[ 2369.128232] usb 3-2: authorized to connect
+[ 2369.737707] usb 3-2: USB disconnect, device number 4
+[ 2370.132792] usb 3-2: new high-speed USB device number 5 using xhci_hcd
+[ 2370.276387] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2370.276400] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2370.276477] usb 3-2: Product: HUAWEI_MOBILE
+[ 2370.276480] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2370.276834] usb 3-2: Device is not authorized for usage
+[ 2372.740544] usb 3-2: USB disconnect, device number 5
+[ 2373.129449] usb 3-2: new high-speed USB device number 6 using xhci_hcd
+[ 2373.273702] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2373.273714] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2373.273718] usb 3-2: Product: HUAWEI_MOBILE
+[ 2373.273721] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2373.273723] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2373.274023] usb 3-2: Device is not authorized for usage
+[ 2373.277361] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2373.278030] scsi host2: usb-storage 3-2:1.0
+[ 2373.280006] usb 3-2: authorized to connect
+[ 2373.875050] usb 3-2: USB disconnect, device number 6
+[ 2374.276136] usb 3-2: new high-speed USB device number 7 using xhci_hcd
+[ 2374.419824] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2374.419838] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2374.419842] usb 3-2: Product: HUAWEI_MOBILE
+[ 2374.419845] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2374.420239] usb 3-2: Device is not authorized for usage
+[ 2376.880594] usb 3-2: USB disconnect, device number 7
+[ 2377.276348] usb 3-2: new high-speed USB device number 8 using xhci_hcd
+[ 2377.419623] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2377.419636] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2377.419640] usb 3-2: Product: HUAWEI_MOBILE
+[ 2377.419644] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2377.419646] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2377.419943] usb 3-2: Device is not authorized for usage
+[ 2377.422341] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2377.422756] scsi host2: usb-storage 3-2:1.0
+[ 2377.422982] usb 3-2: authorized to connect
+[ 2378.027523] usb 3-2: USB disconnect, device number 8
+[ 2378.426352] usb 3-2: new high-speed USB device number 9 using xhci_hcd
+[ 2378.572919] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2378.572933] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2378.572937] usb 3-2: Product: HUAWEI_MOBILE
+[ 2378.572940] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2378.573212] usb 3-2: Device is not authorized for usage
+[ 2381.030651] usb 3-2: USB disconnect, device number 9
+[ 2381.426183] usb 3-2: new high-speed USB device number 10 using xhci_hcd
+[ 2381.570595] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2381.570609] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2381.570613] usb 3-2: Product: HUAWEI_MOBILE
+[ 2381.570617] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2381.570619] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2381.570923] usb 3-2: Device is not authorized for usage
+[ 2381.573201] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2381.574000] scsi host2: usb-storage 3-2:1.0
+[ 2381.574253] usb 3-2: authorized to connect
+[ 2382.177512] usb 3-2: USB disconnect, device number 10
+[ 2382.566116] usb 3-2: new high-speed USB device number 11 using xhci_hcd
+[ 2382.709046] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2382.709058] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2382.709062] usb 3-2: Product: HUAWEI_MOBILE
+[ 2382.709064] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2382.709320] usb 3-2: Device is not authorized for usage
+[ 2385.180901] usb 3-2: USB disconnect, device number 11
+[ 2385.569430] usb 3-2: new high-speed USB device number 12 using xhci_hcd
+[ 2385.714219] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2385.714233] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2385.714237] usb 3-2: Product: HUAWEI_MOBILE
+[ 2385.714241] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2385.714243] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2385.714542] usb 3-2: Device is not authorized for usage
+[ 2385.717334] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2385.718148] scsi host2: usb-storage 3-2:1.0
+[ 2385.718456] usb 3-2: authorized to connect
+[ 2386.311425] usb 3-2: USB disconnect, device number 12
+[ 2386.703024] usb 3-2: new high-speed USB device number 13 using xhci_hcd
+[ 2386.845790] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2386.845802] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2386.845806] usb 3-2: Product: HUAWEI_MOBILE
+[ 2386.845809] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2386.846083] usb 3-2: Device is not authorized for usage
+[ 2389.320630] usb 3-2: USB disconnect, device number 13
+[ 2389.722794] usb 3-2: new high-speed USB device number 14 using xhci_hcd
+[ 2389.867213] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2389.867227] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2389.867231] usb 3-2: Product: HUAWEI_MOBILE
+[ 2389.867235] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2389.867237] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2389.867534] usb 3-2: Device is not authorized for usage
+[ 2389.870140] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2389.871077] scsi host2: usb-storage 3-2:1.0
+[ 2389.871527] usb 3-2: authorized to connect
+[ 2390.470992] usb 3-2: USB disconnect, device number 14
+[ 2390.862761] usb 3-2: new high-speed USB device number 15 using xhci_hcd
+[ 2391.005718] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2391.005727] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2391.005729] usb 3-2: Product: HUAWEI_MOBILE
+[ 2391.005731] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2391.005924] usb 3-2: Device is not authorized for usage
+[ 2393.480733] usb 3-2: USB disconnect, device number 15
+[ 2393.872781] usb 3-2: new high-speed USB device number 16 using xhci_hcd
+[ 2394.016159] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2394.016170] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2394.016174] usb 3-2: Product: HUAWEI_MOBILE
+[ 2394.016177] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2394.016179] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2394.016487] usb 3-2: Device is not authorized for usage
+[ 2394.018612] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2394.019011] scsi host2: usb-storage 3-2:1.0
+[ 2394.019207] usb 3-2: authorized to connect
+[ 2394.617208] usb 3-2: USB disconnect, device number 16
+[ 2395.016383] usb 3-2: new high-speed USB device number 17 using xhci_hcd
+[ 2395.159040] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2395.159051] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2395.159055] usb 3-2: Product: HUAWEI_MOBILE
+[ 2395.159058] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2395.159320] usb 3-2: Device is not authorized for usage
+[ 2397.620821] usb 3-2: USB disconnect, device number 17
+[ 2398.012764] usb 3-2: new high-speed USB device number 18 using xhci_hcd
+[ 2398.157615] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2398.157629] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2398.157633] usb 3-2: Product: HUAWEI_MOBILE
+[ 2398.157636] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2398.157639] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2398.157995] usb 3-2: Device is not authorized for usage
+[ 2398.160657] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2398.161470] scsi host2: usb-storage 3-2:1.0
+[ 2398.161854] usb 3-2: authorized to connect
+[ 2398.440992] usb 3-2: USB disconnect, device number 18
+[ 2398.833031] usb 3-2: new high-speed USB device number 19 using xhci_hcd
+[ 2398.979045] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2398.979057] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2398.979076] usb 3-2: Product: HUAWEI_MOBILE
+[ 2398.979079] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2398.979356] usb 3-2: Device is not authorized for usage
+[ 2401.450808] usb 3-2: USB disconnect, device number 19
+[ 2401.846093] usb 3-2: new high-speed USB device number 20 using xhci_hcd
+[ 2401.989623] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2401.989636] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2401.989640] usb 3-2: Product: HUAWEI_MOBILE
+[ 2401.989643] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2401.989646] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2401.989922] usb 3-2: Device is not authorized for usage
+[ 2401.992303] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2401.992576] scsi host2: usb-storage 3-2:1.0
+[ 2401.992714] usb 3-2: authorized to connect
+[ 2402.618269] usb 3-2: USB disconnect, device number 20
+[ 2403.006162] usb 3-2: new high-speed USB device number 21 using xhci_hcd
+[ 2403.149103] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2403.149115] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2403.149119] usb 3-2: Product: HUAWEI_MOBILE
+[ 2403.149122] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2403.149450] usb 3-2: Device is not authorized for usage
+[ 2405.621204] usb 3-2: USB disconnect, device number 21
+[ 2406.009450] usb 3-2: new high-speed USB device number 22 using xhci_hcd
+[ 2406.153258] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2406.153272] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2406.153276] usb 3-2: Product: HUAWEI_MOBILE
+[ 2406.153279] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2406.153281] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2406.153843] usb 3-2: Device is not authorized for usage
+[ 2406.156380] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2406.156912] scsi host2: usb-storage 3-2:1.0
+[ 2406.157184] usb 3-2: authorized to connect
+[ 2406.764568] usb 3-2: USB disconnect, device number 22
+[ 2407.159433] usb 3-2: new high-speed USB device number 23 using xhci_hcd
+[ 2407.302418] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2407.302429] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2407.302433] usb 3-2: Product: HUAWEI_MOBILE
+[ 2407.302436] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2407.302669] usb 3-2: Device is not authorized for usage
+[ 2409.770953] usb 3-2: USB disconnect, device number 23
+[ 2410.162763] usb 3-2: new high-speed USB device number 24 using xhci_hcd
+[ 2410.306375] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2410.306387] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2410.306391] usb 3-2: Product: HUAWEI_MOBILE
+[ 2410.306394] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2410.306397] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2410.306737] usb 3-2: Device is not authorized for usage
+[ 2410.309173] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2410.309613] scsi host2: usb-storage 3-2:1.0
+[ 2410.309861] usb 3-2: authorized to connect
+[ 2410.907235] usb 3-2: USB disconnect, device number 24
+[ 2411.302780] usb 3-2: new high-speed USB device number 25 using xhci_hcd
+[ 2411.449044] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2411.449056] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2411.449060] usb 3-2: Product: HUAWEI_MOBILE
+[ 2411.449063] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2411.449604] usb 3-2: Device is not authorized for usage
+[ 2413.911112] usb 3-2: USB disconnect, device number 25
+[ 2414.316151] usb 3-2: new high-speed USB device number 26 using xhci_hcd
+[ 2414.459592] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2414.459604] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2414.459608] usb 3-2: Product: HUAWEI_MOBILE
+[ 2414.459611] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2414.459613] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2414.459873] usb 3-2: Device is not authorized for usage
+[ 2414.462248] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2414.462601] scsi host2: usb-storage 3-2:1.0
+[ 2414.462844] usb 3-2: authorized to connect
+[ 2415.074052] usb 3-2: USB disconnect, device number 26
+[ 2415.476156] usb 3-2: new high-speed USB device number 27 using xhci_hcd
+[ 2415.622421] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2415.622432] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2415.622437] usb 3-2: Product: HUAWEI_MOBILE
+[ 2415.622440] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2415.622735] usb 3-2: Device is not authorized for usage
+[ 2418.081266] usb 3-2: USB disconnect, device number 27
+[ 2418.472761] usb 3-2: new high-speed USB device number 28 using xhci_hcd
+[ 2418.616158] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2418.616166] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2418.616169] usb 3-2: Product: HUAWEI_MOBILE
+[ 2418.616171] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2418.616173] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2418.616444] usb 3-2: Device is not authorized for usage
+[ 2418.619663] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2418.620335] scsi host2: usb-storage 3-2:1.0
+[ 2418.620537] usb 3-2: authorized to connect
+[ 2419.230425] usb 3-2: USB disconnect, device number 28
+[ 2419.619414] usb 3-2: new high-speed USB device number 29 using xhci_hcd
+[ 2419.762422] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2419.762435] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2419.762439] usb 3-2: Product: HUAWEI_MOBILE
+[ 2419.762442] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2419.764382] usb 3-2: Device is not authorized for usage
+[ 2422.251040] usb 3-2: USB disconnect, device number 29
+[ 2422.656116] usb 3-2: new high-speed USB device number 30 using xhci_hcd
+[ 2422.803290] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2422.803304] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2422.803309] usb 3-2: Product: HUAWEI_MOBILE
+[ 2422.803312] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2422.803315] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2422.803794] usb 3-2: Device is not authorized for usage
+[ 2422.806558] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2422.807238] scsi host2: usb-storage 3-2:1.0
+[ 2422.807494] usb 3-2: authorized to connect
+[ 2423.404278] usb 3-2: USB disconnect, device number 30
+[ 2423.792852] usb 3-2: new high-speed USB device number 31 using xhci_hcd
+[ 2423.935793] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2423.935802] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2423.935804] usb 3-2: Product: HUAWEI_MOBILE
+[ 2423.935806] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2423.935993] usb 3-2: Device is not authorized for usage
+[ 2426.411089] usb 3-2: USB disconnect, device number 31
+[ 2426.799419] usb 3-2: new high-speed USB device number 32 using xhci_hcd
+[ 2426.943757] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2426.943770] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2426.943774] usb 3-2: Product: HUAWEI_MOBILE
+[ 2426.943778] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2426.943781] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2426.944264] usb 3-2: Device is not authorized for usage
+[ 2426.946886] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2426.947613] scsi host2: usb-storage 3-2:1.0
+[ 2426.948064] usb 3-2: authorized to connect
+[ 2427.541282] usb 3-2: USB disconnect, device number 32
+[ 2427.942787] usb 3-2: new high-speed USB device number 33 using xhci_hcd
+[ 2428.089044] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2428.089055] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2428.089060] usb 3-2: Product: HUAWEI_MOBILE
+[ 2428.089062] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2428.089364] usb 3-2: Device is not authorized for usage
+[ 2430.551156] usb 3-2: USB disconnect, device number 33
+[ 2430.946102] usb 3-2: new high-speed USB device number 34 using xhci_hcd
+[ 2431.089647] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2431.089660] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2431.089664] usb 3-2: Product: HUAWEI_MOBILE
+[ 2431.089668] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2431.089670] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2431.090149] usb 3-2: Device is not authorized for usage
+[ 2431.092524] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2431.093216] scsi host2: usb-storage 3-2:1.0
+[ 2431.093566] usb 3-2: authorized to connect
+[ 2431.683713] usb 3-2: USB disconnect, device number 34
+[ 2432.086102] usb 3-2: new high-speed USB device number 35 using xhci_hcd
+[ 2432.232866] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2432.232881] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2432.232886] usb 3-2: Product: HUAWEI_MOBILE
+[ 2432.232889] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2432.233205] usb 3-2: Device is not authorized for usage
+[ 2434.691348] usb 3-2: USB disconnect, device number 35
+[ 2435.079496] usb 3-2: new high-speed USB device number 36 using xhci_hcd
+[ 2435.223554] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2435.223566] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2435.223570] usb 3-2: Product: HUAWEI_MOBILE
+[ 2435.223573] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2435.223575] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2435.223865] usb 3-2: Device is not authorized for usage
+[ 2435.226247] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2435.226877] scsi host2: usb-storage 3-2:1.0
+[ 2435.227151] usb 3-2: authorized to connect
+[ 2435.844770] usb 3-2: USB disconnect, device number 36
+[ 2436.233068] usb 3-2: new high-speed USB device number 37 using xhci_hcd
+[ 2436.376314] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2436.376328] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2436.376332] usb 3-2: Product: HUAWEI_MOBILE
+[ 2436.376334] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2436.376583] usb 3-2: Device is not authorized for usage
+[ 2438.851352] usb 3-2: USB disconnect, device number 37
+[ 2439.246108] usb 3-2: new high-speed USB device number 38 using xhci_hcd
+[ 2439.392834] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2439.392846] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2439.392850] usb 3-2: Product: HUAWEI_MOBILE
+[ 2439.392853] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2439.392855] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2439.393103] usb 3-2: Device is not authorized for usage
+[ 2439.402045] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2439.402464] scsi host2: usb-storage 3-2:1.0
+[ 2439.402759] usb 3-2: authorized to connect
+[ 2440.010768] usb 3-2: USB disconnect, device number 38
+[ 2440.402996] usb 3-2: new high-speed USB device number 39 using xhci_hcd
+[ 2440.549049] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2440.549061] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2440.549065] usb 3-2: Product: HUAWEI_MOBILE
+[ 2440.549068] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2440.549293] usb 3-2: Device is not authorized for usage
+[ 2443.031632] usb 3-2: USB disconnect, device number 39
+[ 2443.419461] usb 3-2: new high-speed USB device number 40 using xhci_hcd
+[ 2443.563274] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2443.563288] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2443.563292] usb 3-2: Product: HUAWEI_MOBILE
+[ 2443.563295] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2443.563298] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2443.563577] usb 3-2: Device is not authorized for usage
+[ 2443.565908] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2443.568074] scsi host2: usb-storage 3-2:1.0
+[ 2443.568417] usb 3-2: authorized to connect
+[ 2444.154431] usb 3-2: USB disconnect, device number 40
+[ 2444.546138] usb 3-2: new high-speed USB device number 41 using xhci_hcd
+[ 2444.689179] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2444.689192] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2444.689196] usb 3-2: Product: HUAWEI_MOBILE
+[ 2444.689199] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2444.689505] usb 3-2: Device is not authorized for usage
+[ 2447.161251] usb 3-2: USB disconnect, device number 41
+[ 2447.552789] usb 3-2: new high-speed USB device number 42 using xhci_hcd
+[ 2447.696347] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2447.696359] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2447.696363] usb 3-2: Product: HUAWEI_MOBILE
+[ 2447.696366] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2447.696368] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2447.696614] usb 3-2: Device is not authorized for usage
+[ 2447.698494] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2447.698781] scsi host2: usb-storage 3-2:1.0
+[ 2447.698904] usb 3-2: authorized to connect
+[ 2448.289413] usb 3-2: USB disconnect, device number 42
+[ 2448.692787] usb 3-2: new high-speed USB device number 43 using xhci_hcd
+[ 2448.836536] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2448.836548] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2448.836552] usb 3-2: Product: HUAWEI_MOBILE
+[ 2448.836555] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2448.836815] usb 3-2: Device is not authorized for usage
+[ 2451.291452] usb 3-2: USB disconnect, device number 43
+[ 2451.689672] usb 3-2: new high-speed USB device number 44 using xhci_hcd
+[ 2451.836175] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2451.836188] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2451.836191] usb 3-2: Product: HUAWEI_MOBILE
+[ 2451.836193] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2451.836195] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2451.836432] usb 3-2: Device is not authorized for usage
+[ 2451.838967] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2451.839305] scsi host2: usb-storage 3-2:1.0
+[ 2451.839604] usb 3-2: authorized to connect
+[ 2452.425309] usb 3-2: USB disconnect, device number 44
+[ 2452.816424] usb 3-2: new high-speed USB device number 45 using xhci_hcd
+[ 2452.963401] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2452.963415] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2452.963419] usb 3-2: Product: HUAWEI_MOBILE
+[ 2452.963422] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2452.963724] usb 3-2: Device is not authorized for usage
+[ 2455.431405] usb 3-2: USB disconnect, device number 45
+[ 2455.826324] usb 3-2: new high-speed USB device number 46 using xhci_hcd
+[ 2455.969940] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2455.969953] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2455.969957] usb 3-2: Product: HUAWEI_MOBILE
+[ 2455.969960] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2455.969963] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2455.970234] usb 3-2: Device is not authorized for usage
+[ 2455.972570] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2455.973664] scsi host2: usb-storage 3-2:1.0
+[ 2455.973909] usb 3-2: authorized to connect
+[ 2456.574922] usb 3-2: USB disconnect, device number 46
+[ 2456.966166] usb 3-2: new high-speed USB device number 47 using xhci_hcd
+[ 2457.109306] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2457.109319] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2457.109323] usb 3-2: Product: HUAWEI_MOBILE
+[ 2457.109326] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2457.109617] usb 3-2: Device is not authorized for usage
+[ 2459.581666] usb 3-2: USB disconnect, device number 47
+[ 2459.969422] usb 3-2: new high-speed USB device number 48 using xhci_hcd
+[ 2460.113494] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2460.113503] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2460.113506] usb 3-2: Product: HUAWEI_MOBILE
+[ 2460.113508] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2460.113510] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2460.113735] usb 3-2: Device is not authorized for usage
+[ 2460.116195] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2460.117171] scsi host2: usb-storage 3-2:1.0
+[ 2460.117546] usb 3-2: authorized to connect
+[ 2460.711095] usb 3-2: USB disconnect, device number 48
+[ 2461.106228] usb 3-2: new high-speed USB device number 49 using xhci_hcd
+[ 2461.249052] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2461.249062] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2461.249064] usb 3-2: Product: HUAWEI_MOBILE
+[ 2461.249066] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2461.249276] usb 3-2: Device is not authorized for usage
+[ 2463.721764] usb 3-2: USB disconnect, device number 49
+[ 2464.112808] usb 3-2: new high-speed USB device number 50 using xhci_hcd
+[ 2464.256845] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2464.256858] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2464.256862] usb 3-2: Product: HUAWEI_MOBILE
+[ 2464.256865] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2464.256868] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2464.257188] usb 3-2: Device is not authorized for usage
+[ 2464.259981] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2464.261177] scsi host2: usb-storage 3-2:1.0
+[ 2464.261545] usb 3-2: authorized to connect
+[ 2464.860801] usb 3-2: USB disconnect, device number 50
+[ 2465.259423] usb 3-2: new high-speed USB device number 51 using xhci_hcd
+[ 2465.405806] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2465.405818] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2465.405822] usb 3-2: Product: HUAWEI_MOBILE
+[ 2465.405825] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2465.406102] usb 3-2: Device is not authorized for usage
+[ 2467.871591] usb 3-2: USB disconnect, device number 51
+[ 2468.249432] usb 3-2: new high-speed USB device number 52 using xhci_hcd
+[ 2468.392935] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2468.392947] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2468.392951] usb 3-2: Product: HUAWEI_MOBILE
+[ 2468.392954] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2468.392956] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2468.393197] usb 3-2: Device is not authorized for usage
+[ 2468.395516] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2468.396090] scsi host2: usb-storage 3-2:1.0
+[ 2468.396781] usb 3-2: authorized to connect
+[ 2469.004709] usb 3-2: USB disconnect, device number 52
+[ 2469.396101] usb 3-2: new high-speed USB device number 53 using xhci_hcd
+[ 2469.540122] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2469.540135] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2469.540139] usb 3-2: Product: HUAWEI_MOBILE
+[ 2469.540142] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2469.540491] usb 3-2: Device is not authorized for usage
+[ 2472.011498] usb 3-2: USB disconnect, device number 53
+[ 2472.406077] usb 3-2: new high-speed USB device number 54 using xhci_hcd
+[ 2472.550101] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2472.550115] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2472.550119] usb 3-2: Product: HUAWEI_MOBILE
+[ 2472.550122] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2472.550125] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2472.550430] usb 3-2: Device is not authorized for usage
+[ 2472.553210] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2472.554138] scsi host2: usb-storage 3-2:1.0
+[ 2472.554373] usb 3-2: authorized to connect
+[ 2473.165372] usb 3-2: USB disconnect, device number 54
+[ 2473.562765] usb 3-2: new high-speed USB device number 55 using xhci_hcd
+[ 2473.706310] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2473.706320] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2473.706323] usb 3-2: Product: HUAWEI_MOBILE
+[ 2473.706325] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2473.706546] usb 3-2: Device is not authorized for usage
+[ 2476.171964] usb 3-2: USB disconnect, device number 55
+[ 2476.566167] usb 3-2: new high-speed USB device number 56 using xhci_hcd
+[ 2476.709658] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2476.709672] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2476.709676] usb 3-2: Product: HUAWEI_MOBILE
+[ 2476.709679] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2476.709682] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2476.709973] usb 3-2: Device is not authorized for usage
+[ 2476.712591] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2476.713600] scsi host2: usb-storage 3-2:1.0
+[ 2476.713887] usb 3-2: authorized to connect
+[ 2477.315399] usb 3-2: USB disconnect, device number 56
+[ 2477.719421] usb 3-2: new high-speed USB device number 57 using xhci_hcd
+[ 2477.870213] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2477.870222] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2477.870225] usb 3-2: Product: HUAWEI_MOBILE
+[ 2477.870227] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2477.870455] usb 3-2: Device is not authorized for usage
+[ 2480.321846] usb 3-2: USB disconnect, device number 57
+[ 2480.719401] usb 3-2: new high-speed USB device number 58 using xhci_hcd
+[ 2480.866189] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2480.866200] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2480.866204] usb 3-2: Product: HUAWEI_MOBILE
+[ 2480.866207] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2480.866210] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2480.866449] usb 3-2: Device is not authorized for usage
+[ 2480.868756] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2480.869107] scsi host2: usb-storage 3-2:1.0
+[ 2480.869289] usb 3-2: authorized to connect
+[ 2481.450630] usb 3-2: USB disconnect, device number 58
+[ 2481.842752] usb 3-2: new high-speed USB device number 59 using xhci_hcd
+[ 2481.985749] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2481.985757] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2481.985760] usb 3-2: Product: HUAWEI_MOBILE
+[ 2481.985762] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2481.986170] usb 3-2: Device is not authorized for usage
+[ 2484.461730] usb 3-2: USB disconnect, device number 59
+[ 2484.856072] usb 3-2: new high-speed USB device number 60 using xhci_hcd
+[ 2484.999921] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2484.999935] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2484.999939] usb 3-2: Product: HUAWEI_MOBILE
+[ 2484.999942] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2484.999945] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2485.000367] usb 3-2: Device is not authorized for usage
+[ 2485.002923] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2485.003995] scsi host2: usb-storage 3-2:1.0
+[ 2485.005313] usb 3-2: authorized to connect
+[ 2485.598128] usb 3-2: USB disconnect, device number 60
+[ 2485.992771] usb 3-2: new high-speed USB device number 61 using xhci_hcd
+[ 2486.139061] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2486.139070] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2486.139072] usb 3-2: Product: HUAWEI_MOBILE
+[ 2486.139074] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2486.139564] usb 3-2: Device is not authorized for usage
+[ 2488.601855] usb 3-2: USB disconnect, device number 61
+[ 2488.992766] usb 3-2: new high-speed USB device number 62 using xhci_hcd
+[ 2489.137138] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2489.137152] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2489.137156] usb 3-2: Product: HUAWEI_MOBILE
+[ 2489.137160] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2489.137162] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2489.137642] usb 3-2: Device is not authorized for usage
+[ 2489.140228] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2489.142129] scsi host2: usb-storage 3-2:1.0
+[ 2489.142419] usb 3-2: authorized to connect
+[ 2489.737146] usb 3-2: USB disconnect, device number 62
+[ 2490.136175] usb 3-2: new high-speed USB device number 63 using xhci_hcd
+[ 2490.282310] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2490.282322] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2490.282326] usb 3-2: Product: HUAWEI_MOBILE
+[ 2490.282329] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2490.282594] usb 3-2: Device is not authorized for usage
+[ 2492.741931] usb 3-2: USB disconnect, device number 63
+[ 2493.146129] usb 3-2: new high-speed USB device number 64 using xhci_hcd
+[ 2493.292954] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2493.292965] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2493.292967] usb 3-2: Product: HUAWEI_MOBILE
+[ 2493.292969] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2493.292971] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2493.293257] usb 3-2: Device is not authorized for usage
+[ 2493.295406] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2493.295722] scsi host2: usb-storage 3-2:1.0
+[ 2493.295853] usb 3-2: authorized to connect
+[ 2493.897559] usb 3-2: USB disconnect, device number 64
+[ 2494.299428] usb 3-2: new high-speed USB device number 65 using xhci_hcd
+[ 2494.449068] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2494.449076] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2494.449079] usb 3-2: Product: HUAWEI_MOBILE
+[ 2494.449081] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2494.449327] usb 3-2: Device is not authorized for usage
+[ 2496.902160] usb 3-2: USB disconnect, device number 65
+[ 2497.279602] usb 3-2: new high-speed USB device number 66 using xhci_hcd
+[ 2497.429592] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2497.429605] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2497.429610] usb 3-2: Product: HUAWEI_MOBILE
+[ 2497.429613] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2497.429616] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2497.429868] usb 3-2: Device is not authorized for usage
+[ 2497.432138] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2497.432489] scsi host2: usb-storage 3-2:1.0
+[ 2497.432707] usb 3-2: authorized to connect
+[ 2498.057089] usb 3-2: USB disconnect, device number 66
+[ 2498.456170] usb 3-2: new high-speed USB device number 67 using xhci_hcd
+[ 2498.600139] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2498.600151] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2498.600156] usb 3-2: Product: HUAWEI_MOBILE
+[ 2498.600159] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2498.600455] usb 3-2: Device is not authorized for usage
+[ 2501.061943] usb 3-2: USB disconnect, device number 67
+[ 2501.456091] usb 3-2: new high-speed USB device number 68 using xhci_hcd
+[ 2501.604285] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2501.604299] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2501.604303] usb 3-2: Product: HUAWEI_MOBILE
+[ 2501.604306] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2501.604309] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2501.604598] usb 3-2: Device is not authorized for usage
+[ 2501.607182] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2501.607951] scsi host2: usb-storage 3-2:1.0
+[ 2501.608299] usb 3-2: authorized to connect
+[ 2502.204199] usb 3-2: USB disconnect, device number 68
+[ 2502.592740] usb 3-2: new high-speed USB device number 69 using xhci_hcd
+[ 2502.735686] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2502.735694] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2502.735697] usb 3-2: Product: HUAWEI_MOBILE
+[ 2502.735699] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2502.735922] usb 3-2: Device is not authorized for usage
+[ 2505.212165] usb 3-2: USB disconnect, device number 69
+[ 2505.586094] usb 3-2: new high-speed USB device number 70 using xhci_hcd
+[ 2505.731083] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2505.731098] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2505.731102] usb 3-2: Product: HUAWEI_MOBILE
+[ 2505.731105] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2505.731108] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2505.731407] usb 3-2: Device is not authorized for usage
+[ 2505.734496] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2505.735327] scsi host2: usb-storage 3-2:1.0
+[ 2505.735573] usb 3-2: authorized to connect
+[ 2506.341390] usb 3-2: USB disconnect, device number 70
+[ 2506.736095] usb 3-2: new high-speed USB device number 71 using xhci_hcd
+[ 2506.880717] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2506.880731] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2506.880735] usb 3-2: Product: HUAWEI_MOBILE
+[ 2506.880738] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2506.881030] usb 3-2: Device is not authorized for usage
+[ 2509.353035] usb 3-2: USB disconnect, device number 71
+[ 2509.746354] usb 3-2: new high-speed USB device number 72 using xhci_hcd
+[ 2509.889620] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2509.889630] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2509.889632] usb 3-2: Product: HUAWEI_MOBILE
+[ 2509.889634] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2509.889636] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2509.889834] usb 3-2: Device is not authorized for usage
+[ 2509.892164] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2509.892670] scsi host2: usb-storage 3-2:1.0
+[ 2509.892898] usb 3-2: authorized to connect
+[ 2510.497535] usb 3-2: USB disconnect, device number 72
+[ 2510.899421] usb 3-2: new high-speed USB device number 73 using xhci_hcd
+[ 2511.042447] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2511.042459] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2511.042463] usb 3-2: Product: HUAWEI_MOBILE
+[ 2511.042466] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2511.042744] usb 3-2: Device is not authorized for usage
+[ 2513.502170] usb 3-2: USB disconnect, device number 73
+[ 2513.902974] usb 3-2: new high-speed USB device number 74 using xhci_hcd
+[ 2514.046472] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2514.046484] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2514.046488] usb 3-2: Product: HUAWEI_MOBILE
+[ 2514.046492] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2514.046495] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2514.046982] usb 3-2: Device is not authorized for usage
+[ 2514.049161] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2514.049765] scsi host2: usb-storage 3-2:1.0
+[ 2514.049982] usb 3-2: authorized to connect
+[ 2514.645376] usb 3-2: USB disconnect, device number 74
+[ 2515.046095] usb 3-2: new high-speed USB device number 75 using xhci_hcd
+[ 2515.189543] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2515.189556] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2515.189561] usb 3-2: Product: HUAWEI_MOBILE
+[ 2515.189564] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2515.190035] usb 3-2: Device is not authorized for usage
+[ 2517.652266] usb 3-2: USB disconnect, device number 75
+[ 2518.049640] usb 3-2: new high-speed USB device number 76 using xhci_hcd
+[ 2518.193401] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2518.193416] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2518.193420] usb 3-2: Product: HUAWEI_MOBILE
+[ 2518.193423] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2518.193426] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2518.193836] usb 3-2: Device is not authorized for usage
+[ 2518.196754] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2518.197734] scsi host2: usb-storage 3-2:1.0
+[ 2518.198052] usb 3-2: authorized to connect
+[ 2518.825505] usb 3-2: USB disconnect, device number 76
+[ 2519.222979] usb 3-2: new high-speed USB device number 77 using xhci_hcd
+[ 2519.365718] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2519.365726] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2519.365728] usb 3-2: Product: HUAWEI_MOBILE
+[ 2519.365730] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2519.365948] usb 3-2: Device is not authorized for usage
+[ 2521.832166] usb 3-2: USB disconnect, device number 77
+[ 2522.233042] usb 3-2: new high-speed USB device number 78 using xhci_hcd
+[ 2522.379675] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2522.379689] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2522.379693] usb 3-2: Product: HUAWEI_MOBILE
+[ 2522.379696] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2522.379699] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2522.380040] usb 3-2: Device is not authorized for usage
+[ 2522.382679] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2522.383839] scsi host2: usb-storage 3-2:1.0
+[ 2522.384187] usb 3-2: authorized to connect
+[ 2522.978983] usb 3-2: USB disconnect, device number 78
+[ 2523.382771] usb 3-2: new high-speed USB device number 79 using xhci_hcd
+[ 2523.525692] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2523.525706] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2523.525709] usb 3-2: Product: HUAWEI_MOBILE
+[ 2523.525711] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2523.526012] usb 3-2: Device is not authorized for usage
+[ 2525.982579] usb 3-2: USB disconnect, device number 79
+[ 2526.376109] usb 3-2: new high-speed USB device number 80 using xhci_hcd
+[ 2526.519610] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2526.519619] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2526.519621] usb 3-2: Product: HUAWEI_MOBILE
+[ 2526.519623] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2526.519625] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2526.519886] usb 3-2: Device is not authorized for usage
+[ 2526.522235] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2526.524109] scsi host2: usb-storage 3-2:1.0
+[ 2526.524423] usb 3-2: authorized to connect
+[ 2527.124115] usb 3-2: USB disconnect, device number 80
+[ 2527.512990] usb 3-2: new high-speed USB device number 81 using xhci_hcd
+[ 2527.655697] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2527.655705] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2527.655708] usb 3-2: Product: HUAWEI_MOBILE
+[ 2527.655710] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2527.655945] usb 3-2: Device is not authorized for usage
+[ 2530.132472] usb 3-2: USB disconnect, device number 81
+[ 2530.526075] usb 3-2: new high-speed USB device number 82 using xhci_hcd
+[ 2530.670316] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2530.670331] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2530.670335] usb 3-2: Product: HUAWEI_MOBILE
+[ 2530.670338] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2530.670341] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2530.670686] usb 3-2: Device is not authorized for usage
+[ 2530.673327] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2530.674192] scsi host2: usb-storage 3-2:1.0
+[ 2530.674641] usb 3-2: authorized to connect
+[ 2531.297590] usb 3-2: USB disconnect, device number 82
+[ 2531.692733] usb 3-2: new high-speed USB device number 83 using xhci_hcd
+[ 2531.837104] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2531.837119] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2531.837123] usb 3-2: Product: HUAWEI_MOBILE
+[ 2531.837126] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2531.837471] usb 3-2: Device is not authorized for usage
+[ 2534.302248] usb 3-2: USB disconnect, device number 83
+[ 2534.693122] usb 3-2: new high-speed USB device number 84 using xhci_hcd
+[ 2534.837200] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2534.837213] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2534.837217] usb 3-2: Product: HUAWEI_MOBILE
+[ 2534.837220] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2534.837223] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2534.837545] usb 3-2: Device is not authorized for usage
+[ 2534.840544] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2534.841002] scsi host2: usb-storage 3-2:1.0
+[ 2534.841240] usb 3-2: authorized to connect
+[ 2535.443525] usb 3-2: USB disconnect, device number 84
+[ 2535.839503] usb 3-2: new high-speed USB device number 85 using xhci_hcd
+[ 2535.983263] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2535.983275] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2535.983279] usb 3-2: Product: HUAWEI_MOBILE
+[ 2535.983282] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2535.983590] usb 3-2: Device is not authorized for usage
+[ 2538.452283] usb 3-2: USB disconnect, device number 85
+[ 2538.846193] usb 3-2: new high-speed USB device number 86 using xhci_hcd
+[ 2538.989451] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2538.989460] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2538.989462] usb 3-2: Product: HUAWEI_MOBILE
+[ 2538.989464] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2538.989466] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2538.989716] usb 3-2: Device is not authorized for usage
+[ 2538.992112] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2538.992516] scsi host2: usb-storage 3-2:1.0
+[ 2538.992776] usb 3-2: authorized to connect
+[ 2539.321302] usb 3-2: USB disconnect, device number 86
+[ 2539.712966] usb 3-2: new high-speed USB device number 87 using xhci_hcd
+[ 2539.856754] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2539.856768] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2539.856772] usb 3-2: Product: HUAWEI_MOBILE
+[ 2539.856775] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2539.857288] usb 3-2: Device is not authorized for usage
+[ 2542.332236] usb 3-2: USB disconnect, device number 87
+[ 2542.706288] usb 3-2: new high-speed USB device number 88 using xhci_hcd
+[ 2542.849780] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2542.849790] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2542.849792] usb 3-2: Product: HUAWEI_MOBILE
+[ 2542.849795] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2542.849796] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2542.850110] usb 3-2: Device is not authorized for usage
+[ 2542.852670] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2542.853570] scsi host2: usb-storage 3-2:1.0
+[ 2542.853952] usb 3-2: authorized to connect
+[ 2543.457455] usb 3-2: USB disconnect, device number 88
+[ 2543.852743] usb 3-2: new high-speed USB device number 89 using xhci_hcd
+[ 2543.997054] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2543.997069] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2543.997073] usb 3-2: Product: HUAWEI_MOBILE
+[ 2543.997076] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2543.997557] usb 3-2: Device is not authorized for usage
+[ 2545.453425] usb 3-2: USB disconnect, device number 89
+[ 2562.652739] usb 3-2: new high-speed USB device number 90 using xhci_hcd
+[ 2562.796461] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2562.796474] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2562.796479] usb 3-2: Product: HUAWEI_MOBILE
+[ 2562.796482] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2562.796485] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2562.796817] usb 3-2: Device is not authorized for usage
+[ 2562.799151] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2562.799885] scsi host2: usb-storage 3-2:1.0
+[ 2562.800200] usb 3-2: authorized to connect
+[ 2563.390309] usb 3-2: USB disconnect, device number 90
+[ 2563.829426] usb 3-2: new high-speed USB device number 91 using xhci_hcd
+[ 2563.973547] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2563.973561] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2563.973565] usb 3-2: Product: HUAWEI_MOBILE
+[ 2563.973569] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2563.974078] usb 3-2: Device is not authorized for usage
+[ 2566.398025] usb 3-2: USB disconnect, device number 91
+[ 2566.849504] usb 3-2: new high-speed USB device number 92 using xhci_hcd
+[ 2566.993106] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2566.993115] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2566.993118] usb 3-2: Product: HUAWEI_MOBILE
+[ 2566.993120] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2566.993122] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2566.993416] usb 3-2: Device is not authorized for usage
+[ 2566.998563] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2566.998960] scsi host2: usb-storage 3-2:1.0
+[ 2566.999234] usb 3-2: authorized to connect
+[ 2567.604516] usb 3-2: USB disconnect, device number 92
+[ 2568.056072] usb 3-2: new high-speed USB device number 93 using xhci_hcd
+[ 2568.200186] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2568.200199] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2568.200203] usb 3-2: Product: HUAWEI_MOBILE
+[ 2568.200206] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2568.200689] usb 3-2: Device is not authorized for usage
+[ 2570.607994] usb 3-2: USB disconnect, device number 93
+[ 2571.142992] usb 3-2: new high-speed USB device number 94 using xhci_hcd
+[ 2571.286276] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2571.286289] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2571.286293] usb 3-2: Product: HUAWEI_MOBILE
+[ 2571.286296] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2571.286299] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2571.286799] usb 3-2: Device is not authorized for usage
+[ 2571.289770] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2571.290306] scsi host2: usb-storage 3-2:1.0
+[ 2571.290538] usb 3-2: authorized to connect
+[ 2571.884136] usb 3-2: USB disconnect, device number 94
+[ 2572.502735] usb 3-2: new high-speed USB device number 95 using xhci_hcd
+[ 2572.645785] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2572.645797] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2572.645801] usb 3-2: Product: HUAWEI_MOBILE
+[ 2572.645804] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2572.646093] usb 3-2: Device is not authorized for usage
+[ 2574.887892] usb 3-2: USB disconnect, device number 95
+[ 2575.342863] usb 3-2: new high-speed USB device number 96 using xhci_hcd
+[ 2575.487611] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2575.487625] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2575.487629] usb 3-2: Product: HUAWEI_MOBILE
+[ 2575.487633] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2575.487635] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2575.487941] usb 3-2: Device is not authorized for usage
+[ 2575.490469] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2575.491671] scsi host2: usb-storage 3-2:1.0
+[ 2575.491930] usb 3-2: authorized to connect
+[ 2576.098596] usb 3-2: USB disconnect, device number 96
+[ 2576.646341] usb 3-2: new high-speed USB device number 97 using xhci_hcd
+[ 2576.793300] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2576.793314] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2576.793318] usb 3-2: Product: HUAWEI_MOBILE
+[ 2576.793321] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2576.793631] usb 3-2: Device is not authorized for usage
+[ 2579.107983] usb 3-2: USB disconnect, device number 97
+[ 2579.496248] usb 3-2: new high-speed USB device number 98 using xhci_hcd
+[ 2579.639796] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2579.639810] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2579.639814] usb 3-2: Product: HUAWEI_MOBILE
+[ 2579.639818] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2579.639820] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2579.640138] usb 3-2: Device is not authorized for usage
+[ 2579.642694] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2579.643369] scsi host2: usb-storage 3-2:1.0
+[ 2579.643660] usb 3-2: authorized to connect
+[ 2580.243770] usb 3-2: USB disconnect, device number 98
+[ 2580.639451] usb 3-2: new high-speed USB device number 99 using xhci_hcd
+[ 2580.782461] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2580.782473] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2580.782477] usb 3-2: Product: HUAWEI_MOBILE
+[ 2580.782480] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2580.782775] usb 3-2: Device is not authorized for usage
+[ 2583.248276] usb 3-2: USB disconnect, device number 99
+[ 2583.706068] usb 3-2: new high-speed USB device number 100 using xhci_hcd
+[ 2583.850420] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2583.850433] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2583.850437] usb 3-2: Product: HUAWEI_MOBILE
+[ 2583.850440] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2583.850443] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2583.850744] usb 3-2: Device is not authorized for usage
+[ 2583.858969] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2583.859679] scsi host2: usb-storage 3-2:1.0
+[ 2583.860066] usb 3-2: authorized to connect
+[ 2584.471248] usb 3-2: USB disconnect, device number 100
+[ 2584.862734] usb 3-2: new high-speed USB device number 101 using xhci_hcd
+[ 2585.005711] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2585.005719] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2585.005722] usb 3-2: Product: HUAWEI_MOBILE
+[ 2585.005723] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2585.005914] usb 3-2: Device is not authorized for usage
+[ 2587.478296] usb 3-2: USB disconnect, device number 101
+[ 2587.929405] usb 3-2: new high-speed USB device number 102 using xhci_hcd
+[ 2588.074013] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2588.074026] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2588.074030] usb 3-2: Product: HUAWEI_MOBILE
+[ 2588.074034] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2588.074036] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2588.074336] usb 3-2: Device is not authorized for usage
+[ 2588.077384] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2588.078190] scsi host2: usb-storage 3-2:1.0
+[ 2588.078439] usb 3-2: authorized to connect
+[ 2588.697256] usb 3-2: USB disconnect, device number 102
+[ 2589.143003] usb 3-2: new high-speed USB device number 103 using xhci_hcd
+[ 2589.288959] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2589.288968] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2589.288970] usb 3-2: Product: HUAWEI_MOBILE
+[ 2589.288972] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2589.289195] usb 3-2: Device is not authorized for usage
+[ 2591.718095] usb 3-2: USB disconnect, device number 103
+[ 2592.096074] usb 3-2: new high-speed USB device number 104 using xhci_hcd
+[ 2592.239635] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2592.239643] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2592.239646] usb 3-2: Product: HUAWEI_MOBILE
+[ 2592.239648] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2592.239650] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2592.239863] usb 3-2: Device is not authorized for usage
+[ 2592.241899] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2592.242308] scsi host2: usb-storage 3-2:1.0
+[ 2592.242435] usb 3-2: authorized to connect
+[ 2592.857692] usb 3-2: USB disconnect, device number 104
+[ 2593.253096] usb 3-2: new high-speed USB device number 105 using xhci_hcd
+[ 2593.395832] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2593.395845] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2593.395849] usb 3-2: Product: HUAWEI_MOBILE
+[ 2593.395852] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2593.396177] usb 3-2: Device is not authorized for usage
+[ 2595.868437] usb 3-2: USB disconnect, device number 105
+[ 2596.263132] usb 3-2: new high-speed USB device number 106 using xhci_hcd
+[ 2596.407347] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2596.407360] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2596.407364] usb 3-2: Product: HUAWEI_MOBILE
+[ 2596.407367] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2596.407370] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2596.407680] usb 3-2: Device is not authorized for usage
+[ 2596.410402] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2596.411324] scsi host2: usb-storage 3-2:1.0
+[ 2596.411787] usb 3-2: authorized to connect
+[ 2597.012823] usb 3-2: USB disconnect, device number 106
+[ 2597.409421] usb 3-2: new high-speed USB device number 107 using xhci_hcd
+[ 2597.553561] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2597.553575] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2597.553579] usb 3-2: Product: HUAWEI_MOBILE
+[ 2597.553582] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2597.553904] usb 3-2: Device is not authorized for usage
+[ 2599.283391] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2599.283406] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2599.612529] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2599.612541] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2600.018424] usb 3-2: USB disconnect, device number 107
+[ 2600.409411] usb 3-2: new high-speed USB device number 108 using xhci_hcd
+[ 2600.552882] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2600.552895] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2600.552899] usb 3-2: Product: HUAWEI_MOBILE
+[ 2600.552902] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2600.552905] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2600.553180] usb 3-2: Device is not authorized for usage
+[ 2600.555672] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2600.556029] scsi host2: usb-storage 3-2:1.0
+[ 2600.556202] usb 3-2: authorized to connect
+[ 2601.151038] usb 3-2: USB disconnect, device number 108
+[ 2601.539633] usb 3-2: new high-speed USB device number 109 using xhci_hcd
+[ 2601.682464] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2601.682478] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2601.682482] usb 3-2: Product: HUAWEI_MOBILE
+[ 2601.682485] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2601.682777] usb 3-2: Device is not authorized for usage
+[ 2603.293583] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2603.293597] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2603.766182] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 2603.766198] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 2604.158393] usb 3-2: USB disconnect, device number 109
+[ 2604.549424] usb 3-2: new high-speed USB device number 110 using xhci_hcd
+[ 2604.692893] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2604.692902] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2604.692905] usb 3-2: Product: HUAWEI_MOBILE
+[ 2604.692907] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2604.692908] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2604.693127] usb 3-2: Device is not authorized for usage
+[ 2604.695030] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2604.695397] scsi host2: usb-storage 3-2:1.0
+[ 2604.695528] usb 3-2: authorized to connect
+[ 2605.297593] usb 3-2: USB disconnect, device number 110
+[ 2605.693157] usb 3-2: new high-speed USB device number 111 using xhci_hcd
+[ 2605.836125] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2605.836138] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2605.836142] usb 3-2: Product: HUAWEI_MOBILE
+[ 2605.836145] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2605.836428] usb 3-2: Device is not authorized for usage
+[ 2608.308531] usb 3-2: USB disconnect, device number 111
+[ 2608.703039] usb 3-2: new high-speed USB device number 112 using xhci_hcd
+[ 2608.847134] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2608.847148] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2608.847152] usb 3-2: Product: HUAWEI_MOBILE
+[ 2608.847156] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2608.847158] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2608.847456] usb 3-2: Device is not authorized for usage
+[ 2608.850125] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2608.850941] scsi host2: usb-storage 3-2:1.0
+[ 2608.851226] usb 3-2: authorized to connect
+[ 2609.458728] usb 3-2: USB disconnect, device number 112
+[ 2609.853243] usb 3-2: new high-speed USB device number 113 using xhci_hcd
+[ 2609.996972] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2609.996986] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2609.996990] usb 3-2: Product: HUAWEI_MOBILE
+[ 2609.996993] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2609.997291] usb 3-2: Device is not authorized for usage
+[ 2612.468367] usb 3-2: USB disconnect, device number 113
+[ 2612.858395] usb 3-2: new high-speed USB device number 114 using xhci_hcd
+[ 2613.004344] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2613.004358] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2613.004361] usb 3-2: Product: HUAWEI_MOBILE
+[ 2613.004365] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2613.004368] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2613.004663] usb 3-2: Device is not authorized for usage
+[ 2613.007106] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2613.008699] scsi host2: usb-storage 3-2:1.0
+[ 2613.008922] usb 3-2: authorized to connect
+[ 2613.617158] usb 3-2: USB disconnect, device number 114
+[ 2614.006322] usb 3-2: new high-speed USB device number 115 using xhci_hcd
+[ 2614.152467] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2614.152479] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2614.152484] usb 3-2: Product: HUAWEI_MOBILE
+[ 2614.152487] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2614.152833] usb 3-2: Device is not authorized for usage
+[ 2616.628556] usb 3-2: USB disconnect, device number 115
+[ 2617.019654] usb 3-2: new high-speed USB device number 116 using xhci_hcd
+[ 2617.166563] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 2617.166577] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2617.166581] usb 3-2: Product: HUAWEI_MOBILE
+[ 2617.166584] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2617.166587] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 2617.166892] usb 3-2: Device is not authorized for usage
+[ 2617.169281] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 2617.170087] scsi host2: usb-storage 3-2:1.0
+[ 2617.170407] usb 3-2: authorized to connect
+[ 2617.790843] usb 3-2: USB disconnect, device number 116
+[ 2618.179432] usb 3-2: new high-speed USB device number 117 using xhci_hcd
+[ 2618.324024] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 2618.324038] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 2618.324043] usb 3-2: Product: HUAWEI_MOBILE
+[ 2618.324046] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 2618.324338] usb 3-2: Device is not authorized for usage
+[ 2619.032659] cdc_ether 3-2:1.0 eth0: register 'cdc_ether' at usb-0000:01:00.4-2, CDC Ethernet Device, 00:1e:10:1f:00:00
+[ 2619.033818] usb 3-2: authorized to connect
+[ 2619.094410] cdc_ether 3-2:1.0 enp1s0f4u2: renamed from eth0
+[ 2635.668508] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2636.668607] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2637.668501] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2639.888742] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2640.100276] wlp1s0f3u2: deauthenticating from d4:72:26:6c:e6:67 by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 2640.888469] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2641.888744] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2642.977896] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=20246 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2642.978418] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=20247 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2648.128578] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2649.128803] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2650.128843] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2663.988838] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2664.988736] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2665.988982] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2670.804606] usb 2-2: USB disconnect, device number 2
+[ 2670.805351] mt76x2u 2-2:1.0: error: mt76x02u_mcu_wait_resp failed with -108
+[ 2670.805503] mt76x2u 2-2:1.0: mac specific condition occurred
+[ 2694.968597] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35067 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2694.969205] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35068 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2695.693860] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2695.965362] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35268 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2695.966216] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35269 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2696.699474] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2697.683566] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2697.966449] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35270 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2697.966943] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.110 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=35271 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2728.391654] iptables deny: IN=enp1s0f4u2 OUT= MAC=00:1e:10:1f:00:00:00:10:20:30:40:50:08:00 SRC=149.154.167.51 DST=192.168.8.110 LEN=52 TOS=0x08 PREC=0x00 TTL=55 ID=39565 DF PROTO=TCP SPT=443 DPT=43166 WINDOW=846 RES=0x00 ACK URGP=0 
+[ 2728.443774] iptables deny: IN=enp1s0f4u2 OUT= MAC=00:1e:10:1f:00:00:00:10:20:30:40:50:08:00 SRC=149.154.167.51 DST=192.168.8.110 LEN=52 TOS=0x08 PREC=0x00 TTL=55 ID=39566 DF PROTO=TCP SPT=443 DPT=43166 WINDOW=846 RES=0x00 ACK URGP=0 
+[ 2728.453790] iptables deny: IN=enp1s0f4u2 OUT= MAC=00:1e:10:1f:00:00:00:10:20:30:40:50:08:00 SRC=149.154.167.51 DST=192.168.8.110 LEN=52 TOS=0x08 PREC=0x00 TTL=55 ID=39567 DF PROTO=TCP SPT=443 DPT=43166 WINDOW=846 RES=0x00 ACK FIN URGP=0 
+[ 2760.609779] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2761.593796] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2762.609844] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 2774.759055] usb 3-2: USB disconnect, device number 117
+[ 2774.759221] cdc_ether 3-2:1.0 enp1s0f4u2: unregister 'cdc_ether' usb-0000:01:00.4-2, CDC Ethernet Device
+[ 2779.999617] usb 3-2: new high-speed USB device number 118 using xhci_hcd
+[ 2780.148125] usb 3-2: New USB device found, idVendor=0bda, idProduct=8152, bcdDevice=20.00
+[ 2780.148134] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2780.148136] usb 3-2: Product: USB 10/100 LAN
+[ 2780.148138] usb 3-2: Manufacturer: Realtek
+[ 2780.148140] usb 3-2: SerialNumber: 00E04C360696
+[ 2780.148315] usb 3-2: Device is not authorized for usage
+[ 2780.182271] usb 3-2: authorized to connect
+[ 2780.356125] usb 3-2: reset high-speed USB device number 118 using xhci_hcd
+[ 2780.553299] r8152 3-2:1.0: skip request firmware
+[ 2780.593149] r8152 3-2:1.0 eth0: v1.12.11
+[ 2780.629407] r8152 3-2:1.0 enp1s0f4u2: renamed from eth0
+[ 2783.753549] IPv6: ADDRCONF(NETDEV_CHANGE): enp1s0f4u2: link becomes ready
+[ 2783.754888] r8152 3-2:1.0 enp1s0f4u2: carrier on
+[ 2797.869081] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=57464 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2797.870055] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=57465 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2798.863950] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=57554 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2798.864395] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=57555 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2800.864909] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=58054 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2800.865361] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=58055 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2825.552943] usb 1-2: new low-speed USB device number 5 using xhci_hcd
+[ 2825.707083] usb 1-2: New USB device found, idVendor=1bcf, idProduct=0005, bcdDevice= 0.90
+[ 2825.707095] usb 1-2: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[ 2825.707099] usb 1-2: Product: USB Optical Mouse
+[ 2825.707514] usb 1-2: Device is not authorized for usage
+[ 2825.727383] input: USB Optical Mouse as /devices/pci0000:00/0000:00:08.1/0000:01:00.3/usb1/1-2/1-2:1.0/0003:1BCF:0005.0003/input/input16
+[ 2825.727660] hid-generic 0003:1BCF:0005.0003: input,hidraw1: USB HID v1.10 Mouse [USB Optical Mouse] on usb-0000:01:00.3-2/input0
+[ 2825.727741] usb 1-2: authorized to connect
+[ 2918.432538] r8152 3-2:1.0 enp1s0f4u2: carrier off
+[ 2921.930850] r8152 3-2:1.0 enp1s0f4u2: carrier on
+[ 2926.448119] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18185 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2926.448664] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18186 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2927.447468] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18298 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2927.448233] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18299 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2929.449139] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18311 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2929.449969] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=18312 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2939.042781] r8152 3-2:1.0 enp1s0f4u2: carrier off
+[ 2949.100122] r8152 3-2:1.0 enp1s0f4u2: carrier on
+[ 2963.696363] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=23798 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2963.696928] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=23799 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2964.693798] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=24004 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2964.694568] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=24005 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2966.694929] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=24352 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 2966.695558] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=24353 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 3184.032606] r8152 3-2:1.0 enp1s0f4u2: carrier off
+[ 3191.959452] usb 1-2: USB disconnect, device number 5
+[ 3200.796037] usb 3-1: new high-speed USB device number 119 using xhci_hcd
+[ 3200.938639] usb 3-1: New USB device found, idVendor=1a40, idProduct=0801, bcdDevice= 1.00
+[ 3200.938653] usb 3-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[ 3200.938658] usb 3-1: Product: USB 2.0 Hub
+[ 3200.938991] usb 3-1: Device is not authorized for usage
+[ 3200.996679] hub 3-1:1.0: USB hub found
+[ 3200.997110] hub 3-1:1.0: 4 ports detected
+[ 3200.999133] usb 3-1: authorized to connect
+[ 3201.069479] usb 4-1: new SuperSpeed USB device number 2 using xhci_hcd
+[ 3201.093790] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[ 3201.093802] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 3201.093806] usb 4-1: Product: USB3.1 Hub
+[ 3201.093809] usb 4-1: Manufacturer: GenesysLogic
+[ 3201.094220] usb 4-1: Device is not authorized for usage
+[ 3201.125620] hub 4-1:1.0: USB hub found
+[ 3201.126543] hub 4-1:1.0: 4 ports detected
+[ 3201.128513] usb 4-1: authorized to connect
+[ 3201.276318] usb 3-1.2: new high-speed USB device number 120 using xhci_hcd
+[ 3201.371742] usb 3-1.2: New USB device found, idVendor=05e3, idProduct=0610, bcdDevice= 6.63
+[ 3201.371752] usb 3-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 3201.371755] usb 3-1.2: Product: USB2.1 Hub
+[ 3201.371757] usb 3-1.2: Manufacturer: GenesysLogic
+[ 3201.372086] usb 3-1.2: Device is not authorized for usage
+[ 3201.412402] hub 3-1.2:1.0: USB hub found
+[ 3201.412901] hub 3-1.2:1.0: 4 ports detected
+[ 3201.415659] usb 3-1.2: authorized to connect
+[ 3201.440085] usb 4-1.1: new SuperSpeed USB device number 3 using xhci_hcd
+[ 3201.460403] usb 4-1.1: New USB device found, idVendor=8564, idProduct=4000, bcdDevice= 0.04
+[ 3201.460415] usb 4-1.1: New USB device strings: Mfr=3, Product=4, SerialNumber=2
+[ 3201.460419] usb 4-1.1: Product: Transcend
+[ 3201.460422] usb 4-1.1: Manufacturer: TS-RDF5A
+[ 3201.460425] usb 4-1.1: SerialNumber: 000000000004
+[ 3201.460732] usb 4-1.1: Device is not authorized for usage
+[ 3201.462458] usb-storage 4-1.1:1.0: USB Mass Storage device detected
+[ 3201.462793] scsi host2: usb-storage 4-1.1:1.0
+[ 3201.462947] usb 4-1.1: authorized to connect
+[ 3201.536477] usb 4-1.2: new SuperSpeed USB device number 4 using xhci_hcd
+[ 3201.555216] usb 4-1.2: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+[ 3201.555230] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[ 3201.555234] usb 4-1.2: Product: USB 10/100/1000 LAN
+[ 3201.555237] usb 4-1.2: Manufacturer: Realtek
+[ 3201.555240] usb 4-1.2: SerialNumber: 000001
+[ 3201.555589] usb 4-1.2: Device is not authorized for usage
+[ 3201.596448] usb 4-1: USB disconnect, device number 2
+[ 3201.596460] usb 4-1.1: USB disconnect, device number 3
+[ 3201.624580] usb 4-1.2: USB disconnect, device number 4
+[ 3201.722825] usb 3-1.2.4: new low-speed USB device number 121 using xhci_hcd
+[ 3201.853148] usb 3-1.2.4: New USB device found, idVendor=1bcf, idProduct=0005, bcdDevice= 0.90
+[ 3201.853163] usb 3-1.2.4: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[ 3201.853167] usb 3-1.2.4: Product: USB Optical Mouse
+[ 3201.853641] usb 3-1.2.4: Device is not authorized for usage
+[ 3202.009489] usb 4-1: new SuperSpeed USB device number 5 using xhci_hcd
+[ 3202.038018] usb 4-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.63
+[ 3202.038031] usb 4-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 3202.038035] usb 4-1: Product: USB3.1 Hub
+[ 3202.038038] usb 4-1: Manufacturer: GenesysLogic
+[ 3202.038292] usb 4-1: Device is not authorized for usage
+[ 3202.070131] hub 4-1:1.0: USB hub found
+[ 3202.070996] hub 4-1:1.0: 4 ports detected
+[ 3202.073323] usb 4-1: authorized to connect
+[ 3202.356705] usb 4-1.1: new SuperSpeed USB device number 6 using xhci_hcd
+[ 3202.378782] usb 4-1.1: New USB device found, idVendor=8564, idProduct=4000, bcdDevice= 0.04
+[ 3202.378795] usb 4-1.1: New USB device strings: Mfr=3, Product=4, SerialNumber=2
+[ 3202.378799] usb 4-1.1: Product: Transcend
+[ 3202.378802] usb 4-1.1: Manufacturer: TS-RDF5A
+[ 3202.378805] usb 4-1.1: SerialNumber: 000000000004
+[ 3202.379129] usb 4-1.1: Device is not authorized for usage
+[ 3202.380765] usb-storage 4-1.1:1.0: USB Mass Storage device detected
+[ 3202.381500] scsi host2: usb-storage 4-1.1:1.0
+[ 3202.381789] usb 4-1.1: authorized to connect
+[ 3202.459498] usb 4-1.2: new SuperSpeed USB device number 7 using xhci_hcd
+[ 3202.476726] usb 4-1.2: New USB device found, idVendor=0bda, idProduct=8153, bcdDevice=30.00
+[ 3202.476735] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[ 3202.476738] usb 4-1.2: Product: USB 10/100/1000 LAN
+[ 3202.476740] usb 4-1.2: Manufacturer: Realtek
+[ 3202.476741] usb 4-1.2: SerialNumber: 000001
+[ 3202.476920] usb 4-1.2: Device is not authorized for usage
+[ 3202.692675] usb 3-1.1: new full-speed USB device number 122 using xhci_hcd
+[ 3202.842031] usb 3-1.1: not running at top speed; connect to a high speed hub
+[ 3202.894073] usb 3-1.1: New USB device found, idVendor=25a4, idProduct=9311, bcdDevice= 2.01
+[ 3202.894086] usb 3-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 3202.894090] usb 3-1.1: Product: USB C Video Adaptor      
+[ 3202.894093] usb 3-1.1: Manufacturer: USB C  
+[ 3202.894095] usb 3-1.1: SerialNumber: 000000000001
+[ 3202.894323] usb 3-1.1: Device is not authorized for usage
+[ 3202.918142] usb 3-1.1: authorized to connect
+[ 3203.408314] scsi 2:0:0:0: Direct-Access     TS-RDF5A Transcend        0004 PQ: 0 ANSI: 6
+[ 3203.648027] sd 2:0:0:0: [sdb] 60456960 512-byte logical blocks: (31.0 GB/28.8 GiB)
+[ 3203.649045] sd 2:0:0:0: [sdb] Write Protect is off
+[ 3203.649049] sd 2:0:0:0: [sdb] Mode Sense: 21 00 00 00
+[ 3203.650316] sd 2:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 3203.657642]  sdb: sdb1 sdb2
+[ 3203.661302] sd 2:0:0:0: [sdb] Attached SCSI removable disk
+[ 3210.885104] usb 4-1.2: USB disconnect, device number 7
+[ 3213.172889] usb 4-1.2: new SuperSpeed USB device number 8 using xhci_hcd
+[ 3213.190263] usb 4-1.2: New USB device found, idVendor=0bda, idProduct=8151, bcdDevice=30.00
+[ 3213.190274] usb 4-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=6
+[ 3213.190278] usb 4-1.2: Product: USB 10/100/1000 LAN
+[ 3213.190281] usb 4-1.2: Manufacturer: Realtek
+[ 3213.190283] usb 4-1.2: SerialNumber: 000001
+[ 3213.190482] usb 4-1.2: Device is not authorized for usage
+[ 3213.191943] usb-storage 4-1.2:1.0: USB Mass Storage device detected
+[ 3213.192394] scsi host3: usb-storage 4-1.2:1.0
+[ 3213.192623] usb 4-1.2: authorized to connect
+[ 3213.221525] usb 3-1.2.4: USB disconnect, device number 121
+[ 3214.203831] scsi 3:0:0:0: CD-ROM            Realtek  USB CD-ROM       2.00 PQ: 0 ANSI: 0
+[ 3214.231192] sr 3:0:0:0: [sr0] scsi-1 drive
+[ 3214.231198] cdrom: Uniform CD-ROM driver Revision: 3.20
+[ 3214.232513] sr 3:0:0:0: Attached scsi CD-ROM sr0
+[ 3217.299517] usb 3-1.2.3: new low-speed USB device number 123 using xhci_hcd
+[ 3217.426098] usb 3-1.2.3: New USB device found, idVendor=1bcf, idProduct=0005, bcdDevice= 0.90
+[ 3217.426109] usb 3-1.2.3: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[ 3217.426113] usb 3-1.2.3: Product: USB Optical Mouse
+[ 3217.426524] usb 3-1.2.3: Device is not authorized for usage
+[ 3217.485438] input: USB Optical Mouse as /devices/pci0000:00/0000:00:08.1/0000:01:00.4/usb3/3-1/3-1.2/3-1.2.3/3-1.2.3:1.0/0003:1BCF:0005.0004/input/input17
+[ 3217.485730] hid-generic 0003:1BCF:0005.0004: input,hidraw1: USB HID v1.10 Mouse [USB Optical Mouse] on usb-0000:01:00.4-1.2.3/input0
+[ 3217.485761] usb 3-1.2.3: authorized to connect
+[ 3220.656522] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 3220.656532] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 3222.037514] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 3222.037529] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 4421.419876] r8152 3-2:1.0 enp1s0f4u2: carrier on
+[ 4427.752350] usb 3-2: USB disconnect, device number 118
+[ 4428.072541] usb 3-2: new high-speed USB device number 124 using xhci_hcd
+[ 4446.305895] usb 3-2: new high-speed USB device number 125 using xhci_hcd
+[ 4446.453252] usb 3-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 4446.453263] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4446.453267] usb 3-2: Product: HUAWEI_MOBILE
+[ 4446.453270] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 4446.453272] usb 3-2: SerialNumber: 0123456789ABCDEF
+[ 4446.453486] usb 3-2: Device is not authorized for usage
+[ 4446.456008] usb-storage 3-2:1.0: USB Mass Storage device detected
+[ 4446.456557] scsi host4: usb-storage 3-2:1.0
+[ 4446.456796] usb 3-2: authorized to connect
+[ 4447.021667] usb 3-2: USB disconnect, device number 125
+[ 4447.509390] usb 3-2: new high-speed USB device number 126 using xhci_hcd
+[ 4447.653205] usb 3-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 4447.653216] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 4447.653220] usb 3-2: Product: HUAWEI_MOBILE
+[ 4447.653222] usb 3-2: Manufacturer: HUAWEI_MOBILE
+[ 4447.653481] usb 3-2: Device is not authorized for usage
+[ 4447.787556] cdc_ether 3-2:1.0 eth0: register 'cdc_ether' at usb-0000:01:00.4-2, CDC Ethernet Device, 00:1e:10:1f:00:00
+[ 4447.788141] usb 3-2: authorized to connect
+[ 4447.798532] cdc_ether 3-2:1.0 enp1s0f4u2: renamed from eth0
+[ 4457.969250] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4458.966859] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4459.969154] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4462.089637] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4463.089176] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4463.587262] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=55 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4463.587921] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=56 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4464.089364] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4464.577344] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=331 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4464.577584] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=332 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4466.578371] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=675 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4466.578813] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.8.113 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=676 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 4469.979661] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4470.979554] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4470.979606] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:00:00:00:01:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=96 TC=0 HOPLIMIT=255 FLOWLBL=666984 PROTO=ICMPv6 TYPE=134 CODE=0 
+[ 4471.979258] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4485.559653] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4486.559400] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4487.559542] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4516.319795] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4517.319768] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4518.319745] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4580.070380] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4581.070408] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4582.070406] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4712.121769] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4713.121915] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4714.121814] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4864.183625] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:00:00:00:01:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=96 TC=0 HOPLIMIT=255 FLOWLBL=666984 PROTO=ICMPv6 TYPE=134 CODE=0 
+[ 4985.614494] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4986.614845] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 4987.614523] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:ff:4d:11:c9:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4d:11c9 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5215.717300] ip6tables reject: IN=enp1s0f4u2 OUT= MAC=33:33:00:00:00:01:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0000:0000:0001 LEN=96 TC=0 HOPLIMIT=255 FLOWLBL=666984 PROTO=ICMPv6 TYPE=134 CODE=0 
+[ 5314.434132] usb 3-2: USB disconnect, device number 126
+[ 5314.434228] cdc_ether 3-2:1.0 enp1s0f4u2: unregister 'cdc_ether' usb-0000:01:00.4-2, CDC Ethernet Device
+[ 5323.319136] usb 3-2: new high-speed USB device number 127 using xhci_hcd
+[ 5323.468293] usb 3-2: New USB device found, idVendor=0bda, idProduct=8152, bcdDevice=20.00
+[ 5323.468304] usb 3-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5323.468308] usb 3-2: Product: USB 10/100 LAN
+[ 5323.468311] usb 3-2: Manufacturer: Realtek
+[ 5323.468313] usb 3-2: SerialNumber: 00E04C360696
+[ 5323.468567] usb 3-2: Device is not authorized for usage
+[ 5323.526502] usb 3-2: authorized to connect
+[ 5323.748588] usb 3-2: reset high-speed USB device number 127 using xhci_hcd
+[ 5323.946613] r8152 3-2:1.0: skip request firmware
+[ 5323.989334] r8152 3-2:1.0 eth0: v1.12.11
+[ 5324.008910] r8152 3-2:1.0 enp1s0f4u2: renamed from eth0
+[ 5325.898995] IPv6: ADDRCONF(NETDEV_CHANGE): enp1s0f4u2: link becomes ready
+[ 5325.900331] r8152 3-2:1.0 enp1s0f4u2: carrier on
+[ 5340.795704] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=64938 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5340.796169] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=64939 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5341.795314] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=65217 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5341.796022] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=65218 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5343.796150] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=65410 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5343.796760] iptables reject: IN=enp1s0f4u2 OUT= MAC= SRC=192.168.88.247 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=65411 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5660.922443] usb 1-2: new high-speed USB device number 6 using xhci_hcd
+[ 5661.066532] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5661.066543] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5661.066546] usb 1-2: Product: HUAWEI_MOBILE
+[ 5661.066549] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5661.066552] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5661.066911] usb 1-2: Device is not authorized for usage
+[ 5670.502881] usb 1-2: USB disconnect, device number 6
+[ 5670.995967] usb 1-2: new high-speed USB device number 7 using xhci_hcd
+[ 5671.140262] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5671.140273] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5671.140277] usb 1-2: Product: HUAWEI_MOBILE
+[ 5671.140280] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5671.140282] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5671.140621] usb 1-2: Device is not authorized for usage
+[ 5698.432796] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5698.432808] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5698.867206] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5698.867221] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5716.253151] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5716.253370] scsi host4: usb-storage 1-2:1.0
+[ 5716.253464] usb 1-2: authorized to connect
+[ 5716.837191] usb 1-2: USB disconnect, device number 7
+[ 5717.285782] usb 1-2: new high-speed USB device number 8 using xhci_hcd
+[ 5717.433111] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5717.433122] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5717.433126] usb 1-2: Product: HUAWEI_MOBILE
+[ 5717.433129] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5717.433448] usb 1-2: Device is not authorized for usage
+[ 5719.843361] usb 1-2: USB disconnect, device number 8
+[ 5720.569301] usb 1-2: new high-speed USB device number 9 using xhci_hcd
+[ 5720.713195] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5720.713205] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5720.713209] usb 1-2: Product: HUAWEI_MOBILE
+[ 5720.713211] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5720.713214] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5720.713452] usb 1-2: Device is not authorized for usage
+[ 5720.715519] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5720.716317] scsi host4: usb-storage 1-2:1.0
+[ 5720.716568] usb 1-2: authorized to connect
+[ 5721.296913] usb 1-2: USB disconnect, device number 9
+[ 5721.985747] usb 1-2: new high-speed USB device number 10 using xhci_hcd
+[ 5722.133201] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5722.133212] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5722.133216] usb 1-2: Product: HUAWEI_MOBILE
+[ 5722.133218] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5722.133541] usb 1-2: Device is not authorized for usage
+[ 5724.303232] usb 1-2: USB disconnect, device number 10
+[ 5724.969329] usb 1-2: new high-speed USB device number 11 using xhci_hcd
+[ 5725.113255] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5725.113266] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5725.113270] usb 1-2: Product: HUAWEI_MOBILE
+[ 5725.113273] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5725.113275] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5725.113606] usb 1-2: Device is not authorized for usage
+[ 5725.115655] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5725.116386] scsi host4: usb-storage 1-2:1.0
+[ 5725.116679] usb 1-2: authorized to connect
+[ 5725.697159] usb 1-2: USB disconnect, device number 11
+[ 5726.142417] usb 1-2: new high-speed USB device number 12 using xhci_hcd
+[ 5726.289621] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5726.289632] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5726.289635] usb 1-2: Product: HUAWEI_MOBILE
+[ 5726.289638] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5726.289966] usb 1-2: Device is not authorized for usage
+[ 5728.703620] usb 1-2: USB disconnect, device number 12
+[ 5729.175797] usb 1-2: new high-speed USB device number 13 using xhci_hcd
+[ 5729.320096] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5729.320107] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5729.320111] usb 1-2: Product: HUAWEI_MOBILE
+[ 5729.320114] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5729.320117] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5729.320452] usb 1-2: Device is not authorized for usage
+[ 5729.322881] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5729.323604] scsi host4: usb-storage 1-2:1.0
+[ 5729.323891] usb 1-2: authorized to connect
+[ 5729.923723] usb 1-2: USB disconnect, device number 13
+[ 5730.306029] usb 1-2: new high-speed USB device number 14 using xhci_hcd
+[ 5730.449128] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5730.449139] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5730.449143] usb 1-2: Product: HUAWEI_MOBILE
+[ 5730.449146] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5730.449404] usb 1-2: Device is not authorized for usage
+[ 5732.933450] usb 1-2: USB disconnect, device number 14
+[ 5733.325960] usb 1-2: new high-speed USB device number 15 using xhci_hcd
+[ 5733.469877] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5733.469887] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5733.469891] usb 1-2: Product: HUAWEI_MOBILE
+[ 5733.469894] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5733.469896] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5733.470166] usb 1-2: Device is not authorized for usage
+[ 5733.472268] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5733.472814] scsi host4: usb-storage 1-2:1.0
+[ 5733.473041] usb 1-2: authorized to connect
+[ 5734.047071] usb 1-2: USB disconnect, device number 15
+[ 5734.442453] usb 1-2: new high-speed USB device number 16 using xhci_hcd
+[ 5734.586664] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5734.586675] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5734.586679] usb 1-2: Product: HUAWEI_MOBILE
+[ 5734.586682] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5734.586885] usb 1-2: Device is not authorized for usage
+[ 5737.053532] usb 1-2: USB disconnect, device number 16
+[ 5737.429117] usb 1-2: new high-speed USB device number 17 using xhci_hcd
+[ 5737.573074] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5737.573085] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5737.573089] usb 1-2: Product: HUAWEI_MOBILE
+[ 5737.573091] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5737.573094] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5737.573291] usb 1-2: Device is not authorized for usage
+[ 5737.575309] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5737.575649] scsi host4: usb-storage 1-2:1.0
+[ 5737.575859] usb 1-2: authorized to connect
+[ 5738.166394] usb 1-2: USB disconnect, device number 17
+[ 5738.555743] usb 1-2: new high-speed USB device number 18 using xhci_hcd
+[ 5738.699253] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5738.699264] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5738.699268] usb 1-2: Product: HUAWEI_MOBILE
+[ 5738.699270] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5738.699467] usb 1-2: Device is not authorized for usage
+[ 5741.173661] usb 1-2: USB disconnect, device number 18
+[ 5741.562953] usb 1-2: new high-speed USB device number 19 using xhci_hcd
+[ 5741.706383] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5741.706394] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5741.706397] usb 1-2: Product: HUAWEI_MOBILE
+[ 5741.706400] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5741.706403] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5741.706611] usb 1-2: Device is not authorized for usage
+[ 5741.708901] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5741.709339] scsi host4: usb-storage 1-2:1.0
+[ 5741.709626] usb 1-2: authorized to connect
+[ 5742.310927] usb 1-2: USB disconnect, device number 19
+[ 5742.712628] usb 1-2: new high-speed USB device number 20 using xhci_hcd
+[ 5742.859504] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5742.859515] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5742.859519] usb 1-2: Product: HUAWEI_MOBILE
+[ 5742.859522] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5742.859728] usb 1-2: Device is not authorized for usage
+[ 5745.313452] usb 1-2: USB disconnect, device number 20
+[ 5745.709306] usb 1-2: new high-speed USB device number 21 using xhci_hcd
+[ 5745.852464] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5745.852475] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5745.852479] usb 1-2: Product: HUAWEI_MOBILE
+[ 5745.852482] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5745.852484] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5745.852679] usb 1-2: Device is not authorized for usage
+[ 5745.854628] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5745.854999] scsi host4: usb-storage 1-2:1.0
+[ 5745.855166] usb 1-2: authorized to connect
+[ 5746.450030] usb 1-2: USB disconnect, device number 21
+[ 5746.845873] usb 1-2: new high-speed USB device number 22 using xhci_hcd
+[ 5746.988708] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5746.988716] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5746.988719] usb 1-2: Product: HUAWEI_MOBILE
+[ 5746.988721] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5746.988886] usb 1-2: Device is not authorized for usage
+[ 5749.453837] usb 1-2: USB disconnect, device number 22
+[ 5749.845930] usb 1-2: new high-speed USB device number 23 using xhci_hcd
+[ 5749.989476] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5749.989487] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5749.989491] usb 1-2: Product: HUAWEI_MOBILE
+[ 5749.989494] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5749.989496] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5749.989746] usb 1-2: Device is not authorized for usage
+[ 5749.991902] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5749.992195] scsi host4: usb-storage 1-2:1.0
+[ 5749.992353] usb 1-2: authorized to connect
+[ 5750.578052] usb 1-2: USB disconnect, device number 23
+[ 5750.965928] usb 1-2: new high-speed USB device number 24 using xhci_hcd
+[ 5751.109460] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5751.109471] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5751.109474] usb 1-2: Product: HUAWEI_MOBILE
+[ 5751.109477] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5751.109814] usb 1-2: Device is not authorized for usage
+[ 5753.583845] usb 1-2: USB disconnect, device number 24
+[ 5753.979110] usb 1-2: new high-speed USB device number 25 using xhci_hcd
+[ 5754.122972] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5754.122983] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5754.122987] usb 1-2: Product: HUAWEI_MOBILE
+[ 5754.122990] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5754.122993] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5754.123333] usb 1-2: Device is not authorized for usage
+[ 5754.125526] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5754.126173] scsi host4: usb-storage 1-2:1.0
+[ 5754.126490] usb 1-2: authorized to connect
+[ 5754.705704] usb 1-2: USB disconnect, device number 25
+[ 5755.102412] usb 1-2: new high-speed USB device number 26 using xhci_hcd
+[ 5755.245704] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5755.245738] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5755.245742] usb 1-2: Product: HUAWEI_MOBILE
+[ 5755.245745] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5755.245997] usb 1-2: Device is not authorized for usage
+[ 5757.713708] usb 1-2: USB disconnect, device number 26
+[ 5758.102515] usb 1-2: new high-speed USB device number 27 using xhci_hcd
+[ 5758.246353] usb 1-2: New USB device found, idVendor=12d1, idProduct=1f01, bcdDevice= 1.02
+[ 5758.246364] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5758.246368] usb 1-2: Product: HUAWEI_MOBILE
+[ 5758.246371] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5758.246373] usb 1-2: SerialNumber: 0123456789ABCDEF
+[ 5758.246699] usb 1-2: Device is not authorized for usage
+[ 5758.248974] usb-storage 1-2:1.0: USB Mass Storage device detected
+[ 5758.249667] scsi host4: usb-storage 1-2:1.0
+[ 5758.249854] usb 1-2: authorized to connect
+[ 5758.830307] usb 1-2: USB disconnect, device number 27
+[ 5759.229096] usb 1-2: new high-speed USB device number 28 using xhci_hcd
+[ 5759.372073] usb 1-2: New USB device found, idVendor=12d1, idProduct=14db, bcdDevice= 1.02
+[ 5759.372081] usb 1-2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[ 5759.372084] usb 1-2: Product: HUAWEI_MOBILE
+[ 5759.372086] usb 1-2: Manufacturer: HUAWEI_MOBILE
+[ 5759.372257] usb 1-2: Device is not authorized for usage
+[ 5761.384636] cdc_ether 1-2:1.0 eth0: register 'cdc_ether' at usb-0000:01:00.3-2, CDC Ethernet Device, 00:1e:10:1f:00:00
+[ 5761.385133] usb 1-2: authorized to connect
+[ 5761.386129] cdc_ether 1-2:1.0 enp1s0f3u2: renamed from eth0
+[ 5807.933924] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5808.934096] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5809.632491] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39585 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5809.633274] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39586 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5809.943947] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5812.104093] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5812.947541] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39615 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5812.947950] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39616 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5813.094317] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5813.948672] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39868 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5813.949217] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39869 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5814.094265] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5815.950191] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39969 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5815.950833] iptables reject: IN=enp1s0f3u2 OUT= MAC= SRC=192.168.8.115 DST=224.0.0.251 LEN=68 TOS=0x00 PREC=0x00 TTL=1 ID=39970 DF PROTO=UDP SPT=5353 DPT=5353 LEN=48 
+[ 5820.234034] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5821.234069] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5822.232577] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5836.594373] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5837.594393] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5838.594187] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5870.414451] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5871.414555] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5872.414573] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5939.056233] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5940.065223] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+[ 5941.053471] ip6tables reject: IN=enp1s0f3u2 OUT= MAC=33:33:ff:4e:53:27:00:10:20:30:40:50:86:dd SRC=fe80:0000:0000:0000:0210:20ff:fe30:4050 DST=ff02:0000:0000:0000:0000:0001:ff4e:5327 LEN=72 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 

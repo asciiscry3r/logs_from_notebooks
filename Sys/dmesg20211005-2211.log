@@ -1,0 +1,2327 @@
+[    0.000000] Linux version 5.14.9-AMD (max@mksredmibook) (gcc (GCC) 11.1.0, GNU ld (GNU Binutils) 2.36.1) #2 SMP PREEMPT Thu Sep 30 22:26:22 EEST 2021
+[    0.000000] Command line: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd root=UUID=60699b1d-4878-4c7a-9ce1-e6cca69ee26a rw rootflags=subvol=@ quiet cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b root=/dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b apparmor=1 security=apparmor resume=UUID=151d3cac-f952-4e01-9ecf-9b1a98b0597a udev.log_priority=3 lsm=landlock,lockdown,yama,apparmor,bpf amdgpu.audio=0 amdgpu.noretry=0 pci=nocrs mem_encrypt=on transparent_hugepage=madvise
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   AMD AuthenticAMD
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+[    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+[    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'compacted' format.
+[    0.000000] signal: max sigframe size: 1776
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009efff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009f000-0x00000000000bffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000009afffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009b00000-0x0000000009dfffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000009e00000-0x0000000009efffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000009f00000-0x0000000009f0ffff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x0000000009f10000-0x00000000bab68fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000bab69000-0x00000000bbd68fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000bbd69000-0x00000000c9f7efff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000c9f7f000-0x00000000caf7efff] type 20
+[    0.000000] BIOS-e820: [mem 0x00000000caf7f000-0x00000000ccf7efff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ccf7f000-0x00000000cdf7efff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000cdf7f000-0x00000000cdffefff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000cdfff000-0x00000000cdffffff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000ce000000-0x00000000ceffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fde00000-0x00000000fdefffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec10000-0x00000000fec10fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec20000-0x00000000fec20fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed80000-0x00000000fed80fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000fff2ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000040f33ffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000040f340000-0x000000042fffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] efi: EFI v2.70 by INSYDE Corp.
+[    0.000000] efi: ACPI=0xcdffe000 ACPI 2.0=0xcdffe014 TPMFinalLog=0xcdf2c000 SMBIOS=0xcb70c000 SMBIOS 3.0=0xcb70a000 ESRT=0xcb70d418 
+[    0.000000] SMBIOS 3.2.0 present.
+[    0.000000] DMI: TIMI RedmiBook 14 II/TM1951, BIOS RMARN4B0P0909 08/19/2020
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2370.712 MHz processor
+[    0.000544] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000546] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000551] last_pfn = 0x40f340 max_arch_pfn = 0x400000000
+[    0.000736] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+[    0.000963] last_pfn = 0xce000 max_arch_pfn = 0x400000000
+[    0.010439] esrt: Reserving ESRT space from 0x00000000cb70d418 to 0x00000000cb70d450.
+[    0.010448] Using GB pages for direct mapping
+[    0.010729] Secure boot disabled
+[    0.010729] RAMDISK: [mem 0x35b61000-0x36da7fff]
+[    0.010734] ACPI: Early table checksum verification disabled
+[    0.010737] ACPI: RSDP 0x00000000CDFFE014 000024 (v02 XMCC  )
+[    0.010741] ACPI: XSDT 0x00000000CDFCE188 000134 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010745] ACPI: FACP 0x00000000CDFEC000 00010C (v05 XMCC   XMCC1951 00000002      01000013)
+[    0.010749] ACPI: DSDT 0x00000000CDFDF000 006545 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010752] ACPI: FACS 0x00000000CDF29000 000040
+[    0.010753] ACPI: UEFI 0x00000000CDF7E000 000236 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010756] ACPI: SSDT 0x00000000CDFF5000 007216 (v02 AMD    AmdTable 00000002 MSFT 04000000)
+[    0.010758] ACPI: IVRS 0x00000000CDFF4000 0001A4 (v02 AMD    AmdTable 00000001 AMD  00000000)
+[    0.010760] ACPI: SSDT 0x00000000CDFF3000 000228 (v01 AMD    STD3     00000001 INTL 20130117)
+[    0.010762] ACPI: SSDT 0x00000000CDFF2000 000D61 (v01 XMCC   XMCC1806 00003000 INTL 20130117)
+[    0.010765] ACPI: SSDT 0x00000000CDFF1000 00046D (v01 Insyde TPMACPI  00001000 INTL 20130117)
+[    0.010767] ACPI: TPM2 0x00000000CDFF0000 000034 (v04 XMCC   XMCC1951 00000002      01000013)
+[    0.010769] ACPI: MSDM 0x00000000CDFEF000 000055 (v03 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010771] ACPI: ASF! 0x00000000CDFEE000 0000A5 (v32 XMCC   XMCC1951 00000002      01000013)
+[    0.010773] ACPI: BOOT 0x00000000CDFED000 000028 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010775] ACPI: HPET 0x00000000CDFEB000 000038 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010777] ACPI: APIC 0x00000000CDFEA000 000138 (v03 XMCC   XMCC1951 00000002      01000013)
+[    0.010780] ACPI: MCFG 0x00000000CDFE9000 00003C (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010782] ACPI: SLIC 0x00000000CDFE8000 000176 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010784] ACPI: SSDT 0x00000000CDFDE000 000080 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010786] ACPI: VFCT 0x00000000CDFD0000 00D484 (v01 XMCC   XMCC1951 00000001 AMD  31504F47)
+[    0.010788] ACPI: SSDT 0x00000000CDFCF000 0000F8 (v01 XMCC   PcdTabl  00001000 INTL 20130117)
+[    0.010790] ACPI: SSDT 0x00000000CDFCC000 001500 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010792] ACPI: CRAT 0x00000000CDFFD000 000BA8 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010794] ACPI: CDIT 0x00000000CDFCB000 000029 (v01 AMD    AmdTable 00000001 AMD  00000001)
+[    0.010796] ACPI: SSDT 0x00000000CDFCA000 00028D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010799] ACPI: SSDT 0x00000000CDFC9000 000C78 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010801] ACPI: SSDT 0x00000000CDFC7000 0010A5 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010803] ACPI: SSDT 0x00000000CDFC3000 0030C8 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010805] ACPI: FPDT 0x00000000CDFC2000 000044 (v01 XMCC   XMCC1951 00000002      01000013)
+[    0.010807] ACPI: WSMT 0x00000000CDFC0000 000028 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010809] ACPI: SSDT 0x00000000CDFE7000 00020A (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010811] ACPI: SSDT 0x00000000CDFE6000 0005A1 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010813] ACPI: SSDT 0x00000000CDFBF000 000343 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010815] ACPI: SSDT 0x00000000CDFBE000 00007D (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010817] ACPI: SSDT 0x00000000CDFBD000 000822 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010819] ACPI: SSDT 0x00000000CDFBC000 000517 (v01 AMD    AmdTable 00000001 INTL 20130117)
+[    0.010821] ACPI: BGRT 0x00000000CDFC1000 000038 (v01 INSYDE H2O BIOS 00000001 ACPI 00040000)
+[    0.010823] ACPI: Reserving FACP table memory at [mem 0xcdfec000-0xcdfec10b]
+[    0.010825] ACPI: Reserving DSDT table memory at [mem 0xcdfdf000-0xcdfe5544]
+[    0.010825] ACPI: Reserving FACS table memory at [mem 0xcdf29000-0xcdf2903f]
+[    0.010826] ACPI: Reserving UEFI table memory at [mem 0xcdf7e000-0xcdf7e235]
+[    0.010827] ACPI: Reserving SSDT table memory at [mem 0xcdff5000-0xcdffc215]
+[    0.010828] ACPI: Reserving IVRS table memory at [mem 0xcdff4000-0xcdff41a3]
+[    0.010828] ACPI: Reserving SSDT table memory at [mem 0xcdff3000-0xcdff3227]
+[    0.010829] ACPI: Reserving SSDT table memory at [mem 0xcdff2000-0xcdff2d60]
+[    0.010830] ACPI: Reserving SSDT table memory at [mem 0xcdff1000-0xcdff146c]
+[    0.010831] ACPI: Reserving TPM2 table memory at [mem 0xcdff0000-0xcdff0033]
+[    0.010831] ACPI: Reserving MSDM table memory at [mem 0xcdfef000-0xcdfef054]
+[    0.010832] ACPI: Reserving ASF! table memory at [mem 0xcdfee000-0xcdfee0a4]
+[    0.010833] ACPI: Reserving BOOT table memory at [mem 0xcdfed000-0xcdfed027]
+[    0.010833] ACPI: Reserving HPET table memory at [mem 0xcdfeb000-0xcdfeb037]
+[    0.010834] ACPI: Reserving APIC table memory at [mem 0xcdfea000-0xcdfea137]
+[    0.010835] ACPI: Reserving MCFG table memory at [mem 0xcdfe9000-0xcdfe903b]
+[    0.010836] ACPI: Reserving SLIC table memory at [mem 0xcdfe8000-0xcdfe8175]
+[    0.010836] ACPI: Reserving SSDT table memory at [mem 0xcdfde000-0xcdfde07f]
+[    0.010837] ACPI: Reserving VFCT table memory at [mem 0xcdfd0000-0xcdfdd483]
+[    0.010838] ACPI: Reserving SSDT table memory at [mem 0xcdfcf000-0xcdfcf0f7]
+[    0.010839] ACPI: Reserving SSDT table memory at [mem 0xcdfcc000-0xcdfcd4ff]
+[    0.010839] ACPI: Reserving CRAT table memory at [mem 0xcdffd000-0xcdffdba7]
+[    0.010840] ACPI: Reserving CDIT table memory at [mem 0xcdfcb000-0xcdfcb028]
+[    0.010841] ACPI: Reserving SSDT table memory at [mem 0xcdfca000-0xcdfca28c]
+[    0.010842] ACPI: Reserving SSDT table memory at [mem 0xcdfc9000-0xcdfc9c77]
+[    0.010842] ACPI: Reserving SSDT table memory at [mem 0xcdfc7000-0xcdfc80a4]
+[    0.010843] ACPI: Reserving SSDT table memory at [mem 0xcdfc3000-0xcdfc60c7]
+[    0.010844] ACPI: Reserving FPDT table memory at [mem 0xcdfc2000-0xcdfc2043]
+[    0.010845] ACPI: Reserving WSMT table memory at [mem 0xcdfc0000-0xcdfc0027]
+[    0.010845] ACPI: Reserving SSDT table memory at [mem 0xcdfe7000-0xcdfe7209]
+[    0.010846] ACPI: Reserving SSDT table memory at [mem 0xcdfe6000-0xcdfe65a0]
+[    0.010847] ACPI: Reserving SSDT table memory at [mem 0xcdfbf000-0xcdfbf342]
+[    0.010848] ACPI: Reserving SSDT table memory at [mem 0xcdfbe000-0xcdfbe07c]
+[    0.010849] ACPI: Reserving SSDT table memory at [mem 0xcdfbd000-0xcdfbd821]
+[    0.010849] ACPI: Reserving SSDT table memory at [mem 0xcdfbc000-0xcdfbc516]
+[    0.010850] ACPI: Reserving BGRT table memory at [mem 0xcdfc1000-0xcdfc1037]
+[    0.010871] No NUMA configuration found
+[    0.010871] Faking a node at [mem 0x0000000000000000-0x000000040f33ffff]
+[    0.010875] NODE_DATA(0) allocated [mem 0x40f33c000-0x40f33ffff]
+[    0.010898] Zone ranges:
+[    0.010898]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.010900]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.010901]   Normal   [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.010902]   Device   empty
+[    0.010903] Movable zone start for each node
+[    0.010904] Early memory node ranges
+[    0.010904]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.010905]   node   0: [mem 0x0000000000100000-0x0000000009afffff]
+[    0.010906]   node   0: [mem 0x0000000009e00000-0x0000000009efffff]
+[    0.010907]   node   0: [mem 0x0000000009f10000-0x00000000bab68fff]
+[    0.010908]   node   0: [mem 0x00000000bbd69000-0x00000000c9f7efff]
+[    0.010908]   node   0: [mem 0x00000000cdfff000-0x00000000cdffffff]
+[    0.010909]   node   0: [mem 0x0000000100000000-0x000000040f33ffff]
+[    0.010911] Initmem setup node 0 [mem 0x0000000000001000-0x000000040f33ffff]
+[    0.010914] On node 0, zone DMA: 1 pages in unavailable ranges
+[    0.010930] On node 0, zone DMA: 97 pages in unavailable ranges
+[    0.011073] On node 0, zone DMA32: 768 pages in unavailable ranges
+[    0.016253] On node 0, zone DMA32: 16 pages in unavailable ranges
+[    0.016714] On node 0, zone DMA32: 4608 pages in unavailable ranges
+[    0.016841] On node 0, zone DMA32: 16512 pages in unavailable ranges
+[    0.040231] On node 0, zone Normal: 8192 pages in unavailable ranges
+[    0.040262] On node 0, zone Normal: 3264 pages in unavailable ranges
+[    0.040412] ACPI: PM-Timer IO Port: 0x408
+[    0.040418] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[    0.040419] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[    0.040420] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[    0.040421] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[    0.040421] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[    0.040422] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[    0.040423] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[    0.040423] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[    0.040424] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[    0.040425] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[    0.040425] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[    0.040426] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[    0.040426] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[    0.040427] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[    0.040428] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[    0.040428] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[    0.040440] IOAPIC[0]: apic_id 33, version 33, address 0xfec00000, GSI 0-23
+[    0.040446] IOAPIC[1]: apic_id 34, version 33, address 0xfec01000, GSI 24-55
+[    0.040447] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.040449] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.040451] ACPI: Using ACPI (MADT) for SMP configuration information
+[    0.040452] ACPI: HPET id: 0x10228210 base: 0xfed00000
+[    0.040461] e820: update [mem 0xb3647000-0xb364cfff] usable ==> reserved
+[    0.040470] smpboot: Allowing 16 CPUs, 10 hotplug CPUs
+[    0.040494] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.040496] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x000bffff]
+[    0.040497] PM: hibernation: Registered nosave memory: [mem 0x000c0000-0x000fffff]
+[    0.040498] PM: hibernation: Registered nosave memory: [mem 0x09b00000-0x09dfffff]
+[    0.040500] PM: hibernation: Registered nosave memory: [mem 0x09f00000-0x09f0ffff]
+[    0.040501] PM: hibernation: Registered nosave memory: [mem 0xb3647000-0xb364cfff]
+[    0.040503] PM: hibernation: Registered nosave memory: [mem 0xbab69000-0xbbd68fff]
+[    0.040504] PM: hibernation: Registered nosave memory: [mem 0xc9f7f000-0xcaf7efff]
+[    0.040505] PM: hibernation: Registered nosave memory: [mem 0xcaf7f000-0xccf7efff]
+[    0.040505] PM: hibernation: Registered nosave memory: [mem 0xccf7f000-0xcdf7efff]
+[    0.040506] PM: hibernation: Registered nosave memory: [mem 0xcdf7f000-0xcdffefff]
+[    0.040508] PM: hibernation: Registered nosave memory: [mem 0xce000000-0xceffffff]
+[    0.040508] PM: hibernation: Registered nosave memory: [mem 0xcf000000-0xf7ffffff]
+[    0.040509] PM: hibernation: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+[    0.040509] PM: hibernation: Registered nosave memory: [mem 0xfc000000-0xfddfffff]
+[    0.040510] PM: hibernation: Registered nosave memory: [mem 0xfde00000-0xfdefffff]
+[    0.040510] PM: hibernation: Registered nosave memory: [mem 0xfdf00000-0xfebfffff]
+[    0.040511] PM: hibernation: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[    0.040512] PM: hibernation: Registered nosave memory: [mem 0xfec01000-0xfec0ffff]
+[    0.040512] PM: hibernation: Registered nosave memory: [mem 0xfec10000-0xfec10fff]
+[    0.040513] PM: hibernation: Registered nosave memory: [mem 0xfec11000-0xfec1ffff]
+[    0.040513] PM: hibernation: Registered nosave memory: [mem 0xfec20000-0xfec20fff]
+[    0.040514] PM: hibernation: Registered nosave memory: [mem 0xfec21000-0xfed7ffff]
+[    0.040514] PM: hibernation: Registered nosave memory: [mem 0xfed80000-0xfed80fff]
+[    0.040515] PM: hibernation: Registered nosave memory: [mem 0xfed81000-0xfedfffff]
+[    0.040515] PM: hibernation: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.040516] PM: hibernation: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[    0.040517] PM: hibernation: Registered nosave memory: [mem 0xff000000-0xfff2ffff]
+[    0.040517] PM: hibernation: Registered nosave memory: [mem 0xfff30000-0xffffffff]
+[    0.040519] [mem 0xcf000000-0xf7ffffff] available for PCI devices
+[    0.040520] Booting paravirtualized kernel on bare hardware
+[    0.040523] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370452778343963 ns
+[    0.043520] setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:16 nr_node_ids:1
+[    0.044079] percpu: Embedded 50 pages/cpu s167936 r8192 d28672 u262144
+[    0.044087] pcpu-alloc: s167936 r8192 d28672 u262144 alloc=1*2097152
+[    0.044090] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+[    0.044117] Built 1 zonelists, mobility grouping on.  Total pages: 3966649
+[    0.044118] Policy zone: Normal
+[    0.044119] Kernel command line: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd root=UUID=60699b1d-4878-4c7a-9ce1-e6cca69ee26a rw rootflags=subvol=@ quiet cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b root=/dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b apparmor=1 security=apparmor resume=UUID=151d3cac-f952-4e01-9ecf-9b1a98b0597a udev.log_priority=3 lsm=landlock,lockdown,yama,apparmor,bpf amdgpu.audio=0 amdgpu.noretry=0 pci=nocrs mem_encrypt=on transparent_hugepage=madvise
+[    0.044211] Unknown command line parameters: BOOT_IMAGE=/@/boot/vmlinuz-linux-amd cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b mem_encrypt=on
+[    0.046023] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.046934] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.046977] mem auto-init: stack:byref_all(zero), heap alloc:off, heap free:off
+[    0.080968] Memory: 15563108K/16119096K available (12295K kernel code, 3082K rwdata, 3424K rodata, 1652K init, 3860K bss, 555728K reserved, 0K cma-reserved)
+[    0.080976] random: get_random_u64 called from __kmem_cache_create+0x26/0x540 with crng_init=0
+[    0.081107] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=16, Nodes=1
+[    0.081121] ftrace: allocating 36353 entries in 143 pages
+[    0.090409] ftrace: allocated 143 pages with 5 groups
+[    0.090504] rcu: Preemptible hierarchical RCU implementation.
+[    0.090505] rcu: 	RCU restricting CPUs from NR_CPUS=128 to nr_cpu_ids=16.
+[    0.090506] 	Trampoline variant of Tasks RCU enabled.
+[    0.090507] 	Rude variant of Tasks RCU enabled.
+[    0.090507] 	Tracing variant of Tasks RCU enabled.
+[    0.090508] rcu: RCU calculated value of scheduler-enlistment delay is 30 jiffies.
+[    0.090508] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=16
+[    0.092996] NR_IRQS: 8448, nr_irqs: 1096, preallocated irqs: 16
+[    0.093324] random: crng done (trusting CPU's manufacturer)
+[    0.093352] Console: colour dummy device 80x25
+[    0.093363] printk: console [tty0] enabled
+[    0.093381] ACPI: Core revision 20210604
+[    0.093563] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 133484873504 ns
+[    0.093581] APIC: Switch to symmetric I/O mode setup
+[    0.094231] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR0, rdevid:160
+[    0.094232] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR1, rdevid:160
+[    0.094233] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR2, rdevid:160
+[    0.094234] AMD-Vi: ivrs, add hid:AMDI0020, uid:\_SB.FUR3, rdevid:160
+[    0.094504] Switched APIC routing to physical flat.
+[    0.095229] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.110253] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x222c243609d, max_idle_ns: 440795262653 ns
+[    0.110261] Calibrating delay loop (skipped), value calculated using timer frequency.. 4743.98 BogoMIPS (lpj=7902373)
+[    0.110263] pid_max: default: 32768 minimum: 301
+[    0.113616] LSM: Security Framework initializing
+[    0.113618] LSM: security= is ignored because it is superseded by lsm=
+[    0.113626] landlock: Up and running.
+[    0.113627] Yama: becoming mindful.
+[    0.113643] AppArmor: AppArmor initialized
+[    0.113645] LSM support for eBPF active
+[    0.113669] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.113684] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.113859] x86/cpu: User Mode Instruction Prevention (UMIP) activated
+[    0.113894] LVT offset 1 assigned for vector 0xf9
+[    0.113954] LVT offset 2 assigned for vector 0xf4
+[    0.113971] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+[    0.113972] Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+[    0.113976] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.113978] Spectre V2 : Mitigation: Full AMD retpoline
+[    0.113979] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.113979] Spectre V2 : Enabling Restricted Speculation for firmware calls
+[    0.113980] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+[    0.113982] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+[    0.117323] Freeing SMP alternatives memory: 32K
+[    0.227323] smpboot: CPU0: AMD Ryzen 5 4500U with Radeon Graphics (family: 0x17, model: 0x60, stepping: 0x1)
+[    0.227475] Performance Events: Fam17h+ core perfctr, AMD PMU driver.
+[    0.227480] ... version:                0
+[    0.227481] ... bit width:              48
+[    0.227482] ... generic registers:      6
+[    0.227482] ... value mask:             0000ffffffffffff
+[    0.227483] ... max period:             00007fffffffffff
+[    0.227483] ... fixed-purpose events:   0
+[    0.227484] ... event mask:             000000000000003f
+[    0.227531] rcu: Hierarchical SRCU implementation.
+[    0.227814] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.227933] smp: Bringing up secondary CPUs ...
+[    0.228006] x86: Booting SMP configuration:
+[    0.228007] .... node  #0, CPUs:        #1  #2  #3  #4  #5
+[    0.239271] smp: Brought up 1 node, 6 CPUs
+[    0.239271] smpboot: Max logical packages: 3
+[    0.239271] smpboot: Total of 6 processors activated (28459.89 BogoMIPS)
+[    0.240579] devtmpfs: initialized
+[    0.240579] x86/mm: Memory block size: 128MB
+[    0.240952] ACPI: PM: Registering ACPI NVS region [mem 0x09f00000-0x09f0ffff] (65536 bytes)
+[    0.240952] ACPI: PM: Registering ACPI NVS region [mem 0xccf7f000-0xcdf7efff] (16777216 bytes)
+[    0.240952] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 6370867519511994 ns
+[    0.240952] futex hash table entries: 4096 (order: 6, 262144 bytes, linear)
+[    0.240952] pinctrl core: initialized pinctrl subsystem
+[    0.240952] regulator-dummy: no parameters, enabled
+[    0.240952] PM: RTC time: 07:05:11, date: 2021-10-05
+[    0.240952] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.240952] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.240952] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+[    0.240952] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.240952] audit: initializing netlink subsys (disabled)
+[    0.240952] audit: type=2000 audit(1633417510.146:1): state=initialized audit_enabled=0 res=1
+[    0.240952] thermal_sys: Registered thermal governor 'fair_share'
+[    0.240952] thermal_sys: Registered thermal governor 'bang_bang'
+[    0.240952] thermal_sys: Registered thermal governor 'step_wise'
+[    0.240952] thermal_sys: Registered thermal governor 'user_space'
+[    0.240952] cpuidle: using governor ladder
+[    0.240952] cpuidle: using governor menu
+[    0.240952] Simple Boot Flag at 0x44 set to 0x1
+[    0.240952] ACPI: bus type PCI registered
+[    0.240952] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.240952] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+[    0.240952] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+[    0.240952] PCI: Using configuration type 1 for base access
+[    0.241031] Kprobes globally optimized
+[    0.241034] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.241034] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.243626] ACPI: Added _OSI(Module Device)
+[    0.243626] ACPI: Added _OSI(Processor Device)
+[    0.243626] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.243626] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.243627] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.243628] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+[    0.243628] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+[    0.251574] ACPI: 18 ACPI AML tables successfully acquired and loaded
+[    0.252236] ACPI: [Firmware Bug]: BIOS _OSI(Linux) query ignored
+[    0.253211] ACPI: EC: EC started
+[    0.253212] ACPI: EC: interrupt blocked
+[    0.255276] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.255278] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC used to handle transactions
+[    0.255279] ACPI: Interpreter enabled
+[    0.255289] ACPI: PM: (supports S0 S4 S5)
+[    0.255290] ACPI: Using IOAPIC for interrupt routing
+[    0.255385] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+[    0.256430] ACPI: PM: Power Resource [P0U0]
+[    0.256442] ACPI: PM: Power Resource [P3U0]
+[    0.256677] ACPI: PM: Power Resource [P0U1]
+[    0.256689] ACPI: PM: Power Resource [P3U1]
+[    0.256913] ACPI: PM: Power Resource [P0S0]
+[    0.256948] ACPI: PM: Power Resource [P3S0]
+[    0.257004] ACPI: PM: Power Resource [P0S1]
+[    0.257014] ACPI: PM: Power Resource [P3S1]
+[    0.260147] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.260152] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI HPX-Type3]
+[    0.260222] acpi PNP0A08:00: _OSC: platform does not support [SHPCHotplug LTR]
+[    0.260289] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug PME AER PCIeCapability]
+[    0.260296] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-3f] only partially covers this bridge
+[    0.260379] acpi PNP0A08:00: host bridge window [io  0x0000-0x0cf7 window] (ignored)
+[    0.260380] acpi PNP0A08:00: host bridge window [io  0x0d00-0xffff window] (ignored)
+[    0.260381] acpi PNP0A08:00: host bridge window [mem 0x000a0000-0x000bffff window] (ignored)
+[    0.260382] acpi PNP0A08:00: host bridge window [mem 0x000c0000-0x000c3fff window] (ignored)
+[    0.260383] acpi PNP0A08:00: host bridge window [mem 0x000c4000-0x000c7fff window] (ignored)
+[    0.260384] acpi PNP0A08:00: host bridge window [mem 0x000c8000-0x000cbfff window] (ignored)
+[    0.260385] acpi PNP0A08:00: host bridge window [mem 0x000cc000-0x000cffff window] (ignored)
+[    0.260386] acpi PNP0A08:00: host bridge window [mem 0x000d0000-0x000d3fff window] (ignored)
+[    0.260387] acpi PNP0A08:00: host bridge window [mem 0x000d4000-0x000d7fff window] (ignored)
+[    0.260388] acpi PNP0A08:00: host bridge window [mem 0x000d8000-0x000dbfff window] (ignored)
+[    0.260388] acpi PNP0A08:00: host bridge window [mem 0x000dc000-0x000dffff window] (ignored)
+[    0.260389] acpi PNP0A08:00: host bridge window [mem 0x000e0000-0x000e3fff window] (ignored)
+[    0.260390] acpi PNP0A08:00: host bridge window [mem 0x000e4000-0x000e7fff window] (ignored)
+[    0.260391] acpi PNP0A08:00: host bridge window [mem 0x000e8000-0x000ebfff window] (ignored)
+[    0.260392] acpi PNP0A08:00: host bridge window [mem 0x000ec000-0x000effff window] (ignored)
+[    0.260393] acpi PNP0A08:00: host bridge window [mem 0xd0000000-0xf7ffffff window] (ignored)
+[    0.260393] acpi PNP0A08:00: host bridge window [mem 0xfc000000-0xfed3ffff window] (ignored)
+[    0.260394] acpi PNP0A08:00: host bridge window [io  0x0cf8-0x0cff] (ignored)
+[    0.260395] acpi PNP0A08:00: host bridge window [mem 0x450200000-0xfcffffffff window] (ignored)
+[    0.260396] PCI: root bus 00: using default resources
+[    0.260466] PCI host bridge to bus 0000:00
+[    0.260467] pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+[    0.260468] pci_bus 0000:00: root bus resource [mem 0x00000000-0xffffffffffff]
+[    0.260469] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.260478] pci 0000:00:00.0: [1022:1630] type 00 class 0x060000
+[    0.260544] pci 0000:00:00.2: [1022:1631] type 00 class 0x080600
+[    0.260613] pci 0000:00:01.0: [1022:1632] type 00 class 0x060000
+[    0.260668] pci 0000:00:01.2: [1022:1634] type 01 class 0x060400
+[    0.260733] pci 0000:00:01.2: PME# supported from D0 D3hot D3cold
+[    0.260825] pci 0000:00:02.0: [1022:1632] type 00 class 0x060000
+[    0.260884] pci 0000:00:08.0: [1022:1632] type 00 class 0x060000
+[    0.260934] pci 0000:00:08.1: [1022:1635] type 01 class 0x060400
+[    0.260953] pci 0000:00:08.1: enabling Extended Tags
+[    0.260980] pci 0000:00:08.1: PME# supported from D0 D3hot D3cold
+[    0.261046] pci 0000:00:08.2: [1022:1635] type 01 class 0x060400
+[    0.261065] pci 0000:00:08.2: enabling Extended Tags
+[    0.261092] pci 0000:00:08.2: PME# supported from D0 D3hot D3cold
+[    0.261171] pci 0000:00:14.0: [1022:790b] type 00 class 0x0c0500
+[    0.261279] pci 0000:00:14.3: [1022:790e] type 00 class 0x060100
+[    0.261392] pci 0000:00:18.0: [1022:1448] type 00 class 0x060000
+[    0.261422] pci 0000:00:18.1: [1022:1449] type 00 class 0x060000
+[    0.261451] pci 0000:00:18.2: [1022:144a] type 00 class 0x060000
+[    0.261480] pci 0000:00:18.3: [1022:144b] type 00 class 0x060000
+[    0.261510] pci 0000:00:18.4: [1022:144c] type 00 class 0x060000
+[    0.261539] pci 0000:00:18.5: [1022:144d] type 00 class 0x060000
+[    0.261568] pci 0000:00:18.6: [1022:144e] type 00 class 0x060000
+[    0.261598] pci 0000:00:18.7: [1022:144f] type 00 class 0x060000
+[    0.261695] pci 0000:01:00.0: [10ec:c822] type 00 class 0x028000
+[    0.261715] pci 0000:01:00.0: reg 0x10: [io  0x2000-0x20ff]
+[    0.261740] pci 0000:01:00.0: reg 0x18: [mem 0xd0500000-0xd050ffff 64bit]
+[    0.261859] pci 0000:01:00.0: supports D1 D2
+[    0.261859] pci 0000:01:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    0.262013] pci 0000:00:01.2: PCI bridge to [bus 01]
+[    0.262016] pci 0000:00:01.2:   bridge window [io  0x2000-0x2fff]
+[    0.262018] pci 0000:00:01.2:   bridge window [mem 0xd0500000-0xd05fffff]
+[    0.262070] pci 0000:02:00.0: [1002:1636] type 00 class 0x030000
+[    0.262080] pci 0000:02:00.0: reg 0x10: [mem 0xfce0000000-0xfcefffffff 64bit pref]
+[    0.262087] pci 0000:02:00.0: reg 0x18: [mem 0xfcf0000000-0xfcf01fffff 64bit pref]
+[    0.262092] pci 0000:02:00.0: reg 0x20: [io  0x1000-0x10ff]
+[    0.262097] pci 0000:02:00.0: reg 0x24: [mem 0xd0400000-0xd047ffff]
+[    0.262105] pci 0000:02:00.0: enabling Extended Tags
+[    0.262114] pci 0000:02:00.0: BAR 0: assigned to efifb
+[    0.262149] pci 0000:02:00.0: PME# supported from D1 D2 D3hot D3cold
+[    0.262222] pci 0000:02:00.1: [1002:1637] type 00 class 0x040300
+[    0.262229] pci 0000:02:00.1: reg 0x10: [mem 0xd04c8000-0xd04cbfff]
+[    0.262248] pci 0000:02:00.1: enabling Extended Tags
+[    0.262273] pci 0000:02:00.1: PME# supported from D1 D2 D3hot D3cold
+[    0.262321] pci 0000:02:00.2: [1022:15df] type 00 class 0x108000
+[    0.262334] pci 0000:02:00.2: reg 0x18: [mem 0xd0300000-0xd03fffff]
+[    0.262342] pci 0000:02:00.2: reg 0x24: [mem 0xd04cc000-0xd04cdfff]
+[    0.262349] pci 0000:02:00.2: enabling Extended Tags
+[    0.262420] pci 0000:02:00.3: [1022:1639] type 00 class 0x0c0330
+[    0.262430] pci 0000:02:00.3: reg 0x10: [mem 0xd0100000-0xd01fffff 64bit]
+[    0.262452] pci 0000:02:00.3: enabling Extended Tags
+[    0.262479] pci 0000:02:00.3: PME# supported from D0 D3hot D3cold
+[    0.262528] pci 0000:02:00.4: [1022:1639] type 00 class 0x0c0330
+[    0.262537] pci 0000:02:00.4: reg 0x10: [mem 0xd0200000-0xd02fffff 64bit]
+[    0.262559] pci 0000:02:00.4: enabling Extended Tags
+[    0.262586] pci 0000:02:00.4: PME# supported from D0 D3hot D3cold
+[    0.262635] pci 0000:02:00.5: [1022:15e2] type 00 class 0x048000
+[    0.262642] pci 0000:02:00.5: reg 0x10: [mem 0xd0480000-0xd04bffff]
+[    0.262661] pci 0000:02:00.5: enabling Extended Tags
+[    0.262686] pci 0000:02:00.5: PME# supported from D0 D3hot D3cold
+[    0.262739] pci 0000:02:00.6: [1022:15e3] type 00 class 0x040300
+[    0.262746] pci 0000:02:00.6: reg 0x10: [mem 0xd04c0000-0xd04c7fff]
+[    0.262765] pci 0000:02:00.6: enabling Extended Tags
+[    0.262790] pci 0000:02:00.6: PME# supported from D0 D3hot D3cold
+[    0.262856] pci 0000:00:08.1: PCI bridge to [bus 02]
+[    0.262859] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    0.262861] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    0.262863] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.262899] pci 0000:03:00.0: [1022:7901] type 00 class 0x010601
+[    0.262924] pci 0000:03:00.0: reg 0x24: [mem 0xd0001000-0xd00017ff]
+[    0.262932] pci 0000:03:00.0: enabling Extended Tags
+[    0.263022] pci 0000:03:00.1: [1022:7901] type 00 class 0x010601
+[    0.263048] pci 0000:03:00.1: reg 0x24: [mem 0xd0000000-0xd00007ff]
+[    0.263056] pci 0000:03:00.1: enabling Extended Tags
+[    0.263129] pci 0000:00:08.2: PCI bridge to [bus 03]
+[    0.263133] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    0.264266] ACPI: PCI: Interrupt link LNKA configured for IRQ 0
+[    0.264267] ACPI: PCI: Interrupt link LNKA disabled
+[    0.264306] ACPI: PCI: Interrupt link LNKB configured for IRQ 0
+[    0.264306] ACPI: PCI: Interrupt link LNKB disabled
+[    0.264334] ACPI: PCI: Interrupt link LNKC configured for IRQ 0
+[    0.264335] ACPI: PCI: Interrupt link LNKC disabled
+[    0.264372] ACPI: PCI: Interrupt link LNKD configured for IRQ 0
+[    0.264373] ACPI: PCI: Interrupt link LNKD disabled
+[    0.264406] ACPI: PCI: Interrupt link LNKE configured for IRQ 0
+[    0.264407] ACPI: PCI: Interrupt link LNKE disabled
+[    0.264433] ACPI: PCI: Interrupt link LNKF configured for IRQ 0
+[    0.264434] ACPI: PCI: Interrupt link LNKF disabled
+[    0.264460] ACPI: PCI: Interrupt link LNKG configured for IRQ 0
+[    0.264461] ACPI: PCI: Interrupt link LNKG disabled
+[    0.264487] ACPI: PCI: Interrupt link LNKH configured for IRQ 0
+[    0.264488] ACPI: PCI: Interrupt link LNKH disabled
+[    0.265430] ACPI: EC: interrupt unblocked
+[    0.265431] ACPI: EC: event unblocked
+[    0.265438] ACPI: EC: EC_CMD/EC_SC=0x66, EC_DATA=0x62
+[    0.265439] ACPI: EC: GPE=0x3
+[    0.265439] ACPI: \_SB_.PCI0.LPC0.EC0_: Boot DSDT EC initialization complete
+[    0.265441] ACPI: \_SB_.PCI0.LPC0.EC0_: EC: Used to handle transactions and events
+[    0.265437] iommu: Default domain type: Passthrough 
+[    0.265476] pci 0000:02:00.0: vgaarb: VGA device added: decodes=io+mem,owns=none,locks=none
+[    0.265476] pci 0000:02:00.0: vgaarb: bridge control possible
+[    0.265476] pci 0000:02:00.0: vgaarb: setting as boot device
+[    0.265476] vgaarb: loaded
+[    0.273790] pps_core: LinuxPPS API ver. 1 registered
+[    0.273791] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.273793] PTP clock support registered
+[    0.273798] EDAC MC: Ver: 3.0.0
+[    0.273848] Registered efivars operations
+[    0.273848] NetLabel: Initializing
+[    0.273848] NetLabel:  domain hash size = 128
+[    0.273848] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+[    0.273848] NetLabel:  unlabeled traffic allowed by default
+[    0.273848] PCI: Using ACPI for IRQ routing
+[    0.275743] PCI: pci_cache_line_size set to 64 bytes
+[    0.275779] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+[    0.275781] e820: reserve RAM buffer [mem 0x09b00000-0x0bffffff]
+[    0.275782] e820: reserve RAM buffer [mem 0x09f00000-0x0bffffff]
+[    0.275783] e820: reserve RAM buffer [mem 0xb3647000-0xb3ffffff]
+[    0.275783] e820: reserve RAM buffer [mem 0xbab69000-0xbbffffff]
+[    0.275784] e820: reserve RAM buffer [mem 0xc9f7f000-0xcbffffff]
+[    0.275785] e820: reserve RAM buffer [mem 0xce000000-0xcfffffff]
+[    0.275785] e820: reserve RAM buffer [mem 0x40f340000-0x40fffffff]
+[    0.276976] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+[    0.276980] hpet0: 3 comparators, 32-bit 14.318180 MHz counter
+[    0.280261] clocksource: Switched to clocksource tsc-early
+[    0.285828] VFS: Disk quotas dquot_6.6.0
+[    0.285842] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.285927] AppArmor: AppArmor Filesystem Enabled
+[    0.285973] pnp: PnP ACPI init
+[    0.286122] system 00:00: [mem 0xfec00000-0xfec01fff] could not be reserved
+[    0.286127] system 00:00: [mem 0xfee00000-0xfee00fff] has been reserved
+[    0.286128] system 00:00: [mem 0xfde00000-0xfdefffff] has been reserved
+[    0.286247] system 00:03: [io  0x0400-0x04cf] has been reserved
+[    0.286248] system 00:03: [io  0x04d0-0x04d1] has been reserved
+[    0.286249] system 00:03: [io  0x04d6] has been reserved
+[    0.286250] system 00:03: [io  0x0c00-0x0c01] has been reserved
+[    0.286251] system 00:03: [io  0x0c14] has been reserved
+[    0.286252] system 00:03: [io  0x0c50-0x0c52] has been reserved
+[    0.286253] system 00:03: [io  0x0c6c] has been reserved
+[    0.286254] system 00:03: [io  0x0c6f] has been reserved
+[    0.286255] system 00:03: [io  0x0cd0-0x0cdb] has been reserved
+[    0.286287] system 00:04: [mem 0x000e0000-0x000fffff] could not be reserved
+[    0.286288] system 00:04: [mem 0xff000000-0xffffffff] could not be reserved
+[    0.286968] pnp: PnP ACPI: found 5 devices
+[    0.294613] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+[    0.294710] NET: Registered PF_INET protocol family
+[    0.294973] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.296097] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.296113] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.296235] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    0.296351] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.296386] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.296419] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.296495] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.296500] NET: Registered PF_XDP protocol family
+[    0.296518] pci 0000:00:01.2: PCI bridge to [bus 01]
+[    0.296522] pci 0000:00:01.2:   bridge window [io  0x2000-0x2fff]
+[    0.296525] pci 0000:00:01.2:   bridge window [mem 0xd0500000-0xd05fffff]
+[    0.296532] pci 0000:00:08.1: PCI bridge to [bus 02]
+[    0.296533] pci 0000:00:08.1:   bridge window [io  0x1000-0x1fff]
+[    0.296535] pci 0000:00:08.1:   bridge window [mem 0xd0100000-0xd04fffff]
+[    0.296537] pci 0000:00:08.1:   bridge window [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.296540] pci 0000:00:08.2: PCI bridge to [bus 03]
+[    0.296542] pci 0000:00:08.2:   bridge window [mem 0xd0000000-0xd00fffff]
+[    0.296547] pci_bus 0000:00: resource 4 [io  0x0000-0xffff]
+[    0.296548] pci_bus 0000:00: resource 5 [mem 0x00000000-0xffffffffffff]
+[    0.296550] pci_bus 0000:01: resource 0 [io  0x2000-0x2fff]
+[    0.296551] pci_bus 0000:01: resource 1 [mem 0xd0500000-0xd05fffff]
+[    0.296552] pci_bus 0000:02: resource 0 [io  0x1000-0x1fff]
+[    0.296553] pci_bus 0000:02: resource 1 [mem 0xd0100000-0xd04fffff]
+[    0.296553] pci_bus 0000:02: resource 2 [mem 0xfce0000000-0xfcf01fffff 64bit pref]
+[    0.296555] pci_bus 0000:03: resource 1 [mem 0xd0000000-0xd00fffff]
+[    0.296653] pci 0000:02:00.1: D0 power state depends on 0000:02:00.0
+[    0.296778] pci 0000:02:00.3: extending delay after power-on from D3hot to 20 msec
+[    0.299733] pci 0000:02:00.4: extending delay after power-on from D3hot to 20 msec
+[    0.310891] pci 0000:02:00.4: quirk_usb_early_handoff+0x0/0x740 took 10894 usecs
+[    0.310903] PCI: CLS 64 bytes, default 64
+[    0.310915] pci 0000:00:00.2: AMD-Vi: IOMMU performance counters supported
+[    0.310946] pci 0000:00:00.2: can't derive routing for PCI INT A
+[    0.310947] pci 0000:00:00.2: PCI INT A: not connected
+[    0.310949] AMD-Vi: Lazy IO/TLB flushing enabled
+[    0.310962] pci 0000:00:01.0: Adding to iommu group 0
+[    0.310963] Trying to unpack rootfs image as initramfs...
+[    0.310971] pci 0000:00:01.2: Adding to iommu group 1
+[    0.310978] pci 0000:00:02.0: Adding to iommu group 2
+[    0.310990] pci 0000:00:08.0: Adding to iommu group 3
+[    0.310995] pci 0000:00:08.1: Adding to iommu group 3
+[    0.311000] pci 0000:00:08.2: Adding to iommu group 3
+[    0.311013] pci 0000:00:14.0: Adding to iommu group 4
+[    0.311019] pci 0000:00:14.3: Adding to iommu group 4
+[    0.311040] pci 0000:00:18.0: Adding to iommu group 5
+[    0.311045] pci 0000:00:18.1: Adding to iommu group 5
+[    0.311051] pci 0000:00:18.2: Adding to iommu group 5
+[    0.311056] pci 0000:00:18.3: Adding to iommu group 5
+[    0.311062] pci 0000:00:18.4: Adding to iommu group 5
+[    0.311068] pci 0000:00:18.5: Adding to iommu group 5
+[    0.311073] pci 0000:00:18.6: Adding to iommu group 5
+[    0.311079] pci 0000:00:18.7: Adding to iommu group 5
+[    0.311088] pci 0000:01:00.0: Adding to iommu group 6
+[    0.311099] pci 0000:02:00.0: Adding to iommu group 3
+[    0.311104] pci 0000:02:00.1: Adding to iommu group 3
+[    0.311107] pci 0000:02:00.2: Adding to iommu group 3
+[    0.311110] pci 0000:02:00.3: Adding to iommu group 3
+[    0.311113] pci 0000:02:00.4: Adding to iommu group 3
+[    0.311116] pci 0000:02:00.5: Adding to iommu group 3
+[    0.311120] pci 0000:02:00.6: Adding to iommu group 3
+[    0.311123] pci 0000:03:00.0: Adding to iommu group 3
+[    0.311126] pci 0000:03:00.1: Adding to iommu group 3
+[    0.311511] pci 0000:00:00.2: AMD-Vi: Found IOMMU cap 0x40
+[    0.311512] AMD-Vi: Extended features (0x206d73ef22254ade): PPR X2APIC NX GT IA GA PC GA_vAPIC
+[    0.311517] AMD-Vi: Interrupt remapping enabled
+[    0.311517] AMD-Vi: Virtual APIC enabled
+[    0.311517] AMD-Vi: X2APIC enabled
+[    0.311603] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.311604] software IO TLB: mapped [mem 0x00000000c4434000-0x00000000c8434000] (64MB)
+[    0.319914] RAPL PMU: API unit is 2^-32 Joules, 1 fixed counters, 163840 ms ovfl timer
+[    0.319919] RAPL PMU: hw unit of domain package 2^-16 Joules
+[    0.319927] amd_uncore: 4  amd_df counters detected
+[    0.319933] amd_uncore: 6  amd_l3 counters detected
+[    0.320319] LVT offset 0 assigned for vector 0x400
+[    0.320525] perf: AMD IBS detected (0x000003ff)
+[    0.320535] perf/amd_iommu: Detected AMD IOMMU #0 (2 banks, 4 counters/bank).
+[    0.322213] Initialise system trusted keyrings
+[    0.322223] Key type blacklist registered
+[    0.322284] workingset: timestamp_bits=41 max_order=22 bucket_order=0
+[    0.322971] zbud: loaded
+[    0.325889] Key type asymmetric registered
+[    0.325892] Asymmetric key parser 'x509' registered
+[    0.325900] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 245)
+[    0.325992] io scheduler mq-deadline registered
+[    0.325993] io scheduler kyber registered
+[    0.326024] io scheduler bfq registered
+[    0.326024] 
+               Start testing find_bit() with random-filled bitmap
+[    0.326032] fbcon: Taking over console
+[    0.327895] find_next_bit:                  636099 ns, 163839 iterations
+[    0.328539] find_next_zero_bit:             641398 ns, 163842 iterations
+[    0.329160] find_last_bit:                  619679 ns, 163839 iterations
+[    0.332430] find_first_bit:                3268632 ns,  16377 iterations
+[    0.332759] find_next_and_bit:              326980 ns,  73641 iterations
+[    0.332760] 
+               Start testing find_bit() with sparse bitmap
+[    0.332781] find_next_bit:                   11551 ns,    655 iterations
+[    0.334024] find_next_zero_bit:            1241632 ns, 327026 iterations
+[    0.334036] find_last_bit:                    9497 ns,    655 iterations
+[    0.335285] find_first_bit:                1248083 ns,    655 iterations
+[    0.335292] find_next_and_bit:                5189 ns,      1 iterations
+[    0.335672] pcieport 0000:00:01.2: PME: Signaling with IRQ 26
+[    0.335777] pcieport 0000:00:08.1: PME: Signaling with IRQ 27
+[    0.335939] pcieport 0000:00:08.2: PME: Signaling with IRQ 28
+[    0.336015] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.336042] efifb: probing for efifb
+[    0.336069] efifb: showing boot graphics
+[    0.337218] efifb: framebuffer at 0xfce0000000, using 8128k, total 8128k
+[    0.337219] efifb: mode is 1920x1080x32, linelength=7680, pages=1
+[    0.337220] efifb: scrolling: redraw
+[    0.337220] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    0.337331] Console: switching to colour frame buffer device 240x67
+[    0.340141] fb0: EFI VGA frame buffer device
+[    0.340208] Monitor-Mwait will be used to enter C-1 state
+[    0.340212] ACPI: \_SB_.PLTF.C000: Found 3 idle states
+[    0.340218] ACPI: FW issue: working around C-state latencies out of order
+[    0.340286] ACPI: \_SB_.PLTF.C001: Found 3 idle states
+[    0.340291] ACPI: FW issue: working around C-state latencies out of order
+[    0.340359] ACPI: \_SB_.PLTF.C002: Found 3 idle states
+[    0.340363] ACPI: FW issue: working around C-state latencies out of order
+[    0.340441] ACPI: \_SB_.PLTF.C003: Found 3 idle states
+[    0.340445] ACPI: FW issue: working around C-state latencies out of order
+[    0.340524] ACPI: \_SB_.PLTF.C004: Found 3 idle states
+[    0.340528] ACPI: FW issue: working around C-state latencies out of order
+[    0.340601] ACPI: \_SB_.PLTF.C005: Found 3 idle states
+[    0.340605] ACPI: FW issue: working around C-state latencies out of order
+[    0.340794] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.352916] Freeing initrd memory: 18716K
+[    0.656976] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[    0.656978] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[    0.657003] rtc_cmos 00:01: RTC can wake from S4
+[    0.657216] rtc_cmos 00:01: registered as rtc0
+[    0.657262] rtc_cmos 00:01: setting system clock to 2021-10-05T07:05:11 UTC (1633417511)
+[    0.657278] rtc_cmos 00:01: alarms up to one month, 114 bytes nvram, hpet irqs
+[    0.657440] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.659564] pstore: Registered efi as persistent store backend
+[    0.659593] drop_monitor: Initializing network drop monitor service
+[    0.659695] NET: Registered PF_INET6 protocol family
+[    0.664676] Segment Routing with IPv6
+[    0.664713] NET: Registered PF_PACKET protocol family
+[    0.665746] microcode: CPU0: patch_level=0x08600106
+[    0.665773] microcode: CPU1: patch_level=0x08600106
+[    0.665780] microcode: CPU2: patch_level=0x08600106
+[    0.665806] microcode: CPU3: patch_level=0x08600106
+[    0.665836] microcode: CPU4: patch_level=0x08600106
+[    0.665861] microcode: CPU5: patch_level=0x08600106
+[    0.665868] microcode: Microcode Update Driver: v2.2.
+[    0.665872] IPI shorthand broadcast: enabled
+[    0.665888] sched_clock: Marking stable (665241996, 398465)->(1766396062, -1100755601)
+[    0.666116] registered taskstats version 1
+[    0.666327] Loading compiled-in X.509 certificates
+[    0.669103] Loaded X.509 cert 'Build time autogenerated kernel key: 732def1c099cea02eb5721b922a9ee14530dbcc2'
+[    0.669183] zswap: loaded using pool lz4/zbud
+[    0.669524] Key type ._fscrypt registered
+[    0.669527] Key type .fscrypt registered
+[    0.669528] Key type fscrypt-provisioning registered
+[    0.669633] pstore: Using crash dump compression: zstd
+[    0.669653] Key type big_key registered
+[    0.671727] Key type encrypted registered
+[    0.671740] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.671754] ima: Allocated hash algorithm: sha1
+[    0.702251] ima: No architecture policies found
+[    0.702283] evm: Initialising EVM extended attributes:
+[    0.702285] evm: security.selinux (disabled)
+[    0.702288] evm: security.SMACK64 (disabled)
+[    0.702289] evm: security.SMACK64EXEC (disabled)
+[    0.702291] evm: security.SMACK64TRANSMUTE (disabled)
+[    0.702292] evm: security.SMACK64MMAP (disabled)
+[    0.702293] evm: security.apparmor
+[    0.702294] evm: security.ima (disabled)
+[    0.702296] evm: security.capability
+[    0.702297] evm: HMAC attrs: 0x1
+[    0.702796] PM:   Magic number: 9:652:65
+[    0.702876] memory memory93: hash matches
+[    0.703210] RAS: Correctable Errors collector initialized.
+[    0.705271] Freeing unused decrypted memory: 2036K
+[    0.705531] Freeing unused kernel image (initmem) memory: 1652K
+[    0.729961] Write protecting the kernel read-only data: 18432k
+[    0.730623] Freeing unused kernel image (text/rodata gap) memory: 2040K
+[    0.730796] Freeing unused kernel image (rodata/data gap) memory: 672K
+[    0.730803] Run /init as init process
+[    0.730804]   with arguments:
+[    0.730805]     /init
+[    0.730806]   with environment:
+[    0.730806]     HOME=/
+[    0.730807]     TERM=linux
+[    0.730807]     BOOT_IMAGE=/@/boot/vmlinuz-linux-amd
+[    0.730808]     cryptdevice=UUID=f5c58973-d2db-4063-9fb3-06e53844933b:luks-f5c58973-d2db-4063-9fb3-06e53844933b
+[    0.730808]     mem_encrypt=on
+[    0.784420] i8042: PNP: PS/2 Controller [PNP0303:KBC0] at 0x60,0x64 irq 1
+[    0.784424] i8042: PNP: PS/2 appears to have AUX port disabled, if this is incorrect please boot with i8042.nopnp
+[    0.786002] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.788806] SCSI subsystem initialized
+[    0.789019] ccp 0000:02:00.2: enabling device (0000 -> 0002)
+[    0.789155] ccp 0000:02:00.2: ccp: unable to access the device: you might be running a broken BIOS.
+[    0.791815] ACPI: bus type USB registered
+[    0.791834] usbcore: registered new interface driver usbfs
+[    0.791839] usbcore: registered new interface driver hub
+[    0.791851] usbcore: registered new device driver usb
+[    0.792710] libata version 3.00 loaded.
+[    0.795026] ahci 0000:03:00.0: version 3.0
+[    0.795187] ahci 0000:03:00.0: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.795190] ahci 0000:03:00.0: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part 
+[    0.795306] cryptd: max_cpu_qlen set to 1000
+[    0.796548] scsi host0: ahci
+[    0.796634] ata1: SATA max UDMA/133 abar m2048@0xd0001000 port 0xd0001100 irq 33
+[    0.796883] ahci 0000:03:00.1: AHCI 0001.0301 32 slots 1 ports 6 Gbps 0x1 impl SATA mode
+[    0.796886] ahci 0000:03:00.1: flags: 64bit ncq sntf ilck pm led clo only pmp fbs pio slum part deso sadm sds 
+[    0.797053] scsi host1: ahci
+[    0.797097] ata2: SATA max UDMA/133 abar m2048@0xd0000000 port 0xd0000100 irq 35
+[    0.798693] xhci_hcd 0000:02:00.3: xHCI Host Controller
+[    0.798700] xhci_hcd 0000:02:00.3: new USB bus registered, assigned bus number 1
+[    0.798785] xhci_hcd 0000:02:00.3: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.799058] xhci_hcd 0000:02:00.3: xHCI Host Controller
+[    0.799060] xhci_hcd 0000:02:00.3: new USB bus registered, assigned bus number 2
+[    0.799062] xhci_hcd 0000:02:00.3: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.799175] hub 1-0:1.0: USB hub found
+[    0.799181] hub 1-0:1.0: 4 ports detected
+[    0.799314] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.800431] hub 2-0:1.0: USB hub found
+[    0.800443] hub 2-0:1.0: 2 ports detected
+[    0.800664] xhci_hcd 0000:02:00.4: xHCI Host Controller
+[    0.800668] xhci_hcd 0000:02:00.4: new USB bus registered, assigned bus number 3
+[    0.800698] AVX2 version of gcm_enc/dec engaged.
+[    0.800759] xhci_hcd 0000:02:00.4: hcc params 0x0268ffe5 hci version 0x110 quirks 0x0000020000000410
+[    0.800809] AES CTR mode by8 optimization enabled
+[    0.801062] xhci_hcd 0000:02:00.4: xHCI Host Controller
+[    0.801065] xhci_hcd 0000:02:00.4: new USB bus registered, assigned bus number 4
+[    0.801067] xhci_hcd 0000:02:00.4: Host supports USB 3.1 Enhanced SuperSpeed
+[    0.801160] hub 3-0:1.0: USB hub found
+[    0.801166] hub 3-0:1.0: 4 ports detected
+[    0.801322] usb usb4: We don't know the algorithms for LPM for this host, disabling LPM.
+[    0.801386] hub 4-0:1.0: USB hub found
+[    0.801390] hub 4-0:1.0: 2 ports detected
+[    0.802088] ccp 0000:02:00.2: tee enabled
+[    0.802093] ccp 0000:02:00.2: psp enabled
+[    0.816724] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+[    1.049613] usb 1-4: new full-speed USB device number 2 using xhci_hcd
+[    1.113274] ata1: SATA link down (SStatus 0 SControl 300)
+[    1.277164] ata2: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[    1.278938] ata2.00: ATA-11: SAMSUNG MZNLH512HALU-00000, RVT2200Q, max UDMA/133
+[    1.278949] ata2.00: 1000215216 sectors, multi 16: LBA48 NCQ (depth 32), AA
+[    1.282165] ata2.00: configured for UDMA/133
+[    1.282424] scsi 1:0:0:0: Direct-Access     ATA      SAMSUNG MZNLH512 200Q PQ: 0 ANSI: 5
+[    1.285684] sd 1:0:0:0: [sda] 1000215216 512-byte logical blocks: (512 GB/477 GiB)
+[    1.285692] sd 1:0:0:0: [sda] Write Protect is off
+[    1.285693] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.285699] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.307720]  sda: sda1 sda2 sda3
+[    1.334815] sd 1:0:0:0: [sda] Attached SCSI disk
+[    1.382065] Key type trusted registered
+[    1.385183] device-mapper: uevent: version 1.0.3
+[    1.385276] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+[    1.443793] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x222c243609d, max_idle_ns: 440795262653 ns
+[    1.443846] clocksource: Switched to clocksource tsc
+[    4.880537] raid6: avx2x4   gen() 36720 MB/s
+[    4.936924] raid6: avx2x4   xor() 10031 MB/s
+[    4.993591] raid6: avx2x2   gen() 38007 MB/s
+[    5.050260] raid6: avx2x2   xor() 23554 MB/s
+[    5.106924] raid6: avx2x1   gen() 31632 MB/s
+[    5.163592] raid6: avx2x1   xor() 18693 MB/s
+[    5.220257] raid6: sse2x4   gen() 17767 MB/s
+[    5.276924] raid6: sse2x4   xor()  8664 MB/s
+[    5.333591] raid6: sse2x2   gen() 19569 MB/s
+[    5.390259] raid6: sse2x2   xor() 11967 MB/s
+[    5.446924] raid6: sse2x1   gen() 14954 MB/s
+[    5.503590] raid6: sse2x1   xor()  9482 MB/s
+[    5.503591] raid6: using algorithm avx2x2 gen() 38007 MB/s
+[    5.503592] raid6: .... xor() 23554 MB/s, rmw enabled
+[    5.503593] raid6: using avx2x2 recovery algorithm
+[    5.504970] xor: automatically using best checksumming function   avx       
+[    5.540739] Btrfs loaded, crc32c=crc32c-intel, zoned=yes
+[    5.541563] BTRFS: device fsid 60699b1d-4878-4c7a-9ce1-e6cca69ee26a devid 1 transid 14560 /dev/dm-0 scanned by systemd-udevd (198)
+[    5.550746] PM: Image not found (code -22)
+[    5.560367] BTRFS info (device dm-0): flagging fs with big metadata feature
+[    5.560375] BTRFS info (device dm-0): disk space caching is enabled
+[    5.560376] BTRFS info (device dm-0): has skinny extents
+[    5.574548] BTRFS info (device dm-0): enabling ssd optimizations
+[    5.679107] systemd[1]: systemd 249.4-1-manjaro running in system mode (+PAM +AUDIT -SELINUX -APPARMOR -IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD +XKBCOMMON +UTMP -SYSVINIT default-hierarchy=unified)
+[    5.694020] systemd[1]: Detected architecture x86-64.
+[    5.694987] systemd[1]: Hostname set to <mksredmibook>.
+[    5.807229] systemd[1]: Queued start job for default target Graphical Interface.
+[    5.808148] systemd[1]: Created slice Slice /system/getty.
+[    5.808379] systemd[1]: Created slice Slice /system/maia-console.
+[    5.808526] systemd[1]: Created slice Slice /system/modprobe.
+[    5.808662] systemd[1]: Created slice Cryptsetup Units Slice.
+[    5.808799] systemd[1]: Created slice Slice /system/systemd-fsck.
+[    5.808917] systemd[1]: Created slice User and Session Slice.
+[    5.808961] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    5.808988] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    5.809087] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    5.809118] systemd[1]: Reached target Login Prompts.
+[    5.809135] systemd[1]: Reached target Path Units.
+[    5.809146] systemd[1]: Reached target Remote File Systems.
+[    5.809157] systemd[1]: Reached target Slice Units.
+[    5.809176] systemd[1]: Reached target Local Verity Integrity Protected Volumes.
+[    5.809213] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    5.809649] systemd[1]: Listening on LVM2 poll daemon socket.
+[    5.810420] systemd[1]: Listening on Process Core Dump Socket.
+[    5.810536] systemd[1]: Listening on Journal Audit Socket.
+[    5.810597] systemd[1]: Listening on Journal Socket (/dev/log).
+[    5.810654] systemd[1]: Listening on Journal Socket.
+[    5.811071] systemd[1]: Listening on udev Control Socket.
+[    5.811159] systemd[1]: Listening on udev Kernel Socket.
+[    5.811711] systemd[1]: Mounting Huge Pages File System...
+[    5.812100] systemd[1]: Mounting POSIX Message Queue File System...
+[    5.812594] systemd[1]: Mounting Kernel Debug File System...
+[    5.813227] systemd[1]: Mounting Kernel Trace File System...
+[    5.813987] systemd[1]: Starting Create List of Static Device Nodes...
+[    5.814602] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+[    5.815161] systemd[1]: Starting Load Kernel Module configfs...
+[    5.815622] systemd[1]: Starting Load Kernel Module drm...
+[    5.816126] systemd[1]: Starting Load Kernel Module fuse...
+[    5.816755] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[    5.816792] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[    5.817590] systemd[1]: Starting Load Kernel Modules...
+[    5.818029] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    5.818071] systemd[1]: Condition check resulted in Repartition Root Disk being skipped.
+[    5.818522] systemd[1]: Starting Coldplug All udev Devices...
+[    5.819431] systemd[1]: Mounted Huge Pages File System.
+[    5.819494] systemd[1]: Mounted POSIX Message Queue File System.
+[    5.819533] systemd[1]: Mounted Kernel Debug File System.
+[    5.819571] systemd[1]: Mounted Kernel Trace File System.
+[    5.819729] systemd[1]: Finished Create List of Static Device Nodes.
+[    5.819886] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[    5.819993] systemd[1]: Finished Load Kernel Module configfs.
+[    5.820608] systemd[1]: Mounting Kernel Configuration File System...
+[    5.825290] systemd[1]: Mounted Kernel Configuration File System.
+[    5.828833] fuse: init (API version 7.34)
+[    5.829436] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[    5.829670] systemd[1]: Finished Load Kernel Module fuse.
+[    5.831052] systemd[1]: Mounting FUSE Control File System...
+[    5.832179] systemd[1]: Mounted FUSE Control File System.
+[    5.839025] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[    5.839153] systemd[1]: Finished Load Kernel Module drm.
+[    5.859035] systemd[1]: Finished Coldplug All udev Devices.
+[    5.871859] systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[    5.933077] sd 1:0:0:0: Attached scsi generic sg0 type 0
+[    5.935631] systemd[1]: Finished Load Kernel Modules.
+[    5.935729] BTRFS info (device dm-0): use zstd compression, level 3
+[    5.935733] BTRFS info (device dm-0): disk space caching is enabled
+[    5.936293] systemd[1]: Starting Apply Kernel Variables...
+[    5.936903] systemd[1]: Finished Remount Root and Kernel File Systems.
+[    5.937082] systemd[1]: Condition check resulted in First Boot Wizard being skipped.
+[    5.937792] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[    5.938346] systemd[1]: Starting Load/Save Random Seed...
+[    5.938386] systemd[1]: Condition check resulted in Create System Users being skipped.
+[    5.938794] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    5.948146] systemd[1]: Finished Apply Kernel Variables.
+[    5.949763] systemd[1]: Starting CLI Netfilter Manager...
+[    5.949968] systemd[1]: Finished Load/Save Random Seed.
+[    5.950060] systemd[1]: Condition check resulted in First Boot Complete being skipped.
+[    5.951140] systemd[1]: Finished Create Static Device Nodes in /dev.
+[    5.951212] systemd[1]: Reached target Preparation for Local File Systems.
+[    5.951243] systemd[1]: Condition check resulted in Virtual Machine and Container Storage (Compatibility) being skipped.
+[    5.951943] systemd[1]: Started Entropy Daemon based on the HAVEGE algorithm.
+[    5.952828] systemd[1]: Starting Journal Service...
+[    5.953711] systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[    5.978846] systemd[1]: Started Rule-based Manager for Device Events and Files.
+[    5.978898] audit: type=1130 audit(1633417516.816:2): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-udevd comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.979051] systemd[1]: Started Journal Service.
+[    5.979095] audit: type=1130 audit(1633417516.816:3): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    6.009988] audit: type=1325 audit(1633417516.846:4): table=filter:2 family=2 entries=7 op=nft_register_chain pid=366 subj==unconfined comm="iptables-restor"
+[    6.009994] audit: type=1300 audit(1633417516.846:4): arch=c000003e syscall=46 success=yes exit=732 a0=3 a1=7fff42d59090 a2=0 a3=7fff42d5907c items=0 ppid=336 pid=366 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables-restor" exe="/usr/bin/xtables-nft-multi" subj==unconfined key=(null)
+[    6.009996] audit: type=1327 audit(1633417516.846:4): proctitle=69707461626C65732D726573746F7265002D6E
+[    6.015368] acpi_cpufreq: overriding BIOS provided _PSD data
+[    6.019177] thermal LNXTHERM:00: registered as thermal_zone0
+[    6.019181] ACPI: thermal: Thermal Zone [TZ0] (39 C)
+[    6.026529] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    6.026558] ACPI: button: Power Button [PWRB]
+[    6.026610] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:2a/PNP0C09:00/PNP0C0D:00/input/input2
+[    6.026624] ACPI: button: Lid Switch [LID0]
+[    6.029592] ACPI: video: Video Device [VGA] (multi-head: yes  rom: no  post: no)
+[    6.029797] acpi device:0e: registered as cooling_device6
+[    6.029826] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/device:0d/LNXVIDEO:00/input/input3
+[    6.032491] acpi PNP0C14:01: duplicate WMI GUID 05901221-D566-11D1-B2F0-00A0C9062910 (first instance was on PNP0C14:00)
+[    6.033569] hid: raw HID events driver (C) Jiri Kosina
+[    6.065984] piix4_smbus 0000:00:14.0: SMBus Host Controller at 0xb00, revision 0
+[    6.065989] piix4_smbus 0000:00:14.0: Using register 0x02 for SMBus port selection
+[    6.066031] piix4_smbus 0000:00:14.0: Auxiliary SMBus Host Controller at 0xb20
+[    6.067486] snd_rn_pci_acp3x 0000:02:00.5: enabling device (0000 -> 0002)
+[    6.083174] ACPI: battery: Slot [BATT] (battery present)
+[    6.083201] ACPI: AC: AC Adapter [ACAD] (off-line)
+[    6.091040] audit: type=1130 audit(1633417516.929:5): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-cryptsetup@luks\x2df5c58973\x2dd2db\x2d4063\x2d9fb3\x2d06e53844933b comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    6.097047] Adding 16383996k swap on /dev/sda2.  Priority:-2 extents:1 across:16383996k SSFS
+[    6.111773] audit: type=1130 audit(1633417516.949:6): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=systemd-fsck@dev-disk-by\x2duuid-D755\x2d337D comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    6.115929] audit: type=1325 audit(1633417516.853:7): table=filter:3 family=2 entries=36 op=nft_register_chain pid=378 subj==unconfined comm="iptables-restor"
+[    6.115935] audit: type=1300 audit(1633417516.853:7): arch=c000003e syscall=46 success=yes exit=4440 a0=3 a1=7fff7c947d70 a2=0 a3=7fff7c947d5c items=0 ppid=336 pid=378 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="iptables-restor" exe="/usr/bin/xtables-nft-multi" subj==unconfined key=(null)
+[    6.115939] audit: type=1327 audit(1633417516.853:7): proctitle=69707461626C65732D726573746F7265002D6E
+[    6.124712] input: PC Speaker as /devices/platform/pcspkr/input/input4
+[    6.167512] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    6.177113] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    6.179970] Bluetooth: Core ver 2.22
+[    6.179988] NET: Registered PF_BLUETOOTH protocol family
+[    6.179989] Bluetooth: HCI device and connection manager initialized
+[    6.179992] Bluetooth: HCI socket layer initialized
+[    6.179994] Bluetooth: L2CAP socket layer initialized
+[    6.179997] Bluetooth: SCO socket layer initialized
+[    6.267993] snd_hda_intel 0000:02:00.1: enabling device (0000 -> 0002)
+[    6.268067] snd_hda_intel 0000:02:00.1: Handle vga_switcheroo audio client
+[    6.268597] snd_hda_intel 0000:02:00.6: enabling device (0000 -> 0002)
+[    6.275068] kvm: Nested Virtualization enabled
+[    6.275071] SVM: kvm: Nested Paging enabled
+[    6.275078] SVM: Virtual VMLOAD VMSAVE supported
+[    6.275079] SVM: Virtual GIF supported
+[    6.282046] BTRFS info (device dm-0): devid 1 device path /dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b changed to /dev/dm-0 scanned by systemd-udevd (356)
+[    6.290128] BTRFS info (device dm-0): devid 1 device path /dev/dm-0 changed to /dev/mapper/luks-f5c58973-d2db-4063-9fb3-06e53844933b scanned by systemd-udevd (356)
+[    6.310881] systemd-journald[334]: Received client request to flush runtime journal.
+[    6.311364] MCE: In-kernel MCE decoding enabled.
+[    6.312901] usbcore: registered new interface driver btusb
+[    6.313729] Bluetooth: hci0: RTL: examining hci_ver=0a hci_rev=000c lmp_ver=0a lmp_subver=8822
+[    6.314233] input: HD-Audio Generic HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:08.1/0000:02:00.1/sound/card0/input5
+[    6.314263] input: HD-Audio Generic HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:08.1/0000:02:00.1/sound/card0/input6
+[    6.315716] Bluetooth: hci0: RTL: rom_version status=0 version=3
+[    6.315720] Bluetooth: hci0: RTL: loading rtl_bt/rtl8822cu_fw.bin
+[    6.321779] Bluetooth: hci0: RTL: loading rtl_bt/rtl8822cu_config.bin
+[    6.321828] Bluetooth: hci0: RTL: cfg_sz 6, total sz 39526
+[    6.323448] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input7
+[    6.323647] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input8
+[    6.328042] hid-generic 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[    6.330845] AMD-Vi: AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+[    6.334042] snd_hda_codec_realtek hdaudioC1D0: autoconfig for ALC256: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker
+[    6.334048] snd_hda_codec_realtek hdaudioC1D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    6.334050] snd_hda_codec_realtek hdaudioC1D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)
+[    6.334051] snd_hda_codec_realtek hdaudioC1D0:    mono: mono_out=0x0
+[    6.334052] snd_hda_codec_realtek hdaudioC1D0:    inputs:
+[    6.334053] snd_hda_codec_realtek hdaudioC1D0:      Mic=0x19
+[    6.379950] input: HD-Audio Generic Mic as /devices/pci0000:00/0000:00:08.1/0000:02:00.6/sound/card1/input10
+[    6.379995] input: HD-Audio Generic Headphone as /devices/pci0000:00/0000:00:08.1/0000:02:00.6/sound/card1/input11
+[    6.380487] acp_pdm_mach acp_pdm_mach.0: snd_soc_register_card(acp) failed: -517
+[    6.380638] acp_pdm_mach acp_pdm_mach.0: snd_soc_register_card(acp) failed: -517
+[    6.380803] input: GXT7863:00 27C6:01E0 Mouse as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input12
+[    6.381863] input: GXT7863:00 27C6:01E0 Touchpad as /devices/platform/AMDI0010:03/i2c-0/i2c-GXT7863:00/0018:27C6:01E0.0001/input/input13
+[    6.382074] hid-multitouch 0018:27C6:01E0.0001: input,hidraw0: I2C HID v1.00 Mouse [GXT7863:00 27C6:01E0] on i2c-GXT7863:00
+[    6.391040] rtw_8822ce 0000:01:00.0: enabling device (0000 -> 0003)
+[    6.393634] rtw_8822ce 0000:01:00.0: Firmware version 9.9.4, H2C version 15
+[    6.394167] rtw_8822ce 0000:01:00.0: Firmware version 9.9.10, H2C version 15
+[    6.399239] mousedev: PS/2 mouse device common for all mice
+[    6.475792] rtw_8822ce 0000:01:00.0 wlp1s0: renamed from wlan0
+[    6.664698] Bluetooth: hci0: RTL: fw version 0x09a91a4a
+[    6.807419] [drm] amdgpu kernel modesetting enabled.
+[    6.816981] amdgpu: Virtual CRAT table created for CPU
+[    6.817003] amdgpu: Topology: Add CPU node
+[    6.817106] checking generic (fce0000000 7f0000) vs hw (fce0000000 10000000)
+[    6.817108] fb0: switching to amdgpudrmfb from EFI VGA
+[    6.817186] Console: switching to colour dummy device 80x25
+[    6.817209] amdgpu 0000:02:00.0: vgaarb: deactivate vga console
+[    6.817272] amdgpu 0000:02:00.0: enabling device (0006 -> 0007)
+[    6.817350] [drm] initializing kernel modesetting (RENOIR 0x1002:0x1636 0x1D72:0x1951 0xC3).
+[    6.817354] amdgpu 0000:02:00.0: amdgpu: Trusted Memory Zone (TMZ) feature enabled
+[    6.817789] [drm] register mmio base: 0xD0400000
+[    6.817791] [drm] register mmio size: 524288
+[    6.817793] [drm] PCIE atomic ops is not supported
+[    6.818889] [drm] add ip block number 0 <soc15_common>
+[    6.818890] [drm] add ip block number 1 <gmc_v9_0>
+[    6.818891] [drm] add ip block number 2 <vega10_ih>
+[    6.818892] [drm] add ip block number 3 <psp>
+[    6.818894] [drm] add ip block number 4 <smu>
+[    6.818895] [drm] add ip block number 5 <gfx_v9_0>
+[    6.818896] [drm] add ip block number 6 <sdma_v4_0>
+[    6.818897] [drm] add ip block number 7 <dm>
+[    6.818898] [drm] add ip block number 8 <vcn_v2_0>
+[    6.818899] [drm] add ip block number 9 <jpeg_v2_0>
+[    6.818911] amdgpu 0000:02:00.0: amdgpu: Fetched VBIOS from VFCT
+[    6.818914] amdgpu: ATOM BIOS: 113-RENOIR-026
+[    6.819966] [drm] VCN decode is enabled in VM mode
+[    6.819968] [drm] VCN encode is enabled in VM mode
+[    6.819969] [drm] JPEG decode is enabled in VM mode
+[    6.820002] [drm] vm size is 262144 GB, 4 levels, block size is 9-bit, fragment size is 9-bit
+[    6.820009] amdgpu 0000:02:00.0: amdgpu: VRAM: 512M 0x000000F400000000 - 0x000000F41FFFFFFF (512M used)
+[    6.820012] amdgpu 0000:02:00.0: amdgpu: GART: 1024M 0x0000000000000000 - 0x000000003FFFFFFF
+[    6.820014] amdgpu 0000:02:00.0: amdgpu: AGP: 267419648M 0x000000F800000000 - 0x0000FFFFFFFFFFFF
+[    6.820020] [drm] Detected VRAM RAM=512M, BAR=512M
+[    6.820021] [drm] RAM width 128bits DDR4
+[    6.820060] [drm] amdgpu: 512M of VRAM memory ready
+[    6.820061] [drm] amdgpu: 3072M of GTT memory ready.
+[    6.820066] [drm] GART: num cpu pages 262144, num gpu pages 262144
+[    6.820193] [drm] PCIE GART of 1024M enabled.
+[    6.820194] [drm] PTB located at 0x000000F400900000
+[    6.821852] amdgpu 0000:02:00.0: amdgpu: PSP runtime database doesn't exist
+[    6.857684] [drm] Loading DMUB firmware via PSP: version=0x01010019
+[    6.859369] [drm] Found VCN firmware Version ENC: 1.14 DEC: 5 VEP: 0 Revision: 20
+[    6.859379] amdgpu 0000:02:00.0: amdgpu: Will use PSP to load VCN firmware
+[    7.284606] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    7.284609] Bluetooth: BNEP filters: protocol multicast
+[    7.284612] Bluetooth: BNEP socket layer initialized
+[    7.299714] NET: Registered PF_ALG protocol family
+[    7.504372] loop: module loaded
+[    7.505087] loop0: detected capacity change from 0 to 8
+[    7.510850] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    7.522099] [drm] reserve 0x400000 from 0xf41f800000 for PSP TMR
+[    7.604935] amdgpu 0000:02:00.0: amdgpu: RAS: optional ras ta ucode is not available
+[    7.613489] amdgpu 0000:02:00.0: amdgpu: RAP: optional rap ta ucode is not available
+[    7.613495] amdgpu 0000:02:00.0: amdgpu: SECUREDISPLAY: securedisplay ta ucode is not available
+[    7.614597] amdgpu 0000:02:00.0: amdgpu: SMU is initialized successfully!
+[    7.615984] [drm] kiq ring mec 2 pipe 1 q 0
+[    7.617445] [drm] Display Core initialized with v3.2.141!
+[    7.618128] [drm] DMUB hardware initialized: version=0x01010019
+[    7.728680] [drm] VCN decode and encode initialized successfully(under DPG Mode).
+[    7.728702] [drm] JPEG decode initialized successfully.
+[    7.729574] kfd kfd: amdgpu: Allocated 3969056 bytes on gart
+[    7.754926] memmap_init_zone_device initialised 131072 pages in 0ms
+[    7.754941] amdgpu: HMM registered 512MB device memory
+[    7.754989] amdgpu: SRAT table not found
+[    7.754990] amdgpu: Virtual CRAT table created for GPU
+[    7.755537] amdgpu: Topology: Add dGPU node [0x1636:0x1002]
+[    7.755544] kfd kfd: amdgpu: added device 1002:1636
+[    7.755551] amdgpu 0000:02:00.0: amdgpu: SE 1, SH per SE 2, CU per SH 18, active_cu_number 26
+[    7.758210] [drm] fb mappable at 0x410CD1000
+[    7.758213] [drm] vram apper at 0x410000000
+[    7.758214] [drm] size 8294400
+[    7.758215] [drm] fb depth is 24
+[    7.758216] [drm]    pitch is 7680
+[    7.758325] fbcon: amdgpu (fb0) is primary device
+[    7.826303] Console: switching to colour frame buffer device 240x67
+[    7.845606] amdgpu 0000:02:00.0: [drm] fb0: amdgpu frame buffer device
+[    7.860485] amdgpu 0000:02:00.0: amdgpu: ring gfx uses VM inv eng 0 on hub 0
+[    7.860494] amdgpu 0000:02:00.0: amdgpu: ring comp_1.0.0 uses VM inv eng 1 on hub 0
+[    7.860497] amdgpu 0000:02:00.0: amdgpu: ring comp_1.1.0 uses VM inv eng 4 on hub 0
+[    7.860499] amdgpu 0000:02:00.0: amdgpu: ring comp_1.2.0 uses VM inv eng 5 on hub 0
+[    7.860501] amdgpu 0000:02:00.0: amdgpu: ring comp_1.3.0 uses VM inv eng 6 on hub 0
+[    7.860503] amdgpu 0000:02:00.0: amdgpu: ring comp_1.0.1 uses VM inv eng 7 on hub 0
+[    7.860505] amdgpu 0000:02:00.0: amdgpu: ring comp_1.1.1 uses VM inv eng 8 on hub 0
+[    7.860507] amdgpu 0000:02:00.0: amdgpu: ring comp_1.2.1 uses VM inv eng 9 on hub 0
+[    7.860509] amdgpu 0000:02:00.0: amdgpu: ring comp_1.3.1 uses VM inv eng 10 on hub 0
+[    7.860511] amdgpu 0000:02:00.0: amdgpu: ring kiq_2.1.0 uses VM inv eng 11 on hub 0
+[    7.860514] amdgpu 0000:02:00.0: amdgpu: ring sdma0 uses VM inv eng 0 on hub 1
+[    7.860516] amdgpu 0000:02:00.0: amdgpu: ring vcn_dec uses VM inv eng 1 on hub 1
+[    7.860519] amdgpu 0000:02:00.0: amdgpu: ring vcn_enc0 uses VM inv eng 4 on hub 1
+[    7.860521] amdgpu 0000:02:00.0: amdgpu: ring vcn_enc1 uses VM inv eng 5 on hub 1
+[    7.860523] amdgpu 0000:02:00.0: amdgpu: ring jpeg_dec uses VM inv eng 6 on hub 1
+[    7.862169] [drm] Initialized amdgpu 3.42.0 20150101 for 0000:02:00.0 on minor 0
+[    8.301365] rtw_8822ce 0000:01:00.0: start vif 74:4c:a1:55:0d:6f on port 0
+[    8.302426] rtw_8822ce 0000:01:00.0: stop vif 74:4c:a1:55:0d:6f on port 0
+[    8.527543] rtw_8822ce 0000:01:00.0: start vif 5a:fa:01:f2:c7:1a on port 0
+[   26.060880] show_signal: 68 callbacks suppressed
+[   26.060887] traps: xsuspender[927] trap int3 ip:7fe2556f295b sp:7ffcd6707270 error:0 in libglib-2.0.so.0.7000.0[7fe2556b3000+8d000]
+[   26.502035] Bluetooth: RFCOMM TTY layer initialized
+[   26.502048] Bluetooth: RFCOMM socket layer initialized
+[   26.502055] Bluetooth: RFCOMM ver 1.11
+[   66.393610] ucsi_acpi USBC000:00: PPM init failed (-110)
+[  134.194559] rtw_8822ce 0000:01:00.0: stop vif 5a:fa:01:f2:c7:1a on port 0
+[  134.425563] rtw_8822ce 0000:01:00.0: start vif 74:4c:a1:55:0d:6f on port 0
+[  138.498587] wlp1s0: authenticate with 84:d8:1b:8a:31:72
+[  138.985313] wlp1s0: send auth to 84:d8:1b:8a:31:72 (try 1/3)
+[  138.988741] wlp1s0: authenticated
+[  138.990292] wlp1s0: associate with 84:d8:1b:8a:31:72 (try 1/3)
+[  138.995294] wlp1s0: RX AssocResp from 84:d8:1b:8a:31:72 (capab=0x11 status=0 aid=1)
+[  138.995335] rtw_8822ce 0000:01:00.0: sta 84:d8:1b:8a:31:72 joined with macid 0
+[  138.995670] wlp1s0: associated
+[  139.080776] IPv6: ADDRCONF(NETDEV_CHANGE): wlp1s0: link becomes ready
+[  173.853166] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  173.853181] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  174.569746] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  174.569760] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  185.300610] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[  185.300626] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[  186.701497] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[  186.701510] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 1447.337643] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 1447.337660] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 1448.444299] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 1448.444315] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5512.338066] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5512.338072] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5514.356553] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5514.356565] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5514.390586] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5514.390598] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5514.515530] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 5514.515542] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 5564.926649] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=143.204.225.62 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=241 ID=2217 PROTO=TCP SPT=443 DPT=48136 WINDOW=28 RES=0x00 ACK URGP=0 
+[ 5564.926660] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=13.225.25.24 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=241 ID=19969 PROTO=TCP SPT=443 DPT=48900 WINDOW=105 RES=0x00 ACK URGP=0 
+[ 5565.232274] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=149.154.167.51 DST=192.168.1.158 LEN=157 TOS=0x00 PREC=0x00 TTL=51 ID=29459 DF PROTO=TCP SPT=443 DPT=33988 WINDOW=19629 RES=0x00 ACK PSH URGP=0 
+[ 5567.699816] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.186.170 DST=192.168.1.158 LEN=107 TOS=0x00 PREC=0x80 TTL=57 ID=0 DF PROTO=UDP SPT=443 DPT=40176 LEN=87 
+[ 5567.838872] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.186.170 DST=192.168.1.158 LEN=107 TOS=0x00 PREC=0x80 TTL=57 ID=0 DF PROTO=UDP SPT=443 DPT=40176 LEN=87 
+[ 5568.141130] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=3.123.248.34 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=46 ID=13075 DF PROTO=TCP SPT=443 DPT=56986 WINDOW=43 RES=0x00 ACK URGP=0 
+[ 5568.278135] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.186.170 DST=192.168.1.158 LEN=107 TOS=0x00 PREC=0x80 TTL=57 ID=0 DF PROTO=UDP SPT=443 DPT=40176 LEN=87 
+[ 5569.208728] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=142.250.186.170 DST=192.168.1.158 LEN=107 TOS=0x00 PREC=0x80 TTL=57 ID=0 DF PROTO=UDP SPT=443 DPT=40176 LEN=87 
+[ 5572.125801] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=3.123.248.34 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=45 ID=35769 DF PROTO=TCP SPT=443 DPT=56992 WINDOW=43 RES=0x00 ACK URGP=0 
+[ 5572.778707] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=3.123.248.34 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=47 ID=403 DF PROTO=TCP SPT=443 DPT=56994 WINDOW=11 RES=0x00 ACK URGP=0 
+[ 5592.812817] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=3.123.248.34 DST=192.168.1.158 LEN=52 TOS=0x00 PREC=0x00 TTL=47 ID=405 DF PROTO=TCP SPT=443 DPT=56994 WINDOW=11 RES=0x00 ACK URGP=0 
+[ 5605.776025] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=15430 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5625.231081] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=156 TOS=0x00 PREC=0x00 TTL=53 ID=28161 PROTO=UDP SPT=54328 DPT=37486 LEN=136 
+[ 5649.395657] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=39034 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5670.148416] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=124 TOS=0x00 PREC=0x00 TTL=53 ID=51251 PROTO=UDP SPT=54328 DPT=37486 LEN=104 
+[ 5685.439302] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=124 TOS=0x00 PREC=0x00 TTL=53 ID=60254 PROTO=UDP SPT=54328 DPT=37486 LEN=104 
+[ 5708.785669] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=6101 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5725.169109] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=14113 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5747.286373] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=29510 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5768.175169] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=36254 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5790.245086] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=49344 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5806.471031] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=54922 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5828.179199] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=219 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5867.296160] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=16863 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5872.618153] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=18221 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5889.616518] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=26157 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5905.384897] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=31660 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5927.502739] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=48042 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5949.005873] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=56533 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 5965.184263] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=59864 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6021.296713] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=16435 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6026.621606] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=17584 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6031.946297] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=19471 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6047.276245] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=29150 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6069.832743] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=38266 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6086.120587] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=46729 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 6108.018236] [UFW BLOCK] IN=wlp1s0 OUT= MAC=74:4c:a1:55:0d:6f:84:d8:1b:8a:31:73:08:00 SRC=213.239.228.160 DST=192.168.1.158 LEN=176 TOS=0x08 PREC=0x80 TTL=53 ID=53498 PROTO=UDP SPT=54328 DPT=37486 LEN=156 
+[ 7253.920962] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7253.920973] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7255.997137] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7255.997148] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7590.978921] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7590.978933] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7591.311294] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7591.311305] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7591.744741] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7591.744752] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 7592.233050] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 7592.233055] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9362.544990] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9362.544997] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9364.183469] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9364.183486] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9423.902920] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9423.902930] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9424.264721] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9424.264733] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9424.393372] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9424.393385] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9428.025316] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9428.025323] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9432.486885] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9432.486895] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9470.930312] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9470.930328] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9778.217184] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9778.217197] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9778.681834] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9778.681845] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9802.011824] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9802.011829] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[ 9804.647715] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[ 9804.647727] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13784.850648] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[13784.850665] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13785.184712] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[13785.184717] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13847.689379] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[13847.691270] Bridge firewalling registered
+[13847.719382] Initializing XFRM netlink socket
+[13847.899611] br-420a79233bed: port 1(veth6c268a7) entered blocking state
+[13847.899622] br-420a79233bed: port 1(veth6c268a7) entered disabled state
+[13847.899665] device veth6c268a7 entered promiscuous mode
+[13847.900012] br-420a79233bed: port 1(veth6c268a7) entered blocking state
+[13847.900015] br-420a79233bed: port 1(veth6c268a7) entered forwarding state
+[13847.900059] br-420a79233bed: port 1(veth6c268a7) entered disabled state
+[13847.912193] br-420a79233bed: port 2(veth623a731) entered blocking state
+[13847.912203] br-420a79233bed: port 2(veth623a731) entered disabled state
+[13847.912265] device veth623a731 entered promiscuous mode
+[13847.912413] br-420a79233bed: port 2(veth623a731) entered blocking state
+[13847.912415] br-420a79233bed: port 2(veth623a731) entered forwarding state
+[13847.912515] IPv6: ADDRCONF(NETDEV_CHANGE): br-420a79233bed: link becomes ready
+[13847.912727] br-420a79233bed: port 2(veth623a731) entered disabled state
+[13848.318620] eth0: renamed from vethd428735
+[13848.369139] eth0: renamed from veth9f66251
+[13848.391578] IPv6: ADDRCONF(NETDEV_CHANGE): veth623a731: link becomes ready
+[13848.391634] br-420a79233bed: port 2(veth623a731) entered blocking state
+[13848.391638] br-420a79233bed: port 2(veth623a731) entered forwarding state
+[13848.391843] IPv6: ADDRCONF(NETDEV_CHANGE): veth6c268a7: link becomes ready
+[13848.391882] br-420a79233bed: port 1(veth6c268a7) entered blocking state
+[13848.391887] br-420a79233bed: port 1(veth6c268a7) entered forwarding state
+[13885.682874] docker0: port 1(vethc9157d8) entered blocking state
+[13885.682880] docker0: port 1(vethc9157d8) entered disabled state
+[13885.682933] device vethc9157d8 entered promiscuous mode
+[13885.683050] docker0: port 1(vethc9157d8) entered blocking state
+[13885.683052] docker0: port 1(vethc9157d8) entered forwarding state
+[13885.683332] docker0: port 1(vethc9157d8) entered disabled state
+[13885.856731] eth0: renamed from vethf26a39a
+[13885.879173] IPv6: ADDRCONF(NETDEV_CHANGE): vethc9157d8: link becomes ready
+[13885.879208] docker0: port 1(vethc9157d8) entered blocking state
+[13885.879210] docker0: port 1(vethc9157d8) entered forwarding state
+[13885.879251] IPv6: ADDRCONF(NETDEV_CHANGE): docker0: link becomes ready
+[13906.130066] docker0: port 1(vethc9157d8) entered disabled state
+[13906.130111] vethf26a39a: renamed from eth0
+[13906.176998] docker0: port 1(vethc9157d8) entered disabled state
+[13906.178027] device vethc9157d8 left promiscuous mode
+[13906.178037] docker0: port 1(vethc9157d8) entered disabled state
+[13926.201163] docker0: port 1(vethede0c64) entered blocking state
+[13926.201175] docker0: port 1(vethede0c64) entered disabled state
+[13926.201231] device vethede0c64 entered promiscuous mode
+[13926.356819] eth0: renamed from vetha91b4e7
+[13926.380417] IPv6: ADDRCONF(NETDEV_CHANGE): vethede0c64: link becomes ready
+[13926.380480] docker0: port 1(vethede0c64) entered blocking state
+[13926.380485] docker0: port 1(vethede0c64) entered forwarding state
+[13942.391899] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[13942.391905] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[13943.998898] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[13943.998909] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14055.587102] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14055.587108] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14056.159116] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14056.159133] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14056.459505] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14056.459517] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14057.014194] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14057.014205] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14067.510894] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14067.510907] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14082.651800] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14082.651812] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14083.811464] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14083.811476] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14085.231066] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14085.231082] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14093.813815] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[14093.813821] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[14094.877710] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[14094.877721] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15100.713330] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based firewall rule not found. Use the iptables CT target to attach helpers instead.
+[15100.713685] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based firewall rule not found. Use the iptables CT target to attach helpers instead.
+[15100.713703] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based firewall rule not found. Use the iptables CT target to attach helpers instead.
+[15959.395075] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[15959.395087] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[15959.752734] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[15959.752748] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16015.899429] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16015.899446] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16016.368878] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16016.368893] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16017.206729] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16017.206739] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16017.776054] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16017.776063] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16066.905191] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16066.905208] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16067.467365] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16067.467381] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16070.255747] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16070.255760] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16070.808651] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16070.808668] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16084.576721] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16084.576730] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16085.031536] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16085.031550] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16105.804627] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16105.804641] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16106.267067] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16106.267082] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16106.938129] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16106.938139] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16107.480275] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16107.480288] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16666.786646] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[16666.786663] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[16667.253939] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[16667.253954] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17079.560957] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17079.560968] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17080.112093] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17080.112107] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17227.547277] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17227.547293] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17228.080125] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17228.080141] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17229.000948] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17229.000964] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17229.773591] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17229.773602] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17230.306793] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17230.306802] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17231.131237] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17231.131252] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17435.867478] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17435.867493] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17436.349679] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17436.349693] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17488.127101] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[17488.127117] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[17488.784884] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[17488.784896] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19454.542253] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19454.542266] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19454.842164] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19454.842176] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19685.822487] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19685.822495] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19686.596248] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19686.596257] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19687.059260] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19687.059276] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19687.660499] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19687.660511] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19701.256610] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19701.256618] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19702.178650] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19702.178663] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19704.287439] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19704.287455] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19704.698047] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19704.698062] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19704.774493] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19704.774509] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19705.857486] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19705.857499] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19714.791715] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19714.791732] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19715.383203] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19715.383215] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19835.425134] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[19835.425148] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[19835.796287] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[19835.796302] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23102.884480] tun: Universal TUN/TAP device driver, 1.6
+[23140.946942] rtw_8822ce 0000:01:00.0: timed out to flush queue 2
+[23678.192910] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[23678.192924] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[23678.808512] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[23678.808527] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24576.649094] usb 3-2: new low-speed USB device number 2 using xhci_hcd
+[24576.805945] usb 3-2: Device is not authorized for usage
+[24614.791816] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[24614.791834] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24615.175555] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[24615.175574] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24618.728862] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[24618.728879] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24619.149163] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[24619.149176] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[24643.534137] usb 3-2: authorized to connect
+[24643.554190] input: Dell KB216 Wired Keyboard as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.0/0003:413C:2113.0002/input/input15
+[24643.608455] hid-generic 0003:413C:2113.0002: input,hidraw1: USB HID v1.11 Keyboard [Dell KB216 Wired Keyboard] on usb-0000:02:00.4-2/input0
+[24643.616140] input: Dell KB216 Wired Keyboard System Control as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.1/0003:413C:2113.0003/input/input16
+[24643.671917] input: Dell KB216 Wired Keyboard Consumer Control as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.1/0003:413C:2113.0003/input/input17
+[24643.672661] hid-generic 0003:413C:2113.0003: input,hidraw2: USB HID v1.11 Device [Dell KB216 Wired Keyboard] on usb-0000:02:00.4-2/input1
+[24643.672820] usbcore: registered new interface driver usbhid
+[24643.672825] usbhid: USB HID core driver
+[24645.836068] usb 3-2: USB disconnect, device number 2
+[24649.324143] usb 3-2: new low-speed USB device number 3 using xhci_hcd
+[24649.483481] usb 3-2: Device is not authorized for usage
+[24649.587778] input: Dell KB216 Wired Keyboard as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.0/0003:413C:2113.0004/input/input18
+[24649.648247] hid-generic 0003:413C:2113.0004: input,hidraw1: USB HID v1.11 Keyboard [Dell KB216 Wired Keyboard] on usb-0000:02:00.4-2/input0
+[24649.655725] input: Dell KB216 Wired Keyboard System Control as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.1/0003:413C:2113.0005/input/input19
+[24649.711000] input: Dell KB216 Wired Keyboard Consumer Control as /devices/pci0000:00/0000:00:08.1/0000:02:00.4/usb3/3-2/3-2:1.1/0003:413C:2113.0005/input/input20
+[24649.711069] hid-generic 0003:413C:2113.0005: input,hidraw2: USB HID v1.11 Device [Dell KB216 Wired Keyboard] on usb-0000:02:00.4-2/input1
+[24649.711123] usb 3-2: authorized to connect
+[24702.731567] usb 3-2: USB disconnect, device number 3
+[25006.825665] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25006.825675] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25007.072383] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25007.072394] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25260.993318] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25260.993330] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25261.818440] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25261.818455] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25262.082372] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25262.082384] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25263.122288] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25263.122300] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25263.393633] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25263.393646] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25271.622160] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25271.622175] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25403.483032] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25403.483047] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25419.753794] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25419.753806] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25440.026259] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25440.026274] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25466.988650] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25466.988661] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25500.373619] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25500.373633] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25530.292973] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25530.292987] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25559.843129] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[25559.843143] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[25593.994233] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[25593.994246] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26458.864610] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[26458.864622] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26459.556580] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[26459.556596] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26460.231548] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[26460.231562] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26460.844988] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[26460.845001] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26463.554376] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[26463.554391] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26463.725617] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[26463.725630] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26541.967260] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[26541.967277] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[26542.563404] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[26542.563418] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30566.463815] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[30566.463831] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30566.951067] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[30566.951082] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30624.849397] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[30624.849403] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30625.238118] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[30625.238130] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30947.748203] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[30947.748211] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[30948.129202] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[30948.129208] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[31914.395618] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[31914.395630] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[31914.745217] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[31914.745234] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32143.318608] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32143.318619] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32143.619841] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32143.619852] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32170.186536] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32170.186547] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32170.571169] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32170.571178] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32230.109883] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32230.109888] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32230.665793] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32230.665809] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32231.494091] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32231.494102] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32232.095843] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32232.095851] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32240.860283] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32240.860298] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32241.527885] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32241.527895] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32244.852288] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32244.852300] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32245.495221] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32245.495234] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32249.166379] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32249.166391] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32249.570494] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32249.570507] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32250.179124] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32250.179140] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32250.455293] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32250.455308] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32250.939891] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32250.939897] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32252.793798] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32252.793814] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32271.983685] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32271.983699] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32272.712690] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32272.712699] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32275.696055] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32275.696064] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32276.762489] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32276.762502] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32278.071961] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32278.071969] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32278.729317] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32278.729326] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32280.440363] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32280.440374] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32281.885760] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32281.885772] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32282.919600] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32282.919608] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32283.833282] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32283.833294] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32470.991607] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32470.991619] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32471.296718] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32471.296728] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32478.934664] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32478.934676] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32479.410434] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32479.410442] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32483.738706] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32483.738714] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32484.355353] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32484.355365] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32489.915406] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32489.915417] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32490.725911] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32490.725922] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32494.264869] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32494.264881] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32495.062795] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32495.062811] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32828.524025] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32828.524036] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32829.251582] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32829.251598] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32829.743981] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32829.743994] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32830.142011] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32830.142020] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32830.687841] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32830.687852] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32831.230971] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32831.230982] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32831.396950] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32831.396961] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32831.847981] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32831.847986] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32832.216995] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32832.217008] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32832.646173] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32832.646189] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32833.080051] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32833.080064] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32833.442042] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32833.442054] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32833.782363] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32833.782374] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32834.159770] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32834.159783] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32834.622446] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32834.622456] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32835.223836] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32835.223849] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32835.399420] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32835.399437] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32835.778558] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32835.778567] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32836.287467] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32836.287479] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32836.768256] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32836.768272] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32837.381163] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32837.381176] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32838.789163] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32838.789172] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32839.211704] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32839.211715] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32840.223554] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32840.223569] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32840.560443] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32840.560456] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32841.069407] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32841.069419] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32841.435919] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32841.435934] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32842.428840] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32842.428848] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32842.733915] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32842.733929] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32843.222840] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32843.222852] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32843.543865] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32843.543875] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32844.550480] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32844.550492] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32844.850677] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32844.850690] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32845.894063] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32845.894074] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32846.149947] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32846.149959] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32846.651032] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32846.651041] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32977.720367] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32977.720383] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32978.273257] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32978.273272] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32981.804880] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32981.804886] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32982.663004] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32982.663013] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32985.012388] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32985.012397] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32985.497806] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32985.497814] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32985.929139] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32985.929152] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32986.360963] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32986.360974] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32987.254168] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32987.254179] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32987.583236] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32987.583248] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32987.726664] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32987.726676] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32987.951820] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32987.951831] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32988.880098] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32988.880110] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32989.247661] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32989.247674] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32989.502149] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32989.502158] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32989.602901] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32989.602909] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32990.333902] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32990.333918] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32990.796408] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32990.796420] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32991.149210] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32991.149224] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32991.561082] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32991.561092] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32992.581559] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32992.581571] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32993.226053] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32993.226062] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32993.709322] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32993.709328] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32994.226599] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32994.226607] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32994.725024] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32994.725029] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32995.099869] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32995.099880] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32995.626278] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32995.626289] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32997.012365] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32997.012382] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32997.899719] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32997.899727] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32998.388788] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32998.388799] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32998.877271] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[32998.877278] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[32999.435337] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[32999.435347] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33000.732089] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33000.732095] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33001.258100] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33001.258108] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33001.710186] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33001.710197] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33001.825589] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33001.825598] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33002.226182] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33002.226194] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33002.588497] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33002.588505] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33003.685721] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33003.685730] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33004.233942] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33004.233951] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33004.682001] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33004.682009] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33005.021935] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33005.021950] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33006.010296] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33006.010304] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33006.400240] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33006.400252] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33007.711124] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33007.711135] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33008.086556] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33008.086565] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33008.600379] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33008.600385] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33008.685117] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33008.685127] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33009.039258] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33009.039270] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33009.481074] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33009.481091] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33010.981073] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33010.981083] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33011.380614] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33011.380626] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33012.646379] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33012.646391] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33013.053010] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33013.053018] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33013.469444] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33013.469455] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33013.882089] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33013.882100] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33014.910716] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33014.910726] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33015.402836] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33015.402848] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33015.822232] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33015.822245] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33016.317836] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33016.317846] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33017.452991] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33017.452997] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33017.817920] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33017.817937] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33018.741960] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33018.741968] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33019.182955] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33019.182972] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33020.087949] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33020.087960] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33020.600906] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33020.600918] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33021.022015] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33021.022027] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33021.383201] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33021.383213] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33022.316657] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33022.316664] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33022.777931] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33022.777940] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33023.185081] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33023.185088] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33023.749474] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33023.749484] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33024.752537] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33024.752549] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33025.230366] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33025.230374] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33025.815510] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33025.815518] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33026.160828] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33026.160841] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33027.175555] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33027.175564] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33027.300353] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33027.300362] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33027.939328] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33027.939340] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33028.435939] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33028.435947] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33029.336130] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33029.336142] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33029.752839] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33029.752852] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33030.825555] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33030.825560] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33031.406941] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33031.406956] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33032.545911] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33032.545917] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33033.144167] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33033.144176] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33033.795897] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33033.795906] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33034.199969] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33034.199980] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33034.745830] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33034.745839] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33035.111229] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33035.111239] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33036.197124] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33036.197137] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33036.602597] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33036.602608] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33037.325850] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33037.325855] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33037.789241] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33037.789254] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33038.504122] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33038.504131] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33038.998219] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33038.998228] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33040.357228] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33040.357236] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33040.776317] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33040.776326] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33041.298555] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33041.298564] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33041.762779] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33041.762784] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33042.220477] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33042.220484] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33042.651237] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33042.651248] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33043.403679] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33043.403691] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33043.628840] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33043.628861] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33044.145172] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33044.145181] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33044.599082] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33044.599094] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33045.120874] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33045.120879] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33045.587601] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33045.587613] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33046.114349] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33046.114355] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33046.520863] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33046.520875] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33047.007488] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33047.007494] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33047.535151] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33047.535162] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33051.634145] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33051.634158] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33052.060733] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33052.060746] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33053.151524] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33053.151533] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33053.552074] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33053.552085] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33053.993564] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33053.993570] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33054.304733] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33054.304743] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33056.242881] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33056.242889] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33056.479139] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33056.479149] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33056.800910] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33056.800918] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33057.245264] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33057.245277] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33057.677457] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33057.677465] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33057.986350] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33057.986359] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33058.542723] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33058.542734] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33058.942793] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33058.942801] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33061.049107] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33061.049118] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33061.412832] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33061.412845] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33062.216775] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33062.216787] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33062.612269] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33062.612282] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33063.586506] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33063.586520] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33064.320263] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33064.320269] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33065.775768] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33065.775777] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33066.159967] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33066.159984] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33067.053319] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33067.053336] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33067.531407] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33067.531415] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33068.092776] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33068.092785] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33068.466030] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33068.466041] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33069.272675] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33069.272687] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33069.743249] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33069.743265] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33070.745778] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33070.745788] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33071.277724] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33071.277733] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33071.703255] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33071.703261] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33072.042489] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33072.042500] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33073.922574] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33073.922580] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33074.338921] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33074.338937] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33076.695196] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33076.695208] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33076.981558] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33076.981568] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33085.951524] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33085.951540] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33086.295523] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33086.295533] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33087.423112] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33087.423123] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33087.789223] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33087.789235] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33088.815653] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33088.815666] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33089.149147] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33089.149158] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33090.095274] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33090.095286] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33090.435044] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33090.435056] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33093.329049] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33093.329055] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33093.678940] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33093.678953] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33094.557135] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33094.557141] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33094.989363] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33094.989371] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33096.298265] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33096.298275] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33096.720623] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33096.720635] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33098.513457] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33098.513462] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33098.894069] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33098.894077] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33099.504024] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33099.504035] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33100.053410] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33100.053426] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33100.423407] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33100.423419] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33100.668532] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33100.668548] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33101.218357] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33101.218373] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33101.557427] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33101.557437] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33102.663154] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33102.663163] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33102.831160] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33102.831174] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33102.838244] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33102.838254] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33102.882577] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33102.882593] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33103.696289] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33103.696301] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33104.022123] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33104.022132] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33106.022532] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33106.022537] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33106.388242] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33106.388255] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33109.219125] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33109.219136] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33109.618617] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33109.618629] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33110.353141] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33110.353154] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33110.971965] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33110.971978] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33111.708073] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33111.708084] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33112.109559] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33112.109569] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33112.788532] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33112.788545] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33113.138557] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33113.138573] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33116.865503] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33116.865519] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33117.206195] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33117.206207] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33118.017432] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33118.017442] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33118.414739] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33118.414755] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33120.090809] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33120.090815] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33120.443804] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33120.443817] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33121.713109] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33121.713122] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33122.232718] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33122.232729] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33122.629231] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33122.629244] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33122.993397] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33122.993413] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33123.619633] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33123.619644] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33125.317610] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33125.317621] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33126.861827] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33126.861835] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33127.279766] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33127.279774] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33131.332445] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33131.332453] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33131.773378] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33131.773390] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33134.859535] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33134.859544] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33135.351311] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33135.351320] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33137.323196] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33137.323205] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33137.738793] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33137.738803] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33139.034614] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33139.034625] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33139.600039] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33139.600051] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33141.739373] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33141.739388] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33142.231424] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33142.231430] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33143.149645] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33143.149652] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33143.621550] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33143.621555] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33144.817065] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33144.817071] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33145.246456] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33145.246471] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33146.130340] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33146.130352] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33146.915143] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33146.915152] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33147.329087] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33147.329100] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33147.951399] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33147.951410] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33148.669078] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33148.669091] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33149.198811] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33149.198817] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33149.565091] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33149.565101] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33150.001817] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33150.001829] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33150.488376] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33150.488387] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33150.772397] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33150.772408] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33155.891334] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33155.891347] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33156.276844] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33156.276859] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33157.442674] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33157.442682] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33157.965516] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33157.965527] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33158.401026] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33158.401035] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33158.907919] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33158.907927] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33159.500688] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33159.500694] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33159.840429] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33159.840445] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33160.770488] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33160.770498] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33161.653675] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33161.653684] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33162.020121] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33162.020133] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33162.422630] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33162.422645] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33163.221851] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33163.221862] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33163.854368] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33163.854379] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33164.249717] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33164.249728] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33164.856493] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33164.856501] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33165.193086] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33165.193091] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33165.675431] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33165.675440] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33166.106856] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33166.106864] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33167.375696] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33167.375709] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33168.528639] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33168.528647] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33169.055583] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33169.055591] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33169.717846] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33169.717855] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33170.157441] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33170.157449] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33170.561801] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33170.561813] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33170.616375] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33170.616385] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33171.099739] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33171.099750] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33171.762122] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33171.762139] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33172.112486] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33172.112491] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33172.508825] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33172.508836] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33173.096347] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33173.096355] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33174.189585] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33174.189594] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33174.833342] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33174.833353] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33175.313323] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33175.313331] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33176.113403] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33176.113415] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33176.607898] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33176.607907] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33178.222506] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33178.222512] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33178.965375] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33178.965392] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33179.932776] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33179.932792] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33181.701591] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33181.701602] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33189.476570] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33189.476582] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33189.906470] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33189.906482] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33231.560262] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33231.560275] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33232.062052] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33232.062064] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33233.305165] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33233.305177] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33234.638155] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33234.638165] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33236.696743] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33236.696755] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33237.041582] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33237.041597] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33239.807211] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33239.807222] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33240.210741] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33240.210752] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33241.295383] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33241.295392] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33241.730112] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33241.730121] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33243.895913] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33243.895925] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33244.155934] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33244.155945] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33250.822770] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33250.822776] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33251.183932] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33251.183945] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33275.797839] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33275.797848] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33276.334434] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33276.334447] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33309.019968] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33309.019977] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33309.420973] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33309.420984] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33313.550640] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33313.550651] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33313.904179] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33313.904189] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33319.802629] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33319.802641] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33320.321900] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33320.321913] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33332.769659] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33332.769665] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33333.112277] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33333.112290] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33359.664129] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33359.664145] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33360.266260] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33360.266272] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33364.773589] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33364.773601] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33365.058342] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33365.058351] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33368.610979] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33368.610984] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33369.207441] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33369.207455] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33378.748550] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33378.748559] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33379.004803] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33379.004815] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33383.331192] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33383.331204] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33383.735917] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33383.735933] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33410.570749] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33410.570760] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33411.120827] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33411.120840] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33422.442382] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33422.442391] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33422.868014] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33422.868023] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33427.318517] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33427.318533] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33427.705021] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33427.705030] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33431.679485] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33431.679495] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33432.201589] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33432.201605] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33446.129496] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33446.129501] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33446.549123] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33446.549137] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33451.197771] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33451.197776] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33451.760831] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33451.760840] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33463.831833] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33463.831845] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33464.514649] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33464.514661] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33480.666609] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33480.666622] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33481.119513] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33481.119519] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33488.823791] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33488.823803] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33489.181542] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33489.181554] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33543.311665] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33543.311678] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33543.616558] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33543.616568] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33570.370444] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[33570.370462] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[33570.740867] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[33570.740882] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34328.787788] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[34328.787804] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34329.979306] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[34329.979322] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34372.892758] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[34372.892766] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34373.694721] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[34373.694733] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34373.981295] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[34373.981304] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34374.499635] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[34374.499645] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34858.625323] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[34858.625334] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34858.966332] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[34858.966343] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34951.206012] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[34951.206025] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[34951.627474] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[34951.627485] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35310.318232] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35310.318243] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35310.651615] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35310.651625] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35513.594965] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35513.594978] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35514.205819] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35514.205831] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35526.332951] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35526.332960] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35526.759463] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35526.759476] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35530.347016] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35530.347029] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35530.843680] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35530.843693] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35531.297645] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35531.297656] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35531.651850] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35531.651860] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35533.041478] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35533.041490] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35533.388980] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35533.388995] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35536.989915] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35536.989923] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35537.346961] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35537.346975] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35542.954205] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35542.954217] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35543.546148] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35543.546159] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35762.862765] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35762.862771] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35763.177881] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35763.177896] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35768.856282] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35768.856294] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35769.266112] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35769.266121] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35783.569154] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35783.569163] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35784.027956] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35784.027963] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35786.331117] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35786.331132] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35786.876130] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35786.876143] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35794.281757] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35794.281769] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35794.461712] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35794.461720] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35794.773702] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[35794.773711] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[35795.401064] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[35795.401080] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[36654.439885] traps: Chrome_ChildIOT[100158] trap invalid opcode ip:55d06e68535b sp:7fd0a0b11380 error:0 in chrome[55d067d15000+857b000]
+[37014.660017] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[37014.660032] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[37015.130293] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[37015.130310] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[38782.822037] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[38782.822042] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[38784.406188] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[38784.406199] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[43374.765105] docker0: port 1(vethede0c64) entered disabled state
+[43374.765174] vetha91b4e7: renamed from eth0
+[43374.844562] docker0: port 1(vethede0c64) entered disabled state
+[43374.845338] device vethede0c64 left promiscuous mode
+[43374.845345] docker0: port 1(vethede0c64) entered disabled state
+[43501.907871] br-420a79233bed: port 2(veth623a731) entered disabled state
+[43501.907918] vethd428735: renamed from eth0
+[43501.967509] br-420a79233bed: port 1(veth6c268a7) entered disabled state
+[43501.970104] veth9f66251: renamed from eth0
+[43502.029629] br-420a79233bed: port 2(veth623a731) entered disabled state
+[43502.030473] device veth623a731 left promiscuous mode
+[43502.030492] br-420a79233bed: port 2(veth623a731) entered disabled state
+[43502.095039] br-420a79233bed: port 1(veth6c268a7) entered disabled state
+[43502.095911] device veth6c268a7 left promiscuous mode
+[43502.095917] br-420a79233bed: port 1(veth6c268a7) entered disabled state
+[43512.581494] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[43512.581509] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[43525.867579] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[43525.867595] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[43531.196157] atkbd serio0: Unknown key pressed (translated set 2, code 0xf6 on isa0060/serio0).
+[43531.196169] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
+[43531.610353] atkbd serio0: Unknown key released (translated set 2, code 0xf6 on isa0060/serio0).
+[43531.610366] atkbd serio0: Use 'setkeycodes e076 <keycode>' to make it known.
